@@ -65,45 +65,6 @@ def shrink_sampling(training_G, X, y, has_link_idx_lst, no_link_idx_lst, num_of_
     return X_train, y_train, X_negatives, y_negatives
 
 
-# def enlarge_sampling(no_link_X, has_link_X, no_link_y, has_link_y):
-#     """
-#     shrink the no_link_X
-#     :param no_link_X:
-#     :param has_link_X:
-#     :param no_link_y:
-#     :param has_link_y:
-#     :return:
-#     """
-#     size_of_no_link_X = no_link_X.shape[0]
-#     size_of_has_link_X = has_link_X.shape[0]
-#     num_to_select = size_of_no_link_X % size_of_has_link_X
-#     num_to_copy = int(size_of_no_link_X / size_of_has_link_X)
-#     print("need to select ", num_to_select, " elements from has_link_X")
-#     # choose equal number of vectors from no_link_X as training set
-#     selected_indices = np.random.choice(size_of_has_link_X, size=num_to_select, replace=False)
-#     # stack the has_link_X with no_link_X as X_train]
-#     enlarged_X = []
-#     enlarged_y = []
-#     for i in range(0, num_to_copy):
-#         if len(enlarged_X) == 0:
-#             enlarged_X = np.array(has_link_X)
-#             enlarged_y = np.array(has_link_y)
-#         else:
-#             enlarged_X = np.vstack([enlarged_X, has_link_X])
-#             enlarged_y = np.vstack([enlarged_y, has_link_y])
-#
-#     enlarged_X = np.vstack([enlarged_X, has_link_X[selected_indices, :]])
-#     enlarged_y = np.vstack([enlarged_y, has_link_y[selected_indices, :]])
-#     X_train = np.vstack([enlarged_X, no_link_X])
-#     y_train = np.vstack([enlarged_y, no_link_y])
-#     # save the files
-#     savetxt(os.path.abspath('../data/link_prediction/X_train.txt'), X_train)
-#     savetxt(os.path.abspath('../data/link_prediction/y_train.txt'), y_train)
-#     print('Sampled graph file saved')
-#     # normalize
-#     return X_train, y_train
-
-
 def random_sampling(training_G, X, y, y_copy, num_of_training_edges, num_of_test_edges, index2pair_dict):
     """
     make sure the size of samples with label 0 and label 1 are equal
@@ -130,12 +91,12 @@ def random_sampling(training_G, X, y, y_copy, num_of_training_edges, num_of_test
 
     # shrink the larger no_link_X to generate training set and test set
     X_train, y_train, X_negatives, y_negatives = shrink_sampling(training_G, X, y,
-                                                                     has_link_idx_lst,
-                                                                     no_link_idx_lst,
-                                                                     num_of_training_edges,
-                                                                     num_of_test_edges,
-                                                                     index2pair_dict,
-                                                                     all_selected_indices)
+                                                                 has_link_idx_lst,
+                                                                 no_link_idx_lst,
+                                                                 num_of_training_edges,
+                                                                 num_of_test_edges,
+                                                                 index2pair_dict,
+                                                                 all_selected_indices)
 
     print('\nData sampling finished')
     return X_train, y_train, X_negatives, y_negatives, all_selected_indices
