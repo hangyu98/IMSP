@@ -1,0 +1,9 @@
+null,Homo sapiens,Pan troglodytes,Macaca mulatta,Rhinolophus ferrumequinum,Canis lupus familiaris,Mesocricetus auratus,Mus musculus,Gallus gallus
+Homo sapiens,100.00,100.00,97.73,90.66,90.10,87.04,86.92,52.15
+Pan troglodytes,100.00,100.00,97.73,90.66,90.10,87.04,86.92,52.15
+Macaca mulatta,97.73,97.73,100.00,88.83,89.34,86.50,86.38,52.35
+Rhinolophus ferrumequinum,90.66,90.66,88.83,100.00,91.60,85.70,85.58,52.04
+Canis lupus familiaris,90.10,90.10,89.34,91.60,100.00,85.38,84.82,51.52
+Mesocricetus auratus,87.04,87.04,86.50,85.70,85.38,100.00,92.98,53.54
+Mus musculus,86.92,86.92,86.38,85.58,84.82,92.98,100.00,48.57
+Gallus gallus,52.15,52.15,52.35,52.04,51.52,53.54,48.57,100.00

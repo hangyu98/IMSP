@@ -1,0 +1,78 @@
+18815,virus Human coronavirus OC43,host Camelus dromedarius,0.980425812195084,infection
+18823,virus Human coronavirus OC43,host Macaca mulatta,0.8594955391541674,infection
+18826,virus Human coronavirus OC43,host Rhinolophus ferrumequinum,0.9998147603306966,infection
+18827,virus Human coronavirus OC43,host Mesocricetus auratus,0.985721041833228,infection
+19060,virus Human coronavirus HKU1,host Camelus dromedarius,0.9884323280416492,infection
+19063,virus Human coronavirus HKU1,host Bos taurus,0.9406433639433469,infection
+19068,virus Human coronavirus HKU1,host Macaca mulatta,0.8911459484167426,infection
+19072,virus Human coronavirus HKU1,host Mesocricetus auratus,0.9883163121406064,infection
+19302,virus Middle East respiratory syndrome-related coronavirus,host Mus musculus,0.9640063191773853,infection
+19303,virus Middle East respiratory syndrome-related coronavirus,host Rattus norvegicus,0.9917617334642389,infection
+19313,virus Middle East respiratory syndrome-related coronavirus,host Macaca mulatta,0.6142691208175952,infection
+19547,virus Severe acute respiratory syndrome coronavirus 2,host Mus musculus,0.990922046119859,infection
+19548,virus Severe acute respiratory syndrome coronavirus 2,host Rattus norvegicus,0.9967507572733235,infection
+19550,virus Severe acute respiratory syndrome coronavirus 2,host Camelus dromedarius,0.9873622448137399,infection
+19553,virus Severe acute respiratory syndrome coronavirus 2,host Bos taurus,0.7003053481022994,infection
+19554,virus Severe acute respiratory syndrome coronavirus 2,host Pan troglodytes,0.7157441832405986,infection
+19559,virus Severe acute respiratory syndrome coronavirus 2,host Ovis aries,0.7176755456986901,infection
+19792,virus Severe acute respiratory syndrome-related coronavirus,host Mus musculus,0.9564437954094408,infection
+19793,virus Severe acute respiratory syndrome-related coronavirus,host Rattus norvegicus,0.969229173896868,infection
+19794,virus Severe acute respiratory syndrome-related coronavirus,host Canis lupus familiaris,0.9173566351863958,infection
+19795,virus Severe acute respiratory syndrome-related coronavirus,host Camelus dromedarius,0.9345935161303476,infection
+19803,virus Severe acute respiratory syndrome-related coronavirus,host Macaca mulatta,0.9730284309254285,infection
+20037,virus Human coronavirus NL63,host Mus musculus,0.9891454035841866,infection
+20038,virus Human coronavirus NL63,host Rattus norvegicus,0.9804282471556147,infection
+20040,virus Human coronavirus NL63,host Camelus dromedarius,0.9776307280866336,infection
+20043,virus Human coronavirus NL63,host Bos taurus,0.9140347708753643,infection
+20048,virus Human coronavirus NL63,host Macaca mulatta,0.8458812308169008,infection
+20052,virus Human coronavirus NL63,host Mesocricetus auratus,0.984356431138034,infection
+20282,virus Human coronavirus 229E,host Mus musculus,0.987766833246466,infection
+20283,virus Human coronavirus 229E,host Rattus norvegicus,0.9794239431156797,infection
+20285,virus Human coronavirus 229E,host Camelus dromedarius,0.9742252633406477,infection
+20288,virus Human coronavirus 229E,host Bos taurus,0.9028443615858236,infection
+20293,virus Human coronavirus 229E,host Macaca mulatta,0.8291229952887863,infection
+20297,virus Human coronavirus 229E,host Mesocricetus auratus,0.9836032959319531,infection
+47363,host Mus musculus,virus Middle East respiratory syndrome-related coronavirus,0.9282198385590448,infection
+47364,host Mus musculus,virus Severe acute respiratory syndrome coronavirus 2,0.9829272013165253,infection
+47365,host Mus musculus,virus Severe acute respiratory syndrome-related coronavirus,0.8929798364943091,infection
+47366,host Mus musculus,virus Human coronavirus NL63,0.9768906966647474,infection
+47367,host Mus musculus,virus Human coronavirus 229E,0.9735712297993597,infection
+47608,host Rattus norvegicus,virus Middle East respiratory syndrome-related coronavirus,0.9917170867407238,infection
+47609,host Rattus norvegicus,virus Severe acute respiratory syndrome coronavirus 2,0.9974362633438261,infection
+47610,host Rattus norvegicus,virus Severe acute respiratory syndrome-related coronavirus,0.9813287959722475,infection
+47611,host Rattus norvegicus,virus Human coronavirus NL63,0.9967811173628787,infection
+47612,host Rattus norvegicus,virus Human coronavirus 229E,0.9963404278710012,infection
+47855,host Canis lupus familiaris,virus Severe acute respiratory syndrome-related coronavirus,0.9519332367266607,infection
+48096,host Camelus dromedarius,virus Human coronavirus OC43,0.9891521605887355,infection
+48097,host Camelus dromedarius,virus Human coronavirus HKU1,0.9907022928781599,infection
+48099,host Camelus dromedarius,virus Severe acute respiratory syndrome coronavirus 2,0.9874659155109466,infection
+48100,host Camelus dromedarius,virus Severe acute respiratory syndrome-related coronavirus,0.9320469501644717,infection
+48101,host Camelus dromedarius,virus Human coronavirus NL63,0.9890221435601715,infection
+48102,host Camelus dromedarius,virus Human coronavirus 229E,0.9866238320173358,infection
+48341,host Felis catus,virus Human coronavirus OC43,0.6412198842602449,infection
+48342,host Felis catus,virus Human coronavirus HKU1,0.6539207879809416,infection
+48346,host Felis catus,virus Human coronavirus NL63,0.6490986585499365,infection
+48347,host Felis catus,virus Human coronavirus 229E,0.6105764845493584,infection
+48832,host Bos taurus,virus Human coronavirus HKU1,0.9817711087317433,infection
+48834,host Bos taurus,virus Severe acute respiratory syndrome coronavirus 2,0.7502868657385435,infection
+48836,host Bos taurus,virus Human coronavirus NL63,0.9780800365912369,infection
+48837,host Bos taurus,virus Human coronavirus 229E,0.9727416548344632,infection
+49076,host Pan troglodytes,virus Human coronavirus OC43,0.6219221545100697,infection
+49077,host Pan troglodytes,virus Human coronavirus HKU1,0.6673679271802232,infection
+49079,host Pan troglodytes,virus Severe acute respiratory syndrome coronavirus 2,0.7666267930904229,infection
+49081,host Pan troglodytes,virus Human coronavirus NL63,0.6127704719527708,infection
+49082,host Pan troglodytes,virus Human coronavirus 229E,0.560382587178114,infection
+50056,host Macaca mulatta,virus Human coronavirus OC43,0.958463425581158,infection
+50057,host Macaca mulatta,virus Human coronavirus HKU1,0.9597001061532453,infection
+50058,host Macaca mulatta,virus Middle East respiratory syndrome-related coronavirus,0.6615774113845815,infection
+50060,host Macaca mulatta,virus Severe acute respiratory syndrome-related coronavirus,0.9768879074216077,infection
+50061,host Macaca mulatta,virus Human coronavirus NL63,0.9584229219782375,infection
+50062,host Macaca mulatta,virus Human coronavirus 229E,0.9519441027481352,infection
+50304,host Ovis aries,virus Severe acute respiratory syndrome coronavirus 2,0.7885780404340432,infection
+50305,host Ovis aries,virus Severe acute respiratory syndrome-related coronavirus,0.5584102648719598,infection
+50791,host Rhinolophus ferrumequinum,virus Human coronavirus OC43,0.9999394112362633,infection
+51036,host Mesocricetus auratus,virus Human coronavirus OC43,0.9854699012494855,infection
+51037,host Mesocricetus auratus,virus Human coronavirus HKU1,0.9866296282075352,infection
+51040,host Mesocricetus auratus,virus Severe acute respiratory syndrome-related coronavirus,0.666645316049654,infection
+51041,host Mesocricetus auratus,virus Human coronavirus NL63,0.9855144594082345,infection
+51042,host Mesocricetus auratus,virus Human coronavirus 229E,0.9832634399125414,infection

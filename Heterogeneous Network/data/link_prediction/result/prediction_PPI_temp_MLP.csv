@@ -1,0 +1,706 @@
+17,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF9 Homo sapiens,0.532039868376756,PPI
+36,nsp15 Severe acute respiratory syndrome coronavirus 2,RIG-I Rhinolophus ferrumequinum,0.997863454854641,PPI
+58,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF3 Rhinolophus ferrumequinum,0.9971358610358356,PPI
+59,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF3 Camelus dromedarius,0.9058065850117131,PPI
+63,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF3 Rattus norvegicus,0.9811221340088898,PPI
+82,nsp15 Severe acute respiratory syndrome coronavirus 2,ACE2 Homo sapiens,0.9902871581551773,PPI
+88,nsp15 Severe acute respiratory syndrome coronavirus 2,ACE2 Felis catus,0.938300029810354,PPI
+90,nsp15 Severe acute respiratory syndrome coronavirus 2,ACE2 Mesocricetus auratus,0.6279629718741218,PPI
+93,nsp15 Severe acute respiratory syndrome coronavirus 2,ACE2 Mus musculus,0.9285564822532404,PPI
+95,nsp15 Severe acute respiratory syndrome coronavirus 2,ACE2 Rattus norvegicus,0.9537737682402294,PPI
+96,nsp15 Severe acute respiratory syndrome coronavirus 2,ACE2 Rhinolophus ferrumequinum,0.9987233142825344,PPI
+101,nsp15 Severe acute respiratory syndrome coronavirus 2,NF-kB Homo sapiens,0.80816519737362,PPI
+105,nsp15 Severe acute respiratory syndrome coronavirus 2,NF-kB Rhinolophus ferrumequinum,0.8906635819204499,PPI
+108,nsp15 Severe acute respiratory syndrome coronavirus 2,NF-kB Mus musculus,0.9624292679303615,PPI
+109,nsp15 Severe acute respiratory syndrome coronavirus 2,NF-kB Mesocricetus auratus,0.9104744360048784,PPI
+110,nsp15 Severe acute respiratory syndrome coronavirus 2,NF-kB Rattus norvegicus,0.9358853612941691,PPI
+163,nsp15 Severe acute respiratory syndrome coronavirus 2,DPP4 Rhinolophus ferrumequinum,0.890210737286743,PPI
+171,nsp15 Severe acute respiratory syndrome coronavirus 2,STAT2 Homo sapiens,0.7890955733659095,PPI
+177,nsp15 Severe acute respiratory syndrome coronavirus 2,STAT2 Rhinolophus ferrumequinum,0.5204251713107394,PPI
+223,nsp15 Severe acute respiratory syndrome coronavirus 2,TBK1 Canis lupus familiaris,0.5860834575761713,PPI
+230,nsp15 Severe acute respiratory syndrome coronavirus 2,MAVS Homo sapiens,0.9303388274312755,PPI
+236,nsp15 Severe acute respiratory syndrome coronavirus 2,MAVS Rhinolophus ferrumequinum,0.5859482944213646,PPI
+247,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT1 Homo sapiens,0.6053429652790479,PPI
+250,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT1 Felis catus,0.9574913089815668,PPI
+254,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT1 Rhinolophus ferrumequinum,0.9383713773518242,PPI
+258,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT1 Rattus norvegicus,0.7689303301609142,PPI
+259,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT1 Mus musculus,0.7620134925187074,PPI
+262,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF9 Homo sapiens,0.9717262157212472,PPI
+265,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF9 Felis catus,0.9385883749778808,PPI
+269,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF9 Rhinolophus ferrumequinum,0.8926336237723709,PPI
+274,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF9 Mus musculus,0.7558710818819181,PPI
+276,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF9 Rattus norvegicus,0.7452689108139103,PPI
+278,nsp15 Severe acute respiratory syndrome-related coronavirus,RIG-I Homo sapiens,0.9946427445521903,PPI
+281,nsp15 Severe acute respiratory syndrome-related coronavirus,RIG-I Rhinolophus ferrumequinum,0.9982112442150085,PPI
+282,nsp15 Severe acute respiratory syndrome-related coronavirus,RIG-I Canis lupus familiaris,0.9975712478381772,PPI
+283,nsp15 Severe acute respiratory syndrome-related coronavirus,RIG-I Mesocricetus auratus,0.9390005321792806,PPI
+284,nsp15 Severe acute respiratory syndrome-related coronavirus,RIG-I Mus musculus,0.9612015540745102,PPI
+304,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF3 Camelus dromedarius,0.9083241807847934,PPI
+308,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF3 Rattus norvegicus,0.9669985239549166,PPI
+309,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF3 Mesocricetus auratus,0.9474522590790424,PPI
+310,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF3 Mus musculus,0.9916315013860721,PPI
+311,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF3 Canis lupus familiaris,0.9946251291307118,PPI
+327,nsp15 Severe acute respiratory syndrome-related coronavirus,ACE2 Homo sapiens,0.9969811424749372,PPI
+333,nsp15 Severe acute respiratory syndrome-related coronavirus,ACE2 Felis catus,0.9688906887468339,PPI
+338,nsp15 Severe acute respiratory syndrome-related coronavirus,ACE2 Mus musculus,0.6153070643468806,PPI
+340,nsp15 Severe acute respiratory syndrome-related coronavirus,ACE2 Rattus norvegicus,0.8533409945267029,PPI
+341,nsp15 Severe acute respiratory syndrome-related coronavirus,ACE2 Rhinolophus ferrumequinum,0.9980206668106678,PPI
+342,nsp15 Severe acute respiratory syndrome-related coronavirus,ACE2 Canis lupus familiaris,0.5103605447091554,PPI
+346,nsp15 Severe acute respiratory syndrome-related coronavirus,NF-kB Homo sapiens,0.9697947949686374,PPI
+350,nsp15 Severe acute respiratory syndrome-related coronavirus,NF-kB Rhinolophus ferrumequinum,0.9906967763968118,PPI
+353,nsp15 Severe acute respiratory syndrome-related coronavirus,NF-kB Mus musculus,0.9902450237032393,PPI
+354,nsp15 Severe acute respiratory syndrome-related coronavirus,NF-kB Mesocricetus auratus,0.9697735414046206,PPI
+355,nsp15 Severe acute respiratory syndrome-related coronavirus,NF-kB Rattus norvegicus,0.9747529314607367,PPI
+358,nsp15 Severe acute respiratory syndrome-related coronavirus,NF-kB Camelus dromedarius,0.5501457048985402,PPI
+373,nsp15 Severe acute respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.7427121320213851,PPI
+378,nsp15 Severe acute respiratory syndrome-related coronavirus,MDA5 Felis catus,0.6226285432754849,PPI
+400,nsp15 Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.8108621632664013,PPI
+406,nsp15 Severe acute respiratory syndrome-related coronavirus,DPP4 Felis catus,0.5762193278825493,PPI
+408,nsp15 Severe acute respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.82445317962569,PPI
+416,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Homo sapiens,0.9801255731091872,PPI
+419,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Felis catus,0.9885956666701873,PPI
+420,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Canis lupus familiaris,0.6233092394579323,PPI
+422,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.9592577641202817,PPI
+427,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.895987883379824,PPI
+429,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Mus musculus,0.8194427355250656,PPI
+464,nsp15 Severe acute respiratory syndrome-related coronavirus,TBK1 Felis catus,0.7622548363186996,PPI
+485,nsp15 Severe acute respiratory syndrome-related coronavirus,MAVS Canis lupus familiaris,0.9412998959007297,PPI
+488,nsp15 Severe acute respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.781314377913502,PPI
+523,nsp15 Human coronavirus HKU1,RIG-I Homo sapiens,0.5918657978600719,PPI
+784,STAT1 Homo sapiens,Spike Middle East respiratory syndrome-related coronavirus,0.6671656089653106,PPI
+785,STAT1 Homo sapiens,Spike Severe acute respiratory syndrome coronavirus 2,0.7455135640853516,PPI
+786,STAT1 Homo sapiens,Spike Severe acute respiratory syndrome-related coronavirus,0.8832640276820015,PPI
+905,STAT1 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.932336689742439,PPI
+921,STAT1 Homo sapiens,PLpro Middle East respiratory syndrome-related coronavirus,0.9421639000031663,PPI
+922,STAT1 Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.9728122338987141,PPI
+945,STAT1 Homo sapiens,M protein Severe acute respiratory syndrome-related coronavirus,0.9810699919481405,PPI
+1378,STAT1 Macaca mulatta,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7311630246950694,PPI
+1394,STAT1 Macaca mulatta,ORF6 Severe acute respiratory syndrome-related coronavirus,0.5157320358545271,PPI
+1471,STAT1 Felis catus,nsp15 Severe acute respiratory syndrome-related coronavirus,0.7997912284225817,PPI
+1640,STAT1 Felis catus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9528026957754557,PPI
+1657,STAT1 Felis catus,PLpro Severe acute respiratory syndrome-related coronavirus,0.6306862423243546,PPI
+1680,STAT1 Felis catus,M protein Severe acute respiratory syndrome-related coronavirus,0.9937130044935453,PPI
+1759,STAT1 Camelus dromedarius,nsp1 Severe acute respiratory syndrome-related coronavirus,0.559142079374345,PPI
+1764,STAT1 Camelus dromedarius,Spike Middle East respiratory syndrome-related coronavirus,0.540708101615544,PPI
+1868,STAT1 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9525898856602933,PPI
+1884,STAT1 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8400949511725947,PPI
+1901,STAT1 Camelus dromedarius,PLpro Middle East respiratory syndrome-related coronavirus,0.8209259342473639,PPI
+2358,STAT1 Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.6884613645092622,PPI
+2374,STAT1 Canis lupus familiaris,ORF6 Severe acute respiratory syndrome-related coronavirus,0.6314581026002214,PPI
+2415,STAT1 Canis lupus familiaris,M protein Severe acute respiratory syndrome-related coronavirus,0.6041323984666784,PPI
+2451,STAT1 Rhinolophus ferrumequinum,nsp15 Severe acute respiratory syndrome-related coronavirus,0.8205299718388077,PPI
+2500,STAT1 Rhinolophus ferrumequinum,Spike Severe acute respiratory syndrome coronavirus 2,0.9850565976622471,PPI
+2501,STAT1 Rhinolophus ferrumequinum,Spike Severe acute respiratory syndrome-related coronavirus,0.8658142189740899,PPI
+2620,STAT1 Rhinolophus ferrumequinum,ORF6 Severe acute respiratory syndrome coronavirus 2,0.8041968182613647,PPI
+2658,STAT1 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.7301993507665181,PPI
+2660,STAT1 Rhinolophus ferrumequinum,M protein Severe acute respiratory syndrome-related coronavirus,0.9427365526420495,PPI
+3600,STAT1 Rattus norvegicus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9567798233585387,PPI
+3616,STAT1 Rattus norvegicus,PLpro Middle East respiratory syndrome-related coronavirus,0.8471829102096919,PPI
+3617,STAT1 Rattus norvegicus,PLpro Severe acute respiratory syndrome-related coronavirus,0.5017025580282641,PPI
+3640,STAT1 Rattus norvegicus,M protein Severe acute respiratory syndrome-related coronavirus,0.8898429140976514,PPI
+3845,STAT1 Mus musculus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9551803588368883,PPI
+3861,STAT1 Mus musculus,PLpro Middle East respiratory syndrome-related coronavirus,0.5862355301657676,PPI
+3862,STAT1 Mus musculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.8992610439595551,PPI
+3885,STAT1 Mus musculus,M protein Severe acute respiratory syndrome-related coronavirus,0.9435214300630238,PPI
+4073,STAT1 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.674668093970099,PPI
+4089,STAT1 Mesocricetus auratus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.593789315793598,PPI
+4454,IRF9 Homo sapiens,nsp1 Severe acute respiratory syndrome-related coronavirus,0.856584894706752,PPI
+4580,IRF9 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.8955490924195484,PPI
+4620,IRF9 Homo sapiens,M protein Severe acute respiratory syndrome-related coronavirus,0.7374601848347585,PPI
+5189,IRF9 Felis catus,nsp1 Severe acute respiratory syndrome-related coronavirus,0.8131641091602706,PPI
+5543,IRF9 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.5791617380811922,PPI
+5788,IRF9 Sus scrofa domesticus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9679938748898477,PPI
+5804,IRF9 Sus scrofa domesticus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8358712103200564,PPI
+6195,IRF9 Rhinolophus ferrumequinum,N protein Severe acute respiratory syndrome-related coronavirus,0.5699518094720859,PPI
+7394,IRF9 Mus musculus,nsp1 Severe acute respiratory syndrome-related coronavirus,0.5810921099840618,PPI
+7884,IRF9 Rattus norvegicus,nsp1 Severe acute respiratory syndrome-related coronavirus,0.6439118175677405,PPI
+8331,RIG-I Homo sapiens,nsp15 Severe acute respiratory syndrome-related coronavirus,0.9933724205886579,PPI
+8373,RIG-I Homo sapiens,nsp1 Severe acute respiratory syndrome coronavirus 2,0.5397510032181841,PPI
+8399,RIG-I Homo sapiens,N protein Severe acute respiratory syndrome coronavirus 2,0.9218089483429794,PPI
+8429,RIG-I Homo sapiens,ORF4a Middle East respiratory syndrome-related coronavirus,0.8497794295044602,PPI
+8499,RIG-I Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9817920117660726,PPI
+8517,RIG-I Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.913127733158858,PPI
+8538,RIG-I Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.9779830688876868,PPI
+8540,RIG-I Homo sapiens,M protein Severe acute respiratory syndrome-related coronavirus,0.996405600419554,PPI
+8541,RIG-I Homo sapiens,M protein Severe acute respiratory syndrome coronavirus 2,0.96651634330937,PPI
+8890,RIG-I Macaca mulatta,N protein Severe acute respiratory syndrome-related coronavirus,0.8620209060226967,PPI
+8973,RIG-I Macaca mulatta,ORF3b Severe acute respiratory syndrome-related coronavirus,0.5741252412032143,PPI
+8990,RIG-I Macaca mulatta,ORF6 Severe acute respiratory syndrome coronavirus 2,0.6676128607725845,PPI
+9065,RIG-I Rhinolophus ferrumequinum,nsp15 Severe acute respiratory syndrome coronavirus 2,0.9984000243401007,PPI
+9066,RIG-I Rhinolophus ferrumequinum,nsp15 Severe acute respiratory syndrome-related coronavirus,0.9974031422674645,PPI
+9115,RIG-I Rhinolophus ferrumequinum,Spike Severe acute respiratory syndrome coronavirus 2,0.5681677108759915,PPI
+9134,RIG-I Rhinolophus ferrumequinum,N protein Severe acute respiratory syndrome coronavirus 2,0.861575641412649,PPI
+9234,RIG-I Rhinolophus ferrumequinum,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9916482921682249,PPI
+9235,RIG-I Rhinolophus ferrumequinum,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9964507284348082,PPI
+9275,RIG-I Rhinolophus ferrumequinum,M protein Severe acute respiratory syndrome-related coronavirus,0.994146208562298,PPI
+9276,RIG-I Rhinolophus ferrumequinum,M protein Severe acute respiratory syndrome coronavirus 2,0.9455037778899137,PPI
+9311,RIG-I Canis lupus familiaris,nsp15 Severe acute respiratory syndrome-related coronavirus,0.9868110362638968,PPI
+9380,RIG-I Canis lupus familiaris,N protein Severe acute respiratory syndrome-related coronavirus,0.552534836919825,PPI
+9463,RIG-I Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9849086985880845,PPI
+9479,RIG-I Canis lupus familiaris,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9693050116647984,PPI
+9520,RIG-I Canis lupus familiaris,M protein Severe acute respiratory syndrome-related coronavirus,0.9703179687405096,PPI
+9521,RIG-I Canis lupus familiaris,M protein Severe acute respiratory syndrome coronavirus 2,0.766719694248829,PPI
+9556,RIG-I Mesocricetus auratus,nsp15 Severe acute respiratory syndrome-related coronavirus,0.9846546050097672,PPI
+9624,RIG-I Mesocricetus auratus,N protein Severe acute respiratory syndrome coronavirus 2,0.6799923619132282,PPI
+9625,RIG-I Mesocricetus auratus,N protein Severe acute respiratory syndrome-related coronavirus,0.9655296985616281,PPI
+9708,RIG-I Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9882394161174303,PPI
+9724,RIG-I Mesocricetus auratus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9826047334013646,PPI
+9765,RIG-I Mesocricetus auratus,M protein Severe acute respiratory syndrome-related coronavirus,0.8950080601314051,PPI
+9766,RIG-I Mesocricetus auratus,M protein Severe acute respiratory syndrome coronavirus 2,0.5715202944815637,PPI
+9801,RIG-I Mus musculus,nsp15 Severe acute respiratory syndrome-related coronavirus,0.8875018797489483,PPI
+9869,RIG-I Mus musculus,N protein Severe acute respiratory syndrome coronavirus 2,0.878491238090193,PPI
+10008,RIG-I Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.8152818344748267,PPI
+10010,RIG-I Mus musculus,M protein Severe acute respiratory syndrome-related coronavirus,0.8378793724476913,PPI
+10348,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.8719952827534775,PPI
+10389,ORF4b Middle East respiratory syndrome-related coronavirus,ORF4a Middle East respiratory syndrome-related coronavirus,0.54098367884001,PPI
+10418,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.9980509561213541,PPI
+10425,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Mus musculus,0.9844205280844726,PPI
+10426,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Rattus norvegicus,0.9944950132691505,PPI
+10430,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.9934191737860677,PPI
+10434,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Camelus dromedarius,0.9949715524363357,PPI
+10436,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Mus musculus,0.9895812568633499,PPI
+10440,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Rattus norvegicus,0.9957616489309461,PPI
+10445,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.9708289203342084,PPI
+10455,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.9240753654284231,PPI
+10456,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.7630701830720205,PPI
+10457,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Camelus dromedarius,0.9349941685846005,PPI
+10600,ORF4b Human coronavirus 229E,IRF3 Mus musculus,0.5764430493170387,PPI
+10834,nsp1 Severe acute respiratory syndrome coronavirus 2,IRF3 Homo sapiens,0.535885423129665,PPI
+10951,nsp1 Severe acute respiratory syndrome coronavirus 2,STAT2 Homo sapiens,0.8949363366479286,PPI
+10962,nsp1 Severe acute respiratory syndrome coronavirus 2,STAT2 Rattus norvegicus,0.9038021424350214,PPI
+10964,nsp1 Severe acute respiratory syndrome coronavirus 2,STAT2 Mus musculus,0.8775876666694201,PPI
+11043,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF9 Homo sapiens,0.9956756241691122,PPI
+11046,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF9 Felis catus,0.9330153210734886,PPI
+11050,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF9 Rhinolophus ferrumequinum,0.9518306882413422,PPI
+11055,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF9 Mus musculus,0.9598565107496365,PPI
+11057,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF9 Rattus norvegicus,0.9820549919009002,PPI
+11062,nsp1 Severe acute respiratory syndrome-related coronavirus,RIG-I Rhinolophus ferrumequinum,0.9024875775987197,PPI
+11079,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Homo sapiens,0.6745035794626831,PPI
+11083,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.8955525212465473,PPI
+11088,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Rattus norvegicus,0.9011376152666088,PPI
+11090,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Mus musculus,0.9137697068329032,PPI
+11120,nsp1 Severe acute respiratory syndrome-related coronavirus,ACE2 Rattus norvegicus,0.8090771880150939,PPI
+11153,nsp1 Severe acute respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.9065787937223495,PPI
+11158,nsp1 Severe acute respiratory syndrome-related coronavirus,MDA5 Felis catus,0.8017583705347021,PPI
+11160,nsp1 Severe acute respiratory syndrome-related coronavirus,MDA5 Mus musculus,0.579881561733337,PPI
+11161,nsp1 Severe acute respiratory syndrome-related coronavirus,MDA5 Rattus norvegicus,0.5092838989610807,PPI
+11180,nsp1 Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.9836920780703403,PPI
+11186,nsp1 Severe acute respiratory syndrome-related coronavirus,DPP4 Felis catus,0.6054635417398399,PPI
+11188,nsp1 Severe acute respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.7576808474960005,PPI
+11190,nsp1 Severe acute respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.6364619097787528,PPI
+11191,nsp1 Severe acute respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.6460933123756081,PPI
+11244,nsp1 Severe acute respiratory syndrome-related coronavirus,TBK1 Felis catus,0.9378380994514339,PPI
+11246,nsp1 Severe acute respiratory syndrome-related coronavirus,TBK1 Rhinolophus ferrumequinum,0.5496529578819407,PPI
+11255,nsp1 Severe acute respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.956837748830858,PPI
+11261,nsp1 Severe acute respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.8434217206092213,PPI
+11324,nsp1 Middle East respiratory syndrome-related coronavirus,IRF3 Homo sapiens,0.6228707588839096,PPI
+11333,nsp1 Middle East respiratory syndrome-related coronavirus,IRF3 Rattus norvegicus,0.8731346133948873,PPI
+11335,nsp1 Middle East respiratory syndrome-related coronavirus,IRF3 Mus musculus,0.7846394532107719,PPI
+11452,nsp1 Middle East respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.616849263207176,PPI
+11794,Spike Human coronavirus OC43,RIG-I Homo sapiens,0.9492509836049653,PPI
+11797,Spike Human coronavirus OC43,RIG-I Rhinolophus ferrumequinum,0.9193818827539695,PPI
+11842,Spike Human coronavirus OC43,ACE2 Homo sapiens,0.9892028057546731,PPI
+11856,Spike Human coronavirus OC43,ACE2 Rhinolophus ferrumequinum,0.8945260381941224,PPI
+11915,Spike Human coronavirus OC43,DPP4 Homo sapiens,0.809776119212611,PPI
+12039,Spike Human coronavirus HKU1,RIG-I Homo sapiens,0.9617916017381355,PPI
+12042,Spike Human coronavirus HKU1,RIG-I Rhinolophus ferrumequinum,0.9339245063136237,PPI
+12087,Spike Human coronavirus HKU1,ACE2 Homo sapiens,0.9901168997339097,PPI
+12101,Spike Human coronavirus HKU1,ACE2 Rhinolophus ferrumequinum,0.9130947778874577,PPI
+12160,Spike Human coronavirus HKU1,DPP4 Homo sapiens,0.8350716184686766,PPI
+12253,Spike Middle East respiratory syndrome-related coronavirus,STAT1 Homo sapiens,0.5597294901403526,PPI
+12268,Spike Middle East respiratory syndrome-related coronavirus,IRF9 Homo sapiens,0.7869016283629464,PPI
+12304,Spike Middle East respiratory syndrome-related coronavirus,IRF3 Homo sapiens,0.8201884772825911,PPI
+12309,Spike Middle East respiratory syndrome-related coronavirus,IRF3 Camelus dromedarius,0.5625228903815315,PPI
+12313,Spike Middle East respiratory syndrome-related coronavirus,IRF3 Rattus norvegicus,0.5597530221579737,PPI
+12332,Spike Middle East respiratory syndrome-related coronavirus,ACE2 Homo sapiens,0.817694357202166,PPI
+12415,Spike Middle East respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.747868634759305,PPI
+12421,Spike Middle East respiratory syndrome-related coronavirus,STAT2 Homo sapiens,0.6308134668858901,PPI
+12520,Spike Severe acute respiratory syndrome coronavirus 2,IRF9 Rhinolophus ferrumequinum,0.7655311544254989,PPI
+12529,Spike Severe acute respiratory syndrome coronavirus 2,RIG-I Homo sapiens,0.8795174572940276,PPI
+12532,Spike Severe acute respiratory syndrome coronavirus 2,RIG-I Rhinolophus ferrumequinum,0.9979945175115261,PPI
+12533,Spike Severe acute respiratory syndrome coronavirus 2,RIG-I Canis lupus familiaris,0.9782961806416234,PPI
+12534,Spike Severe acute respiratory syndrome coronavirus 2,RIG-I Mesocricetus auratus,0.95435105364439,PPI
+12535,Spike Severe acute respiratory syndrome coronavirus 2,RIG-I Mus musculus,0.6425322195855909,PPI
+12553,Spike Severe acute respiratory syndrome coronavirus 2,IRF3 Rhinolophus ferrumequinum,0.9875302473239473,PPI
+12584,Spike Severe acute respiratory syndrome coronavirus 2,ACE2 Camelus dromedarius,0.9850398026047483,PPI
+12588,Spike Severe acute respiratory syndrome coronavirus 2,ACE2 Mus musculus,0.7485126266830331,PPI
+12590,Spike Severe acute respiratory syndrome coronavirus 2,ACE2 Rattus norvegicus,0.9006979370979405,PPI
+12650,Spike Severe acute respiratory syndrome coronavirus 2,DPP4 Homo sapiens,0.630179028522047,PPI
+12656,Spike Severe acute respiratory syndrome coronavirus 2,DPP4 Felis catus,0.6544801305672504,PPI
+12658,Spike Severe acute respiratory syndrome coronavirus 2,DPP4 Rhinolophus ferrumequinum,0.9773004173957052,PPI
+12660,Spike Severe acute respiratory syndrome coronavirus 2,DPP4 Rattus norvegicus,0.6700266398229653,PPI
+12672,Spike Severe acute respiratory syndrome coronavirus 2,STAT2 Rhinolophus ferrumequinum,0.6894813628894304,PPI
+12750,Spike Severe acute respiratory syndrome-related coronavirus,STAT1 Rhinolophus ferrumequinum,0.6181190905964439,PPI
+12765,Spike Severe acute respiratory syndrome-related coronavirus,IRF9 Rhinolophus ferrumequinum,0.7541908253142717,PPI
+12774,Spike Severe acute respiratory syndrome-related coronavirus,RIG-I Homo sapiens,0.6213270742227993,PPI
+12777,Spike Severe acute respiratory syndrome-related coronavirus,RIG-I Rhinolophus ferrumequinum,0.9954208893501078,PPI
+12778,Spike Severe acute respiratory syndrome-related coronavirus,RIG-I Canis lupus familiaris,0.9450800466542019,PPI
+12779,Spike Severe acute respiratory syndrome-related coronavirus,RIG-I Mesocricetus auratus,0.5449261616529374,PPI
+12798,Spike Severe acute respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.9593295524607148,PPI
+12824,Spike Severe acute respiratory syndrome-related coronavirus,ACE2 Macaca mulatta,0.7854190580239078,PPI
+12829,Spike Severe acute respiratory syndrome-related coronavirus,ACE2 Camelus dromedarius,0.828788371889387,PPI
+12837,Spike Severe acute respiratory syndrome-related coronavirus,ACE2 Canis lupus familiaris,0.796636667417317,PPI
+12850,Spike Severe acute respiratory syndrome-related coronavirus,NF-kB Rattus norvegicus,0.6692528170876394,PPI
+12895,Spike Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.6766233097587332,PPI
+12903,Spike Severe acute respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.9718822688670652,PPI
+12905,Spike Severe acute respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.7834531499421933,PPI
+12917,Spike Severe acute respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.6100385849312432,PPI
+13019,Spike Human coronavirus NL63,RIG-I Homo sapiens,0.9335545068137965,PPI
+13022,Spike Human coronavirus NL63,RIG-I Rhinolophus ferrumequinum,0.8888101137413287,PPI
+13140,Spike Human coronavirus NL63,DPP4 Homo sapiens,0.7563479279628698,PPI
+13264,Spike Human coronavirus 229E,RIG-I Homo sapiens,0.9481030273763957,PPI
+13267,Spike Human coronavirus 229E,RIG-I Rhinolophus ferrumequinum,0.9233246332322848,PPI
+13312,Spike Human coronavirus 229E,ACE2 Homo sapiens,0.9887773251366591,PPI
+13326,Spike Human coronavirus 229E,ACE2 Rhinolophus ferrumequinum,0.899526417916181,PPI
+13385,Spike Human coronavirus 229E,DPP4 Homo sapiens,0.8164693685672317,PPI
+13525,IRF3 Homo sapiens,Spike Middle East respiratory syndrome-related coronavirus,0.6653789008125272,PPI
+13544,IRF3 Homo sapiens,N protein Severe acute respiratory syndrome coronavirus 2,0.7884157724033266,PPI
+13545,IRF3 Homo sapiens,N protein Severe acute respiratory syndrome-related coronavirus,0.9917486011614067,PPI
+13663,IRF3 Homo sapiens,PLpro Severe acute respiratory syndrome coronavirus 2,0.9259086372127058,PPI
+13686,IRF3 Homo sapiens,M protein Severe acute respiratory syndrome coronavirus 2,0.9950754923032716,PPI
+14175,IRF3 Macaca mulatta,M protein Severe acute respiratory syndrome-related coronavirus,0.7426205597818342,PPI
+14455,IRF3 Rhinolophus ferrumequinum,nsp15 Severe acute respiratory syndrome coronavirus 2,0.9928929145253226,PPI
+14499,IRF3 Rhinolophus ferrumequinum,nsp1 Severe acute respiratory syndrome coronavirus 2,0.57126577824575,PPI
+14500,IRF3 Rhinolophus ferrumequinum,nsp1 Severe acute respiratory syndrome-related coronavirus,0.7105211908066985,PPI
+14506,IRF3 Rhinolophus ferrumequinum,Spike Severe acute respiratory syndrome coronavirus 2,0.8337637828836979,PPI
+14524,IRF3 Rhinolophus ferrumequinum,N protein Severe acute respiratory syndrome coronavirus 2,0.7511245453456079,PPI
+14525,IRF3 Rhinolophus ferrumequinum,N protein Severe acute respiratory syndrome-related coronavirus,0.9960127454712748,PPI
+14554,IRF3 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.8338305842112358,PPI
+14625,IRF3 Rhinolophus ferrumequinum,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9981097983300914,PPI
+14663,IRF3 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.9791972978238399,PPI
+14666,IRF3 Rhinolophus ferrumequinum,M protein Severe acute respiratory syndrome coronavirus 2,0.9804343332849447,PPI
+14769,IRF3 Camelus dromedarius,N protein Severe acute respiratory syndrome coronavirus 2,0.5472163689258215,PPI
+14770,IRF3 Camelus dromedarius,N protein Severe acute respiratory syndrome-related coronavirus,0.876995254512488,PPI
+14853,IRF3 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9827207765887803,PPI
+14869,IRF3 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9510301342773408,PPI
+14870,IRF3 Camelus dromedarius,ORF6 Severe acute respiratory syndrome coronavirus 2,0.6176439230142377,PPI
+14887,IRF3 Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.9842648816334709,PPI
+14910,IRF3 Camelus dromedarius,M protein Severe acute respiratory syndrome-related coronavirus,0.9421811261184675,PPI
+15398,IRF3 Bos taurus,M protein Middle East respiratory syndrome-related coronavirus,0.6731691573754269,PPI
+15680,IRF3 Rattus norvegicus,nsp15 Severe acute respiratory syndrome coronavirus 2,0.9333972737740207,PPI
+15681,IRF3 Rattus norvegicus,nsp15 Severe acute respiratory syndrome-related coronavirus,0.8947889852122182,PPI
+15749,IRF3 Rattus norvegicus,N protein Severe acute respiratory syndrome coronavirus 2,0.8507072935090164,PPI
+15750,IRF3 Rattus norvegicus,N protein Severe acute respiratory syndrome-related coronavirus,0.9961734939765367,PPI
+15868,IRF3 Rattus norvegicus,PLpro Severe acute respiratory syndrome coronavirus 2,0.5791153378759623,PPI
+15891,IRF3 Rattus norvegicus,M protein Severe acute respiratory syndrome coronavirus 2,0.9523303062888882,PPI
+15926,IRF3 Mesocricetus auratus,nsp15 Severe acute respiratory syndrome-related coronavirus,0.9706081882179862,PPI
+15995,IRF3 Mesocricetus auratus,N protein Severe acute respiratory syndrome-related coronavirus,0.9572779239723499,PPI
+16078,IRF3 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9401207762807111,PPI
+16094,IRF3 Mesocricetus auratus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9561987472294549,PPI
+16135,IRF3 Mesocricetus auratus,M protein Severe acute respiratory syndrome-related coronavirus,0.9789957186844958,PPI
+16136,IRF3 Mesocricetus auratus,M protein Severe acute respiratory syndrome coronavirus 2,0.8881305376182403,PPI
+16171,IRF3 Mus musculus,nsp15 Severe acute respiratory syndrome-related coronavirus,0.926417850497977,PPI
+16239,IRF3 Mus musculus,N protein Severe acute respiratory syndrome coronavirus 2,0.7836905694627229,PPI
+16240,IRF3 Mus musculus,N protein Severe acute respiratory syndrome-related coronavirus,0.9914787417840227,PPI
+16381,IRF3 Mus musculus,M protein Severe acute respiratory syndrome coronavirus 2,0.9606359959182846,PPI
+16416,IRF3 Canis lupus familiaris,nsp15 Severe acute respiratory syndrome-related coronavirus,0.9237694273688999,PPI
+16485,IRF3 Canis lupus familiaris,N protein Severe acute respiratory syndrome-related coronavirus,0.7265692377418632,PPI
+16568,IRF3 Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9396345001046198,PPI
+16584,IRF3 Canis lupus familiaris,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9345597220300775,PPI
+16602,IRF3 Canis lupus familiaris,PLpro Severe acute respiratory syndrome-related coronavirus,0.6818210400715538,PPI
+16625,IRF3 Canis lupus familiaris,M protein Severe acute respiratory syndrome-related coronavirus,0.9898786660041382,PPI
+16626,IRF3 Canis lupus familiaris,M protein Severe acute respiratory syndrome coronavirus 2,0.8449026390853095,PPI
+17184,N protein Severe acute respiratory syndrome coronavirus 2,RIG-I Homo sapiens,0.5971148396561299,PPI
+17190,N protein Severe acute respiratory syndrome coronavirus 2,RIG-I Mus musculus,0.6203679850551872,PPI
+17410,N protein Severe acute respiratory syndrome-related coronavirus,STAT1 Mus musculus,0.5384889398255538,PPI
+17434,N protein Severe acute respiratory syndrome-related coronavirus,RIG-I Mesocricetus auratus,0.8968317446199603,PPI
+17450,N protein Severe acute respiratory syndrome-related coronavirus,IRF3 Homo sapiens,0.9071490645302065,PPI
+17454,N protein Severe acute respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.8316254151530632,PPI
+17455,N protein Severe acute respiratory syndrome-related coronavirus,IRF3 Camelus dromedarius,0.6228838858734249,PPI
+17459,N protein Severe acute respiratory syndrome-related coronavirus,IRF3 Rattus norvegicus,0.9373743083172179,PPI
+17461,N protein Severe acute respiratory syndrome-related coronavirus,IRF3 Mus musculus,0.9832657409846683,PPI
+17558,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.7545737655482297,PPI
+17561,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.5789123044162972,PPI
+17579,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Mus musculus,0.8110559858258091,PPI
+17633,N protein Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9042678363382783,PPI
+20383,ACE2 Homo sapiens,Spike Human coronavirus OC43,0.8965989203186073,PPI
+20384,ACE2 Homo sapiens,Spike Human coronavirus HKU1,0.8868301171904859,PPI
+20389,ACE2 Homo sapiens,Spike Human coronavirus 229E,0.881299229710557,PPI
+21974,ACE2 Felis catus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.59716939568984,PPI
+22100,ACE2 Camelus dromedarius,Spike Middle East respiratory syndrome-related coronavirus,0.5843827002933161,PPI
+22101,ACE2 Camelus dromedarius,Spike Severe acute respiratory syndrome coronavirus 2,0.5330466097387122,PPI
+23765,ACE2 Rhinolophus ferrumequinum,nsp15 Severe acute respiratory syndrome coronavirus 2,0.519526351504096,PPI
+23810,ACE2 Rhinolophus ferrumequinum,nsp1 Severe acute respiratory syndrome-related coronavirus,0.7078286951290571,PPI
+23918,ACE2 Rhinolophus ferrumequinum,ORF3b Severe acute respiratory syndrome-related coronavirus,0.6777116433133682,PPI
+23934,ACE2 Rhinolophus ferrumequinum,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7997794108141484,PPI
+23935,ACE2 Rhinolophus ferrumequinum,ORF6 Severe acute respiratory syndrome coronavirus 2,0.887356586124876,PPI
+24542,ORF4a Middle East respiratory syndrome-related coronavirus,ORF4b Middle East respiratory syndrome-related coronavirus,0.41323479456588275,PPI
+24559,ORF4a Middle East respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.8142988147136947,PPI
+24614,ORF4a Middle East respiratory syndrome-related coronavirus,IRF7 Homo sapiens,0.8451488156747577,PPI
+24625,ORF4a Middle East respiratory syndrome-related coronavirus,IRF7 Mus musculus,0.7228721260598918,PPI
+24655,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.94775665323121,PPI
+24665,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.8365529525341243,PPI
+24666,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.6877405959540632,PPI
+24667,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Camelus dromedarius,0.9145753836013373,PPI
+24708,ORF4a Middle East respiratory syndrome-related coronavirus,M protein Middle East respiratory syndrome-related coronavirus,0.49845226945838605,PPI
+24715,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.989029423556245,PPI
+24726,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9763610956899041,PPI
+24727,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.9975151102635786,PPI
+24728,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9841387075727341,PPI
+24730,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.9896111834398355,PPI
+24738,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9969837871686358,PPI
+24742,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Mus musculus,0.9273359455104074,PPI
+24743,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.9569364184000143,PPI
+25143,NF-kB Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8706505209755395,PPI
+25159,NF-kB Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.762652020031955,PPI
+25198,NF-kB Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.9999219954822105,PPI
+25688,NF-kB Macaca mulatta,M protein Middle East respiratory syndrome-related coronavirus,0.7235018413776279,PPI
+26041,NF-kB Rhinolophus ferrumequinum,N protein Severe acute respiratory syndrome-related coronavirus,0.7197232254142832,PPI
+26070,NF-kB Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.8459709982502894,PPI
+26139,NF-kB Rhinolophus ferrumequinum,ORF6 Severe acute respiratory syndrome-related coronavirus,0.5991046023973804,PPI
+26178,NF-kB Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.9930302748020126,PPI
+26181,NF-kB Rhinolophus ferrumequinum,M protein Severe acute respiratory syndrome coronavirus 2,0.6078035104704004,PPI
+26858,NF-kB Mus musculus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8803189803245324,PPI
+26874,NF-kB Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8279930918643124,PPI
+26913,NF-kB Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.9999853938225238,PPI
+27137,NF-kB Mesocricetus auratus,PLpro Severe acute respiratory syndrome-related coronavirus,0.5411713203991603,PPI
+27158,NF-kB Mesocricetus auratus,M protein Middle East respiratory syndrome-related coronavirus,0.9572540965753855,PPI
+27160,NF-kB Mesocricetus auratus,M protein Severe acute respiratory syndrome-related coronavirus,0.8224614102785515,PPI
+27348,NF-kB Rattus norvegicus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7683220792587109,PPI
+27364,NF-kB Rattus norvegicus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7043838423900294,PPI
+27403,NF-kB Rattus norvegicus,M protein Middle East respiratory syndrome-related coronavirus,0.9999419613054366,PPI
+28117,NF-kB Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.7452010257687247,PPI
+28138,NF-kB Camelus dromedarius,M protein Middle East respiratory syndrome-related coronavirus,0.9989324619486547,PPI
+28275,IRF7 Homo sapiens,ORF4a Middle East respiratory syndrome-related coronavirus,0.9995609616780409,PPI
+28383,IRF7 Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.9876524218704961,PPI
+29500,IRF7 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.6635240081214735,PPI
+29814,IRF7 Felis catus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.5072858279990466,PPI
+29990,IRF7 Camelus dromedarius,ORF4a Middle East respiratory syndrome-related coronavirus,0.9926722129531194,PPI
+30235,IRF7 Rattus norvegicus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9999446441899182,PPI
+30343,IRF7 Rattus norvegicus,M protein Middle East respiratory syndrome-related coronavirus,0.993694291147146,PPI
+30970,IRF7 Mus musculus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9994651204573873,PPI
+31078,IRF7 Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.9850724469036031,PPI
+31605,MDA5 Homo sapiens,nsp15 Severe acute respiratory syndrome coronavirus 2,0.7766072250528561,PPI
+31606,MDA5 Homo sapiens,nsp15 Severe acute respiratory syndrome-related coronavirus,0.7361548739415386,PPI
+31647,MDA5 Homo sapiens,ORF4b Middle East respiratory syndrome-related coronavirus,0.9918616725513634,PPI
+31774,MDA5 Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9814877314808772,PPI
+31775,MDA5 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.7350856803341075,PPI
+31792,MDA5 Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.7762800664080739,PPI
+31813,MDA5 Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.9960045874721961,PPI
+31815,MDA5 Homo sapiens,M protein Severe acute respiratory syndrome-related coronavirus,0.9195151683728655,PPI
+32830,MDA5 Felis catus,nsp15 Severe acute respiratory syndrome coronavirus 2,0.8007771271896464,PPI
+32831,MDA5 Felis catus,nsp15 Severe acute respiratory syndrome-related coronavirus,0.8447186870061753,PPI
+32875,MDA5 Felis catus,nsp1 Severe acute respiratory syndrome-related coronavirus,0.7162270660416452,PPI
+32999,MDA5 Felis catus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9873904359058925,PPI
+33000,MDA5 Felis catus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.6044695230619366,PPI
+33040,MDA5 Felis catus,M protein Severe acute respiratory syndrome-related coronavirus,0.8753908481655246,PPI
+33362,MDA5 Mus musculus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9637126472509931,PPI
+33489,MDA5 Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9262910584529352,PPI
+33528,MDA5 Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.9395431982525534,PPI
+33607,MDA5 Rattus norvegicus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9840948633823472,PPI
+33734,MDA5 Rattus norvegicus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8590632870275454,PPI
+33773,MDA5 Rattus norvegicus,M protein Middle East respiratory syndrome-related coronavirus,0.9706395350305856,PPI
+33775,MDA5 Rattus norvegicus,M protein Severe acute respiratory syndrome-related coronavirus,0.5519210208610359,PPI
+33881,MDA5 Mesocricetus auratus,N protein Severe acute respiratory syndrome-related coronavirus,0.8052903319982578,PPI
+34056,MDA5 Canis lupus familiaris,nsp15 Severe acute respiratory syndrome-related coronavirus,0.7705466417083038,PPI
+34126,MDA5 Canis lupus familiaris,N protein Severe acute respiratory syndrome-related coronavirus,0.5917478827883741,PPI
+34208,MDA5 Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.5705625108574841,PPI
+34224,MDA5 Canis lupus familiaris,ORF6 Severe acute respiratory syndrome-related coronavirus,0.739952941517441,PPI
+34587,PRKRA Homo sapiens,ORF4b Middle East respiratory syndrome-related coronavirus,0.9333142250244587,PPI
+34698,PRKRA Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8140357591178384,PPI
+34714,PRKRA Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.6142359575034341,PPI
+34753,PRKRA Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.9856913505093444,PPI
+35567,PRKRA Camelus dromedarius,ORF4b Middle East respiratory syndrome-related coronavirus,0.8974063909079227,PPI
+36057,PRKRA Mus musculus,ORF4b Middle East respiratory syndrome-related coronavirus,0.7832553300130398,PPI
+36223,PRKRA Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.7883616248776197,PPI
+37037,PRKRA Rattus norvegicus,ORF4b Middle East respiratory syndrome-related coronavirus,0.8938328098971128,PPI
+37203,PRKRA Rattus norvegicus,M protein Middle East respiratory syndrome-related coronavirus,0.8248212876886657,PPI
+37735,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT1 Macaca mulatta,0.5799756654260797,PPI
+37737,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT1 Camelus dromedarius,0.938040396537508,PPI
+37749,ORF3b Severe acute respiratory syndrome-related coronavirus,IRF9 Macaca mulatta,0.7883860991375624,PPI
+37752,ORF3b Severe acute respiratory syndrome-related coronavirus,IRF9 Camelus dromedarius,0.9426253345587302,PPI
+37753,ORF3b Severe acute respiratory syndrome-related coronavirus,IRF9 Sus scrofa domesticus,0.8844676909270445,PPI
+37766,ORF3b Severe acute respiratory syndrome-related coronavirus,RIG-I Macaca mulatta,0.7607533045718864,PPI
+37768,ORF3b Severe acute respiratory syndrome-related coronavirus,RIG-I Canis lupus familiaris,0.9970389362018248,PPI
+37769,ORF3b Severe acute respiratory syndrome-related coronavirus,RIG-I Mesocricetus auratus,0.8955917283122207,PPI
+37787,ORF3b Severe acute respiratory syndrome-related coronavirus,IRF3 Macaca mulatta,0.5651716043870199,PPI
+37790,ORF3b Severe acute respiratory syndrome-related coronavirus,IRF3 Camelus dromedarius,0.9905758475897796,PPI
+37795,ORF3b Severe acute respiratory syndrome-related coronavirus,IRF3 Mesocricetus auratus,0.9623949153104346,PPI
+37797,ORF3b Severe acute respiratory syndrome-related coronavirus,IRF3 Canis lupus familiaris,0.9984590063408679,PPI
+37813,ORF3b Severe acute respiratory syndrome-related coronavirus,ACE2 Homo sapiens,0.9883344865444222,PPI
+37815,ORF3b Severe acute respiratory syndrome-related coronavirus,ACE2 Macaca mulatta,0.7658391512700321,PPI
+37819,ORF3b Severe acute respiratory syndrome-related coronavirus,ACE2 Felis catus,0.9828539856621084,PPI
+37820,ORF3b Severe acute respiratory syndrome-related coronavirus,ACE2 Camelus dromedarius,0.8193596208573338,PPI
+37824,ORF3b Severe acute respiratory syndrome-related coronavirus,ACE2 Mus musculus,0.9961999153017743,PPI
+37826,ORF3b Severe acute respiratory syndrome-related coronavirus,ACE2 Rattus norvegicus,0.9977126419889956,PPI
+37827,ORF3b Severe acute respiratory syndrome-related coronavirus,ACE2 Rhinolophus ferrumequinum,0.9982967376154963,PPI
+37830,ORF3b Severe acute respiratory syndrome-related coronavirus,ORF4a Middle East respiratory syndrome-related coronavirus,0.8106522976012043,PPI
+37832,ORF3b Severe acute respiratory syndrome-related coronavirus,NF-kB Homo sapiens,0.9022224212388371,PPI
+37836,ORF3b Severe acute respiratory syndrome-related coronavirus,NF-kB Rhinolophus ferrumequinum,0.990361451199391,PPI
+37839,ORF3b Severe acute respiratory syndrome-related coronavirus,NF-kB Mus musculus,0.9983856697376405,PPI
+37840,ORF3b Severe acute respiratory syndrome-related coronavirus,NF-kB Mesocricetus auratus,0.8836318306371044,PPI
+37841,ORF3b Severe acute respiratory syndrome-related coronavirus,NF-kB Rattus norvegicus,0.9955786776657679,PPI
+37871,ORF3b Severe acute respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.8584019413686323,PPI
+37877,ORF3b Severe acute respiratory syndrome-related coronavirus,PRKRA Mus musculus,0.9810332231035066,PPI
+37881,ORF3b Severe acute respiratory syndrome-related coronavirus,PRKRA Rattus norvegicus,0.9680534922135834,PPI
+37882,ORF3b Severe acute respiratory syndrome-related coronavirus,PRKRA Rhinolophus ferrumequinum,0.8182224573445707,PPI
+37885,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.963933395676099,PPI
+37891,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Felis catus,0.9764784602555477,PPI
+37893,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.9881546578205599,PPI
+37895,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.9737365842926423,PPI
+37896,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.9775761368836285,PPI
+37897,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Camelus dromedarius,0.5691433983858215,PPI
+37903,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.904456652419223,PPI
+37905,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Canis lupus familiaris,0.8769390155230017,PPI
+37906,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Camelus dromedarius,0.9763896907001881,PPI
+37949,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Felis catus,0.9956745695222815,PPI
+37951,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Rhinolophus ferrumequinum,0.9569476150270984,PPI
+37953,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Canis lupus familiaris,0.5594561749819665,PPI
+37956,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.8447965226261938,PPI
+37958,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.700021893269441,PPI
+37968,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.876961872504255,PPI
+37970,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Canis lupus familiaris,0.8496731093954393,PPI
+38041,ORF3b Human coronavirus NL63,IRF3 Mus musculus,0.6477047554678943,PPI
+38262,DPP4 Homo sapiens,ORF4b Middle East respiratory syndrome-related coronavirus,0.8276445827723283,PPI
+38271,DPP4 Homo sapiens,Spike Severe acute respiratory syndrome coronavirus 2,0.658587413673168,PPI
+38272,DPP4 Homo sapiens,Spike Severe acute respiratory syndrome-related coronavirus,0.6427620957097339,PPI
+38320,DPP4 Homo sapiens,ORF4a Middle East respiratory syndrome-related coronavirus,0.9400090347645546,PPI
+38428,DPP4 Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.7579232813106292,PPI
+40231,DPP4 Rhinolophus ferrumequinum,Spike Severe acute respiratory syndrome coronavirus 2,0.6979260494918231,PPI
+40232,DPP4 Rhinolophus ferrumequinum,Spike Severe acute respiratory syndrome-related coronavirus,0.8133990689723386,PPI
+40712,DPP4 Rattus norvegicus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9691624169859892,PPI
+40770,DPP4 Rattus norvegicus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9909049229680038,PPI
+40878,DPP4 Rattus norvegicus,M protein Middle East respiratory syndrome-related coronavirus,0.8235870532716212,PPI
+40957,DPP4 Mus musculus,ORF4b Middle East respiratory syndrome-related coronavirus,0.814658559936803,PPI
+41015,DPP4 Mus musculus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9518241490709364,PPI
+41123,DPP4 Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.6574536778325433,PPI
+41260,DPP4 Camelus dromedarius,ORF4a Middle East respiratory syndrome-related coronavirus,0.8361225477670253,PPI
+41657,ORF6 Severe acute respiratory syndrome-related coronavirus,STAT1 Camelus dromedarius,0.5102418645139803,PPI
+41673,ORF6 Severe acute respiratory syndrome-related coronavirus,IRF9 Sus scrofa domesticus,0.5216003270050049,PPI
+41687,ORF6 Severe acute respiratory syndrome-related coronavirus,RIG-I Rhinolophus ferrumequinum,0.9968353792313203,PPI
+41688,ORF6 Severe acute respiratory syndrome-related coronavirus,RIG-I Canis lupus familiaris,0.980816418577012,PPI
+41690,ORF6 Severe acute respiratory syndrome-related coronavirus,RIG-I Mus musculus,0.8953882364736778,PPI
+41710,ORF6 Severe acute respiratory syndrome-related coronavirus,IRF3 Camelus dromedarius,0.8318587946802448,PPI
+41715,ORF6 Severe acute respiratory syndrome-related coronavirus,IRF3 Mesocricetus auratus,0.6078898651667214,PPI
+41717,ORF6 Severe acute respiratory syndrome-related coronavirus,IRF3 Canis lupus familiaris,0.968773394214022,PPI
+41733,ORF6 Severe acute respiratory syndrome-related coronavirus,ACE2 Homo sapiens,0.9348154739361192,PPI
+41739,ORF6 Severe acute respiratory syndrome-related coronavirus,ACE2 Felis catus,0.9293215111657614,PPI
+41744,ORF6 Severe acute respiratory syndrome-related coronavirus,ACE2 Mus musculus,0.9531869435120965,PPI
+41746,ORF6 Severe acute respiratory syndrome-related coronavirus,ACE2 Rattus norvegicus,0.7838378787146106,PPI
+41747,ORF6 Severe acute respiratory syndrome-related coronavirus,ACE2 Rhinolophus ferrumequinum,0.9932129613054589,PPI
+41752,ORF6 Severe acute respiratory syndrome-related coronavirus,NF-kB Homo sapiens,0.6144562862363402,PPI
+41756,ORF6 Severe acute respiratory syndrome-related coronavirus,NF-kB Rhinolophus ferrumequinum,0.9629007972670621,PPI
+41759,ORF6 Severe acute respiratory syndrome-related coronavirus,NF-kB Mus musculus,0.9909133592206013,PPI
+41760,ORF6 Severe acute respiratory syndrome-related coronavirus,NF-kB Mesocricetus auratus,0.6472836904238841,PPI
+41761,ORF6 Severe acute respiratory syndrome-related coronavirus,NF-kB Rattus norvegicus,0.9987242615967745,PPI
+41779,ORF6 Severe acute respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.856540710452108,PPI
+41784,ORF6 Severe acute respiratory syndrome-related coronavirus,MDA5 Felis catus,0.9037986350822473,PPI
+41786,ORF6 Severe acute respiratory syndrome-related coronavirus,MDA5 Mus musculus,0.6069271038453765,PPI
+41787,ORF6 Severe acute respiratory syndrome-related coronavirus,MDA5 Rattus norvegicus,0.6972647185552132,PPI
+41797,ORF6 Severe acute respiratory syndrome-related coronavirus,PRKRA Mus musculus,0.62332145254892,PPI
+41801,ORF6 Severe acute respiratory syndrome-related coronavirus,PRKRA Rattus norvegicus,0.768586506149798,PPI
+41806,ORF6 Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.7615251843104661,PPI
+41812,ORF6 Severe acute respiratory syndrome-related coronavirus,DPP4 Felis catus,0.7809902167384376,PPI
+41814,ORF6 Severe acute respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.8578517951570488,PPI
+41816,ORF6 Severe acute respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.8590563034192337,PPI
+41817,ORF6 Severe acute respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.641718979547307,PPI
+41826,ORF6 Severe acute respiratory syndrome-related coronavirus,STAT2 Camelus dromedarius,0.6948343789988404,PPI
+41869,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Felis catus,0.9530467784428843,PPI
+41871,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Rhinolophus ferrumequinum,0.710459011146103,PPI
+41878,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.7857156178822154,PPI
+41880,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.8150142552834706,PPI
+41886,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.8495972254522034,PPI
+41893,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.6531475243657581,PPI
+41910,ORF6 Severe acute respiratory syndrome coronavirus 2,STAT1 Mus musculus,0.7444360356759742,PPI
+41925,ORF6 Severe acute respiratory syndrome coronavirus 2,IRF9 Mus musculus,0.9643502951363758,PPI
+41932,ORF6 Severe acute respiratory syndrome coronavirus 2,RIG-I Rhinolophus ferrumequinum,0.993463775160714,PPI
+41954,ORF6 Severe acute respiratory syndrome coronavirus 2,IRF3 Rhinolophus ferrumequinum,0.9925098058619201,PPI
+41955,ORF6 Severe acute respiratory syndrome coronavirus 2,IRF3 Camelus dromedarius,0.6142182601644631,PPI
+41984,ORF6 Severe acute respiratory syndrome coronavirus 2,ACE2 Felis catus,0.8005550933077589,PPI
+41989,ORF6 Severe acute respiratory syndrome coronavirus 2,ACE2 Mus musculus,0.9095895427790558,PPI
+41992,ORF6 Severe acute respiratory syndrome coronavirus 2,ACE2 Rhinolophus ferrumequinum,0.9940881230840969,PPI
+42004,ORF6 Severe acute respiratory syndrome coronavirus 2,NF-kB Mus musculus,0.9132935740336603,PPI
+42006,ORF6 Severe acute respiratory syndrome coronavirus 2,NF-kB Rattus norvegicus,0.9608502230531866,PPI
+42059,ORF6 Severe acute respiratory syndrome coronavirus 2,DPP4 Rhinolophus ferrumequinum,0.9242358650907307,PPI
+42066,ORF6 Severe acute respiratory syndrome coronavirus 2,STAT2 Homo sapiens,0.6362459758537594,PPI
+42069,ORF6 Severe acute respiratory syndrome coronavirus 2,STAT2 Felis catus,0.6376333078525624,PPI
+42072,ORF6 Severe acute respiratory syndrome coronavirus 2,STAT2 Rhinolophus ferrumequinum,0.599618209681842,PPI
+42077,ORF6 Severe acute respiratory syndrome coronavirus 2,STAT2 Rattus norvegicus,0.9592916607637866,PPI
+42079,ORF6 Severe acute respiratory syndrome coronavirus 2,STAT2 Mus musculus,0.9750507460253771,PPI
+42116,ORF6 Severe acute respiratory syndrome coronavirus 2,TBK1 Rhinolophus ferrumequinum,0.5103300731725143,PPI
+42140,STAT2 Homo sapiens,nsp15 Severe acute respiratory syndrome coronavirus 2,0.5855601862238362,PPI
+42141,STAT2 Homo sapiens,nsp15 Severe acute respiratory syndrome-related coronavirus,0.6187146718878623,PPI
+42191,STAT2 Homo sapiens,Spike Severe acute respiratory syndrome coronavirus 2,0.542036910550835,PPI
+42192,STAT2 Homo sapiens,Spike Severe acute respiratory syndrome-related coronavirus,0.7497288924305847,PPI
+42311,STAT2 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9785171931690237,PPI
+42350,STAT2 Homo sapiens,M protein Severe acute respiratory syndrome-related coronavirus,0.6467882712317352,PPI
+42876,STAT2 Felis catus,nsp15 Severe acute respiratory syndrome-related coronavirus,0.8559581350195781,PPI
+43085,STAT2 Felis catus,M protein Severe acute respiratory syndrome-related coronavirus,0.5577040094683444,PPI
+43121,STAT2 Canis lupus familiaris,nsp15 Severe acute respiratory syndrome-related coronavirus,0.7937674350454302,PPI
+43274,STAT2 Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9196968177818313,PPI
+43290,STAT2 Canis lupus familiaris,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9299871438893224,PPI
+43519,STAT2 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8106494749578054,PPI
+43535,STAT2 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7223023447418443,PPI
+43611,STAT2 Rhinolophus ferrumequinum,nsp15 Severe acute respiratory syndrome-related coronavirus,0.940258783259769,PPI
+43661,STAT2 Rhinolophus ferrumequinum,Spike Severe acute respiratory syndrome coronavirus 2,0.6437751785375246,PPI
+43662,STAT2 Rhinolophus ferrumequinum,Spike Severe acute respiratory syndrome-related coronavirus,0.6758585539427301,PPI
+43681,STAT2 Rhinolophus ferrumequinum,N protein Severe acute respiratory syndrome-related coronavirus,0.7410839470617732,PPI
+44591,STAT2 Mesocricetus auratus,nsp15 Severe acute respiratory syndrome-related coronavirus,0.5468273540829672,PPI
+44760,STAT2 Mesocricetus auratus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.6793114791726841,PPI
+45847,PLpro Middle East respiratory syndrome-related coronavirus,IRF9 Rattus norvegicus,0.5759109877439259,PPI
+45921,PLpro Middle East respiratory syndrome-related coronavirus,NF-kB Rhinolophus ferrumequinum,0.6256283338672152,PPI
+45992,PLpro Middle East respiratory syndrome-related coronavirus,STAT2 Camelus dromedarius,0.6704256900554032,PPI
+45998,PLpro Middle East respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.6486776732191404,PPI
+46042,PLpro Middle East respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.6191863794403448,PPI
+46043,PLpro Middle East respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.556786511120293,PPI
+46078,PLpro Severe acute respiratory syndrome-related coronavirus,IRF9 Homo sapiens,0.8528342946034053,PPI
+46081,PLpro Severe acute respiratory syndrome-related coronavirus,IRF9 Felis catus,0.6098439200156236,PPI
+46090,PLpro Severe acute respiratory syndrome-related coronavirus,IRF9 Mus musculus,0.8662109996278841,PPI
+46092,PLpro Severe acute respiratory syndrome-related coronavirus,IRF9 Rattus norvegicus,0.9046592836654951,PPI
+46094,PLpro Severe acute respiratory syndrome-related coronavirus,RIG-I Homo sapiens,0.943592520621207,PPI
+46097,PLpro Severe acute respiratory syndrome-related coronavirus,RIG-I Rhinolophus ferrumequinum,0.7326206243667504,PPI
+46117,PLpro Severe acute respiratory syndrome-related coronavirus,IRF3 Macaca mulatta,0.8851532538689184,PPI
+46120,PLpro Severe acute respiratory syndrome-related coronavirus,IRF3 Camelus dromedarius,0.9982457318605573,PPI
+46125,PLpro Severe acute respiratory syndrome-related coronavirus,IRF3 Mesocricetus auratus,0.9850880947443919,PPI
+46127,PLpro Severe acute respiratory syndrome-related coronavirus,IRF3 Canis lupus familiaris,0.985104441595646,PPI
+46156,PLpro Severe acute respiratory syndrome-related coronavirus,ACE2 Rattus norvegicus,0.6697488991303314,PPI
+46164,PLpro Severe acute respiratory syndrome-related coronavirus,NF-kB Macaca mulatta,0.6083511596253286,PPI
+46170,PLpro Severe acute respiratory syndrome-related coronavirus,NF-kB Mesocricetus auratus,0.9741568028407657,PPI
+46174,PLpro Severe acute respiratory syndrome-related coronavirus,NF-kB Camelus dromedarius,0.9971479459550976,PPI
+46232,PLpro Severe acute respiratory syndrome-related coronavirus,STAT2 Homo sapiens,0.892480756213958,PPI
+46235,PLpro Severe acute respiratory syndrome-related coronavirus,STAT2 Felis catus,0.6408744675041007,PPI
+46238,PLpro Severe acute respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.5043360275296522,PPI
+46243,PLpro Severe acute respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.9244320067157402,PPI
+46245,PLpro Severe acute respiratory syndrome-related coronavirus,STAT2 Mus musculus,0.8256735400265769,PPI
+46283,PLpro Severe acute respiratory syndrome-related coronavirus,TBK1 Canis lupus familiaris,0.6311002776186229,PPI
+46287,PLpro Severe acute respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.8221181362702908,PPI
+46360,PLpro Severe acute respiratory syndrome coronavirus 2,IRF3 Homo sapiens,0.9740878032442848,PPI
+46364,PLpro Severe acute respiratory syndrome coronavirus 2,IRF3 Rhinolophus ferrumequinum,0.7822411344113266,PPI
+46365,PLpro Severe acute respiratory syndrome coronavirus 2,IRF3 Camelus dromedarius,0.9787341203175265,PPI
+46369,PLpro Severe acute respiratory syndrome coronavirus 2,IRF3 Rattus norvegicus,0.9918953810914009,PPI
+46371,PLpro Severe acute respiratory syndrome coronavirus 2,IRF3 Mus musculus,0.9952923172826111,PPI
+46414,PLpro Severe acute respiratory syndrome coronavirus 2,NF-kB Mus musculus,0.982988948930885,PPI
+46416,PLpro Severe acute respiratory syndrome coronavirus 2,NF-kB Rattus norvegicus,0.9251061763881108,PPI
+46419,PLpro Severe acute respiratory syndrome coronavirus 2,NF-kB Camelus dromedarius,0.7394176890430986,PPI
+46531,PLpro Severe acute respiratory syndrome coronavirus 2,TBK1 Mus musculus,0.5927346190955428,PPI
+46533,PLpro Severe acute respiratory syndrome coronavirus 2,TBK1 Rattus norvegicus,0.728818263355971,PPI
+51264,M protein Middle East respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.7426295583318313,PPI
+51314,M protein Middle East respiratory syndrome-related coronavirus,NF-kB Mus musculus,0.9849265375640865,PPI
+51316,M protein Middle East respiratory syndrome-related coronavirus,NF-kB Rattus norvegicus,0.9496678836480147,PPI
+51319,M protein Middle East respiratory syndrome-related coronavirus,NF-kB Camelus dromedarius,0.6093694008406755,PPI
+51320,M protein Middle East respiratory syndrome-related coronavirus,IRF7 Homo sapiens,0.9230662554547977,PPI
+51327,M protein Middle East respiratory syndrome-related coronavirus,IRF7 Camelus dromedarius,0.6865046929438434,PPI
+51328,M protein Middle East respiratory syndrome-related coronavirus,IRF7 Rattus norvegicus,0.9230494979672399,PPI
+51331,M protein Middle East respiratory syndrome-related coronavirus,IRF7 Mus musculus,0.8483108047138027,PPI
+51334,M protein Middle East respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.9797795948635936,PPI
+51341,M protein Middle East respiratory syndrome-related coronavirus,MDA5 Mus musculus,0.9354040961165948,PPI
+51342,M protein Middle East respiratory syndrome-related coronavirus,MDA5 Rattus norvegicus,0.9744388210598126,PPI
+51346,M protein Middle East respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.8091384868610848,PPI
+51350,M protein Middle East respiratory syndrome-related coronavirus,PRKRA Camelus dromedarius,0.8675244707797105,PPI
+51352,M protein Middle East respiratory syndrome-related coronavirus,PRKRA Mus musculus,0.9193019372673427,PPI
+51356,M protein Middle East respiratory syndrome-related coronavirus,PRKRA Rattus norvegicus,0.975654873538881,PPI
+51361,M protein Middle East respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.7487364110211708,PPI
+51371,M protein Middle East respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.7899229303842502,PPI
+51372,M protein Middle East respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.5600833686206782,PPI
+51435,M protein Middle East respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.9862683195194095,PPI
+51443,M protein Middle East respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9493194408914689,PPI
+51447,M protein Middle East respiratory syndrome-related coronavirus,MAVS Mus musculus,0.9008999356233374,PPI
+51448,M protein Middle East respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.9719076899440126,PPI
+51698,M protein Severe acute respiratory syndrome-related coronavirus,STAT1 Homo sapiens,0.9447418878332315,PPI
+51709,M protein Severe acute respiratory syndrome-related coronavirus,STAT1 Rattus norvegicus,0.8375952702154905,PPI
+51710,M protein Severe acute respiratory syndrome-related coronavirus,STAT1 Mus musculus,0.8600552148228207,PPI
+51713,M protein Severe acute respiratory syndrome-related coronavirus,IRF9 Homo sapiens,0.9931837395973808,PPI
+51716,M protein Severe acute respiratory syndrome-related coronavirus,IRF9 Felis catus,0.7641570563960448,PPI
+51718,M protein Severe acute respiratory syndrome-related coronavirus,IRF9 Sus scrofa domesticus,0.7874088748543707,PPI
+51720,M protein Severe acute respiratory syndrome-related coronavirus,IRF9 Rhinolophus ferrumequinum,0.5612801552630365,PPI
+51725,M protein Severe acute respiratory syndrome-related coronavirus,IRF9 Mus musculus,0.9938165996355597,PPI
+51727,M protein Severe acute respiratory syndrome-related coronavirus,IRF9 Rattus norvegicus,0.993428423602466,PPI
+51752,M protein Severe acute respiratory syndrome-related coronavirus,IRF3 Macaca mulatta,0.5135902421790354,PPI
+51755,M protein Severe acute respiratory syndrome-related coronavirus,IRF3 Camelus dromedarius,0.9319228838027261,PPI
+51760,M protein Severe acute respiratory syndrome-related coronavirus,IRF3 Mesocricetus auratus,0.9636793421838061,PPI
+51762,M protein Severe acute respiratory syndrome-related coronavirus,IRF3 Canis lupus familiaris,0.9451954542438008,PPI
+51778,M protein Severe acute respiratory syndrome-related coronavirus,ACE2 Homo sapiens,0.8481465654395548,PPI
+51789,M protein Severe acute respiratory syndrome-related coronavirus,ACE2 Mus musculus,0.552503761550047,PPI
+51791,M protein Severe acute respiratory syndrome-related coronavirus,ACE2 Rattus norvegicus,0.9355545867028312,PPI
+51805,M protein Severe acute respiratory syndrome-related coronavirus,NF-kB Mesocricetus auratus,0.873472158771458,PPI
+51824,M protein Severe acute respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.6662040648704515,PPI
+51829,M protein Severe acute respiratory syndrome-related coronavirus,MDA5 Felis catus,0.7419886116885099,PPI
+51836,M protein Severe acute respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.574456663228465,PPI
+51842,M protein Severe acute respiratory syndrome-related coronavirus,PRKRA Mus musculus,0.5038299791268595,PPI
+51867,M protein Severe acute respiratory syndrome-related coronavirus,STAT2 Homo sapiens,0.9922692762918852,PPI
+51870,M protein Severe acute respiratory syndrome-related coronavirus,STAT2 Felis catus,0.8411639419011305,PPI
+51872,M protein Severe acute respiratory syndrome-related coronavirus,STAT2 Camelus dromedarius,0.5404270112799664,PPI
+51873,M protein Severe acute respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.7963897164417801,PPI
+51878,M protein Severe acute respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.9921430563227611,PPI
+51880,M protein Severe acute respiratory syndrome-related coronavirus,STAT2 Mus musculus,0.9904733596661572,PPI
+51910,M protein Severe acute respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.8915126504792873,PPI
+51914,M protein Severe acute respiratory syndrome-related coronavirus,TBK1 Felis catus,0.9688772136654585,PPI
+51916,M protein Severe acute respiratory syndrome-related coronavirus,TBK1 Rhinolophus ferrumequinum,0.7700170667108367,PPI
+51921,M protein Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.8744550890081115,PPI
+51923,M protein Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.8138274887227284,PPI
+51925,M protein Severe acute respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.9703627186782121,PPI
+51931,M protein Severe acute respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.8292053660806754,PPI
+51932,M protein Severe acute respiratory syndrome-related coronavirus,MAVS Felis catus,0.8390976198751534,PPI
+51937,M protein Severe acute respiratory syndrome-related coronavirus,MAVS Mus musculus,0.7637296922527517,PPI
+51938,M protein Severe acute respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.8953257030145801,PPI
+51995,M protein Severe acute respiratory syndrome coronavirus 2,IRF3 Homo sapiens,0.9486093629942524,PPI
+52004,M protein Severe acute respiratory syndrome coronavirus 2,IRF3 Rattus norvegicus,0.9207551137017899,PPI
+52006,M protein Severe acute respiratory syndrome coronavirus 2,IRF3 Mus musculus,0.9065431968389337,PPI
+53020,TBK1 Homo sapiens,ORF4a Middle East respiratory syndrome-related coronavirus,0.997556025762901,PPI
+53074,TBK1 Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.5293851519612085,PPI
+53107,TBK1 Homo sapiens,PLpro Middle East respiratory syndrome-related coronavirus,0.9032982238211856,PPI
+53109,TBK1 Homo sapiens,PLpro Severe acute respiratory syndrome coronavirus 2,0.7448377419061494,PPI
+53131,TBK1 Homo sapiens,M protein Severe acute respiratory syndrome-related coronavirus,0.9188933925337559,PPI
+53945,TBK1 Felis catus,nsp1 Severe acute respiratory syndrome-related coronavirus,0.5537041999760596,PPI
+54054,TBK1 Felis catus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7544264571817987,PPI
+54070,TBK1 Felis catus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8408316995775421,PPI
+54071,TBK1 Felis catus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.6504458134053018,PPI
+54109,TBK1 Felis catus,M protein Middle East respiratory syndrome-related coronavirus,0.9238518702504839,PPI
+54111,TBK1 Felis catus,M protein Severe acute respiratory syndrome-related coronavirus,0.9598310965270995,PPI
+54599,TBK1 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.9635070119267254,PPI
+54601,TBK1 Rhinolophus ferrumequinum,M protein Severe acute respiratory syndrome-related coronavirus,0.8519385740341168,PPI
+55068,TBK1 Canis lupus familiaris,PLpro Severe acute respiratory syndrome-related coronavirus,0.6286727783762533,PPI
+55715,TBK1 Mus musculus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9981489237697109,PPI
+55802,TBK1 Mus musculus,PLpro Middle East respiratory syndrome-related coronavirus,0.6571382982818113,PPI
+55826,TBK1 Mus musculus,M protein Severe acute respiratory syndrome-related coronavirus,0.7538262232795924,PPI
+55960,TBK1 Camelus dromedarius,ORF4a Middle East respiratory syndrome-related coronavirus,0.9962818452020354,PPI
+56047,TBK1 Camelus dromedarius,PLpro Middle East respiratory syndrome-related coronavirus,0.9708916948387423,PPI
+56205,TBK1 Rattus norvegicus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9995885070648741,PPI
+56292,TBK1 Rattus norvegicus,PLpro Middle East respiratory syndrome-related coronavirus,0.868292801427102,PPI
+56316,TBK1 Rattus norvegicus,M protein Severe acute respiratory syndrome-related coronavirus,0.692926436223514,PPI
+56595,MAVS Homo sapiens,nsp15 Severe acute respiratory syndrome coronavirus 2,0.9651862556580696,PPI
+56665,MAVS Homo sapiens,N protein Severe acute respiratory syndrome coronavirus 2,0.5600246887286005,PPI
+56695,MAVS Homo sapiens,ORF4a Middle East respiratory syndrome-related coronavirus,0.9998411349488168,PPI
+56765,MAVS Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9987475839014779,PPI
+56766,MAVS Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.821380813738045,PPI
+56783,MAVS Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.7390105300963921,PPI
+56804,MAVS Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.9955478703136812,PPI
+56806,MAVS Homo sapiens,M protein Severe acute respiratory syndrome-related coronavirus,0.9818076183668942,PPI
+57156,MAVS Macaca mulatta,N protein Severe acute respiratory syndrome-related coronavirus,0.7015455579001478,PPI
+58065,MAVS Rhinolophus ferrumequinum,nsp15 Severe acute respiratory syndrome coronavirus 2,0.9658261558022702,PPI
+58235,MAVS Rhinolophus ferrumequinum,ORF6 Severe acute respiratory syndrome-related coronavirus,0.980555458646978,PPI
+58236,MAVS Rhinolophus ferrumequinum,ORF6 Severe acute respiratory syndrome coronavirus 2,0.8138264241165871,PPI
+58276,MAVS Rhinolophus ferrumequinum,M protein Severe acute respiratory syndrome-related coronavirus,0.9192221419892133,PPI
+58310,MAVS Felis catus,nsp15 Severe acute respiratory syndrome coronavirus 2,0.9578385364853548,PPI
+58480,MAVS Felis catus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.994615763885586,PPI
+58481,MAVS Felis catus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.5608549019955806,PPI
+58521,MAVS Felis catus,M protein Severe acute respiratory syndrome-related coronavirus,0.9681421230397308,PPI
+58626,MAVS Camelus dromedarius,N protein Severe acute respiratory syndrome-related coronavirus,0.8896558979784212,PPI
+58655,MAVS Camelus dromedarius,ORF4a Middle East respiratory syndrome-related coronavirus,0.9995065167981534,PPI
+58709,MAVS Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8573459623016028,PPI
+58725,MAVS Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7873638785804903,PPI
+58764,MAVS Camelus dromedarius,M protein Middle East respiratory syndrome-related coronavirus,0.9795776619808211,PPI
+59045,MAVS Canis lupus familiaris,nsp15 Severe acute respiratory syndrome coronavirus 2,0.902090279910119,PPI
+59046,MAVS Canis lupus familiaris,nsp15 Severe acute respiratory syndrome-related coronavirus,0.9931914041206775,PPI
+59116,MAVS Canis lupus familiaris,N protein Severe acute respiratory syndrome-related coronavirus,0.808489190544091,PPI
+59199,MAVS Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8702017632155609,PPI
+59215,MAVS Canis lupus familiaris,ORF6 Severe acute respiratory syndrome-related coronavirus,0.887126803596592,PPI
+59256,MAVS Canis lupus familiaris,M protein Severe acute respiratory syndrome-related coronavirus,0.7512229664301093,PPI
+59290,MAVS Mesocricetus auratus,nsp15 Severe acute respiratory syndrome coronavirus 2,0.6051213701114285,PPI
+59291,MAVS Mesocricetus auratus,nsp15 Severe acute respiratory syndrome-related coronavirus,0.9599658528316525,PPI
+59361,MAVS Mesocricetus auratus,N protein Severe acute respiratory syndrome-related coronavirus,0.9358490234426416,PPI
+59460,MAVS Mesocricetus auratus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.6095536965088612,PPI
+59535,MAVS Mus musculus,nsp15 Severe acute respiratory syndrome coronavirus 2,0.7305784916773757,PPI
+59536,MAVS Mus musculus,nsp15 Severe acute respiratory syndrome-related coronavirus,0.9779371183154962,PPI
+59635,MAVS Mus musculus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9990846120373812,PPI
+59705,MAVS Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9801368439855893,PPI
+59744,MAVS Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.9493567300867659,PPI
+59746,MAVS Mus musculus,M protein Severe acute respiratory syndrome-related coronavirus,0.7130105649513891,PPI
+59780,MAVS Rattus norvegicus,nsp15 Severe acute respiratory syndrome coronavirus 2,0.8444869819673079,PPI
+59781,MAVS Rattus norvegicus,nsp15 Severe acute respiratory syndrome-related coronavirus,0.9787270612906717,PPI
+59850,MAVS Rattus norvegicus,N protein Severe acute respiratory syndrome coronavirus 2,0.6797057236393614,PPI
+59880,MAVS Rattus norvegicus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9995157524508526,PPI
+59950,MAVS Rattus norvegicus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9913287398678747,PPI
+59951,MAVS Rattus norvegicus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.5958222051059593,PPI
+59989,MAVS Rattus norvegicus,M protein Middle East respiratory syndrome-related coronavirus,0.9834017542217293,PPI
+59991,MAVS Rattus norvegicus,M protein Severe acute respiratory syndrome-related coronavirus,0.838689362836128,PPI
