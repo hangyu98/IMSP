@@ -515,8 +515,7 @@ def model_eval(structural_emb_path, content_emb_path, original_G_path, model_ite
                     process_comparison(original_G_path=original_G_path,
                                        structural_emb_path=
                                        structural_emb_path[emb],
-                                       model='MLP',
-                                       re_sample=True)
+                                       model='MLP')
                 acc_result_lst.append(acc)
                 infection_precision_result_lst.append(report['2.0']['precision'])
                 PPI_precision_result_lst.append(report['4.0']['precision'])
