@@ -140,3 +140,4 @@ Heterogeneous Network/data/link_prediction/data/y_test.txt
 Heterogeneous Network/data/link_prediction/data/y_train.txt
 
 Heterogeneous Network/data/link_prediction/data/y_copy.txt
+*.csv

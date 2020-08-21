@@ -69,7 +69,7 @@ hetero_data = [
         'type_1': ['PLpro'],
         'host_list_1': ['Middle East respiratory syndrome-related coronavirus'],
         'layer_2': 'host protein',
-        'type_2': ['NF-kB', 'IRF3'],
+        'type_2': ['NF-kB', 'IRF3','TBK1'],
         'host_list_2': ['Homo sapiens', 'Camelus dromedarius', 'Mus musculus', 'Rattus norvegicus'],
         'relation': 'interacts'
     },
@@ -79,7 +79,7 @@ hetero_data = [
         'type_1': ['N protein'],
         'host_list_1': ['Severe acute respiratory syndrome-related coronavirus'],
         'layer_2': 'host protein',
-        'type_2': ['MAVS', 'MDA5', 'RIG-I'],
+        'type_2': ['MAVS', 'MDA5', 'RIG-I', 'IRF3'],
         'host_list_2': ['Homo sapiens', 'Felis catus', 'Rattus norvegicus', 'Rhinolophus ferrumequinum',
                         'Mus musculus'],
         'relation': 'interacts'
