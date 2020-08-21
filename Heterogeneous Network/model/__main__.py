@@ -34,7 +34,7 @@ def main():
                        'Severe acute respiratory syndrome-related coronavirus', 'Human coronavirus 229E',
                        'Human coronavirus NL63']
 
-    # path for content embeddings\
+    # path for content embeddings
     content_emb_path = os.path.abspath('../data/embeddings/sentence_embedding/sentence_embedding.pkl')
 
     # path for constructed graph

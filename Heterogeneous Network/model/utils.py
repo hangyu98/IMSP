@@ -1,4 +1,3 @@
-import os as os
 import pickle
 from random import choice
 import os
@@ -515,8 +514,7 @@ def model_eval(structural_emb_path, content_emb_path, original_G_path, model_ite
                     process_comparison(original_G_path=original_G_path,
                                        structural_emb_path=
                                        structural_emb_path[emb],
-                                       model='MLP',
-                                       re_sample=True)
+                                       model='MLP')
                 acc_result_lst.append(acc)
                 infection_precision_result_lst.append(report['2.0']['precision'])
                 PPI_precision_result_lst.append(report['4.0']['precision'])
@@ -531,7 +529,7 @@ def model_eval(structural_emb_path, content_emb_path, original_G_path, model_ite
                 ROC_score_weighted.append(weighted_roc_auc_ovo)
 
             emb_name = str(structural_emb_path[emb]).rsplit('/', 1)[1].split('.')[0] + '_structure only'
-            # write model performance to file
+            # write model performance to file after multiple iterations are complete
             to_write = emb_name + ',' + str(np.mean(acc_result_lst)) + ',' + str(
                 np.mean(infection_precision_result_lst)) + ',' + str(
                 np.mean(infection_recall_result_lst)) + ',' + str(
@@ -565,7 +563,6 @@ def model_eval(structural_emb_path, content_emb_path, original_G_path, model_ite
                             structural_emb_path[2],
                             content_emb_path=content_emb_path,
                             model='MLP',
-                            re_sample=True,
                             pred=False)
                 acc_result_lst.append(acc)
                 infection_precision_result_lst.append(report['2.0']['precision'])
@@ -593,6 +590,7 @@ def model_eval(structural_emb_path, content_emb_path, original_G_path, model_ite
             # print(to_write)
             file.write(to_write)
         file.close()
+
 
 def model_pred(structural_emb_path, content_emb_path, original_G_path):
     process(original_G_path=original_G_path, structural_emb_path=structural_emb_path[2],
