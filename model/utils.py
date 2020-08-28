@@ -42,7 +42,6 @@ def establish_training_G(G):
     target_PPI = int(total_PPI / 5)
     total_target = target_belongs + target_PPI + target_infects + target_similarity
     num_of_test_edges = total_target
-
     # if file is already there, do not split again. Instead, read graph graph from the file
     if os.path.exists(removed_edges_path):
         print('Removed edges found, now establishing training graph')
@@ -64,7 +63,13 @@ def establish_training_G(G):
         print("Removed edges NOT found, now removing 20% edges...")
         while total_target > 0:
             edge = choice(list(G.edges(data=True)))
-            print('edge selected: ', edge)
+            # ensure connectivity
+            H = copy.deepcopy(G)
+            H.remove_edge(edge[0], edge[1])
+            if not nx.is_connected(H):
+                print('not connected, need to choose again')
+                continue
+
             if edge[2]['relation'].__contains__('similar'):
                 if target_similarity > 0:
                     target_similarity = target_similarity - 1
@@ -85,15 +90,9 @@ def establish_training_G(G):
                     target_PPI = target_PPI - 1
                 else:
                     continue
-            H = copy.deepcopy(G)
-            H.remove_edge(edge[0], edge[1])
-            if not nx.is_connected(H):
-                print('not connected, need to re-sample')
-            else:
-                G.remove_edge(edge[0], edge[1])
-                removed_edges.append((edge[0], edge[1]))
-                total_target = total_target - 1
-
+            G.remove_edge(edge[0], edge[1])
+            removed_edges.append((edge[0], edge[1]))
+            total_target = total_target - 1
         print("Still connected?", nx.is_connected(G))
 
         # Save graph
