@@ -117,8 +117,8 @@ def init_homo_graph(G, index_name_map, similarity_matrix, protein_name, layer_na
             # similarity between a protein and its own not meaningful
             if similarity_matrix[row][col] == "null" or row == col:
                 continue
-            G.add_edge(str(start_index + row), str(start_index + col),
-                       data={'similarity': similarity_matrix[row][col]}, etype='original')
+            G.add_edge(str(start_index + row), str(start_index + col), similarity=similarity_matrix[row][col],
+                       relation='similar', category='homogeneous', etype='original')
             # append added edges to edge_list
             edge_list.append((str(start_index + row), str(start_index + col)))
 
@@ -139,7 +139,7 @@ def build_original_hetero_edges(G, hetero_edges, dict_of_belong_relations, dict_
                                                         layer_2='host protein' if is_host is True else 'virus protein',
                                                         type_2=dict_of_belong_relations[key],
                                                         host_list_2=[key],
-                                                        data={'relation': 'belongs'},
+                                                        relation='belongs',
                                                         etype='original')
                                        )
 
@@ -153,7 +153,7 @@ def build_original_hetero_edges(G, hetero_edges, dict_of_belong_relations, dict_
                                                         layer_2=info_dict['layer_2'],
                                                         type_2=info_dict['type_2'],
                                                         host_list_2=info_dict['host_list_2'],
-                                                        data={'relation': info_dict['relation']},
+                                                        relation=info_dict['relation'],
                                                         etype='original'))
 
 
@@ -192,7 +192,8 @@ def build_home_graph(G, dict_of_nodes_groups, dict_of_edges_groups, file_dir, be
         dict_of_edges_groups[layer_name][protein_name] = edge_list
 
 
-def add_hetero_edges(G, dict_of_nodes_groups, layer_1, type_1, host_list_1, layer_2, type_2, host_list_2, data, etype):
+def add_hetero_edges(G, dict_of_nodes_groups, layer_1, type_1, host_list_1, layer_2, type_2, host_list_2, relation,
+                     etype):
     """
     add heterogeneous edges to the graph
     :param etype: edge type, predicted or original
@@ -228,5 +229,5 @@ def add_hetero_edges(G, dict_of_nodes_groups, layer_1, type_1, host_list_1, laye
 
     # add edges to the graph
     for ele in hetero_edges:
-        G.add_edge(str(ele[0]), str(ele[1]), data=data, etype=etype)
+        G.add_edge(str(ele[0]), str(ele[1]), relation=relation, category='heterogeneous', etype=etype)
     return hetero_edges

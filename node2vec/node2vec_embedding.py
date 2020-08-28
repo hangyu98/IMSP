@@ -44,9 +44,9 @@ def node2vec_embedding(G, pred, dim, walk_len):
 
         # add weight to graph
         for e in G.edges():
-            edge_data = G.get_edge_data(*e)['data']
-            if edge_data.__contains__('similarity'):
-                G[e[0]][e[1]]['weight'] = float(edge_data['similarity'])
+            edge_relation = G.get_edge_data(*e)['relation']
+            if edge_relation.__contains__('similar'):
+                G[e[0]][e[1]]['weight'] = float(G.get_edge_data(*e)['similarity'])
             else:
                 G[e[0]][e[1]]['weight'] = float(abs(score_M[list_nodes.index(e[0])][list_nodes.index(e[1])]))
 
@@ -95,10 +95,10 @@ def node2vec_embedding(G, pred, dim, walk_len):
 
 def load_graph(emb_type, dim=128, walk_len=10):
     print('dim: ', dim, 'walk_len: ', walk_len)
-    original_G_path = os.path.abspath('../Heterogeneous Network/data/link_prediction/data/original_G.txt')
+    original_G_path = os.path.abspath('../Heterogeneous Network/data/prediction/data/original_G.txt')
     G = nx.read_gml(original_G_path)
     node2vec_embedding(G, emb_type, dim, walk_len)
-    print('embedding finished\n')
+    print('embedding finished')
 
 
 def load_node_embeddings(emb_file_path):

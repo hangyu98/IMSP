@@ -34,11 +34,13 @@ def shrink_sampling(training_G, X, y, has_link_idx_lst, no_link_idx_lst, num_of_
     # selected_indices_train = np.random.choice(selected_indices, size=2 * num_of_training_edges, replace=False)
     # selected_no_link_X_train = no_link_X[selected_indices_train, :]
 
-    X_negatives = np.empty([2 * num_of_test_edges, X.shape[1]])
-    y_negatives = np.empty([2 * num_of_test_edges, 1])
+    X_test_negatives = np.empty([2 * num_of_test_edges, X.shape[1]])
+    y_test_negatives = np.empty([2 * num_of_test_edges, 1])
 
+    # select negatives for both training set and test set
     selected_indices = np.random.choice(len(no_link_idx_lst), size=2 * (num_of_training_edges + num_of_test_edges),
                                         replace=False)
+    # continue to divide into for training and for test
     selected_indices_for_training = np.random.choice(selected_indices, size=2 * num_of_training_edges, replace=False)
     selected_indices_for_testing = np.setdiff1d(selected_indices, selected_indices_for_training)
 
@@ -52,17 +54,17 @@ def shrink_sampling(training_G, X, y, has_link_idx_lst, no_link_idx_lst, num_of_
     count = 0
     for idx in selected_indices_for_testing:
         # print(idx)
-        X_negatives[count] = X[no_link_idx_lst[idx]]
-        y_negatives[count] = y[no_link_idx_lst[idx]]
+        X_test_negatives[count] = X[no_link_idx_lst[idx]]
+        y_test_negatives[count] = y[no_link_idx_lst[idx]]
         all_selected_indices.append(no_link_idx_lst[idx])
         count = count + 1
 
     # all_selected_indices = np.array(has_link_idx_lst.extend(list(selected_indices)))
     # save the files
-    savetxt(os.path.abspath('../data/link_prediction/data/X_train.txt'), X_train)
-    savetxt(os.path.abspath('../data/link_prediction/data/y_train.txt'), y_train)
+    savetxt(os.path.abspath('../data/prediction/data/X_train.txt'), X_train)
+    savetxt(os.path.abspath('../data/prediction/data/y_train.txt'), y_train)
     print('Sampled graph file saved')
-    return X_train, y_train, X_negatives, y_negatives
+    return X_train, y_train, X_test_negatives, y_test_negatives
 
 
 def random_sampling(training_G, X, y, y_copy, num_of_training_edges, num_of_test_edges, index2pair_dict):
@@ -78,25 +80,25 @@ def random_sampling(training_G, X, y, y_copy, num_of_training_edges, num_of_test
     :return: X_train and y_train
     """
     all_selected_indices = []
-    print("In randomly sampling...\n")
+    print("In randomly sampling...")
     no_link_idx_lst = []
     has_link_idx_lst = []
-    for idx in range(0, len(y)):
+    for idx in range(0, len(X)):
         if y[idx] == 0:
             no_link_idx_lst.append(idx)
-        elif y_copy[idx] >= 1.0:
+        elif y_copy[idx] >= 1:
             has_link_idx_lst.append(idx)
         if y[idx] >= 1:
             all_selected_indices.append(idx)
 
     # shrink the larger no_link_X to generate training set and test set
-    X_train, y_train, X_negatives, y_negatives = shrink_sampling(training_G, X, y,
-                                                                 has_link_idx_lst,
-                                                                 no_link_idx_lst,
-                                                                 num_of_training_edges,
-                                                                 num_of_test_edges,
-                                                                 index2pair_dict,
-                                                                 all_selected_indices)
+    X_train, y_train, X_test_negatives, y_test_negatives = shrink_sampling(training_G, X, y,
+                                                                           has_link_idx_lst,
+                                                                           no_link_idx_lst,
+                                                                           num_of_training_edges,
+                                                                           num_of_test_edges,
+                                                                           index2pair_dict,
+                                                                           all_selected_indices)
 
-    print('\nData sampling finished')
-    return X_train, y_train, X_negatives, y_negatives, all_selected_indices
+    print('Data sampling finished')
+    return X_train, y_train, X_test_negatives, y_test_negatives, all_selected_indices

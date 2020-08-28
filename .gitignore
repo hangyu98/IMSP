@@ -125,19 +125,18 @@ Heterogeneous Network/history code
 
 Markov Chain
 
-Heterogeneous Network/data/link_prediction/data/training_G.txt
+Heterogeneous Network/data/prediction/data/training_G.txt
 
-Heterogeneous Network/data/link_prediction/data/X.txt
+Heterogeneous Network/data/prediction/data/X.txt
 
-Heterogeneous Network/data/link_prediction/data/X_test.txt
+Heterogeneous Network/data/prediction/data/X_test.txt
 
-Heterogeneous Network/data/link_prediction/data/X_train.txt
+Heterogeneous Network/data/prediction/data/X_train.txt
 
-Heterogeneous Network/data/link_prediction/data/y.txt
+Heterogeneous Network/data/prediction/data/y.txt
 
-Heterogeneous Network/data/link_prediction/data/y_test.txt
+Heterogeneous Network/data/prediction/data/y_test.txt
 
-Heterogeneous Network/data/link_prediction/data/y_train.txt
+Heterogeneous Network/data/prediction/data/y_train.txt
 
-Heterogeneous Network/data/link_prediction/data/y_copy.txt
-*.csv
+Heterogeneous Network/data/prediction/data/y_copy.txt

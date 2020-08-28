@@ -77,9 +77,9 @@ def t_sne_3(training_X_path):
 
 
 if __name__ == '__main__':
-    # print(os.path.abspath('../data/link_prediction/node2vec_128.csv'))
+    # print(os.path.abspath('../data/prediction/node2vec_128.csv'))
     structural_emb_path = os.path.abspath('../data/embeddings/node2vec_embedding/node2vec_128.csv')
     t_sne(structural_emb_path=structural_emb_path)
 
-    # training_X_path = os.path.abspath('../data/link_prediction/X_train.txt')
+    # training_X_path = os.path.abspath('../data/prediction/X_train.txt')
     # t_sne_2(training_X_path=training_X_path)

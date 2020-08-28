@@ -47,5 +47,10 @@ def build_graph(original_G_path, list_of_hosts, list_of_viruses):
         json.dump(json_cyto, json_file)
 
     nx.write_gml(G, original_G_path)
+    for node in G:
+        to_print = ''
+        for ele in list(nx.neighbors(G, node)):
+            to_print = to_print + ' ' + ele
+        print(node, to_print)
     print('original graph saved!')
     print("graph building finished!")

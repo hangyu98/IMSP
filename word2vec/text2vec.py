@@ -4,6 +4,7 @@ from gensim.models.tfidfmodel import TfidfModel
 from gensim import models
 from gensim.matutils import sparse2full
 import numpy as np
+import en_core_web_sm
 
 
 # text2vec methods
@@ -33,7 +34,7 @@ class Text2vec:
     # Preprocess docs
     def _preprocess(self, doc_list):
         # Load spacy model
-        nlp = spacy.load('en')
+        nlp = en_core_web_sm.load()
         # lemmatise docs
         docs = [self._lemmatize_doc(nlp(doc)) for doc in doc_list]
         # Get docs dictionary

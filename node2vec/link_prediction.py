@@ -281,14 +281,14 @@ def create_train_test_graphs(args):
     # Create random training and test graphs with different random edge selections
     cached_fn = "%s.graph" % (os.path.basename(args.input))
     if os.path.exists(cached_fn) and not args.regen:
-        print("Loading link_prediction graphs from %s" % cached_fn)
+        print("Loading prediction graphs from %s" % cached_fn)
         with open(cached_fn, 'rb') as f:
             cache_data = pickle.load(f)
         Gtrain = cache_data['g_train']
         Gtest = cache_data['g_test']
 
     else:
-        print("Regenerating link_prediction graphs")
+        print("Regenerating prediction graphs")
         # Train graph embeddings on graph with random links
         Gtrain = GraphN2V(is_directed=False,
                           prop_pos=prop_pos,

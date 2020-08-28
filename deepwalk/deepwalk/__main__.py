@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+# ! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import os
@@ -74,7 +74,7 @@ def process(args):
         model = Word2Vec(walks, size=args.representation_size, window=args.window_size, min_count=0, sg=1, hs=1,
                          workers=args.workers)
     else:
-        print("Data size {} is larger than limit (max-memory-graph-size: {}).  Dumping walks to disk.".format(data_size,
+        print("Data size {} is larger than limit (max-memory-data-size: {}).  Dumping walks to disk.".format(data_size,
                                                                                                              args.max_memory_data_size))
         print("Walking...")
 
@@ -120,7 +120,7 @@ def main():
     parser.add_argument('--matfile-variable-name', default='network',
                         help='variable name of adjacency matrix inside a .mat file.')
 
-    parser.add_argument('--max-memory-graph-size', default=1000000000, type=int,
+    parser.add_argument('--max-memory-data-size', default=1000000000, type=int,
                         help='Size to start dumping walks to disk, instead of keeping them in memory.')
 
     parser.add_argument('--number-walks', default=10, type=int,
