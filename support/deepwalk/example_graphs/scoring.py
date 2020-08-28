@@ -49,7 +49,7 @@ def main():
                       help='Variable name of the labels matrix inside the .mat file.')
   parser.add_argument("--num-shuffles", default=2, type=int, help='Number of shuffles.')
   parser.add_argument("--all", default=False, action='store_true',
-                      help='The embeddings are evaluated on all training percents from 10 to 90 when this flag is set to true. '
+                      help='The embedding_result are evaluated on all training percents from 10 to 90 when this flag is set to true. '
                       'By default, only training percents of 10, 50 and 90 are used.')
 
   args = parser.parse_args()
@@ -125,7 +125,7 @@ def main():
   
       all_results[train_percent].append(results)
   
-  print ('Results, using embeddings of dimensionality', X.shape[1])
+  print ('Results, using embedding_result of dimensionality', X.shape[1])
   print ('-------------------')
   for train_percent in sorted(all_results.keys()):
     print ('Train percent:', train_percent)

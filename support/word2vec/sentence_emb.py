@@ -1,11 +1,11 @@
 import networkx as nx
 import os as os
-from word2vec.text2vec import Text2vec
+from support.word2vec import Text2vec
 import pickle
 
 
 def edge_emb():
-    original_G_path = os.path.abspath('../Heterogeneous Network/data/prediction/data/original_G.txt')
+    original_G_path = os.path.abspath('../../data/prediction/data/original_G.txt')
     full_G = nx.read_gml(original_G_path)
     # returns a dict of {node: attr}
     node_host = nx.get_node_attributes(full_G, 'host')
@@ -86,7 +86,7 @@ def edge_emb():
 
     print('Now saving result to file')
     # save the dict to disk
-    with open(os.path.abspath('../Heterogeneous Network/data/embeddings/sentence_embedding/sentence_embedding.pkl'),
+    with open(os.path.abspath('../../data/embedding_result/sentence_embedding/sentence_embedding.pkl'),
               'wb') as file:
         pickle.dump(edge_emb_dict, file)
         file.close()

@@ -117,26 +117,26 @@ dmypy.json
 
 *.png
 
-Heterogeneous Network/data/old_data
+data/old_data
 
-Heterogeneous Network/data/similarity_matrix_not_used
+data/similarity_matrix_not_used
 
-Heterogeneous Network/history code
+history code
 
 Markov Chain
 
-Heterogeneous Network/data/prediction/data/training_G.txt
+data/prediction/data/training_G.txt
 
-Heterogeneous Network/data/prediction/data/X.txt
+data/prediction/data/X.txt
 
-Heterogeneous Network/data/prediction/data/X_test.txt
+data/prediction/data/X_test.txt
 
-Heterogeneous Network/data/prediction/data/X_train.txt
+data/prediction/data/X_train.txt
 
-Heterogeneous Network/data/prediction/data/y.txt
+data/prediction/data/y.txt
 
-Heterogeneous Network/data/prediction/data/y_test.txt
+data/prediction/data/y_test.txt
 
-Heterogeneous Network/data/prediction/data/y_train.txt
+data/prediction/data/y_train.txt
 
-Heterogeneous Network/data/prediction/data/y_copy.txt
+data/prediction/data/y_copy.txt

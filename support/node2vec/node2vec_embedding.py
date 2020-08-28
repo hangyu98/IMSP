@@ -4,9 +4,9 @@ import csv
 import networkx as nx
 import numpy as np
 import os
-from node2vec.node2vec_src import Node2Vec
+from support.node2vec import Node2Vec
 import pickle
-from node2vec.sim_calc import sim_calc
+from support.node2vec import sim_calc
 import math
 
 
@@ -30,7 +30,7 @@ def node2vec_embedding(G, pred, dim, walk_len):
     if pred == 'content':
         # node2vec
         file = open(os.path.abspath(
-            '../Heterogeneous Network/data/embeddings/sentence_embedding/sentence_embedding_node.pkl'), 'rb')
+            '../../data/embedding_result/sentence_embedding/sentence_embedding_node.pkl'), 'rb')
         node_emb_dict = pickle.load(file)
 
         # use Cosine distance to represent node similarity
@@ -58,7 +58,7 @@ def node2vec_embedding(G, pred, dim, walk_len):
         score_M = np.empty([len(G.nodes()), len(G.nodes())])
         for src in range(len(G.nodes())):
             for dst in range(len(G.nodes())):
-                # obtain embeddings word2vec model
+                # obtain embedding_result word2vec model
                 src_node_vec = model.wv.get_vector(str(src))
                 dst_node_vec = model.wv.get_vector(str(dst))
                 # score_M[src][dst] = sim_calc(src_node_vec, dst_node_vec).Cosine()
@@ -75,7 +75,7 @@ def node2vec_embedding(G, pred, dim, walk_len):
 
     # store the embedding vector and link score
     with open(os.path.abspath(
-            '../Heterogeneous Network/data/embeddings/node2vec_embedding/node2vec_' + pred + '_' + str(dim) + '.csv'),
+            '../Heterogeneous Network/data/embedding_result/node2vec_embedding/node2vec_' + pred + '_' + str(dim) + '.csv'),
             'w') as file:
         weight_model = node2vec_instance.fit()
         list_vec = []
@@ -95,7 +95,7 @@ def node2vec_embedding(G, pred, dim, walk_len):
 
 def load_graph(emb_type, dim=128, walk_len=10):
     print('dim: ', dim, 'walk_len: ', walk_len)
-    original_G_path = os.path.abspath('../Heterogeneous Network/data/prediction/data/original_G.txt')
+    original_G_path = os.path.abspath('../../data/prediction/data/original_G.txt')
     G = nx.read_gml(original_G_path)
     node2vec_embedding(G, emb_type, dim, walk_len)
     print('embedding finished')

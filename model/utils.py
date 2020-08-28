@@ -178,7 +178,7 @@ def load_training_data(full_G, training_G, structural_emb_dict, content_emb_dict
 
                 y_to_add_copy = get_y_to_add(training_G, i, j)
 
-                # add embeddings of the two nodes to represent edge
+                # add embedding_result of the two nodes to represent edge
                 if content_emb_dict is not None:
                     arr_i_j = np.array(content_emb_dict[(i, j)])
                     edge_to_add = np.concatenate((arr_i, arr_j, arr_i_j))

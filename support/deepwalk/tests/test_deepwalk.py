@@ -10,8 +10,6 @@ Tests for `deepwalk` module.
 
 import unittest
 
-from deepwalk import deepwalk
-
 
 class TestDeepwalk(unittest.TestCase):
 

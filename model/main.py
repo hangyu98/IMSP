@@ -3,7 +3,7 @@
 import os as os
 from graph import build_graph
 
-from process import process, model_eval, model_pred
+from process import model_pred
 
 
 def main():
@@ -11,13 +11,13 @@ def main():
     # --------------------Configurations----------------------
     # --------------------------------------------------------
 
-    # paths for structural embeddings
+    # paths for structural embedding_result
     structural_emb_path = [
-        os.path.abspath('../data/embeddings/deepwalk_embedding/deepwalk_unweighted_128.csv'),
-        os.path.abspath('../data/embeddings/node2vec_embedding/node2vec_structural_128.csv'),
-        os.path.abspath('../data/embeddings/node2vec_embedding/node2vec_content_128.csv'),
-        os.path.abspath('../data/embeddings/node2vec_embedding/node2vec_unweighted_128.csv'),
-        os.path.abspath('../data/embeddings/line_embedding/line_unweighted_128.csv'),
+        os.path.abspath('../data/embedding_result/deepwalk_embedding/deepwalk_unweighted_128.csv'),
+        os.path.abspath('../data/embedding_result/node2vec_embedding/node2vec_structural_128.csv'),
+        os.path.abspath('../data/embedding_result/node2vec_embedding/node2vec_content_128.csv'),
+        os.path.abspath('../data/embedding_result/node2vec_embedding/node2vec_unweighted_128.csv'),
+        os.path.abspath('../data/embedding_result/line_embedding/line_unweighted_128.csv'),
     ]
 
     # list of hosts
@@ -34,8 +34,8 @@ def main():
                        'Severe acute respiratory syndrome-related coronavirus', 'Human coronavirus 229E',
                        'Human coronavirus NL63']
 
-    # path for content embeddings
-    content_emb_path = os.path.abspath('../data/embeddings/sentence_embedding/sentence_embedding.pkl')
+    # path for content embedding_result
+    content_emb_path = os.path.abspath('../data/embedding_result/sentence_embedding/sentence_embedding.pkl')
 
     # path for constructed graph
     original_G_path = os.path.abspath('../data/prediction/data/original_G.txt')

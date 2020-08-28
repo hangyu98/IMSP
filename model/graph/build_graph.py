@@ -9,7 +9,7 @@ import networkx as nx
 
 
 # file directory for homo similarity matrices
-file_dir = os.path.abspath('../data/similarity_matrix')
+file_dir = os.path.abspath('../../data/similarity_matrix')
 
 
 def build_graph(original_G_path, list_of_hosts, list_of_viruses):
@@ -43,7 +43,7 @@ def build_graph(original_G_path, list_of_hosts, list_of_viruses):
     # convert to and store cytoscape needed format
     # print("Saving to cytoscape required json...\n")
     json_cyto = nx.cytoscape_data(G)
-    with open('../data/cytoscape/cytoscape_undirected_original.json', 'w') as json_file:
+    with open('../../data/cytoscape/cytoscape_undirected_original.json', 'w') as json_file:
         json.dump(json_cyto, json_file)
 
     nx.write_gml(G, original_G_path)

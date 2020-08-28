@@ -8,7 +8,7 @@ import os
 import matplotlib.pyplot as plt
 import numpy as np
 import networkx as nx
-import node2vec
+from support import node2vec
 from gensim.models import Word2Vec
 from sklearn import metrics, model_selection, pipeline
 from sklearn.linear_model import LogisticRegression
@@ -125,7 +125,7 @@ class GraphN2V(node2vec.Graph):
 
     def learn_embeddings(self, walks, dimensions, window_size=10, niter=5):
         '''
-        Learn embeddings by optimizing the Skipgram objective using SGD.
+        Learn embedding_result by optimizing the Skipgram objective using SGD.
         '''
         # TODO: Python27 only
         walks = [map(str, walk) for walk in walks]
@@ -289,7 +289,7 @@ def create_train_test_graphs(args):
 
     else:
         print("Regenerating prediction graphs")
-        # Train graph embeddings on graph with random links
+        # Train graph embedding_result on graph with random links
         Gtrain = GraphN2V(is_directed=False,
                           prop_pos=prop_pos,
                           prop_neg=prop_neg,
@@ -338,12 +338,12 @@ def test_edge_functions(args):
     for iter in range(args.num_experiments):
         print("Iteration %d of %d" % (iter, args.num_experiments))
 
-        # Learn embeddings with current parameter values
+        # Learn embedding_result with current parameter values
         Gtrain.train_embeddings(p, q, dimensions, num_walks, walk_length, window_size)
         Gtest.train_embeddings(p, q, dimensions, num_walks, walk_length, window_size)
 
         for edge_fn_name, edge_fn in edge_functions.items():
-            # Calculate edge embeddings using binary function
+            # Calculate edge embedding_result using binary function
             edge_features_train = Gtrain.edges_to_features(edges_train, edge_fn, dimensions)
             edge_features_test = Gtest.edges_to_features(edges_test, edge_fn, dimensions)
 
@@ -402,11 +402,11 @@ def plot_parameter_sensitivity(args):
             cv_aucs = []
             for iter in range(args.num_experiments):
                 print("Iteration %d of %d" % (iter, args.num_experiments))
-                # Learn embeddings with current parameter values
+                # Learn embedding_result with current parameter values
                 Gtrain.train_embeddings(p, q, dimensions, num_walks, walk_length, window_size)
                 Gtest.train_embeddings(p, q, dimensions, num_walks, walk_length, window_size)
 
-                # Calculate edge embeddings using binary function
+                # Calculate edge embedding_result using binary function
                 edge_features_train = Gtrain.edges_to_features(edges_train, edge_fn, dimensions)
                 edge_features_test = Gtest.edges_to_features(edges_test, edge_fn, dimensions)
 
@@ -472,7 +472,7 @@ def grid_search(args):
         # With fixed test & train graphs (these are expensive to generate)
         # we perform num_experiments iterations of the algorithm, using
         # different sets of links to train & test the linear classifier.
-        # This really isn't k-fold CV as the embeddings are learned without
+        # This really isn't k-fold CV as the embedding_result are learned without
         # holdout of any graph, but it will average over the random walks and
         # estimate how the linear classifier generalizes, at least.
         partitioner = model_selection.StratifiedKFold(num_partitions, shuffle=True)
@@ -487,10 +487,10 @@ def grid_search(args):
             edges_test = [edges_all[jj] for jj in test_inx]
             labels_test = [edge_labels_all[jj] for jj in test_inx]
 
-            # Learn embeddings with current parameter values
+            # Learn embedding_result with current parameter values
             Gtrain.train_embeddings(p, q, dimensions, num_walks, walk_length, window_size)
 
-            # Calculate edge embeddings using binary function
+            # Calculate edge embedding_result using binary function
             edge_features_train = Gtrain.edges_to_features(edges_train, edge_fn, dimensions)
             edge_features_test = Gtrain.edges_to_features(edges_test, edge_fn, dimensions)
 

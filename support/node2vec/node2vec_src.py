@@ -8,7 +8,6 @@ from joblib import Parallel, delayed
 from tqdm import tqdm
 
 # from parallel import parallel_generate_walks
-from node2vec.parallel import *
 
 
 class Node2Vec:
@@ -160,7 +159,7 @@ class Node2Vec:
 
     def fit(self, **skip_gram_params) -> gensim.models.Word2Vec:
         """
-        Creates the embeddings using gensim's Word2Vec.
+        Creates the embedding_result using gensim's Word2Vec.
         :param skip_gram_params: Parameteres for gensim.models.Word2Vec - do not supply 'size' it is taken from the Node2Vec 'dimensions' parameter
         :type skip_gram_params: dict
         :return: A gensim word2vec model
