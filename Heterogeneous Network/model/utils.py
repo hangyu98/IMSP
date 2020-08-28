@@ -1,3 +1,4 @@
+import copy
 from random import choice
 import os
 
@@ -84,7 +85,7 @@ def establish_training_G(G):
                     target_PPI = target_PPI - 1
                 else:
                     continue
-            H = nx.Graph(G)
+            H = copy.deepcopy(G)
             H.remove_edge(edge[0], edge[1])
             if not nx.is_connected(H):
                 print('not connected, need to re-sample')
