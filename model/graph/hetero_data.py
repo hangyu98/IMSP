@@ -5,8 +5,8 @@ hetero_data = [
         'host_list_1': ['Severe acute respiratory syndrome coronavirus 2'],
         'layer_2': 'host protein',
         'type_2': ['IRF3', 'RIG-I'],
-        'host_list_2': ['Homo sapiens', 'Felis catus', 'Mus musculus',
-                        'Canis lupus familiaris', 'Mesocricetus auratus'],
+        'host_list_2': ['Homo sapiens', 'Felis catus', 'Macaca mulatta', 'Canis lupus familiaris',
+                        'Rhinolophus ferrumequinum', 'Mesocricetus auratus'],
         'relation': 'interacts'
     },
 
@@ -16,7 +16,8 @@ hetero_data = [
         'host_list_1': ['Severe acute respiratory syndrome-related coronavirus'],
         'layer_2': 'host protein',
         'type_2': ['IRF3', 'MAVS'],
-        'host_list_2': ['Homo sapiens', 'Felis catus', 'Rhinolophus ferrumequinum'],
+        'host_list_2': ['Homo sapiens', 'Felis catus', 'Rattus norvegicus', 'Rhinolophus ferrumequinum',
+                        'Mus musculus'],
         'relation': 'interacts'
     },
 
@@ -48,8 +49,8 @@ hetero_data = [
         'host_list_1': ['Severe acute respiratory syndrome coronavirus 2'],
         'layer_2': 'host protein',
         'type_2': ['IRF3', 'RIG-I'],
-        'host_list_2': ['Homo sapiens', 'Felis catus', 'Mus musculus',
-                        'Canis lupus familiaris', 'Rattus norvegicus', 'Mesocricetus auratus'],
+        'host_list_2': ['Homo sapiens', 'Felis catus', 'Macaca mulatta', 'Canis lupus familiaris',
+                        'Rhinolophus ferrumequinum', 'Mesocricetus auratus'],
         'relation': 'interacts'
     },
 
@@ -143,7 +144,7 @@ hetero_data = [
         'host_list_1': ['Middle East respiratory syndrome-related coronavirus'],
         'layer_2': 'host protein',
         'type_2': ['DPP4'],
-        'host_list_2': ['Homo sapiens', 'Camelus dromedarius', 'Rhinolophus ferrumequinum'],
+        'host_list_2': ['Homo sapiens', 'Camelus dromedarius', 'Mus musculus', 'Rattus norvegicus'],
         'relation': 'interacts'
     },
 
@@ -184,7 +185,8 @@ hetero_data = [
         'host_list_1': ['Severe acute respiratory syndrome-related coronavirus'],
         'layer_2': 'host',
         'type_2': ['host'],
-        'host_list_2': ['Homo sapiens', 'Felis catus', 'Rhinolophus ferrumequinum'],
+        'host_list_2': ['Homo sapiens', 'Felis catus', 'Rattus norvegicus', 'Rhinolophus ferrumequinum',
+                        'Mus musculus'],
         'relation': 'infects'
     },
 
@@ -194,7 +196,7 @@ hetero_data = [
         'host_list_1': ['Middle East respiratory syndrome-related coronavirus'],
         'layer_2': 'host',
         'type_2': ['host'],
-        'host_list_2': ['Homo sapiens', 'Camelus dromedarius', 'Rhinolophus ferrumequinum'],
+        'host_list_2': ['Homo sapiens', 'Camelus dromedarius', 'Mus musculus', 'Rattus norvegicus'],
         'relation': 'infects'
     },
 
