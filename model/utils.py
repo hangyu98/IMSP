@@ -5,7 +5,7 @@ import os
 import networkx as nx
 import numpy as np
 import csv
-import sampling
+import model.sampling as sampling
 from numpy import savetxt
 
 

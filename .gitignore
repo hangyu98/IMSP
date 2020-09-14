@@ -140,3 +140,5 @@ data/prediction/data/y_test.txt
 data/prediction/data/y_train.txt
 
 data/prediction/data/y_copy.txt
+
+model/FDR

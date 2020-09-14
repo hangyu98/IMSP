@@ -4,8 +4,8 @@ import pickle
 import networkx as nx
 import numpy as np
 
-from model import Classifier
-from utils import establish_training_G, load_graph, load_training_data, load_test_data
+from model.classifier import Classifier
+from model.utils import establish_training_G, load_graph, load_training_data, load_test_data
 
 
 def process(original_G_path, structural_emb_path, content_emb_path, model, pred):

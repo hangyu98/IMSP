@@ -1999,14 +1999,21 @@ graph [
   ]
   edge [
     source 0
-    target 65
+    target 57
     relation "interacts"
     category "heterogeneous"
     etype "original"
   ]
   edge [
     source 0
-    target 66
+    target 59
+    relation "interacts"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 0
+    target 65
     relation "interacts"
     category "heterogeneous"
     etype "original"
@@ -2027,6 +2034,20 @@ graph [
   ]
   edge [
     source 0
+    target 36
+    relation "interacts"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 0
+    target 37
+    relation "interacts"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 0
     target 38
     relation "interacts"
     category "heterogeneous"
@@ -2035,13 +2056,6 @@ graph [
   edge [
     source 0
     target 39
-    relation "interacts"
-    category "heterogeneous"
-    etype "original"
-  ]
-  edge [
-    source 0
-    target 40
     relation "interacts"
     category "heterogeneous"
     etype "original"
@@ -2077,6 +2091,20 @@ graph [
   ]
   edge [
     source 1
+    target 64
+    relation "interacts"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 1
+    target 66
+    relation "interacts"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 1
     target 231
     relation "interacts"
     category "heterogeneous"
@@ -2092,6 +2120,20 @@ graph [
   edge [
     source 1
     target 238
+    relation "interacts"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 1
+    target 243
+    relation "interacts"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 1
+    target 244
     relation "interacts"
     category "heterogeneous"
     etype "original"
@@ -4650,6 +4692,13 @@ graph [
     etype "original"
   ]
   edge [
+    source 36
+    target 171
+    relation "interacts"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
     source 37
     target 38
     similarity "91.60"
@@ -4691,6 +4740,13 @@ graph [
   edge [
     source 37
     target 154
+    relation "interacts"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 37
+    target 171
     relation "interacts"
     category "heterogeneous"
     etype "original"
@@ -4788,13 +4844,6 @@ graph [
   edge [
     source 40
     target 154
-    relation "interacts"
-    category "heterogeneous"
-    etype "original"
-  ]
-  edge [
-    source 40
-    target 171
     relation "interacts"
     category "heterogeneous"
     etype "original"
@@ -5258,21 +5307,28 @@ graph [
   edge [
     source 50
     target 156
-    relation "interacts"
+    relation "binds"
     category "heterogeneous"
     etype "original"
   ]
   edge [
     source 50
-    target 164
-    relation "interacts"
+    target 166
+    relation "binds"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 50
+    target 167
+    relation "binds"
     category "heterogeneous"
     etype "original"
   ]
   edge [
     source 50
     target 168
-    relation "interacts"
+    relation "binds"
     category "heterogeneous"
     etype "original"
   ]
@@ -5802,6 +5858,13 @@ graph [
     etype "original"
   ]
   edge [
+    source 57
+    target 171
+    relation "interacts"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
     source 58
     target 59
     similarity "88.12"
@@ -5977,6 +6040,13 @@ graph [
   edge [
     source 59
     target 170
+    relation "interacts"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 59
+    target 171
     relation "interacts"
     category "heterogeneous"
     etype "original"
@@ -6314,13 +6384,6 @@ graph [
   ]
   edge [
     source 64
-    target 171
-    relation "interacts"
-    category "heterogeneous"
-    etype "original"
-  ]
-  edge [
-    source 64
     target 188
     relation "interacts"
     category "heterogeneous"
@@ -6432,13 +6495,6 @@ graph [
   edge [
     source 66
     target 170
-    relation "interacts"
-    category "heterogeneous"
-    etype "original"
-  ]
-  edge [
-    source 66
-    target 171
     relation "interacts"
     category "heterogeneous"
     etype "original"
@@ -6908,14 +6964,21 @@ graph [
   ]
   edge [
     source 78
-    target 196
+    target 193
     relation "infects"
     category "heterogeneous"
     etype "original"
   ]
   edge [
     source 78
-    target 207
+    target 194
+    relation "infects"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 78
+    target 196
     relation "infects"
     category "heterogeneous"
     etype "original"
@@ -7014,6 +7077,20 @@ graph [
   edge [
     source 80
     target 192
+    relation "infects"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 80
+    target 193
+    relation "infects"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 80
+    target 194
     relation "infects"
     category "heterogeneous"
     etype "original"

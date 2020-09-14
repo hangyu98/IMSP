@@ -1,9 +1,8 @@
 """import modules"""
 
 import os as os
-from graph import build_graph
-
-from process import model_pred
+from model.graph.build_graph import build_graph
+from model.process import *
 
 
 def main():
@@ -43,8 +42,8 @@ def main():
     # if graph is not built, build the graph
     if not os.path.exists(original_G_path):
         print('NetworkX graph NOT built yet, building one now...')
-        build_graph.build_graph(original_G_path=original_G_path, list_of_hosts=list_of_hosts,
-                                list_of_viruses=list_of_viruses)
+        build_graph(original_G_path=original_G_path, list_of_hosts=list_of_hosts,
+                    list_of_viruses=list_of_viruses)
     else:
         print('NetworkX graph already built')
 
