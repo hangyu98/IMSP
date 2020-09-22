@@ -66,7 +66,7 @@ python main.py
                    'Severe acute respiratory syndrome-related coronavirus', 'Human coronavirus 229E',
                    'Human coronavirus NL63']
     ```
-- There are a few parameters that you can adjust to fulfill your need:
+- There are a few parameters that you can adjust to fulfill your need in /model/__main__:
     ```python
     main(bg=False, evaluate=True, model_iter_eval=30, model_iter_pred=5)
     ```
