@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ```python
 cd model
-python main.py
+python __main__.py
 ```
 
 - Notice that we require four inputs for the model, for details, please refer to 
@@ -66,8 +66,9 @@ python main.py
                    'Severe acute respiratory syndrome-related coronavirus', 'Human coronavirus 229E',
                    'Human coronavirus NL63']
     ```
-- There are a few parameters that you can adjust to fulfill your need in /model/__main__:
+- There are a few parameters that you can adjust to fulfill your need:
     ```python
+    """This method is located at /model/__main.py"""
     main(bg=False, evaluate=True, model_iter_eval=30, model_iter_pred=5)
     ```
     --bg: boolean, if set to True, then the model will only build the network in NetorkX's gml formatting, which is available at
