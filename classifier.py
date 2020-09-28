@@ -121,12 +121,6 @@ class Classifier:
                                             relation='infects',
                                             probability_estimate=prediction_prob[i][4], connection='weak')
 
-        print("Saving cytoscape data...")
-        json_cyto = nx.cytoscape_data(full_G)
-        with open('data/cytoscape/cytoscape_undirected_prediction.json', 'w') as json_file:
-            json.dump(json_cyto, json_file)
-        print('Cytoscape data saved!')
-
         print("Saving prediction data...")
         filter_PPI_pred(full_G, edge_type='interacts', binding=binding)
         filter_infection_pred(full_G, edge_type='infects')
