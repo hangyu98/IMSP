@@ -28,28 +28,37 @@ def node2vec_embedding(G, weighted, dim, walk_len, num_walks, p, q):
 
     preprocess(G, weighted)
 
-    # -------------------------------
+    if weighted == 'unweighted':
+        node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
+                                     workers=workers, quiet=True)
+        # save the embedding vector and link score
+        with open(os.path.abspath(
+                'data/embedding/Node2vec.csv'), 'w') as file:
+            save_res(G, dimension, file, node2vec_instance, walk_len)
+    else:
+        node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
+                                     workers=workers, p=p, q=q, quiet=True)
+        # save the embedding vector and link score
+        with open(os.path.abspath(
+                'data/embedding/CrossNELP.csv'), 'w') as file:
+            save_res(G, dimension, file, node2vec_instance, walk_len)
 
-    node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
-                                 workers=workers, p=p, q=q, quiet=True)
 
-    # store the embedding vector and link score
-    with open(os.path.abspath(
-            '../data/embedding/vec_node2vec_' + weighted + '.csv'), 'w') as file:
-        weight_model = node2vec_instance.fit()
-        list_vec = []
-        file.write(str(len(G.nodes)) + ' ' + str(dimension) + '\n')
-        for n in G.nodes():
-            vec = weight_model.wv.get_vector(n)
-            vec2lst = list(vec)
-            to_append = ''
-            for ele in vec2lst:
-                to_append = to_append + ' ' + str(ele)
-            if len(list_vec) == 0:
-                list_vec = np.array(vec)
-            else:
-                list_vec = np.vstack([list_vec, vec])
-            file.write(str(n) + to_append + '\n')
+def save_res(G, dimension, file, node2vec_instance, walk_len):
+    weight_model = node2vec_instance.fit(window_size=walk_len)
+    list_vec = []
+    file.write(str(len(G.nodes)) + ' ' + str(dimension) + '\n')
+    for n in G.nodes():
+        vec = weight_model.wv.get_vector(n)
+        vec2lst = list(vec)
+        to_append = ''
+        for ele in vec2lst:
+            to_append = to_append + ' ' + str(ele)
+        if len(list_vec) == 0:
+            list_vec = np.array(vec)
+        else:
+            list_vec = np.vstack([list_vec, vec])
+        file.write(str(n) + to_append + '\n')
 
 
 def preprocess(G, weighted):
@@ -62,7 +71,7 @@ def preprocess(G, weighted):
         print('assigning edge weights...')
         # Node2vec
         file = open(os.path.abspath(
-            '../data/embedding/sentence_embedding/sentence_embedding_node.pkl'), 'rb')
+            'data/embedding/sentence_embedding/sentence_embedding_node.pkl'), 'rb')
         node_emb_dict = pickle.load(file)
 
         value_lst = []
@@ -83,25 +92,22 @@ def preprocess(G, weighted):
                 score_M[src][dst] = sigmoid(
                     support.Node2vec.utils.sim_calc(src_node_vec, dst_node_vec).TS_SS() / mean)
 
-        # add weight to graph
+        # add weight to network
         for e in G.edges():
             edge_relation = G.get_edge_data(*e)['relation']
             if edge_relation.__contains__('similar'):
                 G[e[0]][e[1]]['weight'] = float(G.get_edge_data(*e)['similarity']) / 100
             else:
                 G[e[0]][e[1]]['weight'] = float(abs(score_M[list_nodes.index(e[0])][list_nodes.index(e[1])]))
-
-        # embed weight graph
-        nx.write_edgelist(G, os.path.abspath('../data/embedding/edgelist_weighted.txt'))
-        nx.write_adjlist(G, os.path.abspath('../data/embedding/adjlist.txt'))
     else:
         print("no need to assign edge weight")
-        nx.write_adjlist(G, os.path.abspath('../data/embedding/adjlist.txt'))
+
+    nx.write_adjlist(G, os.path.abspath('data/embedding/adjlist.txt'))
 
 
 def load_node_embeddings(emb_file_path):
     """
-    transform the graph from the file to a dict of {node: node_emb}
+    transform the network from the file to a dict of {node: node_emb}
     :param emb_file_path:
     :return:
     """
@@ -120,13 +126,14 @@ def load_node_embeddings(emb_file_path):
     return node_dict
 
 
-def node_structure_emb(emb_type, dim=128, walk_len=5, num_walks=50, p=1, q=1):
-    original_G_path = os.path.abspath('../data/prediction/data/original_G.txt')
-    print('dim: ', dim, '\twalk_len: ', walk_len, '\tp: ', p, '\tq: ', q, '\tnum_walks', num_walks)
+def node_structure_emb(weighted, dim=128, walk_len=6, num_walks=50, p=1, q=1):
+    original_G_path = os.path.abspath('data/classifier/original_G.txt')
+    print('weighted? ', weighted, 'dim: ', dim, '\twalk_len: ', walk_len, '\tp: ', p, '\tq: ', q, '\tnum_walks',
+          num_walks)
     G = nx.read_gml(original_G_path)
-    node2vec_embedding(G, emb_type, dim, walk_len, num_walks, p, q)
-    print('embedding finished')
 
+    node2vec_embedding(G, weighted, dim, walk_len, num_walks, p, q)
+    print('Node2vec ' + weighted + ' embedding finished')
 
 # if __name__ == '__main__':
 #     node_structure_emb('weighted', dim=128, walk_len=5, num_walks=30)

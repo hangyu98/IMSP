@@ -3,7 +3,7 @@ import os
 
 
 def generate_labels():
-    G = nx.read_gml(os.path.abspath('../../../data/prediction/data/original_G.txt'))
+    G = nx.read_gml(os.path.abspath('../../../data/classifier/original_G.txt'))
     label_dict = {}
     idx = 0
     for node in G.nodes(data=True):

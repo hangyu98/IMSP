@@ -117,28 +117,20 @@ dmypy.json
 
 *.png
 
-data/old_data
+data/classifier/training_G.txt
 
-data/similarity_matrix_not_used
+data/classifier/X.txt
 
-history code
+data/classifier/X_test.txt
 
-Markov Chain
+data/classifier/X_train.txt
 
-data/prediction/data/training_G.txt
+data/classifier/y.txt
 
-data/prediction/data/X.txt
+data/classifier/y_test.txt
 
-data/prediction/data/X_test.txt
+data/classifier/y_train.txt
 
-data/prediction/data/X_train.txt
+data/classifier/y_copy.txt
 
-data/prediction/data/y.txt
-
-data/prediction/data/y_test.txt
-
-data/prediction/data/y_train.txt
-
-data/prediction/data/y_copy.txt
-
-model/FDR
+visualization

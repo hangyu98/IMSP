@@ -45,7 +45,7 @@ class Layer(object):
         logging: Boolean, switches Tensorflow histogram logging on/off
 
     # Methods
-        _call(inputs): Defines computation graph of layer
+        _call(inputs): Defines computation network of layer
             (i.e. takes input, returns output)
         __call__(inputs): Wrapper for _call()
         _log_vars(): Log all variables

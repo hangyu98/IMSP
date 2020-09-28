@@ -279,7 +279,7 @@ class SDNE2(object):
         train_op = optimizer.minimize(L)
 
         init = tf.global_variables_initializer()
-        self.sess.node_structure_emb(init)
+        self.sess.run(init)
 
         generator = self.generate_batch()
 
@@ -292,11 +292,11 @@ class SDNE2(object):
                          BmaskB: beta_mask_b,
                          Weights: weights}
 
-            self.sess.node_structure_emb(train_op, feed_dict=feed_dict)
+            self.sess.run(train_op, feed_dict=feed_dict)
             if step % 50 == 0:
-                print("step %i: %s" % (step, self.sess.node_structure_emb([L, L_1st, L_2nd], feed_dict=feed_dict)))
+                print("step %i: %s" % (step, self.sess.run([L, L_1st, L_2nd], feed_dict=feed_dict)))
 
-        return self.sess.node_structure_emb(emb, feed_dict={NodeA: self.adj_mat[0:1, :], NodeB: self.adj_mat[1:, :]})
+        return self.sess.run(emb, feed_dict={NodeA: self.adj_mat[0:1, :], NodeB: self.adj_mat[1:, :]})
 
     def save_embeddings(self, filename):
         fout = open(filename, 'w')

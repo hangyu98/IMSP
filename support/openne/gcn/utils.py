@@ -22,11 +22,11 @@ def sample_mask(idx, l):
 
 
 def load_data(dataset_str):
-    """Load data."""
-    names = ['x', 'y', 'tx', 'ty', 'allx', 'ally', 'graph']
+    """Load classifier."""
+    names = ['x', 'y', 'tx', 'ty', 'allx', 'ally', 'network']
     objects = []
     for i in range(len(names)):
-        with open("data/ind.{}.{}".format(dataset_str, names[i]), 'rb') as f:
+        with open("classifier/ind.{}.{}".format(dataset_str, names[i]), 'rb') as f:
             if sys.version_info > (3, 0):
                 objects.append(pkl.load(f, encoding='latin1'))
             else:
@@ -34,11 +34,11 @@ def load_data(dataset_str):
 
     x, y, tx, ty, allx, ally, graph = tuple(objects)
     test_idx_reorder = parse_index_file(
-        "data/ind.{}.test.index".format(dataset_str))
+        "classifier/ind.{}.test.index".format(dataset_str))
     test_idx_range = np.sort(test_idx_reorder)
 
     if dataset_str == 'citeseer':
-        # Fix citeseer dataset (there are some isolated nodes in the graph)
+        # Fix citeseer dataset (there are some isolated nodes in the network)
         # Find isolated nodes, add them as zero-vecs into the right position
         test_idx_range_full = range(
             min(test_idx_reorder), max(test_idx_reorder)+1)

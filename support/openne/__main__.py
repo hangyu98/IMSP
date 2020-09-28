@@ -24,13 +24,13 @@ def parse_args():
     parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter,
                             conflict_handler='resolve')
     parser.add_argument('--input', required=True,
-                        help='Input graph file')
+                        help='Input network file')
     parser.add_argument('--output',
                         help='Output representation file')
     parser.add_argument('--number-walks', default=10, type=int,
                         help='Number of random walks to start at each node')
     parser.add_argument('--directed', action='store_true',
-                        help='Treat graph as directed.')
+                        help='Treat network as directed.')
     parser.add_argument('--walk-length', default=80, type=int,
                         help='Length of the random walk started at each node')
     parser.add_argument('--workers', default=8, type=int,
@@ -60,14 +60,14 @@ def parse_args():
                         help='The file of node label')
     parser.add_argument('--feature-file', default='',
                         help='The file of node features')
-    parser.add_argument('--graph-format', default='adjlist', choices=['adjlist', 'edgelist'],
-                        help='Input graph format')
+    parser.add_argument('--network-format', default='adjlist', choices=['adjlist', 'edgelist'],
+                        help='Input network format')
     parser.add_argument('--negative-ratio', default=5, type=int,
                         help='the negative ratio of LINE')
     parser.add_argument('--weighted', action='store_true',
-                        help='Treat graph as weighted')
+                        help='Treat network as weighted')
     parser.add_argument('--clf-ratio', default=0.5, type=float,
-                        help='The ratio of training data in the classification')
+                        help='The ratio of training classifier in the classification')
     parser.add_argument('--order', default=3, type=int,
                         help='Choose the order of LINE, 1 means first order, 2 means second order, 3 means first order + second order')
     parser.add_argument('--no-auto-save', action='store_true',
@@ -111,14 +111,13 @@ def main(args):
     g = Graph()
     print("Reading...")
 
-    if args.graph_format == 'adjlist':
+    if args.network_format == 'adjlist':
         g.read_adjlist(filename=args.input)
-    elif args.graph_format == 'edgelist':
+    elif args.network_format == 'edgelist':
         g.read_edgelist(filename=args.input, weighted=args.weighted,
                         directed=args.directed)
 
     if args.method == 'Node2vec':
-        # g.g = nx.read_gml(os.path.abspath('../data/embedding/graph.txt'))
         model = node2vec.Node2vec(graph=g, path_length=args.walk_length,
                                   num_paths=args.number_walks, dim=args.representation_size,
                                   workers=args.workers, p=args.p, q=args.q, window=args.window_size)

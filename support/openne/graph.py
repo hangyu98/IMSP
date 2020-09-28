@@ -31,7 +31,7 @@ class Graph(object):
         self.encode_node()
 
     def read_adjlist(self, filename):
-        """ Read graph from adjacency file in which the edge must be unweighted
+        """ Read network from adjacency file in which the edge must be unweighted
             the format of each line: v1 n1 n2 n3 ... nk
             :param filename: the filename of input file
         """

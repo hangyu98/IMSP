@@ -1,5 +1,5 @@
-#/Users/hangyu/PycharmProjects/COVID-19/support/node2vec/node2vec_embedding.py
-# GMT Sun Sep  6 05:56:35 2020
+#/Users/hangyu/PycharmProjects/COVID-19/model/main.py
+# GMT Thu Sep 17 20:27:35 2020
 # 
 0 1 2 79 55 57 59 65 67 34 36 37 38 39
 1 2 80 55 59 64 66 231 237 238 243 244

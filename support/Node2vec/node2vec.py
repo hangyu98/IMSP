@@ -27,7 +27,7 @@ class Node2Vec:
         """
         Initiates the Node2Vec object, precomputes walking probabilities and generates the walks.
 
-        :param graph: Input graph
+        :param graph: Input network
         :param dimensions: Embedding dimensions (default: 128)
         :param walk_length: Number of nodes in each walk (default: 80)
         :param num_walks: Number of walks per node (default: 10)
@@ -158,10 +158,11 @@ class Node2Vec:
 
         return walks
 
-    def fit(self, **skip_gram_params) -> gensim.models.Word2Vec:
+    def fit(self, window_size, **skip_gram_params) -> gensim.models.Word2Vec:
         """
         Creates the embedding using gensim's Word2Vec.
         :param skip_gram_params: Parameteres for gensim.models.Word2Vec - do not supply 'size' it is taken from the Node2Vec 'dimensions' parameter
+        :param window_size: window_size for skip_gram model
         :type skip_gram_params: dict
         :return: A gensim Text2vec model
         """
@@ -172,4 +173,4 @@ class Node2Vec:
         if 'size' not in skip_gram_params:
             skip_gram_params['size'] = self.dimensions
 
-        return gensim.models.Word2Vec(self.walks, **skip_gram_params)
+        return gensim.models.Word2Vec(self.walks, window=window_size, **skip_gram_params)

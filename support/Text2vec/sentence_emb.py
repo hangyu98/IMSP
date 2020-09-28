@@ -1,15 +1,15 @@
 import networkx as nx
 import os as os
 import pickle
-from model.data.graph_data import protein_function_data
-from model.utils import get_index2pair_dict
+from network.network_data import protein_function_data
+from utils import get_index2pair_dict
 
 from support.Text2vec.text2vec import Text2vec
 
 
 def edge_content_emb():
-    # original_G_path = os.path.abspath('../data/prediction/data/original_G.txt')
-    original_G_path = os.path.abspath('../../data/prediction/data/original_G.txt')
+    original_G_path = os.path.abspath('data/classifier/original_G.txt')
+    # original_G_path = os.path.abspath('data/classifier/original_G.txt')
     print("Now training Text2vec for edges")
     full_G = nx.read_gml(original_G_path)
     # returns a dict of {node: attr}
@@ -45,7 +45,6 @@ def edge_content_emb():
                         to_add = basic_info + ' interacts'
                     else:
                         to_add = basic_info + ' unconnected'
-                print(to_add)
                 edge_list_attr.append(to_add)
 
     # extract index -> node pair dict
@@ -65,12 +64,9 @@ def edge_content_emb():
         node_pair = index2pair_dict[n]
         edge_emb_dict[node_pair] = docs_emb[n]
 
-    for ele in edge_emb_dict:
-        print(ele, edge_emb_dict[ele])
-
     print('Now saving result to file')
     # save the dict to disk
-    with open(os.path.abspath('../../data/embedding/sentence_embedding/sentence_embedding.pkl'),
+    with open(os.path.abspath('data/embedding/sentence_embedding/sentence_embedding.pkl'),
               'wb') as file:
         pickle.dump(edge_emb_dict, file)
         file.close()
@@ -78,7 +74,7 @@ def edge_content_emb():
 
 
 def node_content_emb():
-    original_G_path = os.path.abspath('../../data/prediction/data/original_G.txt')
+    original_G_path = os.path.abspath('data/classifier/original_G.txt')
     print("Now training Text2vec for nodes")
     full_G = nx.read_gml(original_G_path)
     # returns a dict of {node: attr}
@@ -105,11 +101,8 @@ def node_content_emb():
         node_emb_dict[str(idx)] = emb
         idx = idx + 1
 
-    for ele in node_emb_dict:
-        print(ele, node_emb_dict[ele])
-
     with open(os.path.abspath(
-            '../../data/embedding/sentence_embedding/sentence_embedding_node.pkl'),
+            'data/embedding/sentence_embedding/sentence_embedding_node.pkl'),
             'wb') as file:
         pickle.dump(node_emb_dict, file)
         file.close()
@@ -117,4 +110,4 @@ def node_content_emb():
 
 if __name__ == '__main__':
     node_content_emb()
-    edge_content_emb()
+    # edge_content_emb()

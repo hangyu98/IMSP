@@ -156,7 +156,7 @@ class GCN(object):
         self.features = preprocess_features(self.features)
         self.build_label()
         self.build_train_val_test()
-        adj = nx.adjacency_matrix(g)  # the type of graph
+        adj = nx.adjacency_matrix(g)  # the type of network
         self.support = [preprocess_adj(adj)]
 
     def construct_feed_dict(self, labels_mask):

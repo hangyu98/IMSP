@@ -29,7 +29,7 @@ flags.DEFINE_integer('early_stopping', 10,
                      'Tolerance for early stopping (# of epochs).')
 flags.DEFINE_integer('max_degree', 3, 'Maximum Chebyshev polynomial degree.')
 
-# Load data
+# Load classifier
 adj, features, y_train, y_val, y_test, train_mask, val_mask, test_mask = load_data(
     FLAGS.dataset)
 
@@ -73,12 +73,12 @@ def evaluate(features, support, labels, mask, placeholders):
     t_test = time.time()
     feed_dict_val = construct_feed_dict(
         features, support, labels, mask, placeholders)
-    outs_val = sess.node_structure_emb([model.loss, model.accuracy], feed_dict=feed_dict_val)
+    outs_val = sess.run([model.loss, model.accuracy], feed_dict=feed_dict_val)
     return outs_val[0], outs_val[1], (time.time() - t_test)
 
 
 # Init variables
-sess.node_structure_emb(tf.global_variables_initializer())
+sess.run(tf.global_variables_initializer())
 
 cost_val = []
 
@@ -92,7 +92,7 @@ for epoch in range(FLAGS.epochs):
     feed_dict.update({placeholders['dropout']: FLAGS.dropout})
 
     # Training step
-    outs = sess.node_structure_emb([model.opt_op, model.loss, model.accuracy],
+    outs = sess.run([model.opt_op, model.loss, model.accuracy],
                                    feed_dict=feed_dict)
 
     # Validation

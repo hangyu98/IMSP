@@ -44,7 +44,7 @@ class LLE(object):
         self._X = vt.T
         self._X = self._X[:, 1:]
         return self._X, (t2 - t1)
-        # I_n = sp.eye(graph.number_of_nodes())
+        # I_n = sp.eye(network.number_of_nodes())
 
     @property
     def vectors(self):

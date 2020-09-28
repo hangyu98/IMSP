@@ -29,7 +29,7 @@ class HOPE(object):
 
         # self._beta = 0.0728
 
-        # M_g = np.eye(graph.number_of_nodes()) - self._beta * A
+        # M_g = np.eye(network.number_of_nodes()) - self._beta * A
         # M_l = self._beta * A
 
         M_g = np.eye(graph.number_of_nodes())
