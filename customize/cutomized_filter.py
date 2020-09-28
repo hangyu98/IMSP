@@ -18,8 +18,13 @@ def customized_filter():
         count = 0
         PPI_csv = csv.reader(PPI_read, delimiter=',')
         for row in PPI_csv:
-            if row[2].startswith('Spike'):
-                host1 = row[2].split(' ', 1)[1]
+            host1 = row[2].split(' ', 1)[1]
+            if str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '') \
+                    .rsplit(',', 1)[1] == 'unreliable':
+                to_write = str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '') \
+                               .rsplit(',', 1)[0] + ',unreliable' + '\n'
+                PPI_write.write(to_write)
+            elif row[2].startswith('Spike'):
                 if (host1 in ACE2s and row[3].startswith('DPP4')) or (host1 == mers and row[3].startswith('ACE2')):
                     count = count + 1
                 else:
@@ -43,9 +48,7 @@ def customized_filter():
                 PPI_write.write(to_write)
         PPI_write.close()
 
-    print("# of removed improper bindings", count)
-
-    print(proper_binding)
+    print("# of removed improper bindings:", count)
 
     count = 0
     with open(os.path.abspath('../data/prediction/prediction_infects.csv'), 'r') as infection_read, \
@@ -68,7 +71,7 @@ def customized_filter():
                 count = count + 1
         infection_write.close()
 
-    print("# of newly tagged unreliable infections", count)
+    print("# of newly tagged unreliable infections:", count)
 
 
 if __name__ == '__main__':
