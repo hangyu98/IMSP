@@ -90,4 +90,8 @@ TBD
 ```
 
 ## License
+<<<<<<< HEAD
 This project is using [MIT](https://choosealicense.com/licenses/mit/) license.
+=======
+This project is using [MIT](https://choosealicense.com/licenses/mit/) license.
+>>>>>>> 8d9abfb80fd5ac2c206a46f85f92910ba0080a02
