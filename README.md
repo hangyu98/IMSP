@@ -12,12 +12,27 @@ pip install -r requirements.txt
 
 ## Usage
 
-```python
-cd model
-python __main__.py
-```
+- ### Arguments:
+    --bg: boolean, if set to True, then the model will only build the network in NetorkX's gml formatting. Default: False
 
-- Notice that we require four inputs for the model, for details, please refer to 
+    --evaluate: boolean, if set to True, then the model will only run the evaluation part without making predictions. Default: False
+
+   --model_iter_eval: int, the number of full iterations to run for performance evaluation. Default: 30
+
+   --model_iter_pred: int, the number of full iterations to run for making predictions. For example, if set to 5, the model will run for 5 iterations and provide a union of prediction results. This will partially solve the problem caused by lacking proven negative links. Default: 5
+
+- ### Example
+     ```python
+    '''Perform a 50-run model performance measurement'''
+    python main.py --evaluate True --model_iter_eval 50
+    ```
+     ```python
+    '''Perform link prediction task'''
+    python main.py
+    ```
+   
+
+- ### Input please refer to the file below for formatting details:
     ```python
     /model/data/hetero_data.py
     ```
@@ -66,25 +81,7 @@ python __main__.py
                    'Severe acute respiratory syndrome-related coronavirus', 'Human coronavirus 229E',
                    'Human coronavirus NL63']
     ```
-- There are a few parameters that you can adjust to fulfill your need:
-    ```python
-    """This method is located at /model/__main.py"""
-    main(bg=False, evaluate=True, model_iter_eval=30, model_iter_pred=5)
-    ```
-    --bg: boolean, if set to True, then the model will only build the network in NetorkX's gml formatting, which is available at
-    ```python
-    /data/prediction/data/original_G.txt
-    ```
-    --evaluate: boolean, if set to True, then the model will only run the evaluation part without making predictions, which is available at
-    ```python
-    /data/evaluation/...
-    ```
-   --model_iter_eval: int, the number of full iterations to run for performance evaluation.
 
-   --model_iter_pred: int, the number of full iterations to run for making predictions. For example, if set to 5, the model will run for 5 iterations and provide a union of prediction results, which partially solved the problem of lacking negative training samples. The prediction results are available at:
-    ```python
-    /data/prediction/result/...
-    ```
 ## Citing
 If you find CrossNELP is useful for your research, please consider citing the following papers:
 
@@ -93,4 +90,4 @@ TBD
 ```
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is using [MIT](https://choosealicense.com/licenses/mit/) license.
