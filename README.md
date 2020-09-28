@@ -32,7 +32,7 @@ pip install -r requirements.txt
     ```
    
 
-- ### Input please refer to the file below for formatting details:
+- ### Input (please refer to the file below for formatting details):
     ```python
     /model/data/hetero_data.py
     ```
@@ -81,6 +81,12 @@ pip install -r requirements.txt
                    'Severe acute respiratory syndrome-related coronavirus', 'Human coronavirus 229E',
                    'Human coronavirus NL63']
     ```
+- ### Output:
+  - The link prediction results are available at: /data/prediction
+  - The performance evaluation results are available at: /data/evaluation
+  
+- ### Customizable filter:
+  - We understand that in different scenarios, the prediction results might need customized filters other in addition to those we have defined in the paper. We have provided such sample code available at /customize/customized_filter.py
 
 ## Citing
 If you find CrossNELP is useful for your research, please consider citing the following papers:
@@ -90,8 +96,4 @@ TBD
 ```
 
 ## License
-<<<<<<< HEAD
 This project is using [MIT](https://choosealicense.com/licenses/mit/) license.
-=======
-This project is using [MIT](https://choosealicense.com/licenses/mit/) license.
->>>>>>> 8d9abfb80fd5ac2c206a46f85f92910ba0080a02
