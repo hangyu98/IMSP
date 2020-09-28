@@ -13,13 +13,15 @@ pip install -r requirements.txt
 ## Usage
 
 - ### Arguments:
-    --bg: boolean, if set to True, then the model will only build the network in NetorkX's gml formatting. Default: False
+    --bg: bool, if set to True, then the model will only build the network in NetorkX's gml formatting. Default: False
 
-    --evaluate: boolean, if set to True, then the model will only run the evaluation part without making predictions. Default: False
+    --evaluate: bool, if set to True, then the model will only run the evaluation part without making predictions. Default: False
 
    --model_iter_eval: int, the number of full iterations to run for performance evaluation. Default: 30
 
    --model_iter_pred: int, the number of full iterations to run for making predictions. For example, if set to 5, the model will run for 5 iterations and provide a union of prediction results. This will partially solve the problem caused by lacking proven negative links. Default: 5
+   
+   --verbose: bool, verbose printing. Default: False
 
 - ### Example
      ```python
