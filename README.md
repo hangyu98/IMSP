@@ -82,11 +82,11 @@ pip install -r requirements.txt
                    'Human coronavirus NL63']
     ```
 - ### Output:
-  - The link prediction results are available at: '''python /data/prediction'''
-  - The performance evaluation results are available at: /data/evaluation
+  - The link prediction results are available at ```python /data/prediction```
+  - The performance evaluation results are available at ```python /data/evaluation```
   
 - ### Customizable filter:
-  - We understand that in different scenarios, the prediction results might need customized filters other in addition to those we have defined in the paper. We have provided such sample code available at /customize/customized_filter.py
+  - We understand that in different scenarios, the prediction results might need customized filters other in addition to those we have defined in the paper. We have provided such sample code available at ```python /customize/customized_filter.py```
 
 ## Citing
 If you find CrossNELP is useful for your research, please consider citing the following papers:
