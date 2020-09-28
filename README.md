@@ -82,7 +82,7 @@ pip install -r requirements.txt
                    'Human coronavirus NL63']
     ```
 - ### Output:
-  - The link prediction results are available at: /data/prediction
+  - The link prediction results are available at: '''python /data/prediction'''
   - The performance evaluation results are available at: /data/evaluation
   
 - ### Customizable filter:
