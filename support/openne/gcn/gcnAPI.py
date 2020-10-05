@@ -65,7 +65,7 @@ class GCN(object):
                 "val_acc=", "{:.5f}".format(acc), "time=", "{:.5f}".format(time.time() - t))
 
             if epoch > self.early_stopping and cost_val[-1] > np.mean(cost_val[-(self.early_stopping+1):-1]):
-                print("Early stopping...")
+                print("Early stopping")
                 break
         print("Optimization Finished!")
 

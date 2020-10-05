@@ -40,7 +40,7 @@ def parse_args():
     parser.add_argument('--window-size', default=10, type=int,
                         help='Window size of skipgram model.')
     parser.add_argument('--epochs', default=5, type=int,
-                        help='The training epochs of LINE and GCN')
+                        help='The evaluation epochs of LINE and GCN')
     parser.add_argument('--p', default=1.0, type=float)
     parser.add_argument('--q', default=1.0, type=float)
     parser.add_argument('--method', required=True, choices=[
@@ -67,11 +67,11 @@ def parse_args():
     parser.add_argument('--weighted', action='store_true',
                         help='Treat network as weighted')
     parser.add_argument('--clf-ratio', default=0.5, type=float,
-                        help='The ratio of training classifier in the classification')
+                        help='The ratio of evaluation classifier in the classification')
     parser.add_argument('--order', default=3, type=int,
                         help='Choose the order of LINE, 1 means first order, 2 means second order, 3 means first order + second order')
     parser.add_argument('--no-auto-save', action='store_true',
-                        help='no save the best embeddings when training LINE')
+                        help='no save the best embeddings when evaluation LINE')
     parser.add_argument('--dropout', default=0.5, type=float,
                         help='Dropout rate (1 - keep probability)')
     parser.add_argument('--weight-decay', type=float, default=5e-4,
@@ -109,7 +109,7 @@ def parse_args():
 def main(args):
     t1 = time.time()
     g = Graph()
-    print("Reading...")
+    print("Reading")
 
     if args.network_format == 'adjlist':
         g.read_adjlist(filename=args.input)
@@ -154,8 +154,8 @@ def main(args):
     elif args.method == 'hope':
         model = hope.HOPE(graph=g, d=args.representation_size)
     elif args.method == 'sdne':
-        encoder_layer_list = ast.literal_eval(args.encoder_list)
-        model = sdne.SDNE(g, encoder_layer_list=encoder_layer_list,
+        encoder_group_list = ast.literal_eval(args.encoder_list)
+        model = sdne.SDNE(g, encoder_group_list=encoder_group_list,
                           alpha=args.alpha, beta=args.beta, nu1=args.nu1, nu2=args.nu2,
                           batch_size=args.bs, epoch=args.epochs, learning_rate=args.lr)
     elif args.method == 'lap':
@@ -166,12 +166,12 @@ def main(args):
     t2 = time.time()
     print(t2 - t1)
     if args.method != 'gcn':
-        print("Saving embeddings...")
+        print("Saving embeddings")
         model.save_embeddings(args.output)
     if args.label_file and args.method != 'gcn':
         vectors = model.vectors
         X, Y = read_node_label(args.label_file)
-        print("Training classifier using {:.2f}% nodes...".format(
+        print("Training classifier using {:.2f}% nodes".format(
             args.clf_ratio * 100))
         clf = Classifier(vectors=vectors, clf=LogisticRegression())
         clf.split_train_evaluate(X, Y, args.clf_ratio, seed=0)

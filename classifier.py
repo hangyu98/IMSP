@@ -1,16 +1,8 @@
 import os
 
 import numpy as np
-# from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, roc_auc_score
-# from sklearn.svm import SVC
-# from sklearn.neighbors import KNeighborsClassifier
-# from sklearn.ensemble import RandomForestClassifier
-# from sklearn.tree import DecisionTreeClassifier
 from sklearn.neural_network import MLPClassifier
-import networkx as nx
-import json
-
 from utils import filter_PPI_pred, filter_infection_pred, filter_unreliable_inf
 
 
@@ -22,27 +14,14 @@ class Classifier:
         self.y_test = y_test
         self.prediction_model = prediction_model
         # error checking
-        if self.prediction_model == 'MLP':
-            self.classifier = MLPClassifier(verbose=False)
-        # elif self.prediction_model == 'K-Nearest-Neighbors':
-        #     self.classifier = KNeighborsClassifier(verbose=False)
-        # elif self.prediction_model == 'Logistic Regression':
-        #     self.classifier = LogisticRegression(verbose=False)
-        # elif self.prediction_model == 'Support Vector Classification':
-        #     self.classifier = SVC(verbose=False)
-        # elif self.prediction_model == 'Random Forest':
-        #     self.classifier = RandomForestClassifier(verbose=False, n_jobs=-1)
-        # elif self.prediction_model == 'Decision Tree':
-        #     self.classifier = DecisionTreeClassifier(verbose=False)
-        else:
-            print('error! ', self.prediction_model, ' not found!')
+        self.classifier = MLPClassifier(verbose=False)
 
     def train(self):
 
         self.classifier.max_iter = 1000
-        print('In training ', self.prediction_model, ' model')
+        print('In training', self.prediction_model, 'classifier')
 
-        # fit the training X and y into the model
+        # fit the evaluation X and y into the model
         self.y_train = self.y_train.flatten()
         self.classifier.fit(self.X_train, self.y_train)
 
@@ -50,7 +29,7 @@ class Classifier:
 
         # extract the X_test from the test set
         y_pred = self.classifier.predict(self.X_train)
-        # training set performance
+        # evaluation set performance
         print('Training set performance\n', classification_report(self.y_train, y_pred))
 
         # extract the X_test from the test set
@@ -76,7 +55,7 @@ class Classifier:
         # save prediction...
         return accuracy, report, macro_roc_auc_ovo, weighted_roc_auc_ovo
 
-    def predict(self, full_G, all_selected_indices, index2pair_dict, binding, infection, last_iter):
+    def predict(self, full_G, all_selected_indices, index2pair_dict, binding, last_iter):
 
         # load np n-d array X from file
         X = np.loadtxt(os.path.abspath('data/classifier/X.txt'))
@@ -85,10 +64,6 @@ class Classifier:
         prediction = self.classifier.predict(X)
 
         X_list = list(X)
-
-        print("In making a new network with predicted links included...")
-        print("num of edges: ", len(full_G.edges()))
-        print("num of nodes: ", len(full_G.nodes()))
 
         for i in range(0, len(X_list)):
             pair = index2pair_dict[i]
@@ -120,8 +95,7 @@ class Classifier:
                             full_G.add_edge(str(pair[0]), str(pair[1]), etype='predicted',
                                             relation='infects',
                                             probability_estimate=prediction_prob[i][4], connection='weak')
-
-        print("Saving prediction data...")
+        print("Saving prediction data")
         filter_PPI_pred(full_G, edge_type='interacts', binding=binding)
         filter_infection_pred(full_G, edge_type='infects')
         if last_iter:

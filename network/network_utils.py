@@ -56,23 +56,24 @@ def read_similarity_matrix(file_name, end_len):
 # -------------------Initialize Graph------------------
 # -----------------------------------------------------
 
-def build_one_homo_graph(G, file_name, protein_name, layer_name, belong_relation_dict, node_index):
+def build_one_homo_graph(G, file_name, protein_name, group_name, belong_relation_dict, node_index):
     """
     build one homo network and merge into G
     :param belong_relation_dict: ...
     :param G: network G
     :param file_name: ...
     :param protein_name: protein name read from file name
-    :param layer_name: layer name read from file name
+    :param group_name: layer name read from file name
+    :param node_index: ...
     :return: two list of added nodes and edges
     """
     index_name_map = get_index_name_map(file_name)
     similarity_matrix = read_similarity_matrix(file_name, len(index_name_map))
-    return init_homo_graph(G, index_name_map, similarity_matrix, protein_name, layer_name, belong_relation_dict,
+    return init_homo_graph(G, index_name_map, similarity_matrix, protein_name, group_name, belong_relation_dict,
                            node_index)
 
 
-def init_homo_graph(G, index_name_map, similarity_matrix, protein_name, layer_name, belong_relation_dict, node_index):
+def init_homo_graph(G, index_name_map, similarity_matrix, protein_name, group_name, belong_relation_dict, node_index):
     """
     initiate the DiGraph network using networkx, put nodes and edges in the homo network
     :param node_index:
@@ -81,7 +82,7 @@ def init_homo_graph(G, index_name_map, similarity_matrix, protein_name, layer_na
     :param index_name_map: ...
     :param similarity_matrix: ...
     :param protein_name: ...
-    :param layer_name: ...
+    :param group_name: ...
     :return: two list of added nodes and edges
     """
 
@@ -101,11 +102,11 @@ def init_homo_graph(G, index_name_map, similarity_matrix, protein_name, layer_na
             inner_list.append(protein_name)
         # 1) type is its protein name
         # 2) host is the name of its animal host for host proteins; name of the virus for virus proteins
-        if layer_name == 'virus' or layer_name == 'host':
-            G.add_node(str(node_index), disp=host, type=protein_name, layer=layer_name,
+        if group_name == 'virus' or group_name == 'host':
+            G.add_node(str(node_index), disp=host, type=protein_name, group=group_name,
                        host=host)
         else:
-            G.add_node(str(node_index), disp=(protein_name + ', ' + host), type=protein_name, layer=layer_name,
+            G.add_node(str(node_index), disp=(protein_name + ', ' + host), type=protein_name, group=group_name,
                        host=host)
         # append added nodes to node_list
         node_list.append(str(node_index))
@@ -133,10 +134,10 @@ def build_original_hetero_edges(G, hetero_edges, dict_of_belong_relations, dict_
             is_host = False
         hetero_edges = hetero_edges + (add_hetero_edges(G=G,
                                                         dict_of_nodes_groups=dict_of_nodes_groups,
-                                                        layer_1='host' if is_host is True else 'virus',
+                                                        group_1='host' if is_host is True else 'virus',
                                                         type_1=['host'] if is_host is True else ['virus'],
                                                         host_list_1=[key],
-                                                        layer_2='host protein' if is_host is True else 'virus protein',
+                                                        group_2='host protein' if is_host is True else 'virus protein',
                                                         type_2=dict_of_belong_relations[key],
                                                         host_list_2=[key],
                                                         relation='belongs',
@@ -147,10 +148,10 @@ def build_original_hetero_edges(G, hetero_edges, dict_of_belong_relations, dict_
     for info_dict in graph_data.hetero_edge_data:
         hetero_edges = hetero_edges + (add_hetero_edges(G=G,
                                                         dict_of_nodes_groups=dict_of_nodes_groups,
-                                                        layer_1=info_dict['layer_1'],
+                                                        group_1=info_dict['group_1'],
                                                         type_1=info_dict['type_1'],
                                                         host_list_1=info_dict['host_list_1'],
-                                                        layer_2=info_dict['layer_2'],
+                                                        group_2=info_dict['group_2'],
                                                         type_2=info_dict['type_2'],
                                                         host_list_2=info_dict['host_list_2'],
                                                         relation=info_dict['relation'],
@@ -162,9 +163,9 @@ def build_home_graph(G, dict_of_nodes_groups, dict_of_edges_groups, file_dir, be
     build homogeneous network into the network G
     :param belong_relation_dict: ...
     :param G: Graph G
-    :param dict_of_nodes_groups: {'layer':         {'type'  : ['node']}},
+    :param dict_of_nodes_groups: {'group':         {'type'  : ['node']}},
                             e.g. {'virus protein': {'Spike' : [Spike_0, Spike_1,...]}}
-    :param dict_of_edges_groups: {'layer':         {'type': ['edge']}}
+    :param dict_of_edges_groups: {'group':         {'type': ['edge']}}
                             e.g. {'virus protein': {'Spike' : [(Spike_0, Spike_1), (Spike_0, Spike_2)...]}}
     :param file_dir: the directory that contains all csv files
     """
@@ -177,22 +178,22 @@ def build_home_graph(G, dict_of_nodes_groups, dict_of_edges_groups, file_dir, be
         # get the layer and type from the file name
         meta_info = file.name.split('.')[0].rsplit('-', 1)
         protein_name = meta_info[0]
-        layer_name = meta_info[1]
+        group_name = meta_info[1]
 
         # get added nodes as a list of str, added edges as a list of 2-tuple
         node_list, edge_list, node_index = build_one_homo_graph(G=G,
                                                                 file_name=file,
                                                                 protein_name=protein_name,
-                                                                layer_name=layer_name,
+                                                                group_name=group_name,
                                                                 belong_relation_dict=belong_relation_dict,
                                                                 node_index=node_index)
 
         # update the dict
-        dict_of_nodes_groups[layer_name][protein_name] = node_list
-        dict_of_edges_groups[layer_name][protein_name] = edge_list
+        dict_of_nodes_groups[group_name][protein_name] = node_list
+        dict_of_edges_groups[group_name][protein_name] = edge_list
 
 
-def add_hetero_edges(G, dict_of_nodes_groups, layer_1, type_1, host_list_1, layer_2, type_2, host_list_2, relation,
+def add_hetero_edges(G, dict_of_nodes_groups, group_1, type_1, host_list_1, group_2, type_2, host_list_2, relation,
                      etype):
     """
     add heterogeneous edges to the network
@@ -200,10 +201,10 @@ def add_hetero_edges(G, dict_of_nodes_groups, layer_1, type_1, host_list_1, laye
     :param classifier: network associated with the edge
     :param G: network G
     :param dict_of_nodes_groups:
-    :param layer_1: layer attr of src node
+    :param group_1: layer attr of src node
     :param type_1: type attr of src node
     :param host_list_1: host attr of src node
-    :param layer_2: layer attr of dst node
+    :param group_2: layer attr of dst node
     :param type_2: type attr of dst node
     :param host_list_2: host attr of dst node
     :return:
@@ -213,17 +214,17 @@ def add_hetero_edges(G, dict_of_nodes_groups, layer_1, type_1, host_list_1, laye
     # fill the list: hetero_edges
     for first_type in type_1:
         # first_type = ORF3b
-        # dict_of_nodes_groups[layer_1][first_type] is a list of ORF3b nodes
+        # dict_of_nodes_groups[group_1][first_type] is a list of ORF3b nodes
         # nd_1 is a node in the list
-        for nd_1 in dict_of_nodes_groups[layer_1][first_type]:
+        for nd_1 in dict_of_nodes_groups[group_1][first_type]:
             # get the node in the network at key 'nd_1', which returns dict of all attributes of the node
             # then, match the host
             if G.nodes[nd_1]['host'] in host_list_1:
                 # second_type = IRF3
                 for second_type in type_2:
-                    # dict_of_nodes_groups[layer_2][second_type] = list of IRF3 nodes
+                    # dict_of_nodes_groups[group_2][second_type] = list of IRF3 nodes
                     # nd_2 is a IRF3 node
-                    for nd_2 in dict_of_nodes_groups[layer_2][second_type]:
+                    for nd_2 in dict_of_nodes_groups[group_2][second_type]:
                         if G.nodes[nd_2]['host'] in host_list_2:
                             hetero_edges.append((nd_1, nd_2))
 

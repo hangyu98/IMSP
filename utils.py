@@ -19,7 +19,7 @@ def build_graph(bg):
     original_G_path = os.path.abspath('data/classifier/original_G.txt')
     # if network is not built, build the network
     if not os.path.exists(original_G_path) or bg:
-        print('NetworkX network NOT built yet, building one now...')
+        print('NetworkX network NOT built yet, building one now')
         build_g(original_G_path=original_G_path, list_of_hosts=list_of_hosts,
                 list_of_viruses=list_of_viruses)
     else:
@@ -48,15 +48,15 @@ def establish_training_G(G, re_build_g):
             total_PPI = total_PPI + 1
 
     # target edges to be removed
-    target_similarity = int(total_similarity / 5)
-    target_belongs = int(total_belongs / 5)
-    target_infects = int(total_infects / 5)
-    target_PPI = int(total_PPI / 5)
+    target_similarity = round(total_similarity / 5)
+    target_belongs = round(total_belongs / 5)
+    target_infects = round(total_infects / 5)
+    target_PPI = round(total_PPI / 5)
     total_target = target_belongs + target_PPI + target_infects + target_similarity
     num_of_test_edges = total_target
     # if file is already there, do not split again. Instead, read network network from the file
     if os.path.exists(removed_edges_path) and not re_build_g:
-        print('Removed edges found, now establishing training network')
+        print('Removed edges found, now establishing evaluation network')
         removed_edges = []
         with open(removed_edges_path, 'r') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
@@ -65,14 +65,14 @@ def establish_training_G(G, re_build_g):
         # remove edges
         for edge in removed_edges:
             G.remove_edge(edge[0], edge[1])
-        # save training network
+        # save evaluation network
         nx.write_gml(G, training_G_path)
         # return training_G_path
         return training_G_path, num_of_test_edges
-    # else, split into training set and test set by a ratio of 8:2
+    # else, split into evaluation set and test set by a ratio of 8:2
     else:
         removed_edges = []
-        print("Constructing training G... now removing 20% edges...")
+        print("Constructing evaluation G now removing 20% edges")
         while total_target > 0:
             edge = choice(list(G.edges(data=True)))
             # ensure connectivity
@@ -107,9 +107,9 @@ def establish_training_G(G, re_build_g):
             total_target = total_target - 1
         print("Still connected?", nx.is_connected(G))
         # Save network
-        print("Saving training G to file...")
+        print("Saving evaluation G to file")
         nx.write_gml(G, training_G_path)
-        print("Saving removed edges to file...")
+        print("Saving removed edges to file")
         with open(removed_edges_path, 'w') as csv_file:
             for e in removed_edges:
                 csv_file.write(str(e[0]) + ',' + str(e[1]) + '\n')
@@ -119,9 +119,6 @@ def establish_training_G(G, re_build_g):
 
 def load_graph(training_G_path, structural_emb_path):
     new_G = nx.read_gml(training_G_path)
-
-    print("# of training network nodes: ", len(new_G.nodes()))
-    print("# of training network edges: ", len(new_G.edges()))
 
     structural_emb_dict = load_node_embeddings(structural_emb_path)
 
@@ -156,8 +153,6 @@ def load_training_data(full_G, training_G, structural_emb_dict, content_emb_dict
                       2 * (len(structural_emb_dict[1]))])
     y = np.empty([len(structural_emb_dict) * (len(structural_emb_dict) - 1), 1])
     y_copy = np.empty([len(structural_emb_dict) * (len(structural_emb_dict) - 1), 1])
-
-    print('Constructing X and y...')
     count = 0
     for i in range(0, len(structural_emb_dict)):
         for j in range(0, len(structural_emb_dict)):
@@ -166,7 +161,6 @@ def load_training_data(full_G, training_G, structural_emb_dict, content_emb_dict
                 arr_j = np.array(structural_emb_dict[j])
 
                 y_to_add = get_y_to_add(full_G, i, j)
-
                 y_to_add_copy = get_y_to_add(training_G, i, j)
 
                 # add embedding of the two nodes to represent edge
@@ -183,8 +177,6 @@ def load_training_data(full_G, training_G, structural_emb_dict, content_emb_dict
     savetxt(os.path.abspath('data/classifier/X.txt'), X)
     savetxt(os.path.abspath('data/classifier/y.txt'), y)
     savetxt(os.path.abspath('data/classifier/y_copy.txt'), y_copy)
-
-    print("X and y constructed")
 
     index2pair_dict = get_index2pair_dict(len(X), full_G)
     X_train, y_train, X_test_negatives, y_test_negatives, all_selected_indices \
@@ -211,12 +203,12 @@ def get_y_to_add(full_G, i, j):
     return y_to_add
 
 
-def get_index2pair_dict(length, full_G):
+def get_index2pair_dict(length, G):
     index2pair_dict = {}
     src_node = 0
     dst_node = 0
     count = 0
-    num_of_nodes = len(full_G.nodes())
+    num_of_nodes = len(G.nodes())
     # fill in the dict
     while count < length:
         if src_node == dst_node:
@@ -287,8 +279,6 @@ def load_test_data(full_G, test_set_positives, structural_emb_dict, content_emb_
     savetxt(os.path.abspath('data/classifier/X_test.txt'), X_test)
     savetxt(os.path.abspath('data/classifier/y_test.txt'), y_test)
 
-    print('test data loaded')
-
     return X_test, y_test
 
 
@@ -305,7 +295,7 @@ def filter_PPI_pred(G, edge_type, binding):
                 src = str(e[0])
                 dst = str(e[1])
                 if not ((src, dst) in existed or (dst, src) in existed) and \
-                        G.nodes[src]['layer'] != G.nodes[dst]['layer']:
+                        G.nodes[src]['group'] != G.nodes[dst]['group']:
                     basic_info = src + ',' + dst + ',' + G.nodes[src]['type'] + ' ' + \
                                  G.nodes[src]['host'] + ',' + G.nodes[dst]['type'] + ' ' + \
                                  G.nodes[dst]['host'] + ',' + str(edge_data['probability_estimate']) + ',' + \
@@ -342,7 +332,7 @@ def filter_infection_pred(G, edge_type):
                 src = str(e[0])
                 dst = str(e[1])
                 if not ((src, dst) in existed or (dst, src) in existed) and \
-                        G.nodes[src]['layer'] != G.nodes[dst]['layer']:
+                        G.nodes[src]['group'] != G.nodes[dst]['group']:
                     if ((G.nodes[src]['type'] == 'virus' and G.nodes[dst]['type'] == 'host')
                             or (G.nodes[src]['type'] == 'host' and G.nodes[dst]['type'] == 'virus')):
                         basic_info = src + ',' + dst + ',' + \
@@ -367,12 +357,14 @@ def filter_unreliable_inf(binding):
             host = row[3].split(' ', 1)[1]
             token = virus + ' ' + host
             if binding.__contains__(token):
-                to_write = str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '').rsplit(',', 1)[0] \
-                           + ',reliable' + '\n'
+                to_write = \
+                    str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '').rsplit(',', 1)[0] \
+                    + ',reliable' + '\n'
                 write_csv.write(to_write)
             else:
-                to_write = str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '').rsplit(',', 1)[0] \
-                           + ',unreliable' + '\n'
+                to_write = \
+                    str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '').rsplit(',', 1)[0] \
+                    + ',unreliable' + '\n'
                 write_csv.write(to_write)
         write_csv.close()
     os.remove(os.path.abspath('data/prediction/prediction_temp_infects.csv'))

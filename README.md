@@ -17,14 +17,14 @@ pip install -r requirements.txt
 
     --evaluate: bool, if set to True, then the model will only run the evaluation part without making predictions. Default: False
 
-   --model_iter_eval: int, the number of full iterations to run for performance evaluation. Default: 30
+   --eval_iter: int, the number of full iterations to run for performance evaluation. Default: 30
 
-   --model_iter_pred: int, the number of full iterations to run for making predictions. For example, if set to 5, the model will run for 5 iterations and provide a union of prediction results. This will partially solve the problem caused by lacking proven negative links. Default: 5
+   --pred_iter: int, the number of full iterations to run for making predictions. For example, if set to 5, the model will run for 5 iterations and provide a union of prediction results. This will partially solve the problem caused by lacking proven negative links. Default: 5
 
 - ### Example
      ```python
     '''Perform a 50-run model performance measurement'''
-    python main.py --evaluate True --model_iter_eval 50
+    python main.py --evaluate True --eval_iter 50
     ```
      ```python
     '''Perform link prediction task'''
@@ -40,10 +40,10 @@ pip install -r requirements.txt
   - Protein-Protein Interactions (PPI) and infection relationships should be collected and feed into /model/data/hetero_data.py following this formatting: 
     ```python
     {
-        'layer_1': 'virus protein',
+        'group_1': 'virus protein',
         'type_1': ['nsp15'],
         'host_list_1': ['Severe acute respiratory syndrome coronavirus 2'],
-        'layer_2': 'host protein',
+        'group_2': 'host protein',
         'type_2': ['IRF3', 'RIG-I'],
         'host_list_2': ['Homo sapiens', 'Felis catus', 'Macaca mulatta', 'Canis lupus familiaris',
                         'Rhinolophus ferrumequinum', 'Mesocricetus auratus'],

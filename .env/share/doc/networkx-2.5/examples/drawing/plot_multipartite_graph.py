@@ -28,7 +28,7 @@ def multilayered_graph(*subset_sizes):
     layers = [range(start, end) for start, end in extents]
     G = nx.Graph()
     for (i, layer) in enumerate(layers):
-        G.add_nodes_from(layer, layer=i)
+        G.add_nodes_from(layer, group=i)
     for layer1, layer2 in pairwise(layers):
         G.add_edges_from(itertools.product(layer1, layer2))
     return G

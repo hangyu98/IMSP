@@ -37,7 +37,7 @@ def build_g(original_G_path, list_of_hosts, list_of_viruses):
     bd.build_original_hetero_edges(G, hetero_edges, dict_of_belong_relations, dict_of_nodes_groups, list_of_viruses)
 
     # convert to and store cytoscape needed format
-    # print("Saving to cytoscape required json...\n")
+    # print("Saving to cytoscape required json\n")
     json_cyto = nx.cytoscape_data(G)
     with open('data/cytoscape/cytoscape_undirected_original.json', 'w') as json_file:
         json.dump(json_cyto, json_file)

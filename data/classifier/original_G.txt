@@ -4,7 +4,7 @@ graph [
     label "0"
     disp "nsp15, Severe acute respiratory syndrome coronavirus 2"
     type "nsp15"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome coronavirus 2"
   ]
   node [
@@ -12,7 +12,7 @@ graph [
     label "1"
     disp "nsp15, Severe acute respiratory syndrome-related coronavirus"
     type "nsp15"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome-related coronavirus"
   ]
   node [
@@ -20,7 +20,7 @@ graph [
     label "2"
     disp "nsp15, Human coronavirus HKU1"
     type "nsp15"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus HKU1"
   ]
   node [
@@ -28,7 +28,7 @@ graph [
     label "3"
     disp "STAT1, Homo sapiens"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Homo sapiens"
   ]
   node [
@@ -36,7 +36,7 @@ graph [
     label "4"
     disp "STAT1, Pan troglodytes"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Pan troglodytes"
   ]
   node [
@@ -44,7 +44,7 @@ graph [
     label "5"
     disp "STAT1, Macaca mulatta"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Macaca mulatta"
   ]
   node [
@@ -52,7 +52,7 @@ graph [
     label "6"
     disp "STAT1, Felis catus"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Felis catus"
   ]
   node [
@@ -60,7 +60,7 @@ graph [
     label "7"
     disp "STAT1, Camelus dromedarius"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Camelus dromedarius"
   ]
   node [
@@ -68,7 +68,7 @@ graph [
     label "8"
     disp "STAT1, Equus caballus"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Equus caballus"
   ]
   node [
@@ -76,7 +76,7 @@ graph [
     label "9"
     disp "STAT1, Canis lupus familiaris"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Canis lupus familiaris"
   ]
   node [
@@ -84,7 +84,7 @@ graph [
     label "10"
     disp "STAT1, Rhinolophus ferrumequinum"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Rhinolophus ferrumequinum"
   ]
   node [
@@ -92,7 +92,7 @@ graph [
     label "11"
     disp "STAT1, Bos taurus"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Bos taurus"
   ]
   node [
@@ -100,7 +100,7 @@ graph [
     label "12"
     disp "STAT1, Ovis aries"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Ovis aries"
   ]
   node [
@@ -108,7 +108,7 @@ graph [
     label "13"
     disp "STAT1, Ictidomys tridecemlineatus"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Ictidomys tridecemlineatus"
   ]
   node [
@@ -116,7 +116,7 @@ graph [
     label "14"
     disp "STAT1, Rattus norvegicus"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Rattus norvegicus"
   ]
   node [
@@ -124,7 +124,7 @@ graph [
     label "15"
     disp "STAT1, Mus musculus"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Mus musculus"
   ]
   node [
@@ -132,7 +132,7 @@ graph [
     label "16"
     disp "STAT1, Mesocricetus auratus"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Mesocricetus auratus"
   ]
   node [
@@ -140,7 +140,7 @@ graph [
     label "17"
     disp "STAT1, Gallus gallus"
     type "STAT1"
-    layer "host protein"
+    group "host protein"
     host "Gallus gallus"
   ]
   node [
@@ -148,7 +148,7 @@ graph [
     label "18"
     disp "IRF9, Homo sapiens"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Homo sapiens"
   ]
   node [
@@ -156,7 +156,7 @@ graph [
     label "19"
     disp "IRF9, Macaca mulatta"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Macaca mulatta"
   ]
   node [
@@ -164,7 +164,7 @@ graph [
     label "20"
     disp "IRF9, Pan troglodytes"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Pan troglodytes"
   ]
   node [
@@ -172,7 +172,7 @@ graph [
     label "21"
     disp "IRF9, Felis catus"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Felis catus"
   ]
   node [
@@ -180,7 +180,7 @@ graph [
     label "22"
     disp "IRF9, Camelus dromedarius"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Camelus dromedarius"
   ]
   node [
@@ -188,7 +188,7 @@ graph [
     label "23"
     disp "IRF9, Sus scrofa domesticus"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Sus scrofa domesticus"
   ]
   node [
@@ -196,7 +196,7 @@ graph [
     label "24"
     disp "IRF9, Equus caballus"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Equus caballus"
   ]
   node [
@@ -204,7 +204,7 @@ graph [
     label "25"
     disp "IRF9, Rhinolophus ferrumequinum"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Rhinolophus ferrumequinum"
   ]
   node [
@@ -212,7 +212,7 @@ graph [
     label "26"
     disp "IRF9, Ovis aries"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Ovis aries"
   ]
   node [
@@ -220,7 +220,7 @@ graph [
     label "27"
     disp "IRF9, Canis lupus familiaris"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Canis lupus familiaris"
   ]
   node [
@@ -228,7 +228,7 @@ graph [
     label "28"
     disp "IRF9, Bos taurus"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Bos taurus"
   ]
   node [
@@ -236,7 +236,7 @@ graph [
     label "29"
     disp "IRF9, Ictidomys tridecemlineatus"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Ictidomys tridecemlineatus"
   ]
   node [
@@ -244,7 +244,7 @@ graph [
     label "30"
     disp "IRF9, Mus musculus"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Mus musculus"
   ]
   node [
@@ -252,7 +252,7 @@ graph [
     label "31"
     disp "IRF9, Mesocricetus auratus"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Mesocricetus auratus"
   ]
   node [
@@ -260,7 +260,7 @@ graph [
     label "32"
     disp "IRF9, Rattus norvegicus"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Rattus norvegicus"
   ]
   node [
@@ -268,7 +268,7 @@ graph [
     label "33"
     disp "IRF9, Gallus gallus"
     type "IRF9"
-    layer "host protein"
+    group "host protein"
     host "Gallus gallus"
   ]
   node [
@@ -276,7 +276,7 @@ graph [
     label "34"
     disp "RIG-I, Homo sapiens"
     type "RIG-I"
-    layer "host protein"
+    group "host protein"
     host "Homo sapiens"
   ]
   node [
@@ -284,7 +284,7 @@ graph [
     label "35"
     disp "RIG-I, Pan troglodytes"
     type "RIG-I"
-    layer "host protein"
+    group "host protein"
     host "Pan troglodytes"
   ]
   node [
@@ -292,7 +292,7 @@ graph [
     label "36"
     disp "RIG-I, Macaca mulatta"
     type "RIG-I"
-    layer "host protein"
+    group "host protein"
     host "Macaca mulatta"
   ]
   node [
@@ -300,7 +300,7 @@ graph [
     label "37"
     disp "RIG-I, Rhinolophus ferrumequinum"
     type "RIG-I"
-    layer "host protein"
+    group "host protein"
     host "Rhinolophus ferrumequinum"
   ]
   node [
@@ -308,7 +308,7 @@ graph [
     label "38"
     disp "RIG-I, Canis lupus familiaris"
     type "RIG-I"
-    layer "host protein"
+    group "host protein"
     host "Canis lupus familiaris"
   ]
   node [
@@ -316,7 +316,7 @@ graph [
     label "39"
     disp "RIG-I, Mesocricetus auratus"
     type "RIG-I"
-    layer "host protein"
+    group "host protein"
     host "Mesocricetus auratus"
   ]
   node [
@@ -324,7 +324,7 @@ graph [
     label "40"
     disp "RIG-I, Mus musculus"
     type "RIG-I"
-    layer "host protein"
+    group "host protein"
     host "Mus musculus"
   ]
   node [
@@ -332,7 +332,7 @@ graph [
     label "41"
     disp "RIG-I, Gallus gallus"
     type "RIG-I"
-    layer "host protein"
+    group "host protein"
     host "Gallus gallus"
   ]
   node [
@@ -340,7 +340,7 @@ graph [
     label "42"
     disp "ORF4b, Middle East respiratory syndrome-related coronavirus"
     type "ORF4b"
-    layer "virus protein"
+    group "virus protein"
     host "Middle East respiratory syndrome-related coronavirus"
   ]
   node [
@@ -348,7 +348,7 @@ graph [
     label "43"
     disp "ORF4b, Human coronavirus 229E"
     type "ORF4b"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus 229E"
   ]
   node [
@@ -356,7 +356,7 @@ graph [
     label "44"
     disp "nsp1, Severe acute respiratory syndrome coronavirus 2"
     type "nsp1"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome coronavirus 2"
   ]
   node [
@@ -364,7 +364,7 @@ graph [
     label "45"
     disp "nsp1, Severe acute respiratory syndrome-related coronavirus"
     type "nsp1"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome-related coronavirus"
   ]
   node [
@@ -372,7 +372,7 @@ graph [
     label "46"
     disp "nsp1, Middle East respiratory syndrome-related coronavirus"
     type "nsp1"
-    layer "virus protein"
+    group "virus protein"
     host "Middle East respiratory syndrome-related coronavirus"
   ]
   node [
@@ -380,7 +380,7 @@ graph [
     label "47"
     disp "nsp1, Human coronavirus HKU1"
     type "nsp1"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus HKU1"
   ]
   node [
@@ -388,7 +388,7 @@ graph [
     label "48"
     disp "Spike, Human coronavirus OC43"
     type "Spike"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus OC43"
   ]
   node [
@@ -396,7 +396,7 @@ graph [
     label "49"
     disp "Spike, Human coronavirus HKU1"
     type "Spike"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus HKU1"
   ]
   node [
@@ -404,7 +404,7 @@ graph [
     label "50"
     disp "Spike, Middle East respiratory syndrome-related coronavirus"
     type "Spike"
-    layer "virus protein"
+    group "virus protein"
     host "Middle East respiratory syndrome-related coronavirus"
   ]
   node [
@@ -412,7 +412,7 @@ graph [
     label "51"
     disp "Spike, Severe acute respiratory syndrome coronavirus 2"
     type "Spike"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome coronavirus 2"
   ]
   node [
@@ -420,7 +420,7 @@ graph [
     label "52"
     disp "Spike, Severe acute respiratory syndrome-related coronavirus"
     type "Spike"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome-related coronavirus"
   ]
   node [
@@ -428,7 +428,7 @@ graph [
     label "53"
     disp "Spike, Human coronavirus NL63"
     type "Spike"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus NL63"
   ]
   node [
@@ -436,7 +436,7 @@ graph [
     label "54"
     disp "Spike, Human coronavirus 229E"
     type "Spike"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus 229E"
   ]
   node [
@@ -444,7 +444,7 @@ graph [
     label "55"
     disp "IRF3, Homo sapiens"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Homo sapiens"
   ]
   node [
@@ -452,7 +452,7 @@ graph [
     label "56"
     disp "IRF3, Pan troglodytes"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Pan troglodytes"
   ]
   node [
@@ -460,7 +460,7 @@ graph [
     label "57"
     disp "IRF3, Macaca mulatta"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Macaca mulatta"
   ]
   node [
@@ -468,7 +468,7 @@ graph [
     label "58"
     disp "IRF3, Ictidomys tridecemlineatus"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Ictidomys tridecemlineatus"
   ]
   node [
@@ -476,7 +476,7 @@ graph [
     label "59"
     disp "IRF3, Rhinolophus ferrumequinum"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Rhinolophus ferrumequinum"
   ]
   node [
@@ -484,7 +484,7 @@ graph [
     label "60"
     disp "IRF3, Camelus dromedarius"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Camelus dromedarius"
   ]
   node [
@@ -492,7 +492,7 @@ graph [
     label "61"
     disp "IRF3, Ovis aries"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Ovis aries"
   ]
   node [
@@ -500,7 +500,7 @@ graph [
     label "62"
     disp "IRF3, Bos taurus"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Bos taurus"
   ]
   node [
@@ -508,7 +508,7 @@ graph [
     label "63"
     disp "IRF3, Equus caballus"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Equus caballus"
   ]
   node [
@@ -516,7 +516,7 @@ graph [
     label "64"
     disp "IRF3, Rattus norvegicus"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Rattus norvegicus"
   ]
   node [
@@ -524,7 +524,7 @@ graph [
     label "65"
     disp "IRF3, Mesocricetus auratus"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Mesocricetus auratus"
   ]
   node [
@@ -532,7 +532,7 @@ graph [
     label "66"
     disp "IRF3, Mus musculus"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Mus musculus"
   ]
   node [
@@ -540,7 +540,7 @@ graph [
     label "67"
     disp "IRF3, Canis lupus familiaris"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Canis lupus familiaris"
   ]
   node [
@@ -548,7 +548,7 @@ graph [
     label "68"
     disp "IRF3, Gallus gallus"
     type "IRF3"
-    layer "host protein"
+    group "host protein"
     host "Gallus gallus"
   ]
   node [
@@ -556,7 +556,7 @@ graph [
     label "69"
     disp "N protein, Middle East respiratory syndrome-related coronavirus"
     type "N protein"
-    layer "virus protein"
+    group "virus protein"
     host "Middle East respiratory syndrome-related coronavirus"
   ]
   node [
@@ -564,7 +564,7 @@ graph [
     label "70"
     disp "N protein, Severe acute respiratory syndrome coronavirus 2"
     type "N protein"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome coronavirus 2"
   ]
   node [
@@ -572,7 +572,7 @@ graph [
     label "71"
     disp "N protein, Severe acute respiratory syndrome-related coronavirus"
     type "N protein"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome-related coronavirus"
   ]
   node [
@@ -580,7 +580,7 @@ graph [
     label "72"
     disp "N protein, Human coronavirus HKU1"
     type "N protein"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus HKU1"
   ]
   node [
@@ -588,7 +588,7 @@ graph [
     label "73"
     disp "N protein, Human coronavirus OC43"
     type "N protein"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus OC43"
   ]
   node [
@@ -596,7 +596,7 @@ graph [
     label "74"
     disp "N protein, Human coronavirus 229E"
     type "N protein"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus 229E"
   ]
   node [
@@ -604,7 +604,7 @@ graph [
     label "75"
     disp "N protein, Human coronavirus NL63"
     type "N protein"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus NL63"
   ]
   node [
@@ -612,7 +612,7 @@ graph [
     label "76"
     disp "Human coronavirus OC43"
     type "virus"
-    layer "virus"
+    group "virus"
     host "Human coronavirus OC43"
   ]
   node [
@@ -620,7 +620,7 @@ graph [
     label "77"
     disp "Human coronavirus HKU1"
     type "virus"
-    layer "virus"
+    group "virus"
     host "Human coronavirus HKU1"
   ]
   node [
@@ -628,7 +628,7 @@ graph [
     label "78"
     disp "Middle East respiratory syndrome-related coronavirus"
     type "virus"
-    layer "virus"
+    group "virus"
     host "Middle East respiratory syndrome-related coronavirus"
   ]
   node [
@@ -636,7 +636,7 @@ graph [
     label "79"
     disp "Severe acute respiratory syndrome coronavirus 2"
     type "virus"
-    layer "virus"
+    group "virus"
     host "Severe acute respiratory syndrome coronavirus 2"
   ]
   node [
@@ -644,7 +644,7 @@ graph [
     label "80"
     disp "Severe acute respiratory syndrome-related coronavirus"
     type "virus"
-    layer "virus"
+    group "virus"
     host "Severe acute respiratory syndrome-related coronavirus"
   ]
   node [
@@ -652,7 +652,7 @@ graph [
     label "81"
     disp "Human coronavirus NL63"
     type "virus"
-    layer "virus"
+    group "virus"
     host "Human coronavirus NL63"
   ]
   node [
@@ -660,7 +660,7 @@ graph [
     label "82"
     disp "Human coronavirus 229E"
     type "virus"
-    layer "virus"
+    group "virus"
     host "Human coronavirus 229E"
   ]
   node [
@@ -668,7 +668,7 @@ graph [
     label "83"
     disp "ACE2, Homo sapiens"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Homo sapiens"
   ]
   node [
@@ -676,7 +676,7 @@ graph [
     label "84"
     disp "ACE2, Pan troglodytes"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Pan troglodytes"
   ]
   node [
@@ -684,7 +684,7 @@ graph [
     label "85"
     disp "ACE2, Macaca mulatta"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Macaca mulatta"
   ]
   node [
@@ -692,7 +692,7 @@ graph [
     label "86"
     disp "ACE2, Ictidomys tridecemlineatus"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Ictidomys tridecemlineatus"
   ]
   node [
@@ -700,7 +700,7 @@ graph [
     label "87"
     disp "ACE2, Oryctolagus cuniculus"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Oryctolagus cuniculus"
   ]
   node [
@@ -708,7 +708,7 @@ graph [
     label "88"
     disp "ACE2, Equus caballus"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Equus caballus"
   ]
   node [
@@ -716,7 +716,7 @@ graph [
     label "89"
     disp "ACE2, Felis catus"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Felis catus"
   ]
   node [
@@ -724,7 +724,7 @@ graph [
     label "90"
     disp "ACE2, Camelus dromedarius"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Camelus dromedarius"
   ]
   node [
@@ -732,7 +732,7 @@ graph [
     label "91"
     disp "ACE2, Mesocricetus auratus"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Mesocricetus auratus"
   ]
   node [
@@ -740,7 +740,7 @@ graph [
     label "92"
     disp "ACE2, Sus scrofa domesticus"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Sus scrofa domesticus"
   ]
   node [
@@ -748,7 +748,7 @@ graph [
     label "93"
     disp "ACE2, Ovis aries"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Ovis aries"
   ]
   node [
@@ -756,7 +756,7 @@ graph [
     label "94"
     disp "ACE2, Mus musculus"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Mus musculus"
   ]
   node [
@@ -764,7 +764,7 @@ graph [
     label "95"
     disp "ACE2, Bos taurus"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Bos taurus"
   ]
   node [
@@ -772,7 +772,7 @@ graph [
     label "96"
     disp "ACE2, Rattus norvegicus"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Rattus norvegicus"
   ]
   node [
@@ -780,7 +780,7 @@ graph [
     label "97"
     disp "ACE2, Rhinolophus ferrumequinum"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Rhinolophus ferrumequinum"
   ]
   node [
@@ -788,7 +788,7 @@ graph [
     label "98"
     disp "ACE2, Canis lupus familiaris"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Canis lupus familiaris"
   ]
   node [
@@ -796,7 +796,7 @@ graph [
     label "99"
     disp "ACE2, Gallus gallus"
     type "ACE2"
-    layer "host protein"
+    group "host protein"
     host "Gallus gallus"
   ]
   node [
@@ -804,7 +804,7 @@ graph [
     label "100"
     disp "ORF4a, Middle East respiratory syndrome-related coronavirus"
     type "ORF4a"
-    layer "virus protein"
+    group "virus protein"
     host "Middle East respiratory syndrome-related coronavirus"
   ]
   node [
@@ -812,7 +812,7 @@ graph [
     label "101"
     disp "ORF4a, Human coronavirus 229E"
     type "ORF4a"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus 229E"
   ]
   node [
@@ -820,7 +820,7 @@ graph [
     label "102"
     disp "NF-kB, Homo sapiens"
     type "NF-kB"
-    layer "host protein"
+    group "host protein"
     host "Homo sapiens"
   ]
   node [
@@ -828,7 +828,7 @@ graph [
     label "103"
     disp "NF-kB, Pan troglodytes"
     type "NF-kB"
-    layer "host protein"
+    group "host protein"
     host "Pan troglodytes"
   ]
   node [
@@ -836,7 +836,7 @@ graph [
     label "104"
     disp "NF-kB, Macaca mulatta"
     type "NF-kB"
-    layer "host protein"
+    group "host protein"
     host "Macaca mulatta"
   ]
   node [
@@ -844,7 +844,7 @@ graph [
     label "105"
     disp "NF-kB, Bos taurus"
     type "NF-kB"
-    layer "host protein"
+    group "host protein"
     host "Bos taurus"
   ]
   node [
@@ -852,7 +852,7 @@ graph [
     label "106"
     disp "NF-kB, Rhinolophus ferrumequinum"
     type "NF-kB"
-    layer "host protein"
+    group "host protein"
     host "Rhinolophus ferrumequinum"
   ]
   node [
@@ -860,7 +860,7 @@ graph [
     label "107"
     disp "NF-kB, Ovis aries"
     type "NF-kB"
-    layer "host protein"
+    group "host protein"
     host "Ovis aries"
   ]
   node [
@@ -868,7 +868,7 @@ graph [
     label "108"
     disp "NF-kB, Ictidomys tridecemlineatus"
     type "NF-kB"
-    layer "host protein"
+    group "host protein"
     host "Ictidomys tridecemlineatus"
   ]
   node [
@@ -876,7 +876,7 @@ graph [
     label "109"
     disp "NF-kB, Mus musculus"
     type "NF-kB"
-    layer "host protein"
+    group "host protein"
     host "Mus musculus"
   ]
   node [
@@ -884,7 +884,7 @@ graph [
     label "110"
     disp "NF-kB, Mesocricetus auratus"
     type "NF-kB"
-    layer "host protein"
+    group "host protein"
     host "Mesocricetus auratus"
   ]
   node [
@@ -892,7 +892,7 @@ graph [
     label "111"
     disp "NF-kB, Rattus norvegicus"
     type "NF-kB"
-    layer "host protein"
+    group "host protein"
     host "Rattus norvegicus"
   ]
   node [
@@ -900,7 +900,7 @@ graph [
     label "112"
     disp "NF-kB, Equus caballus"
     type "NF-kB"
-    layer "host protein"
+    group "host protein"
     host "Equus caballus"
   ]
   node [
@@ -908,7 +908,7 @@ graph [
     label "113"
     disp "NF-kB, Gallus gallus"
     type "NF-kB"
-    layer "host protein"
+    group "host protein"
     host "Gallus gallus"
   ]
   node [
@@ -916,7 +916,7 @@ graph [
     label "114"
     disp "NF-kB, Camelus dromedarius"
     type "NF-kB"
-    layer "host protein"
+    group "host protein"
     host "Camelus dromedarius"
   ]
   node [
@@ -924,7 +924,7 @@ graph [
     label "115"
     disp "IRF7, Homo sapiens"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Homo sapiens"
   ]
   node [
@@ -932,7 +932,7 @@ graph [
     label "116"
     disp "IRF7, Pan troglodytes"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Pan troglodytes"
   ]
   node [
@@ -940,7 +940,7 @@ graph [
     label "117"
     disp "IRF7, Macaca mulatta"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Macaca mulatta"
   ]
   node [
@@ -948,7 +948,7 @@ graph [
     label "118"
     disp "IRF7, Ictidomys tridecemlineatus"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Ictidomys tridecemlineatus"
   ]
   node [
@@ -956,7 +956,7 @@ graph [
     label "119"
     disp "IRF7, Equus caballus"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Equus caballus"
   ]
   node [
@@ -964,7 +964,7 @@ graph [
     label "120"
     disp "IRF7, Rhinolophus ferrumequinum"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Rhinolophus ferrumequinum"
   ]
   node [
@@ -972,7 +972,7 @@ graph [
     label "121"
     disp "IRF7, Felis catus"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Felis catus"
   ]
   node [
@@ -980,7 +980,7 @@ graph [
     label "122"
     disp "IRF7, Camelus dromedarius"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Camelus dromedarius"
   ]
   node [
@@ -988,7 +988,7 @@ graph [
     label "123"
     disp "IRF7, Rattus norvegicus"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Rattus norvegicus"
   ]
   node [
@@ -996,7 +996,7 @@ graph [
     label "124"
     disp "IRF7, Mesocricetus auratus"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Mesocricetus auratus"
   ]
   node [
@@ -1004,7 +1004,7 @@ graph [
     label "125"
     disp "IRF7, Ovis aries"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Ovis aries"
   ]
   node [
@@ -1012,7 +1012,7 @@ graph [
     label "126"
     disp "IRF7, Mus musculus"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Mus musculus"
   ]
   node [
@@ -1020,7 +1020,7 @@ graph [
     label "127"
     disp "IRF7, Bos taurus"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Bos taurus"
   ]
   node [
@@ -1028,7 +1028,7 @@ graph [
     label "128"
     disp "IRF7, Gallus gallus"
     type "IRF7"
-    layer "host protein"
+    group "host protein"
     host "Gallus gallus"
   ]
   node [
@@ -1036,7 +1036,7 @@ graph [
     label "129"
     disp "MDA5, Homo sapiens"
     type "MDA5"
-    layer "host protein"
+    group "host protein"
     host "Homo sapiens"
   ]
   node [
@@ -1044,7 +1044,7 @@ graph [
     label "130"
     disp "MDA5, Pan troglodytes"
     type "MDA5"
-    layer "host protein"
+    group "host protein"
     host "Pan troglodytes"
   ]
   node [
@@ -1052,7 +1052,7 @@ graph [
     label "131"
     disp "MDA5, Macaca mulatta"
     type "MDA5"
-    layer "host protein"
+    group "host protein"
     host "Macaca mulatta"
   ]
   node [
@@ -1060,7 +1060,7 @@ graph [
     label "132"
     disp "MDA5, Equus caballus"
     type "MDA5"
-    layer "host protein"
+    group "host protein"
     host "Equus caballus"
   ]
   node [
@@ -1068,7 +1068,7 @@ graph [
     label "133"
     disp "MDA5, Ictidomys tridecemlineatus"
     type "MDA5"
-    layer "host protein"
+    group "host protein"
     host "Ictidomys tridecemlineatus"
   ]
   node [
@@ -1076,7 +1076,7 @@ graph [
     label "134"
     disp "MDA5, Felis catus"
     type "MDA5"
-    layer "host protein"
+    group "host protein"
     host "Felis catus"
   ]
   node [
@@ -1084,7 +1084,7 @@ graph [
     label "135"
     disp "MDA5, Bos taurus"
     type "MDA5"
-    layer "host protein"
+    group "host protein"
     host "Bos taurus"
   ]
   node [
@@ -1092,7 +1092,7 @@ graph [
     label "136"
     disp "MDA5, Mus musculus"
     type "MDA5"
-    layer "host protein"
+    group "host protein"
     host "Mus musculus"
   ]
   node [
@@ -1100,7 +1100,7 @@ graph [
     label "137"
     disp "MDA5, Rattus norvegicus"
     type "MDA5"
-    layer "host protein"
+    group "host protein"
     host "Rattus norvegicus"
   ]
   node [
@@ -1108,7 +1108,7 @@ graph [
     label "138"
     disp "MDA5, Mesocricetus auratus"
     type "MDA5"
-    layer "host protein"
+    group "host protein"
     host "Mesocricetus auratus"
   ]
   node [
@@ -1116,7 +1116,7 @@ graph [
     label "139"
     disp "MDA5, Canis lupus familiaris"
     type "MDA5"
-    layer "host protein"
+    group "host protein"
     host "Canis lupus familiaris"
   ]
   node [
@@ -1124,7 +1124,7 @@ graph [
     label "140"
     disp "MDA5, Gallus gallus"
     type "MDA5"
-    layer "host protein"
+    group "host protein"
     host "Gallus gallus"
   ]
   node [
@@ -1132,7 +1132,7 @@ graph [
     label "141"
     disp "PRKRA, Homo sapiens"
     type "PRKRA"
-    layer "host protein"
+    group "host protein"
     host "Homo sapiens"
   ]
   node [
@@ -1140,7 +1140,7 @@ graph [
     label "142"
     disp "PRKRA, Macaca mulatta"
     type "PRKRA"
-    layer "host protein"
+    group "host protein"
     host "Macaca mulatta"
   ]
   node [
@@ -1148,7 +1148,7 @@ graph [
     label "143"
     disp "PRKRA, Equus caballus"
     type "PRKRA"
-    layer "host protein"
+    group "host protein"
     host "Equus caballus"
   ]
   node [
@@ -1156,7 +1156,7 @@ graph [
     label "144"
     disp "PRKRA, Canis lupus familiaris"
     type "PRKRA"
-    layer "host protein"
+    group "host protein"
     host "Canis lupus familiaris"
   ]
   node [
@@ -1164,7 +1164,7 @@ graph [
     label "145"
     disp "PRKRA, Camelus dromedarius"
     type "PRKRA"
-    layer "host protein"
+    group "host protein"
     host "Camelus dromedarius"
   ]
   node [
@@ -1172,7 +1172,7 @@ graph [
     label "146"
     disp "PRKRA, Mesocricetus auratus"
     type "PRKRA"
-    layer "host protein"
+    group "host protein"
     host "Mesocricetus auratus"
   ]
   node [
@@ -1180,7 +1180,7 @@ graph [
     label "147"
     disp "PRKRA, Mus musculus"
     type "PRKRA"
-    layer "host protein"
+    group "host protein"
     host "Mus musculus"
   ]
   node [
@@ -1188,7 +1188,7 @@ graph [
     label "148"
     disp "PRKRA, Ictidomys tridecemlineatus"
     type "PRKRA"
-    layer "host protein"
+    group "host protein"
     host "Ictidomys tridecemlineatus"
   ]
   node [
@@ -1196,7 +1196,7 @@ graph [
     label "149"
     disp "PRKRA, Ovis aries"
     type "PRKRA"
-    layer "host protein"
+    group "host protein"
     host "Ovis aries"
   ]
   node [
@@ -1204,7 +1204,7 @@ graph [
     label "150"
     disp "PRKRA, Bos taurus"
     type "PRKRA"
-    layer "host protein"
+    group "host protein"
     host "Bos taurus"
   ]
   node [
@@ -1212,7 +1212,7 @@ graph [
     label "151"
     disp "PRKRA, Rattus norvegicus"
     type "PRKRA"
-    layer "host protein"
+    group "host protein"
     host "Rattus norvegicus"
   ]
   node [
@@ -1220,7 +1220,7 @@ graph [
     label "152"
     disp "PRKRA, Rhinolophus ferrumequinum"
     type "PRKRA"
-    layer "host protein"
+    group "host protein"
     host "Rhinolophus ferrumequinum"
   ]
   node [
@@ -1228,7 +1228,7 @@ graph [
     label "153"
     disp "PRKRA, Pan troglodytes"
     type "PRKRA"
-    layer "host protein"
+    group "host protein"
     host "Pan troglodytes"
   ]
   node [
@@ -1236,7 +1236,7 @@ graph [
     label "154"
     disp "ORF3b, Severe acute respiratory syndrome-related coronavirus"
     type "ORF3b"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome-related coronavirus"
   ]
   node [
@@ -1244,7 +1244,7 @@ graph [
     label "155"
     disp "ORF3b, Human coronavirus NL63"
     type "ORF3b"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus NL63"
   ]
   node [
@@ -1252,7 +1252,7 @@ graph [
     label "156"
     disp "DPP4, Homo sapiens"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Homo sapiens"
   ]
   node [
@@ -1260,7 +1260,7 @@ graph [
     label "157"
     disp "DPP4, Pan troglodytes"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Pan troglodytes"
   ]
   node [
@@ -1268,7 +1268,7 @@ graph [
     label "158"
     disp "DPP4, Macaca mulatta"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Macaca mulatta"
   ]
   node [
@@ -1276,7 +1276,7 @@ graph [
     label "159"
     disp "DPP4, Ovis aries"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Ovis aries"
   ]
   node [
@@ -1284,7 +1284,7 @@ graph [
     label "160"
     disp "DPP4, Ictidomys tridecemlineatus"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Ictidomys tridecemlineatus"
   ]
   node [
@@ -1292,7 +1292,7 @@ graph [
     label "161"
     disp "DPP4, Bos taurus"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Bos taurus"
   ]
   node [
@@ -1300,7 +1300,7 @@ graph [
     label "162"
     disp "DPP4, Felis catus"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Felis catus"
   ]
   node [
@@ -1308,7 +1308,7 @@ graph [
     label "163"
     disp "DPP4, Equus caballus"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Equus caballus"
   ]
   node [
@@ -1316,7 +1316,7 @@ graph [
     label "164"
     disp "DPP4, Rhinolophus ferrumequinum"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Rhinolophus ferrumequinum"
   ]
   node [
@@ -1324,7 +1324,7 @@ graph [
     label "165"
     disp "DPP4, Mesocricetus auratus"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Mesocricetus auratus"
   ]
   node [
@@ -1332,7 +1332,7 @@ graph [
     label "166"
     disp "DPP4, Rattus norvegicus"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Rattus norvegicus"
   ]
   node [
@@ -1340,7 +1340,7 @@ graph [
     label "167"
     disp "DPP4, Mus musculus"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Mus musculus"
   ]
   node [
@@ -1348,7 +1348,7 @@ graph [
     label "168"
     disp "DPP4, Camelus dromedarius"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Camelus dromedarius"
   ]
   node [
@@ -1356,7 +1356,7 @@ graph [
     label "169"
     disp "DPP4, Gallus gallus"
     type "DPP4"
-    layer "host protein"
+    group "host protein"
     host "Gallus gallus"
   ]
   node [
@@ -1364,7 +1364,7 @@ graph [
     label "170"
     disp "ORF6, Severe acute respiratory syndrome-related coronavirus"
     type "ORF6"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome-related coronavirus"
   ]
   node [
@@ -1372,7 +1372,7 @@ graph [
     label "171"
     disp "ORF6, Severe acute respiratory syndrome coronavirus 2"
     type "ORF6"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome coronavirus 2"
   ]
   node [
@@ -1380,7 +1380,7 @@ graph [
     label "172"
     disp "STAT2, Homo sapiens"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Homo sapiens"
   ]
   node [
@@ -1388,7 +1388,7 @@ graph [
     label "173"
     disp "STAT2, Pan troglodytes"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Pan troglodytes"
   ]
   node [
@@ -1396,7 +1396,7 @@ graph [
     label "174"
     disp "STAT2, Macaca mulatta"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Macaca mulatta"
   ]
   node [
@@ -1404,7 +1404,7 @@ graph [
     label "175"
     disp "STAT2, Felis catus"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Felis catus"
   ]
   node [
@@ -1412,7 +1412,7 @@ graph [
     label "176"
     disp "STAT2, Canis lupus familiaris"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Canis lupus familiaris"
   ]
   node [
@@ -1420,7 +1420,7 @@ graph [
     label "177"
     disp "STAT2, Camelus dromedarius"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Camelus dromedarius"
   ]
   node [
@@ -1428,7 +1428,7 @@ graph [
     label "178"
     disp "STAT2, Rhinolophus ferrumequinum"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Rhinolophus ferrumequinum"
   ]
   node [
@@ -1436,7 +1436,7 @@ graph [
     label "179"
     disp "STAT2, Equus caballus"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Equus caballus"
   ]
   node [
@@ -1444,7 +1444,7 @@ graph [
     label "180"
     disp "STAT2, Ovis aries"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Ovis aries"
   ]
   node [
@@ -1452,7 +1452,7 @@ graph [
     label "181"
     disp "STAT2, Bos taurus"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Bos taurus"
   ]
   node [
@@ -1460,7 +1460,7 @@ graph [
     label "182"
     disp "STAT2, Mesocricetus auratus"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Mesocricetus auratus"
   ]
   node [
@@ -1468,7 +1468,7 @@ graph [
     label "183"
     disp "STAT2, Rattus norvegicus"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Rattus norvegicus"
   ]
   node [
@@ -1476,7 +1476,7 @@ graph [
     label "184"
     disp "STAT2, Ictidomys tridecemlineatus"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Ictidomys tridecemlineatus"
   ]
   node [
@@ -1484,7 +1484,7 @@ graph [
     label "185"
     disp "STAT2, Mus musculus"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Mus musculus"
   ]
   node [
@@ -1492,7 +1492,7 @@ graph [
     label "186"
     disp "STAT2, Gallus gallus"
     type "STAT2"
-    layer "host protein"
+    group "host protein"
     host "Gallus gallus"
   ]
   node [
@@ -1500,7 +1500,7 @@ graph [
     label "187"
     disp "PLpro, Middle East respiratory syndrome-related coronavirus"
     type "PLpro"
-    layer "virus protein"
+    group "virus protein"
     host "Middle East respiratory syndrome-related coronavirus"
   ]
   node [
@@ -1508,7 +1508,7 @@ graph [
     label "188"
     disp "PLpro, Severe acute respiratory syndrome-related coronavirus"
     type "PLpro"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome-related coronavirus"
   ]
   node [
@@ -1516,7 +1516,7 @@ graph [
     label "189"
     disp "PLpro, Severe acute respiratory syndrome coronavirus 2"
     type "PLpro"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome coronavirus 2"
   ]
   node [
@@ -1524,7 +1524,7 @@ graph [
     label "190"
     disp "PLpro, Human coronavirus OC43"
     type "PLpro"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus OC43"
   ]
   node [
@@ -1532,7 +1532,7 @@ graph [
     label "191"
     disp "PLpro, Human coronavirus HKU1"
     type "PLpro"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus HKU1"
   ]
   node [
@@ -1540,7 +1540,7 @@ graph [
     label "192"
     disp "Homo sapiens"
     type "host"
-    layer "host"
+    group "host"
     host "Homo sapiens"
   ]
   node [
@@ -1548,7 +1548,7 @@ graph [
     label "193"
     disp "Mus musculus"
     type "host"
-    layer "host"
+    group "host"
     host "Mus musculus"
   ]
   node [
@@ -1556,7 +1556,7 @@ graph [
     label "194"
     disp "Rattus norvegicus"
     type "host"
-    layer "host"
+    group "host"
     host "Rattus norvegicus"
   ]
   node [
@@ -1564,7 +1564,7 @@ graph [
     label "195"
     disp "Canis lupus familiaris"
     type "host"
-    layer "host"
+    group "host"
     host "Canis lupus familiaris"
   ]
   node [
@@ -1572,7 +1572,7 @@ graph [
     label "196"
     disp "Camelus dromedarius"
     type "host"
-    layer "host"
+    group "host"
     host "Camelus dromedarius"
   ]
   node [
@@ -1580,7 +1580,7 @@ graph [
     label "197"
     disp "Felis catus"
     type "host"
-    layer "host"
+    group "host"
     host "Felis catus"
   ]
   node [
@@ -1588,7 +1588,7 @@ graph [
     label "198"
     disp "Ictidomys tridecemlineatus"
     type "host"
-    layer "host"
+    group "host"
     host "Ictidomys tridecemlineatus"
   ]
   node [
@@ -1596,7 +1596,7 @@ graph [
     label "199"
     disp "Bos taurus"
     type "host"
-    layer "host"
+    group "host"
     host "Bos taurus"
   ]
   node [
@@ -1604,7 +1604,7 @@ graph [
     label "200"
     disp "Pan troglodytes"
     type "host"
-    layer "host"
+    group "host"
     host "Pan troglodytes"
   ]
   node [
@@ -1612,7 +1612,7 @@ graph [
     label "201"
     disp "Gallus gallus"
     type "host"
-    layer "host"
+    group "host"
     host "Gallus gallus"
   ]
   node [
@@ -1620,7 +1620,7 @@ graph [
     label "202"
     disp "Oryctolagus cuniculus"
     type "host"
-    layer "host"
+    group "host"
     host "Oryctolagus cuniculus"
   ]
   node [
@@ -1628,7 +1628,7 @@ graph [
     label "203"
     disp "Equus caballus"
     type "host"
-    layer "host"
+    group "host"
     host "Equus caballus"
   ]
   node [
@@ -1636,7 +1636,7 @@ graph [
     label "204"
     disp "Macaca mulatta"
     type "host"
-    layer "host"
+    group "host"
     host "Macaca mulatta"
   ]
   node [
@@ -1644,7 +1644,7 @@ graph [
     label "205"
     disp "Ovis aries"
     type "host"
-    layer "host"
+    group "host"
     host "Ovis aries"
   ]
   node [
@@ -1652,7 +1652,7 @@ graph [
     label "206"
     disp "Sus scrofa domesticus"
     type "host"
-    layer "host"
+    group "host"
     host "Sus scrofa domesticus"
   ]
   node [
@@ -1660,7 +1660,7 @@ graph [
     label "207"
     disp "Rhinolophus ferrumequinum"
     type "host"
-    layer "host"
+    group "host"
     host "Rhinolophus ferrumequinum"
   ]
   node [
@@ -1668,7 +1668,7 @@ graph [
     label "208"
     disp "Mesocricetus auratus"
     type "host"
-    layer "host"
+    group "host"
     host "Mesocricetus auratus"
   ]
   node [
@@ -1676,7 +1676,7 @@ graph [
     label "209"
     disp "M protein, Middle East respiratory syndrome-related coronavirus"
     type "M protein"
-    layer "virus protein"
+    group "virus protein"
     host "Middle East respiratory syndrome-related coronavirus"
   ]
   node [
@@ -1684,7 +1684,7 @@ graph [
     label "210"
     disp "M protein, Human coronavirus HKU1"
     type "M protein"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus HKU1"
   ]
   node [
@@ -1692,7 +1692,7 @@ graph [
     label "211"
     disp "M protein, Severe acute respiratory syndrome-related coronavirus"
     type "M protein"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome-related coronavirus"
   ]
   node [
@@ -1700,7 +1700,7 @@ graph [
     label "212"
     disp "M protein, Severe acute respiratory syndrome coronavirus 2"
     type "M protein"
-    layer "virus protein"
+    group "virus protein"
     host "Severe acute respiratory syndrome coronavirus 2"
   ]
   node [
@@ -1708,7 +1708,7 @@ graph [
     label "213"
     disp "M protein, Human coronavirus OC43"
     type "M protein"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus OC43"
   ]
   node [
@@ -1716,7 +1716,7 @@ graph [
     label "214"
     disp "M protein, Human coronavirus NL63"
     type "M protein"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus NL63"
   ]
   node [
@@ -1724,7 +1724,7 @@ graph [
     label "215"
     disp "M protein, Human coronavirus 229E"
     type "M protein"
-    layer "virus protein"
+    group "virus protein"
     host "Human coronavirus 229E"
   ]
   node [
@@ -1732,7 +1732,7 @@ graph [
     label "216"
     disp "TBK1, Homo sapiens"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Homo sapiens"
   ]
   node [
@@ -1740,7 +1740,7 @@ graph [
     label "217"
     disp "TBK1, Pan troglodytes"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Pan troglodytes"
   ]
   node [
@@ -1748,7 +1748,7 @@ graph [
     label "218"
     disp "TBK1, Macaca mulatta"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Macaca mulatta"
   ]
   node [
@@ -1756,7 +1756,7 @@ graph [
     label "219"
     disp "TBK1, Ictidomys tridecemlineatus"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Ictidomys tridecemlineatus"
   ]
   node [
@@ -1764,7 +1764,7 @@ graph [
     label "220"
     disp "TBK1, Felis catus"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Felis catus"
   ]
   node [
@@ -1772,7 +1772,7 @@ graph [
     label "221"
     disp "TBK1, Bos taurus"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Bos taurus"
   ]
   node [
@@ -1780,7 +1780,7 @@ graph [
     label "222"
     disp "TBK1, Rhinolophus ferrumequinum"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Rhinolophus ferrumequinum"
   ]
   node [
@@ -1788,7 +1788,7 @@ graph [
     label "223"
     disp "TBK1, Ovis aries"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Ovis aries"
   ]
   node [
@@ -1796,7 +1796,7 @@ graph [
     label "224"
     disp "TBK1, Canis lupus familiaris"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Canis lupus familiaris"
   ]
   node [
@@ -1804,7 +1804,7 @@ graph [
     label "225"
     disp "TBK1, Equus caballus"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Equus caballus"
   ]
   node [
@@ -1812,7 +1812,7 @@ graph [
     label "226"
     disp "TBK1, Mesocricetus auratus"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Mesocricetus auratus"
   ]
   node [
@@ -1820,7 +1820,7 @@ graph [
     label "227"
     disp "TBK1, Mus musculus"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Mus musculus"
   ]
   node [
@@ -1828,7 +1828,7 @@ graph [
     label "228"
     disp "TBK1, Camelus dromedarius"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Camelus dromedarius"
   ]
   node [
@@ -1836,7 +1836,7 @@ graph [
     label "229"
     disp "TBK1, Rattus norvegicus"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Rattus norvegicus"
   ]
   node [
@@ -1844,7 +1844,7 @@ graph [
     label "230"
     disp "TBK1, Gallus gallus"
     type "TBK1"
-    layer "host protein"
+    group "host protein"
     host "Gallus gallus"
   ]
   node [
@@ -1852,7 +1852,7 @@ graph [
     label "231"
     disp "MAVS, Homo sapiens"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Homo sapiens"
   ]
   node [
@@ -1860,7 +1860,7 @@ graph [
     label "232"
     disp "MAVS, Pan troglodytes"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Pan troglodytes"
   ]
   node [
@@ -1868,7 +1868,7 @@ graph [
     label "233"
     disp "MAVS, Macaca mulatta"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Macaca mulatta"
   ]
   node [
@@ -1876,7 +1876,7 @@ graph [
     label "234"
     disp "MAVS, Ovis aries"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Ovis aries"
   ]
   node [
@@ -1884,7 +1884,7 @@ graph [
     label "235"
     disp "MAVS, Equus caballus"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Equus caballus"
   ]
   node [
@@ -1892,7 +1892,7 @@ graph [
     label "236"
     disp "MAVS, Bos taurus"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Bos taurus"
   ]
   node [
@@ -1900,7 +1900,7 @@ graph [
     label "237"
     disp "MAVS, Rhinolophus ferrumequinum"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Rhinolophus ferrumequinum"
   ]
   node [
@@ -1908,7 +1908,7 @@ graph [
     label "238"
     disp "MAVS, Felis catus"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Felis catus"
   ]
   node [
@@ -1916,7 +1916,7 @@ graph [
     label "239"
     disp "MAVS, Camelus dromedarius"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Camelus dromedarius"
   ]
   node [
@@ -1924,7 +1924,7 @@ graph [
     label "240"
     disp "MAVS, Ictidomys tridecemlineatus"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Ictidomys tridecemlineatus"
   ]
   node [
@@ -1932,7 +1932,7 @@ graph [
     label "241"
     disp "MAVS, Canis lupus familiaris"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Canis lupus familiaris"
   ]
   node [
@@ -1940,7 +1940,7 @@ graph [
     label "242"
     disp "MAVS, Mesocricetus auratus"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Mesocricetus auratus"
   ]
   node [
@@ -1948,7 +1948,7 @@ graph [
     label "243"
     disp "MAVS, Mus musculus"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Mus musculus"
   ]
   node [
@@ -1956,7 +1956,7 @@ graph [
     label "244"
     disp "MAVS, Rattus norvegicus"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Rattus norvegicus"
   ]
   node [
@@ -1964,7 +1964,7 @@ graph [
     label "245"
     disp "MAVS, Gallus gallus"
     type "MAVS"
-    layer "host protein"
+    group "host protein"
     host "Gallus gallus"
   ]
   edge [

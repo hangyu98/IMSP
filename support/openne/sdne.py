@@ -6,7 +6,7 @@ __author__ = "Wang Binlu"
 __email__ = "wblmail@whu.edu.cn"
 
 
-def fc_op(input_op, name, n_out, layer_collector, act_func=tf.nn.leaky_relu):
+def fc_op(input_op, name, n_out, group_collector, act_func=tf.nn.leaky_relu):
     n_in = input_op.get_shape()[-1]
     with tf.compat.v1.name_scope(name) as scope:
         
@@ -17,28 +17,28 @@ def fc_op(input_op, name, n_out, layer_collector, act_func=tf.nn.leaky_relu):
 
         fc = tf.add(tf.matmul(input_op, kernel), biases)
         activation = act_func(fc, name=scope + 'act')
-        layer_collector.append([kernel, biases])
+        group_collector.append([kernel, biases])
         return activation
 
 
 class SDNE(object):
-    def __init__(self, graph, encoder_layer_list, alpha=1e-6, beta=5., nu1=1e-5, nu2=1e-4,
+    def __init__(self, graph, encoder_group_list, alpha=1e-6, beta=5., nu1=1e-5, nu2=1e-4,
                  batch_size=200, epoch=100, learning_rate=None):
         """
-        encoder_layer_list: a list of numbers of the neuron at each ecdoer layer, the last number is the
+        encoder_group_list: a list of numbers of the neuron at each ecdoer layer, the last number is the
         dimension of the output node representation
         Eg:
-        if node size is 2000, encoder_layer_list=[1000, 128], then the whole neural network would be
+        if node size is 2000, encoder_group_list=[1000, 128], then the whole neural network would be
         2000(input)->1000->128->1000->2000, SDNE extract the middle layer as the node representation
         """
         self.g = graph
 
         self.node_size = self.g.G.number_of_nodes()
-        self.dim = encoder_layer_list[-1]
+        self.dim = encoder_group_list[-1]
 
-        self.encoder_layer_list = [self.node_size]
-        self.encoder_layer_list.extend(encoder_layer_list)
-        self.encoder_layer_num = len(encoder_layer_list)+1
+        self.encoder_group_list = [self.node_size]
+        self.encoder_group_list.extend(encoder_group_list)
+        self.encoder_group_num = len(encoder_group_list)+1
 
         self.alpha = alpha
         self.beta = beta
@@ -80,28 +80,28 @@ class SDNE(object):
 
         fc = AdjBatch
         scope_name = 'encoder'
-        layer_collector = []
+        group_collector = []
 
         with tf.name_scope(scope_name):
-            for i in range(1, self.encoder_layer_num):
+            for i in range(1, self.encoder_group_num):
                 fc = fc_op(fc,
                            name=scope_name+str(i),
-                           n_out=self.encoder_layer_list[i],
-                           layer_collector=layer_collector)
+                           n_out=self.encoder_group_list[i],
+                           group_collector=group_collector)
 
         _embeddings = fc
 
         scope_name = 'decoder'
         with tf.name_scope(scope_name):
-            for i in range(self.encoder_layer_num-2, 0, -1):
+            for i in range(self.encoder_group_num-2, 0, -1):
                 fc = fc_op(fc,
                            name=scope_name+str(i),
-                           n_out=self.encoder_layer_list[i],
-                           layer_collector=layer_collector)
+                           n_out=self.encoder_group_list[i],
+                           group_collector=group_collector)
             fc = fc_op(fc,
                        name=scope_name+str(0),
-                       n_out=self.encoder_layer_list[0],
-                       layer_collector=layer_collector,)
+                       n_out=self.encoder_group_list[0],
+                       group_collector=group_collector,)
 
         _embeddings_norm = tf.reduce_sum(tf.square(_embeddings), 1, keepdims=True)
 
@@ -117,7 +117,7 @@ class SDNE(object):
 
         L = L_2nd + self.alpha * L_1st
 
-        for param in layer_collector:
+        for param in group_collector:
             L += self.nu1 * tf.reduce_sum(tf.abs(param[0])) + self.nu2 * tf.reduce_sum(tf.square(param[0]))
 
         optimizer = tf.compat.v1.train.AdamOptimizer(self.lr)
@@ -157,16 +157,16 @@ class SDNE(object):
 
 
 class SDNE2(object):
-    def __init__(self, graph, encoder_layer_list, alpha=1e-6, beta=5., nu1=1e-5, nu2=1e-5,
+    def __init__(self, graph, encoder_group_list, alpha=1e-6, beta=5., nu1=1e-5, nu2=1e-5,
                  batch_size=100, max_iter=2000, learning_rate=None):
 
         self.g = graph
 
         self.node_size = self.g.G.number_of_nodes()
-        self.rep_size = encoder_layer_list[-1]
+        self.rep_size = encoder_group_list[-1]
 
-        self.encoder_layer_list = [self.node_size] + encoder_layer_list
-        self.encoder_layer_num = len(encoder_layer_list)+1
+        self.encoder_group_list = [self.node_size] + encoder_group_list
+        self.encoder_group_num = len(encoder_group_list)+1
 
         self.alpha = alpha
         self.beta = beta
@@ -198,23 +198,23 @@ class SDNE2(object):
             adj[look_up[edge[0]]][look_up[edge[1]]] = self.g.G[edge[0]][edge[1]]['weight']
         return adj
 
-    def model(self, node, layer_collector, scope_name):
+    def model(self, node, group_collector, scope_name):
         fc = node
         with tf.name_scope(scope_name + 'encoder'):
-            for i in range(1, self.encoder_layer_num):
+            for i in range(1, self.encoder_group_num):
                 fc = fc_op(fc,
                            name=scope_name+str(i),
-                           n_out=self.encoder_layer_list[i],
-                           layer_collector=layer_collector)
+                           n_out=self.encoder_group_list[i],
+                           group_collector=group_collector)
 
         _embeddings = fc
 
         with tf.name_scope(scope_name + 'decoder'):
-            for i in range(self.encoder_layer_num-2, -1, -1):
+            for i in range(self.encoder_group_num-2, -1, -1):
                 fc = fc_op(fc,
                            name=scope_name+str(i),
-                           n_out=self.encoder_layer_list[i],
-                           layer_collector=layer_collector)
+                           n_out=self.encoder_group_list[i],
+                           group_collector=group_collector)
 
         return _embeddings, fc
 
@@ -257,10 +257,10 @@ class SDNE2(object):
         BmaskB = tf.placeholder(tf.float32, [None, self.node_size], name='beta_mask_b')
         Weights = tf.placeholder(tf.float32, [None, 1], name='adj_weights')
 
-        layer_collector = []
+        group_collector = []
         nodes = tf.concat([NodeA, NodeB], axis=0)
         bmasks = tf.concat([BmaskA, BmaskB], axis=0)
-        emb, recons = self.model(nodes, layer_collector, 'reconstructor')
+        emb, recons = self.model(nodes, group_collector, 'reconstructor')
         embs = tf.split(emb, num_or_size_splits=2, axis=0)
 
         L_1st = tf.reduce_sum(Weights * (tf.reduce_sum(tf.square(embs[0] - embs[1]), axis=1)))
@@ -269,7 +269,7 @@ class SDNE2(object):
 
         L = L_2nd + self.alpha * L_1st
 
-        for param in layer_collector:
+        for param in group_collector:
             L += self.nu1 * tf.reduce_sum(tf.abs(param[0])) + self.nu2 * tf.reduce_sum(tf.square(param[0]))
 
         # lr = tf.train.exponential_decay(1e-6, self.max_iter, decay_steps=1, decay_rate=0.9999)
