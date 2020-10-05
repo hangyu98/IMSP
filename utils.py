@@ -295,7 +295,8 @@ def filter_PPI_pred(G, edge_type, binding):
                 src = str(e[0])
                 dst = str(e[1])
                 if not ((src, dst) in existed or (dst, src) in existed) and \
-                        G.nodes[src]['group'] != G.nodes[dst]['group']:
+                        G.nodes[src]['group'] != G.nodes[dst]['group'] and \
+                        'protein' in G.nodes[src]['group'] and 'protein' in G.nodes[dst]['group']:
                     basic_info = src + ',' + dst + ',' + G.nodes[src]['type'] + ' ' + \
                                  G.nodes[src]['host'] + ',' + G.nodes[dst]['type'] + ' ' + \
                                  G.nodes[dst]['host'] + ',' + str(edge_data['probability_estimate']) + ',' + \
