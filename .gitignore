@@ -134,3 +134,7 @@ data/classifier/y_train.txt
 data/classifier/y_copy.txt
 
 visualization
+
+/.idea/
+
+/.env/
