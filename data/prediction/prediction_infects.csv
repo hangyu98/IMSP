@@ -1,65 +1,65 @@
-76,195,virus Human coronavirus OC43,host Canis lupus familiaris,0.8741429261057818,strong,unreliable
-76,196,virus Human coronavirus OC43,host Camelus dromedarius,0.7719090254385013,strong,unreliable
-76,197,virus Human coronavirus OC43,host Felis catus,0.9722879660326781,strong,unreliable
-76,204,virus Human coronavirus OC43,host Macaca mulatta,0.8401636206936774,strong,unreliable
-76,207,virus Human coronavirus OC43,host Rhinolophus ferrumequinum,0.9999072387941785,strong,unreliable
-76,208,virus Human coronavirus OC43,host Mesocricetus auratus,0.9604740920331947,strong,unreliable
-76,198,virus Human coronavirus OC43,host Ictidomys tridecemlineatus,0.7453238073205397,weak,unreliable
-77,195,virus Human coronavirus HKU1,host Canis lupus familiaris,0.9951433114233232,strong,reliable
-77,196,virus Human coronavirus HKU1,host Camelus dromedarius,0.9880183812629049,strong,unreliable
-77,197,virus Human coronavirus HKU1,host Felis catus,0.9990035521411683,strong,reliable
-77,199,virus Human coronavirus HKU1,host Bos taurus,0.9949968874345194,strong,unreliable
-77,204,virus Human coronavirus HKU1,host Macaca mulatta,0.9944280851877075,strong,reliable
-77,206,virus Human coronavirus HKU1,host Sus scrofa domesticus,0.6344175871097919,weak,unreliable
-77,208,virus Human coronavirus HKU1,host Mesocricetus auratus,0.9986248200377983,strong,reliable
-77,198,virus Human coronavirus HKU1,host Ictidomys tridecemlineatus,0.8005365459692575,weak,unreliable
-78,197,virus Middle East respiratory syndrome-related coronavirus,host Felis catus,0.8527972610433944,strong,unreliable
-78,204,virus Middle East respiratory syndrome-related coronavirus,host Macaca mulatta,0.5754191611627208,strong,unreliable
-78,207,virus Middle East respiratory syndrome-related coronavirus,host Rhinolophus ferrumequinum,0.9993351339876997,strong,unreliable
-78,208,virus Middle East respiratory syndrome-related coronavirus,host Mesocricetus auratus,0.6597517546399971,strong,unreliable
-78,199,virus Middle East respiratory syndrome-related coronavirus,host Bos taurus,0.5449532933378451,weak,unreliable
-78,205,virus Middle East respiratory syndrome-related coronavirus,host Ovis aries,0.5069196021042026,weak,unreliable
-79,193,virus Severe acute respiratory syndrome coronavirus 2,host Mus musculus,0.9999673377597749,strong,reliable
-79,194,virus Severe acute respiratory syndrome coronavirus 2,host Rattus norvegicus,0.9994645839979032,strong,reliable
-79,196,virus Severe acute respiratory syndrome coronavirus 2,host Camelus dromedarius,0.6823626024486129,weak,unreliable
-80,195,virus Severe acute respiratory syndrome-related coronavirus,host Canis lupus familiaris,0.9993734859122788,strong,reliable
-80,196,virus Severe acute respiratory syndrome-related coronavirus,host Camelus dromedarius,0.9893945297296165,strong,unreliable
-80,199,virus Severe acute respiratory syndrome-related coronavirus,host Bos taurus,0.8991245885772856,strong,unreliable
-80,204,virus Severe acute respiratory syndrome-related coronavirus,host Macaca mulatta,0.9993997959980168,strong,reliable
-80,205,virus Severe acute respiratory syndrome-related coronavirus,host Ovis aries,0.6868252334452013,weak,unreliable
-80,206,virus Severe acute respiratory syndrome-related coronavirus,host Sus scrofa domesticus,0.7519806604637774,weak,unreliable
-80,208,virus Severe acute respiratory syndrome-related coronavirus,host Mesocricetus auratus,0.9997574804588631,strong,reliable
-81,193,virus Human coronavirus NL63,host Mus musculus,0.99865570972857,strong,reliable
-81,194,virus Human coronavirus NL63,host Rattus norvegicus,0.9995757595709958,strong,reliable
-81,195,virus Human coronavirus NL63,host Canis lupus familiaris,0.9231962179347937,strong,reliable
-81,197,virus Human coronavirus NL63,host Felis catus,0.9958223392056783,strong,reliable
-81,199,virus Human coronavirus NL63,host Bos taurus,0.5798349764299944,weak,unreliable
-81,204,virus Human coronavirus NL63,host Macaca mulatta,0.6645099540081889,strong,reliable
-81,208,virus Human coronavirus NL63,host Mesocricetus auratus,0.7857372788329455,strong,reliable
-82,193,virus Human coronavirus 229E,host Mus musculus,0.9812213974880561,strong,unreliable
-82,194,virus Human coronavirus 229E,host Rattus norvegicus,0.9978430735942717,strong,unreliable
-82,196,virus Human coronavirus 229E,host Camelus dromedarius,0.590358464774443,weak,unreliable
-82,197,virus Human coronavirus 229E,host Felis catus,0.7429684830040639,weak,unreliable
-82,199,virus Human coronavirus 229E,host Bos taurus,0.711442459933837,weak,unreliable
-76,203,virus Human coronavirus OC43,host Equus caballus,0.9676242023448869,weak,unreliable
-76,205,virus Human coronavirus OC43,host Ovis aries,0.9998622373041748,weak,unreliable
-77,205,virus Human coronavirus HKU1,host Ovis aries,0.9906395356118348,weak,unreliable
-78,198,virus Middle East respiratory syndrome-related coronavirus,host Ictidomys tridecemlineatus,0.8831143933165081,weak,unreliable
-79,206,virus Severe acute respiratory syndrome coronavirus 2,host Sus scrofa domesticus,0.7108914807068204,weak,unreliable
-81,196,virus Human coronavirus NL63,host Camelus dromedarius,0.9961052935309785,weak,unreliable
-82,205,virus Human coronavirus 229E,host Ovis aries,0.757757367752592,weak,unreliable
-82,195,virus Human coronavirus 229E,host Canis lupus familiaris,0.9402797118183359,weak,unreliable
-82,198,virus Human coronavirus 229E,host Ictidomys tridecemlineatus,0.9682605889584677,weak,unreliable
-82,204,virus Human coronavirus 229E,host Macaca mulatta,0.9969882934909619,weak,unreliable
-82,208,virus Human coronavirus 229E,host Mesocricetus auratus,0.9933846059557639,weak,reliable
-78,203,virus Middle East respiratory syndrome-related coronavirus,host Equus caballus,0.5415238572519655,weak,unreliable
-76,206,virus Human coronavirus OC43,host Sus scrofa domesticus,0.8290053268347625,weak,unreliable
-78,201,virus Middle East respiratory syndrome-related coronavirus,host Gallus gallus,0.5863172534990815,weak,unreliable
-78,206,virus Middle East respiratory syndrome-related coronavirus,host Sus scrofa domesticus,0.9489174336866303,weak,unreliable
-79,202,virus Severe acute respiratory syndrome coronavirus 2,host Oryctolagus cuniculus,0.5906558110124067,weak,unreliable
-79,205,virus Severe acute respiratory syndrome coronavirus 2,host Ovis aries,0.5431318065061403,weak,reliable
-80,201,virus Severe acute respiratory syndrome-related coronavirus,host Gallus gallus,0.8127558903378549,weak,unreliable
-79,198,virus Severe acute respiratory syndrome coronavirus 2,host Ictidomys tridecemlineatus,0.7406501360535191,weak,reliable
-79,199,virus Severe acute respiratory syndrome coronavirus 2,host Bos taurus,0.6100126390270395,weak,reliable
-79,201,virus Severe acute respiratory syndrome coronavirus 2,host Gallus gallus,0.6688833664499231,weak,unreliable
-80,198,virus Severe acute respiratory syndrome-related coronavirus,host Ictidomys tridecemlineatus,0.5097546879508902,weak,unreliable
+76,195,virus Human coronavirus OC43,host Canis lupus familiaris,0.8741429261057818,strong,unlikely
+76,196,virus Human coronavirus OC43,host Camelus dromedarius,0.7719090254385013,strong,unlikely
+76,197,virus Human coronavirus OC43,host Felis catus,0.9722879660326781,strong,unlikely
+76,204,virus Human coronavirus OC43,host Macaca mulatta,0.8401636206936774,strong,unlikely
+76,207,virus Human coronavirus OC43,host Rhinolophus ferrumequinum,0.9999072387941785,strong,unlikely
+76,208,virus Human coronavirus OC43,host Mesocricetus auratus,0.9604740920331947,strong,unlikely
+76,198,virus Human coronavirus OC43,host Ictidomys tridecemlineatus,0.7453238073205397,weak,unlikely
+77,195,virus Human coronavirus HKU1,host Canis lupus familiaris,0.9951433114233232,strong,likely
+77,196,virus Human coronavirus HKU1,host Camelus dromedarius,0.9880183812629049,strong,unlikely
+77,197,virus Human coronavirus HKU1,host Felis catus,0.9990035521411683,strong,likely
+77,199,virus Human coronavirus HKU1,host Bos taurus,0.9949968874345194,strong,unlikely
+77,204,virus Human coronavirus HKU1,host Macaca mulatta,0.9944280851877075,strong,likely
+77,206,virus Human coronavirus HKU1,host Sus scrofa domesticus,0.6344175871097919,weak,unlikely
+77,208,virus Human coronavirus HKU1,host Mesocricetus auratus,0.9986248200377983,strong,likely
+77,198,virus Human coronavirus HKU1,host Ictidomys tridecemlineatus,0.8005365459692575,weak,unlikely
+78,197,virus Middle East respiratory syndrome-related coronavirus,host Felis catus,0.8527972610433944,strong,unlikely
+78,204,virus Middle East respiratory syndrome-related coronavirus,host Macaca mulatta,0.5754191611627208,strong,unlikely
+78,207,virus Middle East respiratory syndrome-related coronavirus,host Rhinolophus ferrumequinum,0.9993351339876997,strong,unlikely
+78,208,virus Middle East respiratory syndrome-related coronavirus,host Mesocricetus auratus,0.6597517546399971,strong,unlikely
+78,199,virus Middle East respiratory syndrome-related coronavirus,host Bos taurus,0.5449532933378451,weak,unlikely
+78,205,virus Middle East respiratory syndrome-related coronavirus,host Ovis aries,0.5069196021042026,weak,unlikely
+79,193,virus Severe acute respiratory syndrome coronavirus 2,host Mus musculus,0.9999673377597749,strong,likely
+79,194,virus Severe acute respiratory syndrome coronavirus 2,host Rattus norvegicus,0.9994645839979032,strong,likely
+79,196,virus Severe acute respiratory syndrome coronavirus 2,host Camelus dromedarius,0.6823626024486129,weak,unlikely
+80,195,virus Severe acute respiratory syndrome-related coronavirus,host Canis lupus familiaris,0.9993734859122788,strong,likely
+80,196,virus Severe acute respiratory syndrome-related coronavirus,host Camelus dromedarius,0.9893945297296165,strong,unlikely
+80,199,virus Severe acute respiratory syndrome-related coronavirus,host Bos taurus,0.8991245885772856,strong,unlikely
+80,204,virus Severe acute respiratory syndrome-related coronavirus,host Macaca mulatta,0.9993997959980168,strong,likely
+80,205,virus Severe acute respiratory syndrome-related coronavirus,host Ovis aries,0.6868252334452013,weak,unlikely
+80,206,virus Severe acute respiratory syndrome-related coronavirus,host Sus scrofa domesticus,0.7519806604637774,weak,unlikely
+80,208,virus Severe acute respiratory syndrome-related coronavirus,host Mesocricetus auratus,0.9997574804588631,strong,likely
+81,193,virus Human coronavirus NL63,host Mus musculus,0.99865570972857,strong,likely
+81,194,virus Human coronavirus NL63,host Rattus norvegicus,0.9995757595709958,strong,likely
+81,195,virus Human coronavirus NL63,host Canis lupus familiaris,0.9231962179347937,strong,likely
+81,197,virus Human coronavirus NL63,host Felis catus,0.9958223392056783,strong,likely
+81,199,virus Human coronavirus NL63,host Bos taurus,0.5798349764299944,weak,unlikely
+81,204,virus Human coronavirus NL63,host Macaca mulatta,0.6645099540081889,strong,likely
+81,208,virus Human coronavirus NL63,host Mesocricetus auratus,0.7857372788329455,strong,likely
+82,193,virus Human coronavirus 229E,host Mus musculus,0.9812213974880561,strong,unlikely
+82,194,virus Human coronavirus 229E,host Rattus norvegicus,0.9978430735942717,strong,unlikely
+82,196,virus Human coronavirus 229E,host Camelus dromedarius,0.590358464774443,weak,unlikely
+82,197,virus Human coronavirus 229E,host Felis catus,0.7429684830040639,weak,unlikely
+82,199,virus Human coronavirus 229E,host Bos taurus,0.711442459933837,weak,unlikely
+76,203,virus Human coronavirus OC43,host Equus caballus,0.9676242023448869,weak,unlikely
+76,205,virus Human coronavirus OC43,host Ovis aries,0.9998622373041748,weak,unlikely
+77,205,virus Human coronavirus HKU1,host Ovis aries,0.9906395356118348,weak,unlikely
+78,198,virus Middle East respiratory syndrome-related coronavirus,host Ictidomys tridecemlineatus,0.8831143933165081,weak,unlikely
+79,206,virus Severe acute respiratory syndrome coronavirus 2,host Sus scrofa domesticus,0.7108914807068204,weak,unlikely
+81,196,virus Human coronavirus NL63,host Camelus dromedarius,0.9961052935309785,weak,unlikely
+82,205,virus Human coronavirus 229E,host Ovis aries,0.757757367752592,weak,unlikely
+82,195,virus Human coronavirus 229E,host Canis lupus familiaris,0.9402797118183359,weak,unlikely
+82,198,virus Human coronavirus 229E,host Ictidomys tridecemlineatus,0.9682605889584677,weak,unlikely
+82,204,virus Human coronavirus 229E,host Macaca mulatta,0.9969882934909619,weak,unlikely
+82,208,virus Human coronavirus 229E,host Mesocricetus auratus,0.9933846059557639,weak,likely
+78,203,virus Middle East respiratory syndrome-related coronavirus,host Equus caballus,0.5415238572519655,weak,unlikely
+76,206,virus Human coronavirus OC43,host Sus scrofa domesticus,0.8290053268347625,weak,unlikely
+78,201,virus Middle East respiratory syndrome-related coronavirus,host Gallus gallus,0.5863172534990815,weak,unlikely
+78,206,virus Middle East respiratory syndrome-related coronavirus,host Sus scrofa domesticus,0.9489174336866303,weak,unlikely
+79,202,virus Severe acute respiratory syndrome coronavirus 2,host Oryctolagus cuniculus,0.5906558110124067,weak,unlikely
+79,205,virus Severe acute respiratory syndrome coronavirus 2,host Ovis aries,0.5431318065061403,weak,likely
+80,201,virus Severe acute respiratory syndrome-related coronavirus,host Gallus gallus,0.8127558903378549,weak,unlikely
+79,198,virus Severe acute respiratory syndrome coronavirus 2,host Ictidomys tridecemlineatus,0.7406501360535191,weak,likely
+79,199,virus Severe acute respiratory syndrome coronavirus 2,host Bos taurus,0.6100126390270395,weak,likely
+79,201,virus Severe acute respiratory syndrome coronavirus 2,host Gallus gallus,0.6688833664499231,weak,unlikely
+80,198,virus Severe acute respiratory syndrome-related coronavirus,host Ictidomys tridecemlineatus,0.5097546879508902,weak,unlikely

@@ -20,16 +20,16 @@ def customized_filter():
         for row in PPI_csv:
             host1 = row[2].split(' ', 1)[1]
             if str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '') \
-                    .rsplit(',', 1)[1] == 'unreliable':
+                    .rsplit(',', 1)[1] == 'unlikely':
                 to_write = str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '') \
-                               .rsplit(',', 1)[0] + ',unreliable' + '\n'
+                               .rsplit(',', 1)[0] + ',unlikely' + '\n'
                 PPI_write.write(to_write)
             elif row[2].startswith('Spike'):
                 if (host1 in ACE2s and row[3].startswith('DPP4')) or (host1 == mers and row[3].startswith('ACE2')):
                     count = count + 1
                 else:
                     to_write = str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '') \
-                                   .rsplit(',', 1)[0] + ',reliable' + '\n'
+                                   .rsplit(',', 1)[0] + ',likely' + '\n'
                     PPI_write.write(to_write)
                     proper_binding.append((host1 + ' ' + row[3].split(' ', 1)[1]))
 
@@ -39,12 +39,12 @@ def customized_filter():
                     count = count + 1
                 else:
                     to_write = str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '') \
-                                   .rsplit(',', 1)[0] + ',reliable' + '\n'
+                                   .rsplit(',', 1)[0] + ',likely' + '\n'
                     PPI_write.write(to_write)
                     proper_binding.append((host1 + ' ' + row[3].split(' ', 1)[1]))
             else:
                 to_write = str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '') \
-                               .rsplit(',', 1)[0] + ',reliable' + '\n'
+                               .rsplit(',', 1)[0] + ',likely' + '\n'
                 PPI_write.write(to_write)
         PPI_write.close()
 
@@ -61,17 +61,17 @@ def customized_filter():
             if proper_binding.__contains__(token):
                 to_write = \
                     str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '').rsplit(',', 1)[0] \
-                    + ',reliable' + '\n'
+                    + ',likely' + '\n'
                 infection_write.write(to_write)
             else:
                 to_write = \
                     str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '').rsplit(',', 1)[0] \
-                    + ',unreliable' + '\n'
+                    + ',unlikely' + '\n'
                 infection_write.write(to_write)
                 count = count + 1
         infection_write.close()
 
-    print("# of newly tagged unreliable infections:", count)
+    print("# of newly tagged unlikely infections:", count)
 
 
 if __name__ == '__main__':

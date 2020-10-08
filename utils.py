@@ -309,15 +309,15 @@ def filter_PPI_pred(G, edge_type, binding):
                              G.nodes[dst]['type'] == 'Spike') or \
                             (G.nodes[src]['type'] == 'Spike' and
                              G.nodes[dst]['type'] == 'DPP4'):
-                        to_write = basic_info + 'interacts' + ',' + 'reliable' + '\n'
+                        to_write = basic_info + 'interacts' + ',' + 'likely' + '\n'
 
                         binding.append((G.nodes[src]['host'] + ' ' + G.nodes[dst]['host']))
                         binding.append((G.nodes[dst]['host'] + ' ' + G.nodes[src]['host']))
 
                     elif G.nodes[src]['type'] == 'Spike' or G.nodes[dst]['type'] == 'Spike':
-                        to_write = basic_info + 'interacts' + ',' + 'unreliable' + '\n'
+                        to_write = basic_info + 'interacts' + ',' + 'unlikely' + '\n'
                     else:
-                        to_write = basic_info + 'interacts' + ',' + 'reliable' + '\n'
+                        to_write = basic_info + 'interacts' + ',' + 'likely' + '\n'
                     file.write(to_write)
         file.close()
 
@@ -349,7 +349,7 @@ def filter_infection_pred(G, edge_type):
         file.close()
 
 
-def filter_unreliable_inf(binding):
+def filter_unlikely_inf(binding):
     with open(os.path.abspath('data/prediction/prediction_temp_infects.csv'), 'r') as read_csv, \
             open(os.path.abspath('data/prediction/prediction_infects.csv'), 'w') as write_csv:
         csv_reader = csv.reader(read_csv, delimiter=',')
@@ -360,12 +360,12 @@ def filter_unreliable_inf(binding):
             if binding.__contains__(token):
                 to_write = \
                     str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '').rsplit(',', 1)[0] \
-                    + ',reliable' + '\n'
+                    + ',likely' + '\n'
                 write_csv.write(to_write)
             else:
                 to_write = \
                     str(row).replace(', ', ',').replace('\'', '').replace('[', '').replace(']', '').rsplit(',', 1)[0] \
-                    + ',unreliable' + '\n'
+                    + ',unlikely' + '\n'
                 write_csv.write(to_write)
         write_csv.close()
     os.remove(os.path.abspath('data/prediction/prediction_temp_infects.csv'))

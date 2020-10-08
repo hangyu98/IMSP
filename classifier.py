@@ -3,7 +3,7 @@ import os
 import numpy as np
 from sklearn.metrics import classification_report, roc_auc_score
 from sklearn.neural_network import MLPClassifier
-from utils import filter_PPI_pred, filter_infection_pred, filter_unreliable_inf
+from utils import filter_PPI_pred, filter_infection_pred, filter_unlikely_inf
 
 
 class Classifier:
@@ -99,5 +99,5 @@ class Classifier:
         filter_PPI_pred(full_G, edge_type='interacts', binding=binding)
         filter_infection_pred(full_G, edge_type='infects')
         if last_iter:
-            filter_unreliable_inf(binding=binding)
+            filter_unlikely_inf(binding=binding)
         print('Prediction data saved!')

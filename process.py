@@ -45,9 +45,6 @@ def preprocess(bg):
 def process(original_G_path, structural_emb_path, content_emb_path, classifier, pred, model_iter, re_build_g):
     binding = []
     for i in range(model_iter):
-        print('-------------------- Iteration ' + str(i + 1) + ' / ' + str(model_iter) + ' --------------------')
-        print("NETWORK MODEL")
-        print("path: ", structural_emb_path)
         # --------------------------------------------------------
         # ------------------NETWORK CONSTRUCTION------------------
         # --------------------------------------------------------
@@ -188,7 +185,6 @@ def comp_helper(original_G_path, content_emb_path, classifier, model_iter):
                 perf[emb_name]['infection_recall'] = []
                 perf[emb_name]['weighted_f1'] = []
                 perf[emb_name]['weighted_precision'] = []
-                perf[emb_name]['weighted_recall'] = []
             append_res(perf[emb_name]['PPI_f1'], perf[emb_name]['PPI_precision'], perf[emb_name]['PPI_recall'],
                        perf[emb_name]['ROC_score_macro'], perf[emb_name]['ROC_score_weighted'],
                        acc,
@@ -197,14 +193,13 @@ def comp_helper(original_G_path, content_emb_path, classifier, model_iter):
                        perf[emb_name]['infection_recall'],
                        macro_roc_auc_ovo, report,
                        perf[emb_name]['weighted_f1'], perf[emb_name]['weighted_precision'],
-                       perf[emb_name]['weighted_recall'],
                        weighted_roc_auc_ovo)
 
     # write overall performance
     with open(os.path.abspath('data/evaluation/comparison.csv'), 'w') as file:
         file.write(
             'embedding model,infection precision,infection recall,infection f1-score,PPI precision,PPI recall,'
-            'PPI f1-score,accuracy,weighted precision,weighted recall,weighted f1-score,ROC macro,ROC weighted\n'
+            'PPI f1-score,accuracy,weighted precision,weighted f1-score,ROC macro,ROC weighted\n'
         )
         structural_emb_path = glob.glob(os.path.abspath('data/embedding/evaluation/*.csv'))
         print('found evaluation embeddings: ', structural_emb_path)
@@ -222,16 +217,15 @@ def comp_helper(original_G_path, content_emb_path, classifier, model_iter):
                                  perf[emb_name]['infection_precision'],
                                  perf[emb_name]['infection_recall'],
                                  perf[emb_name]['weighted_f1'],
-                                 perf[emb_name]['weighted_precision'],
-                                 perf[emb_name]['weighted_recall'])
+                                 perf[emb_name]['weighted_precision'])
             file.write(to_write)
 
-    # write performance details
-    with open(os.path.abspath('data/evaluation/comparison_details.csv'), 'w') as file:
-        file.write(
-            'embedding model,infection precision,infection recall,infection f1-score,PPI precision,PPI recall,'
-            'PPI f1-score,accuracy,weighted precision,weighted recall,weighted f1-score,ROC macro,ROC weighted\n'
-        )
+        # write performance details
+        with open(os.path.abspath('data/evaluation/comparison_details.csv'), 'w') as file:
+            file.write(
+                'embedding model,infection precision,infection recall,infection f1-score,PPI precision,PPI recall,'
+                'PPI f1-score,accuracy,weighted precision,weighted f1-score,ROC macro,ROC weighted\n'
+            )
         for emb in range(len(structural_emb_path)):
             emb_name = str(structural_emb_path[emb]).rsplit('/', 1)[1].split('.')[0]
             # write model performance to file after multiple iterations are complete
@@ -246,8 +240,7 @@ def comp_helper(original_G_path, content_emb_path, classifier, model_iter):
                                          perf[emb_name]['infection_precision'],
                                          perf[emb_name]['infection_recall'],
                                          perf[emb_name]['weighted_f1'],
-                                         perf[emb_name]['weighted_precision'],
-                                         perf[emb_name]['weighted_recall'])
+                                         perf[emb_name]['weighted_precision'])
             file.write(to_write)
 
 
@@ -271,26 +264,25 @@ def generate_emb():
 
 
 def write_res(emb_name, PPI_f1, PPI_precision, PPI_recall, ROC_score_macro, ROC_score_weighted, accuracy, infection_f1,
-              infection_precision, infection_recall, weighted_f1, weighted_precision, weighted_recall):
+              infection_precision, infection_recall, weighted_f1, weighted_precision):
     to_write = emb_name + ',' + str(
-        np.mean(infection_precision)) + ' ± ' + str(np.std(infection_precision)) + ',' + str(
-        np.mean(infection_recall)) + ' ± ' + str(np.std(infection_recall)) + ',' + str(
-        np.mean(infection_f1)) + ' ± ' + str(np.std(infection_f1)) + ',' + str(
-        np.mean(PPI_precision)) + ' ± ' + str(np.std(PPI_precision)) + ',' + str(
-        np.mean(PPI_recall)) + ' ± ' + str(np.std(PPI_recall)) + ',' + str(
-        np.mean(PPI_f1)) + ' ± ' + str(np.std(PPI_f1)) + ',' + str(
-        np.mean(accuracy)) + ' ± ' + str(np.std(accuracy)) + ',' + str(
-        np.mean(weighted_precision)) + ' ± ' + str(np.std(weighted_precision)) + ',' + str(
-        np.mean(weighted_recall)) + ' ± ' + str(np.std(weighted_recall)) + ',' + str(
-        np.mean(weighted_f1)) + ' ± ' + str(np.std(weighted_f1)) + ',' + str(
-        np.mean(ROC_score_macro)) + ' ± ' + str(np.std(ROC_score_macro)) + ',' + str(
-        np.mean(ROC_score_weighted)) + ' ± ' + str(np.std(ROC_score_weighted)) + '\n'
+        np.mean(infection_precision)) + '±' + str(np.std(infection_precision)) + ',' + str(
+        np.mean(infection_recall)) + '±' + str(np.std(infection_recall)) + ',' + str(
+        np.mean(infection_f1)) + '±' + str(np.std(infection_f1)) + ',' + str(
+        np.mean(PPI_precision)) + '±' + str(np.std(PPI_precision)) + ',' + str(
+        np.mean(PPI_recall)) + '±' + str(np.std(PPI_recall)) + ',' + str(
+        np.mean(PPI_f1)) + '±' + str(np.std(PPI_f1)) + ',' + str(
+        np.mean(accuracy)) + '±' + str(np.std(accuracy)) + ',' + str(
+        np.mean(weighted_precision)) + '±' + str(np.std(weighted_precision)) + ',' + str(
+        np.mean(weighted_f1)) + '±' + str(np.std(weighted_f1)) + ',' + str(
+        np.mean(ROC_score_macro)) + '±' + str(np.std(ROC_score_macro)) + ',' + str(
+        np.mean(ROC_score_weighted)) + '±' + str(np.std(ROC_score_weighted)) + '\n'
     return to_write
 
 
 def write_res_details(emb_name, PPI_f1, PPI_precision, PPI_recall, ROC_score_macro, ROC_score_weighted, accuracy,
                       infection_f1,
-                      infection_precision, infection_recall, weighted_f1, weighted_precision, weighted_recall):
+                      infection_precision, infection_recall, weighted_f1, weighted_precision):
     to_write = ''
     for i in range(len(PPI_f1)):
         to_write = to_write + emb_name + ',' + str(
@@ -302,7 +294,6 @@ def write_res_details(emb_name, PPI_f1, PPI_precision, PPI_recall, ROC_score_mac
             PPI_f1[i]) + ',' + str(
             accuracy[i]) + ',' + str(
             weighted_precision[i]) + ',' + str(
-            weighted_recall[i]) + ',' + str(
             weighted_f1[i]) + ',' + str(
             ROC_score_macro[i]) + ',' + str(
             ROC_score_weighted[i]) + ',' + '\n'
@@ -312,7 +303,7 @@ def write_res_details(emb_name, PPI_f1, PPI_precision, PPI_recall, ROC_score_mac
 
 def append_res(PPI_f1, PPI_precision, PPI_recall, ROC_score_macro, ROC_score_weighted, acc, accuracy, infection_f1,
                infection_precision, infection_recall, macro_roc_auc_ovo, report, weighted_f1, weighted_precision,
-               weighted_recall, weighted_roc_auc_ovo):
+               weighted_roc_auc_ovo):
     infection_precision.append(report['2.0']['precision'])
     PPI_precision.append(report['4.0']['precision'])
     infection_recall.append(report['2.0']['recall'])
@@ -321,7 +312,6 @@ def append_res(PPI_f1, PPI_precision, PPI_recall, ROC_score_macro, ROC_score_wei
     PPI_f1.append(report['4.0']['f1-score'])
     accuracy.append(acc)
     weighted_precision.append(report['weighted avg']['precision'])
-    weighted_recall.append(report['weighted avg']['recall'])
     weighted_f1.append(report['weighted avg']['f1-score'])
     ROC_score_macro.append(macro_roc_auc_ovo)
     ROC_score_weighted.append(weighted_roc_auc_ovo)
