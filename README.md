@@ -78,15 +78,15 @@ pip install -r requirements.txt
                    'Human coronavirus NL63']
     ```
 - ### Output:
-  - The link prediction results are available at ```python /data/prediction```
-    - ```python /data/prediction/prediction_infects.csv``` contains infection predictions
-    - ```python /data/prediction/prediction_interacts.csv``` contains PPI predictions
-  - The performance evaluation results are available at ```python /data/evaluation```
-    - ```python /data/prediction/comparison_summary.csv``` contains the calculated means and stds for all evaluation metrics
-    - ```python /data/prediction/comparison_details.csv``` logs the performance for all the models in each run, which is useful when performing t-test
+  - The link prediction results are available at ```/data/prediction```
+    - ```/data/prediction/prediction_infects.csv``` contains infection predictions
+    - ```/data/prediction/prediction_interacts.csv``` contains PPI predictions
+  - The performance evaluation results are available at ```/data/evaluation```
+    - ```/data/prediction/comparison_summary.csv``` contains the calculated means and stds for all evaluation metrics
+    - ```/data/prediction/comparison_details.csv``` logs the performance for all the models in each run, which is useful when performing t-test
   
 - ### Customizable filter:
-  - We understand that in different scenarios, the prediction results might need customized filters other in addition to those we have defined in the paper. We have provided such sample code available at ```python /customize/customized_filter.py```
+  - We understand that in different scenarios, the prediction results might need customized filters other in addition to those we have defined in the paper. We have provided such sample code available at ```/customize/customized_filter.py```
 
 ## Citing
 If you find CrossNELP is useful for your research, please consider citing the following papers:
