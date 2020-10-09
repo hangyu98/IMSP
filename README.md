@@ -86,7 +86,7 @@ pip install -r requirements.txt
     - ```/data/prediction/comparison_details.csv``` logs the performance for all the models in each run, which is useful when performing t-test
   
 - ### Customizable filter:
-  - We understand that in different scenarios, the prediction results might need customized filters other in addition to those we have defined in the paper. We have provided such sample code available at ```/customize/customized_filter.py```
+  - We understand that in different scenarios, the prediction results might need customized filters in addition to those we have defined in the model. We have provided such sample code available at ```/customize/customized_filter.py```
 
 ## Citing
 If you find CrossNELP is useful for your research, please consider citing the following papers:
