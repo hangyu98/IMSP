@@ -196,7 +196,7 @@ def comp_helper(original_G_path, content_emb_path, classifier, model_iter):
                        weighted_roc_auc_ovo)
 
     # write overall performance
-    with open(os.path.abspath('data/evaluation/comparison.csv'), 'w') as file:
+    with open(os.path.abspath('data/evaluation/comparison_summary.csv'), 'w') as file:
         file.write(
             'embedding model,infection precision,infection recall,infection f1-score,PPI precision,PPI recall,'
             'PPI f1-score,accuracy,weighted precision,weighted f1-score,ROC macro,ROC weighted\n'
