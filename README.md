@@ -30,12 +30,8 @@ pip install -r requirements.txt
     '''Perform link prediction task'''
     python main.py
     ```
-   
 
-- ### Input (please refer to the file below for formatting details):
-    ```python
-    /model/data/hetero_data.py
-    ```
+- ### Input (Please refer to ```/model/data/hetero_data.py``` for formatting details):
   - Pair-wise similarity matrices. You can obtain pair-wise similarity matrices for homogeneous proteins by [Data Parser](https://github.com/SupremeEthan/COVID-19-Research-Data-Parser).
   - Protein-Protein Interactions (PPI) and infection relationships should be collected and feed into /model/data/hetero_data.py following this formatting: 
     ```python
@@ -83,7 +79,11 @@ pip install -r requirements.txt
     ```
 - ### Output:
   - The link prediction results are available at ```python /data/prediction```
+    - ```python /data/prediction/prediction_infects.csv``` contains infection predictions
+    - ```python /data/prediction/prediction_interacts.csv``` contains PPI predictions
   - The performance evaluation results are available at ```python /data/evaluation```
+    - ```python /data/prediction/comparison_summary.csv``` contains the calculated means and stds for all evaluation metrics
+    - ```python /data/prediction/comparison_details.csv``` logs the performance for all the models in each run, which is useful when performing t-test
   
 - ### Customizable filter:
   - We understand that in different scenarios, the prediction results might need customized filters other in addition to those we have defined in the paper. We have provided such sample code available at ```python /customize/customized_filter.py```
