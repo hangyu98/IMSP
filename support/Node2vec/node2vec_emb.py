@@ -47,12 +47,20 @@ def node2vec_embedding(pred_or_eval, G, weighted, dim, walk_len, num_walks, p, q
                     'data/embedding/evaluation/CrossNELP.csv'), 'w') as file:
                 save_res(G, dimension, file, node2vec_instance, walk_len)
     else:
-        node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
-                                     workers=workers, p=p, q=q, quiet=True)
-        # save the embedding vector and link score
-        with open(os.path.abspath(
-                'data/embedding/prediction/CrossNELP.csv'), 'w') as file:
-            save_res(G, dimension, file, node2vec_instance, walk_len)
+        if weighted == 'unweighted':
+            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
+                                         workers=workers, quiet=True)
+            # save the embedding vector and link score
+            with open(os.path.abspath(
+                    'data/embedding/prediction/Node2vec.csv'), 'w') as file:
+                save_res(G, dimension, file, node2vec_instance, walk_len)
+        else:
+            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
+                                         workers=workers, p=p, q=q, quiet=True)
+            # save the embedding vector and link score
+            with open(os.path.abspath(
+                    'data/embedding/prediction/CrossNELP.csv'), 'w') as file:
+                save_res(G, dimension, file, node2vec_instance, walk_len)
 
 
 def save_res(G, dimension, file, node2vec_instance, walk_len):

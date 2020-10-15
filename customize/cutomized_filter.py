@@ -13,7 +13,7 @@ ACE2s = [sars, sars2, nl63]
 # 2) infection relationships which relies on FALSE binding predictions as those 1) suggests
 def customized_filter():
     proper_binding = []
-    with open(os.path.abspath('../data/prediction/prediction_interacts.csv'), 'r') as PPI_read, \
+    with open(os.path.abspath('../data/prediction/prediction_CrossNELP_interacts.csv'), 'r') as PPI_read, \
             open(os.path.abspath('../data/prediction/customized_prediction_interacts.csv'), 'w') as PPI_write:
         count = 0
         PPI_csv = csv.reader(PPI_read, delimiter=',')
@@ -51,7 +51,7 @@ def customized_filter():
     print("# of removed improper bindings:", count)
 
     count = 0
-    with open(os.path.abspath('../data/prediction/prediction_infects.csv'), 'r') as infection_read, \
+    with open(os.path.abspath('../data/prediction/prediction_CrossNELP_infects.csv'), 'r') as infection_read, \
             open(os.path.abspath('../data/prediction/customized_prediction_infects.csv'), 'w') as infection_write:
         csv_reader = csv.reader(infection_read, delimiter=',')
         for row in csv_reader:

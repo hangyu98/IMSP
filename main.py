@@ -9,6 +9,7 @@ def main():
     evaluate = args.evaluate
     eval_iter = args.eval_iter
     pred_iter = args.pred_iter
+    other_pred = args.other_pred
 
     print("args received: ", args)
     # --------------------------------------------------------
@@ -31,13 +32,15 @@ def main():
 
     # evaluate model performance
     if evaluate:
-        model_eval(original_G_path=original_G_path,
-                   content_emb_path=content_emb_path, model_iter=eval_iter)
+        model_eval(original_G_path=original_G_path, content_emb_path=content_emb_path, model_iter=eval_iter)
 
-    # perform model prediction
+    # perform predictions using others
+    elif other_pred:
+        model_pred_alt(original_G_path=original_G_path, model_iter=pred_iter)
+
+    # perform prediction using CrossNELP
     else:
-        model_pred(original_G_path=original_G_path,
-                   content_emb_path=content_emb_path, model_iter=pred_iter)
+        model_pred(original_G_path=original_G_path, content_emb_path=content_emb_path, model_iter=pred_iter)
     print("\n-----------------END--------------------")
 
 
@@ -56,8 +59,13 @@ parser.add_argument("--evaluate", type=bool,
 parser.add_argument("--eval_iter", type=int, help="the number of runs while evaluating the performance. " +
                                                   "Default: 30",
                     default=30)
+
 parser.add_argument("--pred_iter", type=int, help="the number of runs while making predictions. Default: 5",
                     default=5)
+
+parser.add_argument("--other_pred", type=bool, help="get predictions of others. Default: 5",
+                    default=False)
+
 args = parser.parse_args()
 
 main()

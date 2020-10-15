@@ -55,7 +55,7 @@ class Classifier:
         # save prediction...
         return accuracy, report, macro_roc_auc_ovo, weighted_roc_auc_ovo
 
-    def predict(self, full_G, all_selected_indices, index2pair_dict, binding, last_iter):
+    def predict(self, full_G, all_selected_indices, index2pair_dict, binding, last_iter, emb_name):
 
         # load np n-d array X from file
         X = np.loadtxt(os.path.abspath('data/classifier/X.txt'))
@@ -96,8 +96,8 @@ class Classifier:
                                             relation='infects',
                                             probability_estimate=prediction_prob[i][4], connection='weak')
         print("Saving prediction data")
-        filter_PPI_pred(full_G, edge_type='interacts', binding=binding)
-        filter_infection_pred(full_G, edge_type='infects')
+        filter_PPI_pred(full_G, edge_type='interacts', binding=binding, emb_name=emb_name)
+        filter_infection_pred(full_G, edge_type='infects', emb_name=emb_name)
         if last_iter:
-            filter_unlikely_inf(binding=binding)
+            filter_unlikely_inf(binding=binding, emb_name=emb_name)
         print('Prediction data saved!')

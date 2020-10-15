@@ -285,10 +285,10 @@ def load_test_data(full_G, test_set_positives, structural_emb_dict, content_emb_
 # -------------------------------------------------------------------------------
 # -----------------------------save prediction-----------------------------------
 # -------------------------------------------------------------------------------
-def filter_PPI_pred(G, edge_type, binding):
+def filter_PPI_pred(G, edge_type, binding, emb_name):
     existed = remove_duplicates(edge_type)
     with open(os.path.abspath(
-            'data/prediction/prediction_' + edge_type + '.csv'), 'a') as file:
+            'data/prediction/prediction_' + emb_name + '_' + edge_type + '.csv'), 'a') as file:
         for e in G.edges():
             edge_data = G.get_edge_data(*e)
             if edge_data['relation'].__contains__('interacts') and edge_data['etype'] == 'predicted':
@@ -322,10 +322,10 @@ def filter_PPI_pred(G, edge_type, binding):
         file.close()
 
 
-def filter_infection_pred(G, edge_type):
-    existed = remove_duplicates('temp_' + edge_type)
+def filter_infection_pred(G, edge_type, emb_name):
+    existed = remove_duplicates('temp_' + emb_name + '_' + edge_type)
     with open(os.path.abspath(
-            'data/prediction/prediction_temp_' + edge_type + '.csv'),
+            'data/prediction/prediction_temp_' + emb_name + '_' + edge_type + '.csv'),
             'a') as file:
         for e in G.edges():
             edge_data = G.get_edge_data(*e)
@@ -349,9 +349,9 @@ def filter_infection_pred(G, edge_type):
         file.close()
 
 
-def filter_unlikely_inf(binding):
-    with open(os.path.abspath('data/prediction/prediction_temp_infects.csv'), 'r') as read_csv, \
-            open(os.path.abspath('data/prediction/prediction_infects.csv'), 'w') as write_csv:
+def filter_unlikely_inf(binding, emb_name):
+    with open(os.path.abspath('data/prediction/prediction_temp_' + emb_name + '_infects.csv'), 'r') as read_csv, \
+            open(os.path.abspath('data/prediction/prediction_' + emb_name + '_infects.csv'), 'w') as write_csv:
         csv_reader = csv.reader(read_csv, delimiter=',')
         for row in csv_reader:
             virus = row[2].split(' ', 1)[1]
@@ -368,7 +368,7 @@ def filter_unlikely_inf(binding):
                     + ',unlikely' + '\n'
                 write_csv.write(to_write)
         write_csv.close()
-    os.remove(os.path.abspath('data/prediction/prediction_temp_infects.csv'))
+    os.remove(os.path.abspath('data/prediction/prediction_temp_' + emb_name + '_infects.csv'))
 
 
 def remove_duplicates(edge_type):

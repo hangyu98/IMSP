@@ -1,0 +1,1341 @@
+0,14,nsp15 Severe acute respiratory syndrome coronavirus 2,STAT1 Rattus norvegicus,0.9176858970040661,strong,interacts,likely
+0,40,nsp15 Severe acute respiratory syndrome coronavirus 2,RIG-I Mus musculus,0.7738017076010111,strong,interacts,likely
+0,64,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF3 Rattus norvegicus,0.9668422151085692,strong,interacts,likely
+0,129,nsp15 Severe acute respiratory syndrome coronavirus 2,MDA5 Homo sapiens,0.5014928435795477,strong,interacts,likely
+0,156,nsp15 Severe acute respiratory syndrome coronavirus 2,DPP4 Homo sapiens,0.8775301080512471,strong,interacts,likely
+0,161,nsp15 Severe acute respiratory syndrome coronavirus 2,DPP4 Bos taurus,0.6405504278541624,strong,interacts,likely
+0,231,nsp15 Severe acute respiratory syndrome coronavirus 2,MAVS Homo sapiens,0.8051358081341111,strong,interacts,likely
+0,236,nsp15 Severe acute respiratory syndrome coronavirus 2,MAVS Bos taurus,0.8840416718046833,strong,interacts,likely
+0,238,nsp15 Severe acute respiratory syndrome coronavirus 2,MAVS Felis catus,0.9349066476087469,strong,interacts,likely
+1,14,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT1 Rattus norvegicus,0.8709400745742444,strong,interacts,likely
+1,34,nsp15 Severe acute respiratory syndrome-related coronavirus,RIG-I Homo sapiens,0.754837432229194,strong,interacts,likely
+1,111,nsp15 Severe acute respiratory syndrome-related coronavirus,NF-kB Rattus norvegicus,0.5700614722249089,strong,interacts,likely
+1,129,nsp15 Severe acute respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.9736223669852391,strong,interacts,likely
+1,136,nsp15 Severe acute respiratory syndrome-related coronavirus,MDA5 Mus musculus,0.8370610281984203,strong,interacts,likely
+1,139,nsp15 Severe acute respiratory syndrome-related coronavirus,MDA5 Canis lupus familiaris,0.634124742339361,strong,interacts,likely
+1,141,nsp15 Severe acute respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.8305600207670999,strong,interacts,likely
+1,156,nsp15 Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.8319926267673632,strong,interacts,likely
+1,161,nsp15 Severe acute respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.7781045355353429,strong,interacts,likely
+1,172,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Homo sapiens,0.9134792428483054,strong,interacts,likely
+1,177,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Camelus dromedarius,0.6774773974918697,strong,interacts,likely
+1,183,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.9802407279316854,strong,interacts,likely
+1,185,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Mus musculus,0.6048390896781745,strong,interacts,likely
+1,227,nsp15 Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.8254379354868222,strong,interacts,likely
+1,228,nsp15 Severe acute respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.46331663318141475,strong,interacts,likely
+1,229,nsp15 Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.7823550457065684,strong,interacts,likely
+3,188,STAT1 Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.721295473696011,strong,interacts,likely
+4,42,STAT1 Pan troglodytes,ORF4b Middle East respiratory syndrome-related coronavirus,0.8785248042922128,strong,interacts,likely
+6,42,STAT1 Felis catus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9991799522449016,strong,interacts,likely
+6,100,STAT1 Felis catus,ORF4a Middle East respiratory syndrome-related coronavirus,0.8785668898170644,strong,interacts,likely
+6,188,STAT1 Felis catus,PLpro Severe acute respiratory syndrome-related coronavirus,0.8770840025478841,strong,interacts,likely
+7,45,STAT1 Camelus dromedarius,nsp1 Severe acute respiratory syndrome-related coronavirus,0.7034065549289743,strong,interacts,likely
+7,154,STAT1 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8839520400774983,strong,interacts,likely
+7,171,STAT1 Camelus dromedarius,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9387325110973891,strong,interacts,likely
+7,188,STAT1 Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.956829333609267,strong,interacts,likely
+10,42,STAT1 Rhinolophus ferrumequinum,ORF4b Middle East respiratory syndrome-related coronavirus,0.9994510208536505,strong,interacts,likely
+10,100,STAT1 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.9812732714685488,strong,interacts,likely
+10,209,STAT1 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.7723944849002966,strong,interacts,likely
+14,50,STAT1 Rattus norvegicus,Spike Middle East respiratory syndrome-related coronavirus,0.8126759027338119,strong,interacts,unlikely
+14,71,STAT1 Rattus norvegicus,N protein Severe acute respiratory syndrome-related coronavirus,0.868483937149215,strong,interacts,likely
+14,171,STAT1 Rattus norvegicus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.7365105632223166,strong,interacts,likely
+14,188,STAT1 Rattus norvegicus,PLpro Severe acute respiratory syndrome-related coronavirus,0.7683359620959853,strong,interacts,likely
+15,71,STAT1 Mus musculus,N protein Severe acute respiratory syndrome-related coronavirus,0.9893451883800611,strong,interacts,likely
+15,171,STAT1 Mus musculus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.7655641991589164,strong,interacts,likely
+15,188,STAT1 Mus musculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9905434725463125,strong,interacts,likely
+15,211,STAT1 Mus musculus,M protein Severe acute respiratory syndrome-related coronavirus,0.7479791288955778,strong,interacts,likely
+16,42,STAT1 Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9986347307561881,strong,interacts,likely
+16,45,STAT1 Mesocricetus auratus,nsp1 Severe acute respiratory syndrome-related coronavirus,0.8514067964446372,strong,interacts,likely
+16,71,STAT1 Mesocricetus auratus,N protein Severe acute respiratory syndrome-related coronavirus,0.7849363538842955,strong,interacts,likely
+16,154,STAT1 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.950717146495442,strong,interacts,likely
+16,170,STAT1 Mesocricetus auratus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8437085169589686,strong,interacts,likely
+16,188,STAT1 Mesocricetus auratus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9871802764670613,strong,interacts,likely
+22,154,IRF9 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9804334023682033,strong,interacts,likely
+22,170,IRF9 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7709348582279395,strong,interacts,likely
+22,188,IRF9 Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.814259491567163,strong,interacts,likely
+25,42,IRF9 Rhinolophus ferrumequinum,ORF4b Middle East respiratory syndrome-related coronavirus,0.777814886070266,strong,interacts,likely
+26,154,IRF9 Ovis aries,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9288312816063955,strong,interacts,likely
+26,170,IRF9 Ovis aries,ORF6 Severe acute respiratory syndrome-related coronavirus,0.6695246912689441,strong,interacts,likely
+26,209,IRF9 Ovis aries,M protein Middle East respiratory syndrome-related coronavirus,0.8458270788617503,strong,interacts,likely
+28,42,IRF9 Bos taurus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9854972213183348,strong,interacts,likely
+28,100,IRF9 Bos taurus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9827432614413789,strong,interacts,likely
+28,154,IRF9 Bos taurus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9941778405972743,strong,interacts,likely
+28,170,IRF9 Bos taurus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9364571181600179,strong,interacts,likely
+28,209,IRF9 Bos taurus,M protein Middle East respiratory syndrome-related coronavirus,0.8901489363324,strong,interacts,likely
+30,187,IRF9 Mus musculus,PLpro Middle East respiratory syndrome-related coronavirus,0.7951261012251876,strong,interacts,likely
+31,42,IRF9 Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9139694840148196,strong,interacts,likely
+31,154,IRF9 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9986414050568231,strong,interacts,likely
+31,170,IRF9 Mesocricetus auratus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.957972347199509,strong,interacts,likely
+31,209,IRF9 Mesocricetus auratus,M protein Middle East respiratory syndrome-related coronavirus,0.504076170706839,strong,interacts,likely
+32,171,IRF9 Rattus norvegicus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.659085454201364,strong,interacts,likely
+32,188,IRF9 Rattus norvegicus,PLpro Severe acute respiratory syndrome-related coronavirus,0.851663348856357,strong,interacts,likely
+34,42,RIG-I Homo sapiens,ORF4b Middle East respiratory syndrome-related coronavirus,0.9807217458946251,strong,interacts,likely
+34,45,RIG-I Homo sapiens,nsp1 Severe acute respiratory syndrome-related coronavirus,0.9378233888740133,strong,interacts,likely
+34,170,RIG-I Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9588500757792797,strong,interacts,likely
+37,42,RIG-I Rhinolophus ferrumequinum,ORF4b Middle East respiratory syndrome-related coronavirus,0.9298014284516349,strong,interacts,likely
+38,42,RIG-I Canis lupus familiaris,ORF4b Middle East respiratory syndrome-related coronavirus,0.9473188699183472,strong,interacts,likely
+38,71,RIG-I Canis lupus familiaris,N protein Severe acute respiratory syndrome-related coronavirus,0.713744058083304,strong,interacts,likely
+38,154,RIG-I Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9820788807168787,strong,interacts,likely
+38,170,RIG-I Canis lupus familiaris,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8108612603266842,strong,interacts,likely
+39,42,RIG-I Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9187709904798298,strong,interacts,likely
+39,71,RIG-I Mesocricetus auratus,N protein Severe acute respiratory syndrome-related coronavirus,0.8047070221743235,strong,interacts,likely
+39,154,RIG-I Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8952193655392598,strong,interacts,likely
+39,170,RIG-I Mesocricetus auratus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7802770399804986,strong,interacts,likely
+39,188,RIG-I Mesocricetus auratus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9958313209893899,strong,interacts,likely
+40,42,RIG-I Mus musculus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9976781786186166,strong,interacts,likely
+40,45,RIG-I Mus musculus,nsp1 Severe acute respiratory syndrome-related coronavirus,0.8149587525861879,strong,interacts,likely
+40,100,RIG-I Mus musculus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9633694556814946,strong,interacts,likely
+40,170,RIG-I Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9827959198041603,strong,interacts,likely
+40,171,RIG-I Mus musculus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9929297708978655,strong,interacts,likely
+40,188,RIG-I Mus musculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9677810930182317,strong,interacts,likely
+40,209,RIG-I Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.9044065381492855,strong,interacts,likely
+40,211,RIG-I Mus musculus,M protein Severe acute respiratory syndrome-related coronavirus,0.7018117543115454,strong,interacts,likely
+42,57,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Macaca mulatta,0.8905345308264625,strong,interacts,likely
+42,59,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.9998139101737507,strong,interacts,likely
+42,61,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Ovis aries,0.8359536208550162,strong,interacts,likely
+42,65,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Mesocricetus auratus,0.8609102406885357,strong,interacts,likely
+42,83,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Homo sapiens,0.8562413207470516,strong,interacts,likely
+42,89,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Felis catus,0.9978901850070515,strong,interacts,likely
+42,97,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Rhinolophus ferrumequinum,0.6856237933124162,strong,interacts,likely
+42,105,ORF4b Middle East respiratory syndrome-related coronavirus,NF-kB Bos taurus,0.9277225678295701,strong,interacts,likely
+42,121,ORF4b Middle East respiratory syndrome-related coronavirus,IRF7 Felis catus,0.7734586022866603,strong,interacts,likely
+42,129,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.9997994985600195,strong,interacts,likely
+42,134,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Felis catus,0.6557642512738334,strong,interacts,likely
+42,136,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Mus musculus,0.9970454577370476,strong,interacts,likely
+42,137,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Rattus norvegicus,0.9989807230818664,strong,interacts,likely
+42,139,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Canis lupus familiaris,0.950339800660964,strong,interacts,likely
+42,141,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.9996717763568315,strong,interacts,likely
+42,147,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Mus musculus,0.9916093172445235,strong,interacts,likely
+42,151,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Rattus norvegicus,0.5387253608963753,strong,interacts,likely
+42,156,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.9951565673669367,strong,interacts,likely
+42,161,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9970780296977988,strong,interacts,likely
+42,166,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.8010616664561301,strong,interacts,likely
+42,168,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Camelus dromedarius,0.7612300921583608,strong,interacts,likely
+42,174,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.9986210457116821,strong,interacts,likely
+42,175,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Felis catus,0.9961883015096974,strong,interacts,likely
+42,178,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.8936490531649063,strong,interacts,likely
+42,181,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Bos taurus,0.8476769272813753,strong,interacts,likely
+42,186,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Gallus gallus,0.8845313657082248,strong,interacts,likely
+42,222,ORF4b Middle East respiratory syndrome-related coronavirus,TBK1 Rhinolophus ferrumequinum,0.9864061934039372,strong,interacts,likely
+42,233,ORF4b Middle East respiratory syndrome-related coronavirus,MAVS Macaca mulatta,0.8490327291050314,strong,interacts,likely
+42,236,ORF4b Middle East respiratory syndrome-related coronavirus,MAVS Bos taurus,0.8709597334031426,strong,interacts,likely
+42,237,ORF4b Middle East respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.9943331016703068,strong,interacts,likely
+42,238,ORF4b Middle East respiratory syndrome-related coronavirus,MAVS Felis catus,0.9968345186623737,strong,interacts,likely
+45,55,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Homo sapiens,0.7351357802469153,strong,interacts,likely
+45,59,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.9778497074995032,strong,interacts,likely
+45,64,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Rattus norvegicus,0.9947309277586713,strong,interacts,likely
+45,66,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Mus musculus,0.9064023873999132,strong,interacts,likely
+45,156,nsp1 Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.8822862790220979,strong,interacts,likely
+45,166,nsp1 Severe acute respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.8114881766499298,strong,interacts,likely
+45,167,nsp1 Severe acute respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.6604947822242795,strong,interacts,likely
+45,174,nsp1 Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.5767871092134763,strong,interacts,likely
+45,237,nsp1 Severe acute respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.6345611627841368,strong,interacts,likely
+45,243,nsp1 Severe acute respiratory syndrome-related coronavirus,MAVS Mus musculus,0.8811799727193013,strong,interacts,likely
+50,129,Spike Middle East respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.6916111968281602,strong,interacts,unlikely
+50,172,Spike Middle East respiratory syndrome-related coronavirus,STAT2 Homo sapiens,0.8749464589613732,strong,interacts,unlikely
+57,71,IRF3 Macaca mulatta,N protein Severe acute respiratory syndrome-related coronavirus,0.8631656363418205,strong,interacts,likely
+57,154,IRF3 Macaca mulatta,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8678636476940575,strong,interacts,likely
+57,188,IRF3 Macaca mulatta,PLpro Severe acute respiratory syndrome-related coronavirus,0.8871606630731181,strong,interacts,likely
+59,100,IRF3 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.9972973849680196,strong,interacts,likely
+59,209,IRF3 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.8997202885489006,strong,interacts,likely
+60,154,IRF3 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9133124034589896,strong,interacts,likely
+60,171,IRF3 Camelus dromedarius,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9791080638095258,strong,interacts,likely
+60,188,IRF3 Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.7450478242928764,strong,interacts,likely
+64,171,IRF3 Rattus norvegicus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9905165961490072,strong,interacts,likely
+65,154,IRF3 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8602081046807037,strong,interacts,likely
+66,171,IRF3 Mus musculus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9403847538872456,strong,interacts,likely
+71,83,N protein Severe acute respiratory syndrome-related coronavirus,ACE2 Homo sapiens,0.8362012644824012,strong,interacts,likely
+71,104,N protein Severe acute respiratory syndrome-related coronavirus,NF-kB Macaca mulatta,0.7230856834308693,strong,interacts,likely
+71,106,N protein Severe acute respiratory syndrome-related coronavirus,NF-kB Rhinolophus ferrumequinum,0.8119377899560336,strong,interacts,likely
+71,109,N protein Severe acute respiratory syndrome-related coronavirus,NF-kB Mus musculus,0.7573074349399275,strong,interacts,likely
+71,114,N protein Severe acute respiratory syndrome-related coronavirus,NF-kB Camelus dromedarius,0.880674034752644,strong,interacts,likely
+71,130,N protein Severe acute respiratory syndrome-related coronavirus,MDA5 Pan troglodytes,0.7737888781436344,strong,interacts,likely
+71,139,N protein Severe acute respiratory syndrome-related coronavirus,MDA5 Canis lupus familiaris,0.9666808664893631,strong,interacts,likely
+71,141,N protein Severe acute respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.9675444309057168,strong,interacts,likely
+71,156,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.9235452998256674,strong,interacts,likely
+71,161,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9555193428699704,strong,interacts,likely
+71,167,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.7414221537366942,strong,interacts,likely
+71,172,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Homo sapiens,0.8634816616702313,strong,interacts,likely
+71,174,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.996979607596055,strong,interacts,likely
+71,175,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Felis catus,0.9139794662315086,strong,interacts,likely
+71,178,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.9691301140248697,strong,interacts,likely
+71,183,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.980357008312791,strong,interacts,likely
+71,185,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Mus musculus,0.8203116689013128,strong,interacts,likely
+71,216,N protein Severe acute respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.9271317867096538,strong,interacts,likely
+71,227,N protein Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.754618293530695,strong,interacts,likely
+71,229,N protein Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.754848702329276,strong,interacts,likely
+83,154,ACE2 Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7728504929804536,strong,interacts,likely
+83,171,ACE2 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.7709888623111876,strong,interacts,likely
+83,188,ACE2 Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.9487451079996927,strong,interacts,likely
+83,209,ACE2 Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.7444345374616941,strong,interacts,likely
+89,170,ACE2 Felis catus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8178377427944736,strong,interacts,likely
+89,171,ACE2 Felis catus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9007197668268656,strong,interacts,likely
+89,209,ACE2 Felis catus,M protein Middle East respiratory syndrome-related coronavirus,0.7738387466520422,strong,interacts,likely
+98,170,ACE2 Canis lupus familiaris,ORF6 Severe acute respiratory syndrome-related coronavirus,0.6296941708521416,strong,interacts,likely
+100,161,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.8147606614447995,strong,interacts,likely
+100,175,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Felis catus,0.9646696573536694,strong,interacts,likely
+100,178,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.8548016226361148,strong,interacts,likely
+100,181,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Bos taurus,0.6403734944490653,strong,interacts,likely
+100,216,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.9965480295432501,strong,interacts,likely
+100,222,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Rhinolophus ferrumequinum,0.9451747181769306,strong,interacts,likely
+100,233,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Macaca mulatta,0.7620462112035536,strong,interacts,likely
+100,243,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Mus musculus,0.7735787845808266,strong,interacts,likely
+102,154,NF-kB Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9930657715588942,strong,interacts,likely
+102,170,NF-kB Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9746966493737048,strong,interacts,likely
+102,209,NF-kB Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.9778530023382537,strong,interacts,likely
+104,154,NF-kB Macaca mulatta,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8762673737564284,strong,interacts,likely
+104,188,NF-kB Macaca mulatta,PLpro Severe acute respiratory syndrome-related coronavirus,0.843666033693218,strong,interacts,likely
+105,154,NF-kB Bos taurus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9522430966957498,strong,interacts,likely
+105,188,NF-kB Bos taurus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9930480048673389,strong,interacts,likely
+106,154,NF-kB Rhinolophus ferrumequinum,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7136163039584713,strong,interacts,likely
+109,154,NF-kB Mus musculus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9925445124623228,strong,interacts,likely
+109,209,NF-kB Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.7664959357268701,strong,interacts,likely
+111,154,NF-kB Rattus norvegicus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9998847493829618,strong,interacts,likely
+111,170,NF-kB Rattus norvegicus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9589897906858733,strong,interacts,likely
+111,209,NF-kB Rattus norvegicus,M protein Middle East respiratory syndrome-related coronavirus,0.9618913641896414,strong,interacts,likely
+112,188,NF-kB Equus caballus,PLpro Severe acute respiratory syndrome-related coronavirus,0.7743167421040267,strong,interacts,likely
+114,154,NF-kB Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9958727738568198,strong,interacts,likely
+114,188,NF-kB Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.9089601228139652,strong,interacts,likely
+114,209,NF-kB Camelus dromedarius,M protein Middle East respiratory syndrome-related coronavirus,0.7868250339033673,strong,interacts,likely
+114,211,NF-kB Camelus dromedarius,M protein Severe acute respiratory syndrome-related coronavirus,0.9461783616444861,strong,interacts,likely
+115,154,IRF7 Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7902217964676742,strong,interacts,likely
+115,170,IRF7 Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.758616871475315,strong,interacts,likely
+115,209,IRF7 Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.8341993389715645,strong,interacts,likely
+126,154,IRF7 Mus musculus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8601701006003188,strong,interacts,likely
+129,170,MDA5 Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9627052009404651,strong,interacts,likely
+136,170,MDA5 Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7724878190331783,strong,interacts,likely
+137,170,MDA5 Rattus norvegicus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8313328869423483,strong,interacts,likely
+137,188,MDA5 Rattus norvegicus,PLpro Severe acute respiratory syndrome-related coronavirus,0.8021397567169818,strong,interacts,likely
+139,154,MDA5 Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9468508727974114,strong,interacts,likely
+139,170,MDA5 Canis lupus familiaris,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8578930518897365,strong,interacts,likely
+141,154,PRKRA Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9995143135190468,strong,interacts,likely
+141,170,PRKRA Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9975400020469777,strong,interacts,likely
+141,187,PRKRA Homo sapiens,PLpro Middle East respiratory syndrome-related coronavirus,0.7908685046953571,strong,interacts,likely
+141,188,PRKRA Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.9151668232077448,strong,interacts,likely
+141,209,PRKRA Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.8234654515860467,strong,interacts,likely
+147,154,PRKRA Mus musculus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9985384064377025,strong,interacts,likely
+147,170,PRKRA Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9983259343518524,strong,interacts,likely
+147,209,PRKRA Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.9651798745943712,strong,interacts,likely
+151,170,PRKRA Rattus norvegicus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9460571596900678,strong,interacts,likely
+153,154,PRKRA Pan troglodytes,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7042476692140895,strong,interacts,likely
+154,156,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.980161887740993,strong,interacts,likely
+154,161,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9958108390801498,strong,interacts,likely
+154,162,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Felis catus,0.836624689212814,strong,interacts,likely
+154,166,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.916129138397602,strong,interacts,likely
+154,167,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.9900382104599814,strong,interacts,likely
+154,174,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.9355780654697348,strong,interacts,likely
+154,177,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Camelus dromedarius,0.9743694943900463,strong,interacts,likely
+154,180,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Ovis aries,0.9178225789932453,strong,interacts,likely
+154,181,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Bos taurus,0.8775044597395412,strong,interacts,likely
+154,186,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Gallus gallus,0.6465335426347425,strong,interacts,likely
+154,216,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.9999244824046924,strong,interacts,likely
+154,222,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Rhinolophus ferrumequinum,0.9336885618369151,strong,interacts,likely
+154,227,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9869950812914305,strong,interacts,likely
+154,228,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.9495874058695577,strong,interacts,likely
+154,229,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9941470518626775,strong,interacts,likely
+154,233,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Macaca mulatta,0.7490778492853507,strong,interacts,likely
+154,236,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Bos taurus,0.9939067068062417,strong,interacts,likely
+154,239,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.8137740170062131,strong,interacts,likely
+156,170,DPP4 Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9826754809921725,strong,interacts,likely
+156,171,DPP4 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.6707011346069585,strong,interacts,likely
+161,170,DPP4 Bos taurus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9673555202315485,strong,interacts,likely
+164,170,DPP4 Rhinolophus ferrumequinum,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8528769251597604,strong,interacts,likely
+167,170,DPP4 Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8963621683013627,strong,interacts,likely
+168,171,DPP4 Camelus dromedarius,ORF6 Severe acute respiratory syndrome coronavirus 2,0.7639270428604963,strong,interacts,likely
+170,177,ORF6 Severe acute respiratory syndrome-related coronavirus,STAT2 Camelus dromedarius,0.978558737873845,strong,interacts,likely
+170,216,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.9679093286221123,strong,interacts,likely
+170,222,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Rhinolophus ferrumequinum,0.6255564666354647,strong,interacts,likely
+170,227,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9937811462585208,strong,interacts,likely
+170,228,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.9849084659651681,strong,interacts,likely
+170,229,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.993802269357009,strong,interacts,likely
+170,231,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.9660260964337922,strong,interacts,likely
+170,236,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Bos taurus,0.9453877429866883,strong,interacts,likely
+170,237,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.9534412505449306,strong,interacts,likely
+170,239,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.7858286576383837,strong,interacts,likely
+170,243,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Mus musculus,0.9919492417916643,strong,interacts,likely
+170,244,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.933288875887453,strong,interacts,likely
+171,174,ORF6 Severe acute respiratory syndrome coronavirus 2,STAT2 Macaca mulatta,0.9525536562582663,strong,interacts,likely
+171,177,ORF6 Severe acute respiratory syndrome coronavirus 2,STAT2 Camelus dromedarius,0.5901863206367788,strong,interacts,likely
+171,183,ORF6 Severe acute respiratory syndrome coronavirus 2,STAT2 Rattus norvegicus,0.8763433048413499,strong,interacts,likely
+171,185,ORF6 Severe acute respiratory syndrome coronavirus 2,STAT2 Mus musculus,0.7815279188956936,strong,interacts,likely
+171,231,ORF6 Severe acute respiratory syndrome coronavirus 2,MAVS Homo sapiens,0.6718736316554063,strong,interacts,likely
+171,238,ORF6 Severe acute respiratory syndrome coronavirus 2,MAVS Felis catus,0.7511888224758134,strong,interacts,likely
+171,243,ORF6 Severe acute respiratory syndrome coronavirus 2,MAVS Mus musculus,0.7162706518481605,strong,interacts,likely
+172,187,STAT2 Homo sapiens,PLpro Middle East respiratory syndrome-related coronavirus,0.8403768115124417,strong,interacts,likely
+172,188,STAT2 Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.8105946585318167,strong,interacts,likely
+174,188,STAT2 Macaca mulatta,PLpro Severe acute respiratory syndrome-related coronavirus,0.9969313585787274,strong,interacts,likely
+174,209,STAT2 Macaca mulatta,M protein Middle East respiratory syndrome-related coronavirus,0.856918399166402,strong,interacts,likely
+175,188,STAT2 Felis catus,PLpro Severe acute respiratory syndrome-related coronavirus,0.8917442846843954,strong,interacts,likely
+175,209,STAT2 Felis catus,M protein Middle East respiratory syndrome-related coronavirus,0.9133299114458617,strong,interacts,likely
+183,188,STAT2 Rattus norvegicus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9822215048265421,strong,interacts,likely
+185,188,STAT2 Mus musculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.8533512735290965,strong,interacts,likely
+188,224,PLpro Severe acute respiratory syndrome-related coronavirus,TBK1 Canis lupus familiaris,0.7091112690220721,strong,interacts,likely
+188,228,PLpro Severe acute respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.9787716800490874,strong,interacts,likely
+188,237,PLpro Severe acute respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.9339582200254799,strong,interacts,likely
+188,238,PLpro Severe acute respiratory syndrome-related coronavirus,MAVS Felis catus,0.9218084314648782,strong,interacts,likely
+211,228,M protein Severe acute respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.7763036236205894,strong,interacts,likely
+0,6,nsp15 Severe acute respiratory syndrome coronavirus 2,STAT1 Felis catus,0.7212677932465588,strong,interacts,likely
+0,60,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF3 Camelus dromedarius,0.683584378045824,strong,interacts,likely
+0,64,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF3 Rattus norvegicus,0.8411535480562721,strong,interacts,likely
+0,121,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF7 Felis catus,0.7805599694598836,strong,interacts,likely
+0,156,nsp15 Severe acute respiratory syndrome coronavirus 2,DPP4 Homo sapiens,0.870768989960317,strong,interacts,likely
+0,216,nsp15 Severe acute respiratory syndrome coronavirus 2,TBK1 Homo sapiens,0.5712613888664946,strong,interacts,likely
+0,229,nsp15 Severe acute respiratory syndrome coronavirus 2,TBK1 Rattus norvegicus,0.6743648380615255,strong,interacts,likely
+0,237,nsp15 Severe acute respiratory syndrome coronavirus 2,MAVS Rhinolophus ferrumequinum,0.7406182156772891,strong,interacts,likely
+0,238,nsp15 Severe acute respiratory syndrome coronavirus 2,MAVS Felis catus,0.9307248257251666,strong,interacts,likely
+1,6,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT1 Felis catus,0.8769867948796768,strong,interacts,likely
+1,18,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF9 Homo sapiens,0.737609484329,strong,interacts,likely
+1,60,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF3 Camelus dromedarius,0.819893105937114,strong,interacts,likely
+1,89,nsp15 Severe acute respiratory syndrome-related coronavirus,ACE2 Felis catus,0.929824642854144,strong,interacts,likely
+1,98,nsp15 Severe acute respiratory syndrome-related coronavirus,ACE2 Canis lupus familiaris,0.6836643045976389,strong,interacts,likely
+1,106,nsp15 Severe acute respiratory syndrome-related coronavirus,NF-kB Rhinolophus ferrumequinum,0.6980304698586338,strong,interacts,likely
+1,109,nsp15 Severe acute respiratory syndrome-related coronavirus,NF-kB Mus musculus,0.755619235255565,strong,interacts,likely
+1,111,nsp15 Severe acute respiratory syndrome-related coronavirus,NF-kB Rattus norvegicus,0.8878360842291451,strong,interacts,likely
+1,121,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF7 Felis catus,0.8378923212372213,strong,interacts,likely
+1,134,nsp15 Severe acute respiratory syndrome-related coronavirus,MDA5 Felis catus,0.7405346540149498,strong,interacts,likely
+1,136,nsp15 Severe acute respiratory syndrome-related coronavirus,MDA5 Mus musculus,0.8096856744807159,strong,interacts,likely
+1,139,nsp15 Severe acute respiratory syndrome-related coronavirus,MDA5 Canis lupus familiaris,0.9711792956748038,strong,interacts,likely
+1,172,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Homo sapiens,0.974684679516884,strong,interacts,likely
+1,174,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.9489222635651867,strong,interacts,likely
+1,175,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Felis catus,0.9443256857524855,strong,interacts,likely
+1,181,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Bos taurus,0.722293959939559,strong,interacts,likely
+1,183,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.976897150099321,strong,interacts,likely
+1,185,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Mus musculus,0.84670711853214,strong,interacts,likely
+1,227,nsp15 Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9539063184543816,strong,interacts,likely
+1,229,nsp15 Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.980984106799017,strong,interacts,likely
+1,239,nsp15 Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9399150176136459,strong,interacts,likely
+6,42,STAT1 Felis catus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9970695427409957,strong,interacts,likely
+6,71,STAT1 Felis catus,N protein Severe acute respiratory syndrome-related coronavirus,0.927473935540037,strong,interacts,likely
+6,100,STAT1 Felis catus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9959983715941534,strong,interacts,likely
+6,209,STAT1 Felis catus,M protein Middle East respiratory syndrome-related coronavirus,0.8673992042274925,strong,interacts,likely
+7,45,STAT1 Camelus dromedarius,nsp1 Severe acute respiratory syndrome-related coronavirus,0.803835947066317,strong,interacts,likely
+7,71,STAT1 Camelus dromedarius,N protein Severe acute respiratory syndrome-related coronavirus,0.7421065539463244,strong,interacts,likely
+7,154,STAT1 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.874120048982163,strong,interacts,likely
+10,42,STAT1 Rhinolophus ferrumequinum,ORF4b Middle East respiratory syndrome-related coronavirus,0.9979293628679693,strong,interacts,likely
+10,209,STAT1 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.9057888730628215,strong,interacts,likely
+14,171,STAT1 Rattus norvegicus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.8203538936818835,strong,interacts,likely
+15,71,STAT1 Mus musculus,N protein Severe acute respiratory syndrome-related coronavirus,0.8614733860256875,strong,interacts,likely
+15,187,STAT1 Mus musculus,PLpro Middle East respiratory syndrome-related coronavirus,0.7511789740903527,strong,interacts,likely
+15,211,STAT1 Mus musculus,M protein Severe acute respiratory syndrome-related coronavirus,0.8905958508963513,strong,interacts,likely
+16,42,STAT1 Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9190780281847926,strong,interacts,likely
+16,45,STAT1 Mesocricetus auratus,nsp1 Severe acute respiratory syndrome-related coronavirus,0.7956233377920541,strong,interacts,likely
+16,100,STAT1 Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.74556750145292,strong,interacts,likely
+16,154,STAT1 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9160069494469026,strong,interacts,likely
+16,171,STAT1 Mesocricetus auratus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.7573906732386009,strong,interacts,likely
+16,209,STAT1 Mesocricetus auratus,M protein Middle East respiratory syndrome-related coronavirus,0.9010472739349586,strong,interacts,likely
+18,171,IRF9 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.597183507635218,strong,interacts,likely
+21,42,IRF9 Felis catus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9762528201234035,strong,interacts,likely
+21,100,IRF9 Felis catus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9914467672658807,strong,interacts,likely
+22,71,IRF9 Camelus dromedarius,N protein Severe acute respiratory syndrome-related coronavirus,0.7185089248158387,strong,interacts,likely
+22,154,IRF9 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9406790243467917,strong,interacts,likely
+24,42,IRF9 Equus caballus,ORF4b Middle East respiratory syndrome-related coronavirus,0.7871661094886517,strong,interacts,likely
+25,42,IRF9 Rhinolophus ferrumequinum,ORF4b Middle East respiratory syndrome-related coronavirus,0.982689505413281,strong,interacts,likely
+25,100,IRF9 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.7672607137241867,strong,interacts,likely
+26,100,IRF9 Ovis aries,ORF4a Middle East respiratory syndrome-related coronavirus,0.9632427318651863,strong,interacts,likely
+28,42,IRF9 Bos taurus,ORF4b Middle East respiratory syndrome-related coronavirus,0.7010079678882015,strong,interacts,likely
+28,100,IRF9 Bos taurus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9763054701685153,strong,interacts,likely
+28,209,IRF9 Bos taurus,M protein Middle East respiratory syndrome-related coronavirus,0.8149706491420903,strong,interacts,likely
+29,42,IRF9 Ictidomys tridecemlineatus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9146120440108272,strong,interacts,likely
+29,100,IRF9 Ictidomys tridecemlineatus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9694612438727622,strong,interacts,likely
+29,154,IRF9 Ictidomys tridecemlineatus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7932895577948154,strong,interacts,likely
+31,42,IRF9 Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9587163537682113,strong,interacts,likely
+31,100,IRF9 Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.8316108683978591,strong,interacts,likely
+31,154,IRF9 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8112712637375636,strong,interacts,likely
+32,71,IRF9 Rattus norvegicus,N protein Severe acute respiratory syndrome-related coronavirus,0.8297640320011754,strong,interacts,likely
+34,100,RIG-I Homo sapiens,ORF4a Middle East respiratory syndrome-related coronavirus,0.8327092009766894,strong,interacts,likely
+34,170,RIG-I Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7247971662331292,strong,interacts,likely
+37,100,RIG-I Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.8540508201622867,strong,interacts,likely
+38,42,RIG-I Canis lupus familiaris,ORF4b Middle East respiratory syndrome-related coronavirus,0.8280325219477329,strong,interacts,likely
+38,71,RIG-I Canis lupus familiaris,N protein Severe acute respiratory syndrome-related coronavirus,0.91643462737215,strong,interacts,likely
+38,100,RIG-I Canis lupus familiaris,ORF4a Middle East respiratory syndrome-related coronavirus,0.9968297576278471,strong,interacts,likely
+38,154,RIG-I Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9868889426774959,strong,interacts,likely
+39,42,RIG-I Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.6577782608760265,strong,interacts,likely
+39,100,RIG-I Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.89774804596027,strong,interacts,likely
+39,154,RIG-I Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9239656886270957,strong,interacts,likely
+40,42,RIG-I Mus musculus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9727310412157011,strong,interacts,likely
+40,100,RIG-I Mus musculus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9992516893843228,strong,interacts,likely
+40,170,RIG-I Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.6795849344536946,strong,interacts,likely
+40,171,RIG-I Mus musculus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.5262775833204943,strong,interacts,likely
+40,209,RIG-I Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.837278733557931,strong,interacts,likely
+42,59,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.9571760414417833,strong,interacts,likely
+42,65,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Mesocricetus auratus,0.7275705564196213,strong,interacts,likely
+42,89,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Felis catus,0.9783482004915263,strong,interacts,likely
+42,106,ORF4b Middle East respiratory syndrome-related coronavirus,NF-kB Rhinolophus ferrumequinum,0.7988431532414428,strong,interacts,likely
+42,110,ORF4b Middle East respiratory syndrome-related coronavirus,NF-kB Mesocricetus auratus,0.8490348779351081,strong,interacts,likely
+42,119,ORF4b Middle East respiratory syndrome-related coronavirus,IRF7 Equus caballus,0.9849072205357551,strong,interacts,likely
+42,121,ORF4b Middle East respiratory syndrome-related coronavirus,IRF7 Felis catus,0.9995157901062035,strong,interacts,likely
+42,129,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.937724707730846,strong,interacts,likely
+42,130,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Pan troglodytes,0.8685261315154391,strong,interacts,likely
+42,133,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Ictidomys tridecemlineatus,0.7141001375107907,strong,interacts,likely
+42,134,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Felis catus,0.893077207862259,strong,interacts,likely
+42,136,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Mus musculus,0.9933581219267148,strong,interacts,likely
+42,137,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Rattus norvegicus,0.9478274071101582,strong,interacts,likely
+42,139,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Canis lupus familiaris,0.971813753006707,strong,interacts,likely
+42,141,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.9580598268737833,strong,interacts,likely
+42,147,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Mus musculus,0.9266640816194937,strong,interacts,likely
+42,161,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9020535557580827,strong,interacts,likely
+42,174,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.9473412677463492,strong,interacts,likely
+42,175,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Felis catus,0.9960137339489682,strong,interacts,likely
+42,178,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.9777338402295619,strong,interacts,likely
+42,237,ORF4b Middle East respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.976687643067736,strong,interacts,likely
+42,238,ORF4b Middle East respiratory syndrome-related coronavirus,MAVS Felis catus,0.8745248666601866,strong,interacts,likely
+45,55,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Homo sapiens,0.9343982316204469,strong,interacts,likely
+45,59,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.9763786048165393,strong,interacts,likely
+45,64,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Rattus norvegicus,0.761506431720283,strong,interacts,likely
+45,66,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Mus musculus,0.9685666970783846,strong,interacts,likely
+45,231,nsp1 Severe acute respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.7154327252560408,strong,interacts,likely
+53,89,Spike Human coronavirus NL63,ACE2 Felis catus,0.807991735677168,strong,interacts,likely
+59,100,IRF3 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.9997549781887785,strong,interacts,likely
+59,187,IRF3 Rhinolophus ferrumequinum,PLpro Middle East respiratory syndrome-related coronavirus,0.9025588178922641,strong,interacts,likely
+60,71,IRF3 Camelus dromedarius,N protein Severe acute respiratory syndrome-related coronavirus,0.9214909656158603,strong,interacts,likely
+60,154,IRF3 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9975976121119166,strong,interacts,likely
+60,170,IRF3 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8272570612976233,strong,interacts,likely
+60,171,IRF3 Camelus dromedarius,ORF6 Severe acute respiratory syndrome coronavirus 2,0.881519314848743,strong,interacts,likely
+60,188,IRF3 Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.9937693452485019,strong,interacts,likely
+60,211,IRF3 Camelus dromedarius,M protein Severe acute respiratory syndrome-related coronavirus,0.954095886806706,strong,interacts,likely
+64,171,IRF3 Rattus norvegicus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9136575867863279,strong,interacts,likely
+65,71,IRF3 Mesocricetus auratus,N protein Severe acute respiratory syndrome-related coronavirus,0.9810017249758428,strong,interacts,likely
+65,100,IRF3 Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9997211045975622,strong,interacts,likely
+65,154,IRF3 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9793717947790024,strong,interacts,likely
+65,187,IRF3 Mesocricetus auratus,PLpro Middle East respiratory syndrome-related coronavirus,0.8482587851894527,strong,interacts,likely
+65,188,IRF3 Mesocricetus auratus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9843512493710735,strong,interacts,likely
+65,209,IRF3 Mesocricetus auratus,M protein Middle East respiratory syndrome-related coronavirus,0.7359031657553801,strong,interacts,likely
+65,211,IRF3 Mesocricetus auratus,M protein Severe acute respiratory syndrome-related coronavirus,0.9802153534743316,strong,interacts,likely
+67,71,IRF3 Canis lupus familiaris,N protein Severe acute respiratory syndrome-related coronavirus,0.7542748446368327,strong,interacts,likely
+67,100,IRF3 Canis lupus familiaris,ORF4a Middle East respiratory syndrome-related coronavirus,0.9924141416239242,strong,interacts,likely
+67,154,IRF3 Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9014516369812215,strong,interacts,likely
+67,188,IRF3 Canis lupus familiaris,PLpro Severe acute respiratory syndrome-related coronavirus,0.6969373463600413,strong,interacts,likely
+71,89,N protein Severe acute respiratory syndrome-related coronavirus,ACE2 Felis catus,0.9987334633382831,strong,interacts,likely
+71,91,N protein Severe acute respiratory syndrome-related coronavirus,ACE2 Mesocricetus auratus,0.7323468436237835,strong,interacts,likely
+71,98,N protein Severe acute respiratory syndrome-related coronavirus,ACE2 Canis lupus familiaris,0.9470487329986657,strong,interacts,likely
+71,109,N protein Severe acute respiratory syndrome-related coronavirus,NF-kB Mus musculus,0.6671012380177141,strong,interacts,likely
+71,110,N protein Severe acute respiratory syndrome-related coronavirus,NF-kB Mesocricetus auratus,0.7894215844781449,strong,interacts,likely
+71,115,N protein Severe acute respiratory syndrome-related coronavirus,IRF7 Homo sapiens,0.7934579180732864,strong,interacts,likely
+71,121,N protein Severe acute respiratory syndrome-related coronavirus,IRF7 Felis catus,0.9947030404610704,strong,interacts,likely
+71,130,N protein Severe acute respiratory syndrome-related coronavirus,MDA5 Pan troglodytes,0.9619615309427205,strong,interacts,likely
+71,139,N protein Severe acute respiratory syndrome-related coronavirus,MDA5 Canis lupus familiaris,0.9983606223378726,strong,interacts,likely
+71,141,N protein Severe acute respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.8193631750630657,strong,interacts,likely
+71,147,N protein Severe acute respiratory syndrome-related coronavirus,PRKRA Mus musculus,0.8128755541805364,strong,interacts,likely
+71,161,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9823861688560229,strong,interacts,likely
+71,164,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.9039763431919816,strong,interacts,likely
+71,166,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.6037926140101044,strong,interacts,likely
+71,172,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Homo sapiens,0.9795488933817573,strong,interacts,likely
+71,174,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.8685260743077248,strong,interacts,likely
+71,175,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Felis catus,0.9854333014964374,strong,interacts,likely
+71,178,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.9585654508600256,strong,interacts,likely
+71,183,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.9961781365915026,strong,interacts,likely
+71,185,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Mus musculus,0.821341488001211,strong,interacts,likely
+71,216,N protein Severe acute respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.9756290282799114,strong,interacts,likely
+71,227,N protein Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9960804790357755,strong,interacts,likely
+71,228,N protein Severe acute respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.6660070229440329,strong,interacts,likely
+71,229,N protein Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9966214430637117,strong,interacts,likely
+71,239,N protein Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9803233510992195,strong,interacts,likely
+83,100,ACE2 Homo sapiens,ORF4a Middle East respiratory syndrome-related coronavirus,0.7756283474478233,strong,interacts,likely
+89,100,ACE2 Felis catus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9996169638508828,strong,interacts,likely
+89,154,ACE2 Felis catus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9987575276199889,strong,interacts,likely
+89,187,ACE2 Felis catus,PLpro Middle East respiratory syndrome-related coronavirus,0.94288936057777,strong,interacts,likely
+89,209,ACE2 Felis catus,M protein Middle East respiratory syndrome-related coronavirus,0.980988077620586,strong,interacts,likely
+96,154,ACE2 Rattus norvegicus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9550634563832248,strong,interacts,likely
+97,100,ACE2 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.7929511093636268,strong,interacts,likely
+98,100,ACE2 Canis lupus familiaris,ORF4a Middle East respiratory syndrome-related coronavirus,0.8875283658571563,strong,interacts,likely
+98,209,ACE2 Canis lupus familiaris,M protein Middle East respiratory syndrome-related coronavirus,0.6856538179756453,strong,interacts,likely
+100,103,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Pan troglodytes,0.6998409155071297,strong,interacts,likely
+100,104,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Macaca mulatta,0.9542329674111374,strong,interacts,likely
+100,106,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Rhinolophus ferrumequinum,0.9872410111588366,strong,interacts,likely
+100,110,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Mesocricetus auratus,0.990577128820956,strong,interacts,likely
+100,115,ORF4a Middle East respiratory syndrome-related coronavirus,IRF7 Homo sapiens,0.9919029362864151,strong,interacts,likely
+100,121,ORF4a Middle East respiratory syndrome-related coronavirus,IRF7 Felis catus,0.9999770227332316,strong,interacts,likely
+100,122,ORF4a Middle East respiratory syndrome-related coronavirus,IRF7 Camelus dromedarius,0.9271594182383096,strong,interacts,likely
+100,130,ORF4a Middle East respiratory syndrome-related coronavirus,MDA5 Pan troglodytes,0.8097477690284859,strong,interacts,likely
+100,134,ORF4a Middle East respiratory syndrome-related coronavirus,MDA5 Felis catus,0.9867684933101128,strong,interacts,likely
+100,139,ORF4a Middle East respiratory syndrome-related coronavirus,MDA5 Canis lupus familiaris,0.9988090050725142,strong,interacts,likely
+100,142,ORF4a Middle East respiratory syndrome-related coronavirus,PRKRA Macaca mulatta,0.8656506952600533,strong,interacts,likely
+100,156,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.9764393474532884,strong,interacts,likely
+100,161,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9964288507031276,strong,interacts,likely
+100,162,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Felis catus,0.6150829466864378,strong,interacts,likely
+100,164,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.9215265546477289,strong,interacts,likely
+100,167,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.9336085139191795,strong,interacts,likely
+100,168,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Camelus dromedarius,0.757035324944963,strong,interacts,likely
+100,174,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.852664700925638,strong,interacts,likely
+100,175,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Felis catus,0.9999274915956767,strong,interacts,likely
+100,178,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.9983141876900219,strong,interacts,likely
+100,180,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Ovis aries,0.6480121382381019,strong,interacts,likely
+100,181,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Bos taurus,0.8962127396574943,strong,interacts,likely
+100,186,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Gallus gallus,0.6349082953686795,strong,interacts,likely
+100,216,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.9998693386717112,strong,interacts,likely
+100,222,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Rhinolophus ferrumequinum,0.9193321485644195,strong,interacts,likely
+100,227,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9999889068959287,strong,interacts,likely
+100,228,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.9934694154434296,strong,interacts,likely
+100,229,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9999884439437046,strong,interacts,likely
+100,231,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.9986098399222985,strong,interacts,likely
+100,236,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Bos taurus,0.8065114215025597,strong,interacts,likely
+100,237,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.9976620307426383,strong,interacts,likely
+100,238,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Felis catus,0.9984397144264232,strong,interacts,likely
+100,239,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.984711396918643,strong,interacts,likely
+100,241,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Canis lupus familiaris,0.817338748797487,strong,interacts,likely
+100,243,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Mus musculus,0.987217566700295,strong,interacts,likely
+104,154,NF-kB Macaca mulatta,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7306115590140544,strong,interacts,likely
+104,211,NF-kB Macaca mulatta,M protein Severe acute respiratory syndrome-related coronavirus,0.8676670550719636,strong,interacts,likely
+106,154,NF-kB Rhinolophus ferrumequinum,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9123542486587017,strong,interacts,likely
+109,154,NF-kB Mus musculus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7283362907740676,strong,interacts,likely
+110,188,NF-kB Mesocricetus auratus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9122963681776763,strong,interacts,likely
+111,154,NF-kB Rattus norvegicus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8141919222618736,strong,interacts,likely
+111,209,NF-kB Rattus norvegicus,M protein Middle East respiratory syndrome-related coronavirus,0.8510340875557836,strong,interacts,likely
+114,154,NF-kB Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8984472346145816,strong,interacts,likely
+115,154,IRF7 Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.977431347449023,strong,interacts,likely
+115,171,IRF7 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.8527311157301838,strong,interacts,likely
+121,154,IRF7 Felis catus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.999796495949686,strong,interacts,likely
+121,170,IRF7 Felis catus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9542875622930778,strong,interacts,likely
+121,171,IRF7 Felis catus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9433297198649901,strong,interacts,likely
+121,209,IRF7 Felis catus,M protein Middle East respiratory syndrome-related coronavirus,0.9678890748808784,strong,interacts,likely
+122,154,IRF7 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9494700354919808,strong,interacts,likely
+122,170,IRF7 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.866185149134034,strong,interacts,likely
+122,171,IRF7 Camelus dromedarius,ORF6 Severe acute respiratory syndrome coronavirus 2,0.6665622683902777,strong,interacts,likely
+126,154,IRF7 Mus musculus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.6874507417369722,strong,interacts,likely
+129,171,MDA5 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.6139821895381009,strong,interacts,likely
+129,209,MDA5 Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.6856465555342244,strong,interacts,likely
+136,170,MDA5 Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.914255137932261,strong,interacts,likely
+136,188,MDA5 Mus musculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.8689075258004714,strong,interacts,likely
+136,209,MDA5 Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.7645815885217877,strong,interacts,likely
+136,211,MDA5 Mus musculus,M protein Severe acute respiratory syndrome-related coronavirus,0.8478261167707851,strong,interacts,likely
+137,170,MDA5 Rattus norvegicus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7542416752005581,strong,interacts,likely
+139,154,MDA5 Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9949585239223784,strong,interacts,likely
+139,170,MDA5 Canis lupus familiaris,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8227917647820447,strong,interacts,likely
+139,188,MDA5 Canis lupus familiaris,PLpro Severe acute respiratory syndrome-related coronavirus,0.9159038840741226,strong,interacts,likely
+139,209,MDA5 Canis lupus familiaris,M protein Middle East respiratory syndrome-related coronavirus,0.822289480127758,strong,interacts,likely
+139,211,MDA5 Canis lupus familiaris,M protein Severe acute respiratory syndrome-related coronavirus,0.8112034131468147,strong,interacts,likely
+141,154,PRKRA Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.966437600599569,strong,interacts,likely
+141,188,PRKRA Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.7601097353081077,strong,interacts,likely
+145,188,PRKRA Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.7387219699785517,strong,interacts,likely
+147,154,PRKRA Mus musculus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9670480674856732,strong,interacts,likely
+147,170,PRKRA Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9312487800582266,strong,interacts,likely
+151,154,PRKRA Rattus norvegicus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.952300006484184,strong,interacts,likely
+151,170,PRKRA Rattus norvegicus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9546095710290892,strong,interacts,likely
+154,156,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.9158079218147267,strong,interacts,likely
+154,161,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9900016868052373,strong,interacts,likely
+154,164,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.9540533601163055,strong,interacts,likely
+154,167,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.8169757363985947,strong,interacts,likely
+154,174,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.8930293349946951,strong,interacts,likely
+154,177,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Camelus dromedarius,0.9628793287201163,strong,interacts,likely
+154,180,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Ovis aries,0.7741621029884402,strong,interacts,likely
+154,181,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Bos taurus,0.9594186579856099,strong,interacts,likely
+154,186,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Gallus gallus,0.9203881003151388,strong,interacts,likely
+154,216,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.9498632778835789,strong,interacts,likely
+154,227,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9999146453825705,strong,interacts,likely
+154,229,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9997932202260622,strong,interacts,likely
+154,233,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Macaca mulatta,0.5993851397867611,strong,interacts,likely
+154,239,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9946172691667086,strong,interacts,likely
+154,241,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Canis lupus familiaris,0.8281282218287376,strong,interacts,likely
+156,171,DPP4 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9838118103050713,strong,interacts,likely
+166,171,DPP4 Rattus norvegicus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.7705325815998112,strong,interacts,likely
+168,171,DPP4 Camelus dromedarius,ORF6 Severe acute respiratory syndrome coronavirus 2,0.8438164041104517,strong,interacts,likely
+170,177,ORF6 Severe acute respiratory syndrome-related coronavirus,STAT2 Camelus dromedarius,0.6648322423919679,strong,interacts,likely
+170,216,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.5960630394727495,strong,interacts,likely
+170,227,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9880814184833493,strong,interacts,likely
+170,229,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9765498721866801,strong,interacts,likely
+170,231,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.8379614955650954,strong,interacts,likely
+170,237,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.8316614951698411,strong,interacts,likely
+170,238,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Felis catus,0.6654112855241329,strong,interacts,likely
+170,243,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Mus musculus,0.9286575463295418,strong,interacts,likely
+171,229,ORF6 Severe acute respiratory syndrome coronavirus 2,TBK1 Rattus norvegicus,0.694067011598444,strong,interacts,likely
+171,238,ORF6 Severe acute respiratory syndrome coronavirus 2,MAVS Felis catus,0.8930890759315138,strong,interacts,likely
+172,211,STAT2 Homo sapiens,M protein Severe acute respiratory syndrome-related coronavirus,0.9080606120793959,strong,interacts,likely
+174,188,STAT2 Macaca mulatta,PLpro Severe acute respiratory syndrome-related coronavirus,0.9317637807601691,strong,interacts,likely
+174,209,STAT2 Macaca mulatta,M protein Middle East respiratory syndrome-related coronavirus,0.9351319401475118,strong,interacts,likely
+175,187,STAT2 Felis catus,PLpro Middle East respiratory syndrome-related coronavirus,0.6300261945160753,strong,interacts,likely
+175,209,STAT2 Felis catus,M protein Middle East respiratory syndrome-related coronavirus,0.9294754049781676,strong,interacts,likely
+175,211,STAT2 Felis catus,M protein Severe acute respiratory syndrome-related coronavirus,0.902303239651427,strong,interacts,likely
+178,209,STAT2 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.9005389434114781,strong,interacts,likely
+178,211,STAT2 Rhinolophus ferrumequinum,M protein Severe acute respiratory syndrome-related coronavirus,0.9305549149638133,strong,interacts,likely
+183,187,STAT2 Rattus norvegicus,PLpro Middle East respiratory syndrome-related coronavirus,0.5959863369723264,strong,interacts,likely
+183,211,STAT2 Rattus norvegicus,M protein Severe acute respiratory syndrome-related coronavirus,0.8021926672887458,strong,interacts,likely
+185,211,STAT2 Mus musculus,M protein Severe acute respiratory syndrome-related coronavirus,0.8658143987756262,strong,interacts,likely
+186,209,STAT2 Gallus gallus,M protein Middle East respiratory syndrome-related coronavirus,0.626508946041834,strong,interacts,likely
+188,228,PLpro Severe acute respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.9838417944730778,strong,interacts,likely
+211,216,M protein Severe acute respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.8082127146811581,strong,interacts,likely
+211,227,M protein Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.8384318722279239,strong,interacts,likely
+211,229,M protein Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.7863300008046296,strong,interacts,likely
+211,237,M protein Severe acute respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.8059115362197184,strong,interacts,likely
+211,238,M protein Severe acute respiratory syndrome-related coronavirus,MAVS Felis catus,0.7065703473166907,strong,interacts,likely
+0,64,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF3 Rattus norvegicus,0.8909142056573859,strong,interacts,likely
+0,237,nsp15 Severe acute respiratory syndrome coronavirus 2,MAVS Rhinolophus ferrumequinum,0.7986258295585064,strong,interacts,likely
+0,239,nsp15 Severe acute respiratory syndrome coronavirus 2,MAVS Camelus dromedarius,0.7975541191529131,strong,interacts,likely
+1,14,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT1 Rattus norvegicus,0.9310433656603204,strong,interacts,likely
+1,18,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF9 Homo sapiens,0.9902711957876497,strong,interacts,likely
+1,22,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF9 Camelus dromedarius,0.7856694092118635,strong,interacts,likely
+1,30,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF9 Mus musculus,0.8519968665932192,strong,interacts,likely
+1,32,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF9 Rattus norvegicus,0.8416578898303689,strong,interacts,likely
+1,34,nsp15 Severe acute respiratory syndrome-related coronavirus,RIG-I Homo sapiens,0.7969129271190167,strong,interacts,likely
+1,65,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF3 Mesocricetus auratus,0.7600382435904518,strong,interacts,likely
+1,109,nsp15 Severe acute respiratory syndrome-related coronavirus,NF-kB Mus musculus,0.8512896235717489,strong,interacts,likely
+1,129,nsp15 Severe acute respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.7630760871728005,strong,interacts,likely
+1,136,nsp15 Severe acute respiratory syndrome-related coronavirus,MDA5 Mus musculus,0.8067369424082365,strong,interacts,likely
+1,139,nsp15 Severe acute respiratory syndrome-related coronavirus,MDA5 Canis lupus familiaris,0.9489261096716888,strong,interacts,likely
+1,141,nsp15 Severe acute respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.7326270235077539,strong,interacts,likely
+1,172,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Homo sapiens,0.9660638818517181,strong,interacts,likely
+1,178,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.7503680301868421,strong,interacts,likely
+1,227,nsp15 Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9916747459011583,strong,interacts,likely
+1,229,nsp15 Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9771757995677464,strong,interacts,likely
+1,239,nsp15 Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9305056324222115,strong,interacts,likely
+4,42,STAT1 Pan troglodytes,ORF4b Middle East respiratory syndrome-related coronavirus,0.9920782677920623,strong,interacts,likely
+4,100,STAT1 Pan troglodytes,ORF4a Middle East respiratory syndrome-related coronavirus,0.9332981466870159,strong,interacts,likely
+4,209,STAT1 Pan troglodytes,M protein Middle East respiratory syndrome-related coronavirus,0.891565716135311,strong,interacts,likely
+6,42,STAT1 Felis catus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9994354992030223,strong,interacts,likely
+6,71,STAT1 Felis catus,N protein Severe acute respiratory syndrome-related coronavirus,0.9804433305239831,strong,interacts,likely
+6,100,STAT1 Felis catus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9858260868402847,strong,interacts,likely
+6,171,STAT1 Felis catus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.7325614052962566,strong,interacts,likely
+6,188,STAT1 Felis catus,PLpro Severe acute respiratory syndrome-related coronavirus,0.7300196708435058,strong,interacts,likely
+6,209,STAT1 Felis catus,M protein Middle East respiratory syndrome-related coronavirus,0.879982303397659,strong,interacts,likely
+7,45,STAT1 Camelus dromedarius,nsp1 Severe acute respiratory syndrome-related coronavirus,0.7268372923660762,strong,interacts,likely
+7,154,STAT1 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9835381403696315,strong,interacts,likely
+7,170,STAT1 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.6869399103687723,strong,interacts,likely
+7,188,STAT1 Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.8331857912784163,strong,interacts,likely
+10,42,STAT1 Rhinolophus ferrumequinum,ORF4b Middle East respiratory syndrome-related coronavirus,0.9995351748086446,strong,interacts,likely
+10,71,STAT1 Rhinolophus ferrumequinum,N protein Severe acute respiratory syndrome-related coronavirus,0.9304164728805985,strong,interacts,likely
+10,100,STAT1 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.9988911714007485,strong,interacts,likely
+10,209,STAT1 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.9756631355694223,strong,interacts,likely
+14,71,STAT1 Rattus norvegicus,N protein Severe acute respiratory syndrome-related coronavirus,0.9793555737315902,strong,interacts,likely
+14,211,STAT1 Rattus norvegicus,M protein Severe acute respiratory syndrome-related coronavirus,0.8319471606918276,strong,interacts,likely
+15,71,STAT1 Mus musculus,N protein Severe acute respiratory syndrome-related coronavirus,0.9422021528265394,strong,interacts,likely
+15,187,STAT1 Mus musculus,PLpro Middle East respiratory syndrome-related coronavirus,0.933435393638984,strong,interacts,likely
+15,188,STAT1 Mus musculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9683030935859396,strong,interacts,likely
+15,211,STAT1 Mus musculus,M protein Severe acute respiratory syndrome-related coronavirus,0.7255740940696209,strong,interacts,likely
+16,42,STAT1 Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9998479049428054,strong,interacts,likely
+16,71,STAT1 Mesocricetus auratus,N protein Severe acute respiratory syndrome-related coronavirus,0.8722910970075356,strong,interacts,likely
+16,100,STAT1 Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.98133738768361,strong,interacts,likely
+16,154,STAT1 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9821924162011162,strong,interacts,likely
+16,171,STAT1 Mesocricetus auratus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.7512189967847052,strong,interacts,likely
+16,188,STAT1 Mesocricetus auratus,PLpro Severe acute respiratory syndrome-related coronavirus,0.966062752032073,strong,interacts,likely
+16,209,STAT1 Mesocricetus auratus,M protein Middle East respiratory syndrome-related coronavirus,0.9491507899380692,strong,interacts,likely
+17,42,STAT1 Gallus gallus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9672626886639556,strong,interacts,likely
+18,71,IRF9 Homo sapiens,N protein Severe acute respiratory syndrome-related coronavirus,0.9679707105594603,strong,interacts,likely
+21,42,IRF9 Felis catus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9973166572661311,strong,interacts,likely
+21,100,IRF9 Felis catus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9102544707421407,strong,interacts,likely
+22,154,IRF9 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9953854294993966,strong,interacts,likely
+22,170,IRF9 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8134593142697905,strong,interacts,likely
+22,187,IRF9 Camelus dromedarius,PLpro Middle East respiratory syndrome-related coronavirus,0.7998990725729894,strong,interacts,likely
+25,42,IRF9 Rhinolophus ferrumequinum,ORF4b Middle East respiratory syndrome-related coronavirus,0.9382928533509243,strong,interacts,likely
+26,42,IRF9 Ovis aries,ORF4b Middle East respiratory syndrome-related coronavirus,0.987866747750827,strong,interacts,likely
+26,71,IRF9 Ovis aries,N protein Severe acute respiratory syndrome-related coronavirus,0.6169979513232176,strong,interacts,likely
+26,100,IRF9 Ovis aries,ORF4a Middle East respiratory syndrome-related coronavirus,0.9981459207991471,strong,interacts,likely
+26,154,IRF9 Ovis aries,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9311954163178855,strong,interacts,likely
+26,170,IRF9 Ovis aries,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7969412996418634,strong,interacts,likely
+26,209,IRF9 Ovis aries,M protein Middle East respiratory syndrome-related coronavirus,0.982163788545298,strong,interacts,likely
+28,42,IRF9 Bos taurus,ORF4b Middle East respiratory syndrome-related coronavirus,0.8673424712807344,strong,interacts,likely
+28,100,IRF9 Bos taurus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9859287115318734,strong,interacts,likely
+28,154,IRF9 Bos taurus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9911716756994822,strong,interacts,likely
+28,209,IRF9 Bos taurus,M protein Middle East respiratory syndrome-related coronavirus,0.8442309434375561,strong,interacts,likely
+29,154,IRF9 Ictidomys tridecemlineatus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8637986620479305,strong,interacts,likely
+30,187,IRF9 Mus musculus,PLpro Middle East respiratory syndrome-related coronavirus,0.900927712554412,strong,interacts,likely
+30,211,IRF9 Mus musculus,M protein Severe acute respiratory syndrome-related coronavirus,0.7530789921604986,strong,interacts,likely
+31,42,IRF9 Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9697617518859306,strong,interacts,likely
+31,100,IRF9 Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9796232224350462,strong,interacts,likely
+31,154,IRF9 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9448450216920611,strong,interacts,likely
+31,170,IRF9 Mesocricetus auratus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.6045598087687952,strong,interacts,likely
+34,42,RIG-I Homo sapiens,ORF4b Middle East respiratory syndrome-related coronavirus,0.9977935165106753,strong,interacts,likely
+34,45,RIG-I Homo sapiens,nsp1 Severe acute respiratory syndrome-related coronavirus,0.9133049492288915,strong,interacts,likely
+34,100,RIG-I Homo sapiens,ORF4a Middle East respiratory syndrome-related coronavirus,0.9908934334411963,strong,interacts,likely
+34,170,RIG-I Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9516361200570618,strong,interacts,likely
+34,209,RIG-I Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.8052848156043384,strong,interacts,likely
+38,42,RIG-I Canis lupus familiaris,ORF4b Middle East respiratory syndrome-related coronavirus,0.7980461586872056,strong,interacts,likely
+38,154,RIG-I Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.849564786698971,strong,interacts,likely
+39,42,RIG-I Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9938913504142368,strong,interacts,likely
+39,71,RIG-I Mesocricetus auratus,N protein Severe acute respiratory syndrome-related coronavirus,0.749925854449065,strong,interacts,likely
+39,100,RIG-I Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9680483698121058,strong,interacts,likely
+39,154,RIG-I Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9243689447196979,strong,interacts,likely
+39,170,RIG-I Mesocricetus auratus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7845596050975407,strong,interacts,likely
+39,188,RIG-I Mesocricetus auratus,PLpro Severe acute respiratory syndrome-related coronavirus,0.8129671621830402,strong,interacts,likely
+40,100,RIG-I Mus musculus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9817951863051145,strong,interacts,likely
+42,59,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.999479962897136,strong,interacts,likely
+42,61,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Ovis aries,0.8471881601465527,strong,interacts,likely
+42,65,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Mesocricetus auratus,0.954632842172512,strong,interacts,likely
+42,67,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Canis lupus familiaris,0.8551548412304242,strong,interacts,likely
+42,83,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Homo sapiens,0.9982651309600035,strong,interacts,likely
+42,86,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Ictidomys tridecemlineatus,0.9069921417222822,strong,interacts,likely
+42,89,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Felis catus,0.9998372008351604,strong,interacts,likely
+42,91,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Mesocricetus auratus,0.9559198714476048,strong,interacts,likely
+42,95,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Bos taurus,0.779314299660669,strong,interacts,likely
+42,97,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Rhinolophus ferrumequinum,0.9250658348528906,strong,interacts,likely
+42,110,ORF4b Middle East respiratory syndrome-related coronavirus,NF-kB Mesocricetus auratus,0.9565945868683006,strong,interacts,likely
+42,112,ORF4b Middle East respiratory syndrome-related coronavirus,NF-kB Equus caballus,0.8914442180958008,strong,interacts,likely
+42,121,ORF4b Middle East respiratory syndrome-related coronavirus,IRF7 Felis catus,0.9826738765494355,strong,interacts,likely
+42,129,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.7106508605631086,strong,interacts,likely
+42,137,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Rattus norvegicus,0.7876535908988049,strong,interacts,likely
+42,139,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Canis lupus familiaris,0.9728034662132883,strong,interacts,likely
+42,141,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.8232885133643711,strong,interacts,likely
+42,147,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Mus musculus,0.9985826904510557,strong,interacts,likely
+42,156,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.7784416483096597,strong,interacts,likely
+42,161,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9705390639840565,strong,interacts,likely
+42,164,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.7802483820927433,strong,interacts,likely
+42,167,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.6468897749981215,strong,interacts,likely
+42,173,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Pan troglodytes,0.7754445812346911,strong,interacts,likely
+42,174,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.9879392865169176,strong,interacts,likely
+42,175,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Felis catus,0.7834714764352089,strong,interacts,likely
+42,178,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.9917591754466597,strong,interacts,likely
+42,237,ORF4b Middle East respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.954718634756794,strong,interacts,likely
+45,59,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.9694313006975381,strong,interacts,likely
+45,121,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF7 Felis catus,0.7167395688495077,strong,interacts,likely
+45,237,nsp1 Severe acute respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.7262280345921206,strong,interacts,likely
+45,239,nsp1 Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.5965337729876808,strong,interacts,likely
+59,100,IRF3 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.9993365834059671,strong,interacts,likely
+59,209,IRF3 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.9938518709560387,strong,interacts,likely
+60,154,IRF3 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9439373867075044,strong,interacts,likely
+60,170,IRF3 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9953352842216612,strong,interacts,likely
+60,171,IRF3 Camelus dromedarius,ORF6 Severe acute respiratory syndrome coronavirus 2,0.7497162379864589,strong,interacts,likely
+60,188,IRF3 Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.8237101605761106,strong,interacts,likely
+61,100,IRF3 Ovis aries,ORF4a Middle East respiratory syndrome-related coronavirus,0.8697420730076834,strong,interacts,likely
+61,209,IRF3 Ovis aries,M protein Middle East respiratory syndrome-related coronavirus,0.7578951343548185,strong,interacts,likely
+64,171,IRF3 Rattus norvegicus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9438848798723753,strong,interacts,likely
+65,100,IRF3 Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9976978281222766,strong,interacts,likely
+65,154,IRF3 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8389532665919579,strong,interacts,likely
+65,170,IRF3 Mesocricetus auratus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7807781929205335,strong,interacts,likely
+65,188,IRF3 Mesocricetus auratus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9661759124066651,strong,interacts,likely
+65,209,IRF3 Mesocricetus auratus,M protein Middle East respiratory syndrome-related coronavirus,0.9287910488667411,strong,interacts,likely
+66,171,IRF3 Mus musculus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.8961622789489827,strong,interacts,likely
+67,100,IRF3 Canis lupus familiaris,ORF4a Middle East respiratory syndrome-related coronavirus,0.8935419182664293,strong,interacts,likely
+71,89,N protein Severe acute respiratory syndrome-related coronavirus,ACE2 Felis catus,0.9547239202709503,strong,interacts,likely
+71,98,N protein Severe acute respiratory syndrome-related coronavirus,ACE2 Canis lupus familiaris,0.7575143737937937,strong,interacts,likely
+71,121,N protein Severe acute respiratory syndrome-related coronavirus,IRF7 Felis catus,0.9985677259283126,strong,interacts,likely
+71,139,N protein Severe acute respiratory syndrome-related coronavirus,MDA5 Canis lupus familiaris,0.9892703848649416,strong,interacts,likely
+71,156,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.8650386942931418,strong,interacts,likely
+71,161,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9901110724103884,strong,interacts,likely
+71,172,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Homo sapiens,0.9968770126472963,strong,interacts,likely
+71,174,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.8948985978676893,strong,interacts,likely
+71,175,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Felis catus,0.7621369440328538,strong,interacts,likely
+71,178,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.9105707839694926,strong,interacts,likely
+71,183,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.9861028916413692,strong,interacts,likely
+71,185,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Mus musculus,0.9983216750044364,strong,interacts,likely
+71,222,N protein Severe acute respiratory syndrome-related coronavirus,TBK1 Rhinolophus ferrumequinum,0.821377486834306,strong,interacts,likely
+71,229,N protein Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.873249942670453,strong,interacts,likely
+71,239,N protein Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9916266914627352,strong,interacts,likely
+83,100,ACE2 Homo sapiens,ORF4a Middle East respiratory syndrome-related coronavirus,0.9905232606903958,strong,interacts,likely
+83,154,ACE2 Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8018156206076428,strong,interacts,likely
+83,187,ACE2 Homo sapiens,PLpro Middle East respiratory syndrome-related coronavirus,0.8148398592193242,strong,interacts,likely
+89,100,ACE2 Felis catus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9995442698897963,strong,interacts,likely
+89,154,ACE2 Felis catus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8921057116831825,strong,interacts,likely
+89,170,ACE2 Felis catus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9230993464978419,strong,interacts,likely
+89,171,ACE2 Felis catus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.6757510860401605,strong,interacts,likely
+89,209,ACE2 Felis catus,M protein Middle East respiratory syndrome-related coronavirus,0.9475964364051302,strong,interacts,likely
+96,100,ACE2 Rattus norvegicus,ORF4a Middle East respiratory syndrome-related coronavirus,0.6198189230695008,strong,interacts,likely
+98,100,ACE2 Canis lupus familiaris,ORF4a Middle East respiratory syndrome-related coronavirus,0.8901073881028708,strong,interacts,likely
+100,104,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Macaca mulatta,0.9091943673489541,strong,interacts,likely
+100,105,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Bos taurus,0.989029001366287,strong,interacts,likely
+100,106,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Rhinolophus ferrumequinum,0.8748218040812134,strong,interacts,likely
+100,107,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Ovis aries,0.8195184860085695,strong,interacts,likely
+100,110,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Mesocricetus auratus,0.9849333317685394,strong,interacts,likely
+100,112,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Equus caballus,0.992634142784429,strong,interacts,likely
+100,115,ORF4a Middle East respiratory syndrome-related coronavirus,IRF7 Homo sapiens,0.7867500411901459,strong,interacts,likely
+100,121,ORF4a Middle East respiratory syndrome-related coronavirus,IRF7 Felis catus,0.9717668460854145,strong,interacts,likely
+100,139,ORF4a Middle East respiratory syndrome-related coronavirus,MDA5 Canis lupus familiaris,0.9979205686720003,strong,interacts,likely
+100,142,ORF4a Middle East respiratory syndrome-related coronavirus,PRKRA Macaca mulatta,0.728244669460621,strong,interacts,likely
+100,143,ORF4a Middle East respiratory syndrome-related coronavirus,PRKRA Equus caballus,0.762533694287567,strong,interacts,likely
+100,148,ORF4a Middle East respiratory syndrome-related coronavirus,PRKRA Ictidomys tridecemlineatus,0.7469634428724182,strong,interacts,likely
+100,156,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.993740235480797,strong,interacts,likely
+100,161,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.929858808246891,strong,interacts,likely
+100,162,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Felis catus,0.8981459013504585,strong,interacts,likely
+100,163,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Equus caballus,0.5269641577145938,strong,interacts,likely
+100,164,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.9504652846089847,strong,interacts,likely
+100,167,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.8724908392412369,strong,interacts,likely
+100,169,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Gallus gallus,0.6352610863533852,strong,interacts,likely
+100,173,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Pan troglodytes,0.742120332917344,strong,interacts,likely
+100,174,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.9806975136964761,strong,interacts,likely
+100,175,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Felis catus,0.997671390169789,strong,interacts,likely
+100,178,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.996981420358127,strong,interacts,likely
+100,186,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Gallus gallus,0.787876690624544,strong,interacts,likely
+100,216,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.9784883871961747,strong,interacts,likely
+100,222,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Rhinolophus ferrumequinum,0.9860242483322064,strong,interacts,likely
+100,226,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Mesocricetus auratus,0.7825288679021216,strong,interacts,likely
+100,227,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9984895386084183,strong,interacts,likely
+100,228,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.974016339413978,strong,interacts,likely
+100,229,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9999607935297095,strong,interacts,likely
+100,231,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.989258042177992,strong,interacts,likely
+100,233,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Macaca mulatta,0.858504822867215,strong,interacts,likely
+100,236,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Bos taurus,0.813497548991845,strong,interacts,likely
+100,237,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.9993257585067722,strong,interacts,likely
+100,238,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Felis catus,0.9939814872315579,strong,interacts,likely
+100,239,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9994942584620249,strong,interacts,likely
+100,241,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Canis lupus familiaris,0.7800158295159332,strong,interacts,likely
+100,243,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Mus musculus,0.9971982497619154,strong,interacts,likely
+100,244,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.9985636349871817,strong,interacts,likely
+102,154,NF-kB Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8967586591648276,strong,interacts,likely
+102,209,NF-kB Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.9886186587234143,strong,interacts,likely
+105,187,NF-kB Bos taurus,PLpro Middle East respiratory syndrome-related coronavirus,0.8849738805087837,strong,interacts,likely
+105,188,NF-kB Bos taurus,PLpro Severe acute respiratory syndrome-related coronavirus,0.973010933576832,strong,interacts,likely
+109,154,NF-kB Mus musculus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9498864518330639,strong,interacts,likely
+110,187,NF-kB Mesocricetus auratus,PLpro Middle East respiratory syndrome-related coronavirus,0.8013324473986734,strong,interacts,likely
+110,188,NF-kB Mesocricetus auratus,PLpro Severe acute respiratory syndrome-related coronavirus,0.8221338040460917,strong,interacts,likely
+110,209,NF-kB Mesocricetus auratus,M protein Middle East respiratory syndrome-related coronavirus,0.5557959264754555,strong,interacts,likely
+111,209,NF-kB Rattus norvegicus,M protein Middle East respiratory syndrome-related coronavirus,0.8404022991299549,strong,interacts,likely
+112,188,NF-kB Equus caballus,PLpro Severe acute respiratory syndrome-related coronavirus,0.7126278182923411,strong,interacts,likely
+114,209,NF-kB Camelus dromedarius,M protein Middle East respiratory syndrome-related coronavirus,0.6834275303056925,strong,interacts,likely
+114,211,NF-kB Camelus dromedarius,M protein Severe acute respiratory syndrome-related coronavirus,0.735829962735997,strong,interacts,likely
+115,154,IRF7 Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8685940346398155,strong,interacts,likely
+115,171,IRF7 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.821432630159693,strong,interacts,likely
+115,209,IRF7 Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.8704968595364493,strong,interacts,likely
+121,154,IRF7 Felis catus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9986517942946481,strong,interacts,likely
+121,170,IRF7 Felis catus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8874437949587817,strong,interacts,likely
+121,171,IRF7 Felis catus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.8640822052032879,strong,interacts,likely
+121,209,IRF7 Felis catus,M protein Middle East respiratory syndrome-related coronavirus,0.8033647100584684,strong,interacts,likely
+129,170,MDA5 Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8977280001689599,strong,interacts,likely
+129,209,MDA5 Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.5987344403521164,strong,interacts,likely
+136,209,MDA5 Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.8772152239258124,strong,interacts,likely
+139,154,MDA5 Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9971448521526751,strong,interacts,likely
+139,170,MDA5 Canis lupus familiaris,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9656753907631855,strong,interacts,likely
+139,188,MDA5 Canis lupus familiaris,PLpro Severe acute respiratory syndrome-related coronavirus,0.849446597450175,strong,interacts,likely
+139,209,MDA5 Canis lupus familiaris,M protein Middle East respiratory syndrome-related coronavirus,0.894323832171219,strong,interacts,likely
+139,211,MDA5 Canis lupus familiaris,M protein Severe acute respiratory syndrome-related coronavirus,0.7794981778075922,strong,interacts,likely
+141,154,PRKRA Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9652906199968931,strong,interacts,likely
+151,170,PRKRA Rattus norvegicus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.585450526970484,strong,interacts,likely
+154,156,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.9106719521016595,strong,interacts,likely
+154,161,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9959175807491255,strong,interacts,likely
+154,167,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.7718745959534625,strong,interacts,likely
+154,169,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Gallus gallus,0.889293826359328,strong,interacts,likely
+154,173,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Pan troglodytes,0.8790308934764318,strong,interacts,likely
+154,174,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.9773343143547953,strong,interacts,likely
+154,180,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Ovis aries,0.8857432287479867,strong,interacts,likely
+154,186,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Gallus gallus,0.7697259827427718,strong,interacts,likely
+154,227,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.989463683881728,strong,interacts,likely
+154,229,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9889241487131439,strong,interacts,likely
+154,236,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Bos taurus,0.9667741814221331,strong,interacts,likely
+154,239,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9983055555668623,strong,interacts,likely
+154,241,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Canis lupus familiaris,0.7995191886145713,strong,interacts,likely
+154,245,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Gallus gallus,0.9247389198528511,strong,interacts,likely
+156,171,DPP4 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.7470884746359331,strong,interacts,likely
+170,174,ORF6 Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.776094240988418,strong,interacts,likely
+170,227,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9916041322541624,strong,interacts,likely
+170,229,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9700693390102377,strong,interacts,likely
+170,231,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.8940595147592356,strong,interacts,likely
+170,237,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.6990448665370105,strong,interacts,likely
+170,243,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Mus musculus,0.8629945014594186,strong,interacts,likely
+170,244,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.7028805468737407,strong,interacts,likely
+172,188,STAT2 Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.5258031630172031,strong,interacts,likely
+174,209,STAT2 Macaca mulatta,M protein Middle East respiratory syndrome-related coronavirus,0.8930311875908994,strong,interacts,likely
+178,209,STAT2 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.9736149742476997,strong,interacts,likely
+185,211,STAT2 Mus musculus,M protein Severe acute respiratory syndrome-related coronavirus,0.76552736847073,strong,interacts,likely
+187,239,PLpro Middle East respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.8096913036553703,strong,interacts,likely
+188,228,PLpro Severe acute respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.8177184080588935,strong,interacts,likely
+188,237,PLpro Severe acute respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.7907221584677997,strong,interacts,likely
+188,239,PLpro Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9620424356871766,strong,interacts,likely
+188,244,PLpro Severe acute respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.6123540684905295,strong,interacts,likely
+209,231,M protein Middle East respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.935122901108534,strong,interacts,likely
+209,237,M protein Middle East respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.6440892837510201,strong,interacts,likely
+211,227,M protein Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9218207896670902,strong,interacts,likely
+211,229,M protein Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.8280871184592151,strong,interacts,likely
+211,237,M protein Severe acute respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.9427683060786234,strong,interacts,likely
+211,244,M protein Severe acute respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.7740109197618374,strong,interacts,likely
+0,14,nsp15 Severe acute respiratory syndrome coronavirus 2,STAT1 Rattus norvegicus,0.9125782470745296,strong,interacts,likely
+0,18,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF9 Homo sapiens,0.7226533479305614,strong,interacts,likely
+0,32,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF9 Rattus norvegicus,0.8040987718520596,strong,interacts,likely
+0,60,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF3 Camelus dromedarius,0.8377576082271149,strong,interacts,likely
+0,64,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF3 Rattus norvegicus,0.8955072746837387,strong,interacts,likely
+0,66,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF3 Mus musculus,0.9270428462924536,strong,interacts,likely
+0,102,nsp15 Severe acute respiratory syndrome coronavirus 2,NF-kB Homo sapiens,0.736645574725282,strong,interacts,likely
+0,109,nsp15 Severe acute respiratory syndrome coronavirus 2,NF-kB Mus musculus,0.9563099297163397,strong,interacts,likely
+0,111,nsp15 Severe acute respiratory syndrome coronavirus 2,NF-kB Rattus norvegicus,0.6764938009548807,strong,interacts,likely
+0,130,nsp15 Severe acute respiratory syndrome coronavirus 2,MDA5 Pan troglodytes,0.8803694703118581,strong,interacts,likely
+0,134,nsp15 Severe acute respiratory syndrome coronavirus 2,MDA5 Felis catus,0.6167628692111581,strong,interacts,likely
+0,141,nsp15 Severe acute respiratory syndrome coronavirus 2,PRKRA Homo sapiens,0.7404316352827695,strong,interacts,likely
+0,142,nsp15 Severe acute respiratory syndrome coronavirus 2,PRKRA Macaca mulatta,0.9468488726902051,strong,interacts,likely
+0,147,nsp15 Severe acute respiratory syndrome coronavirus 2,PRKRA Mus musculus,0.5507985018264887,strong,interacts,likely
+0,156,nsp15 Severe acute respiratory syndrome coronavirus 2,DPP4 Homo sapiens,0.8428848392632364,strong,interacts,likely
+0,167,nsp15 Severe acute respiratory syndrome coronavirus 2,DPP4 Mus musculus,0.8585184117120279,strong,interacts,likely
+0,168,nsp15 Severe acute respiratory syndrome coronavirus 2,DPP4 Camelus dromedarius,0.7119580752566732,strong,interacts,likely
+0,227,nsp15 Severe acute respiratory syndrome coronavirus 2,TBK1 Mus musculus,0.932965527971832,strong,interacts,likely
+0,229,nsp15 Severe acute respiratory syndrome coronavirus 2,TBK1 Rattus norvegicus,0.7681541427530005,strong,interacts,likely
+0,238,nsp15 Severe acute respiratory syndrome coronavirus 2,MAVS Felis catus,0.9931492386661939,strong,interacts,likely
+1,14,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT1 Rattus norvegicus,0.9327327733008985,strong,interacts,likely
+1,18,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF9 Homo sapiens,0.8344686449023976,strong,interacts,likely
+1,32,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF9 Rattus norvegicus,0.8408819279173199,strong,interacts,likely
+1,34,nsp15 Severe acute respiratory syndrome-related coronavirus,RIG-I Homo sapiens,0.9197786807179948,strong,interacts,likely
+1,38,nsp15 Severe acute respiratory syndrome-related coronavirus,RIG-I Canis lupus familiaris,0.8098686550417811,strong,interacts,likely
+1,60,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF3 Camelus dromedarius,0.970926392879065,strong,interacts,likely
+1,67,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF3 Canis lupus familiaris,0.686223529311494,strong,interacts,likely
+1,136,nsp15 Severe acute respiratory syndrome-related coronavirus,MDA5 Mus musculus,0.75829964664674,strong,interacts,likely
+1,147,nsp15 Severe acute respiratory syndrome-related coronavirus,PRKRA Mus musculus,0.9037283115914356,strong,interacts,likely
+1,178,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.7805927393141362,strong,interacts,likely
+1,183,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.7738724459013865,strong,interacts,likely
+1,185,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Mus musculus,0.6068031775647593,strong,interacts,likely
+1,229,nsp15 Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9521947678933989,strong,interacts,likely
+3,71,STAT1 Homo sapiens,N protein Severe acute respiratory syndrome-related coronavirus,0.7342508466780264,strong,interacts,likely
+6,42,STAT1 Felis catus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9997493063159512,strong,interacts,likely
+6,71,STAT1 Felis catus,N protein Severe acute respiratory syndrome-related coronavirus,0.922093383420465,strong,interacts,likely
+6,100,STAT1 Felis catus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9829091499423761,strong,interacts,likely
+6,171,STAT1 Felis catus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.8618746881571484,strong,interacts,likely
+6,188,STAT1 Felis catus,PLpro Severe acute respiratory syndrome-related coronavirus,0.703802145296998,strong,interacts,likely
+6,209,STAT1 Felis catus,M protein Middle East respiratory syndrome-related coronavirus,0.9988510425525878,strong,interacts,likely
+7,45,STAT1 Camelus dromedarius,nsp1 Severe acute respiratory syndrome-related coronavirus,0.6845329854602564,strong,interacts,likely
+7,170,STAT1 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7460318949233928,strong,interacts,likely
+10,42,STAT1 Rhinolophus ferrumequinum,ORF4b Middle East respiratory syndrome-related coronavirus,0.8250997142027421,strong,interacts,likely
+10,209,STAT1 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.9024930187460878,strong,interacts,likely
+13,42,STAT1 Ictidomys tridecemlineatus,ORF4b Middle East respiratory syndrome-related coronavirus,0.779728379985654,strong,interacts,likely
+13,209,STAT1 Ictidomys tridecemlineatus,M protein Middle East respiratory syndrome-related coronavirus,0.92073390630302,strong,interacts,likely
+14,71,STAT1 Rattus norvegicus,N protein Severe acute respiratory syndrome-related coronavirus,0.9917417694416868,strong,interacts,likely
+14,171,STAT1 Rattus norvegicus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9740556539185183,strong,interacts,likely
+14,188,STAT1 Rattus norvegicus,PLpro Severe acute respiratory syndrome-related coronavirus,0.8459529827932031,strong,interacts,likely
+15,71,STAT1 Mus musculus,N protein Severe acute respiratory syndrome-related coronavirus,0.8462142607864012,strong,interacts,likely
+15,187,STAT1 Mus musculus,PLpro Middle East respiratory syndrome-related coronavirus,0.8583725748806609,strong,interacts,likely
+15,188,STAT1 Mus musculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.7574278151045488,strong,interacts,likely
+16,42,STAT1 Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9995189593990834,strong,interacts,likely
+16,45,STAT1 Mesocricetus auratus,nsp1 Severe acute respiratory syndrome-related coronavirus,0.9830460595801227,strong,interacts,likely
+16,100,STAT1 Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.8513174218759614,strong,interacts,likely
+16,154,STAT1 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8826369609269815,strong,interacts,likely
+16,209,STAT1 Mesocricetus auratus,M protein Middle East respiratory syndrome-related coronavirus,0.9952716132179926,strong,interacts,likely
+17,42,STAT1 Gallus gallus,ORF4b Middle East respiratory syndrome-related coronavirus,0.7321574270645419,strong,interacts,likely
+18,71,IRF9 Homo sapiens,N protein Severe acute respiratory syndrome-related coronavirus,0.9479289451434556,strong,interacts,likely
+18,188,IRF9 Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.5253088591614221,strong,interacts,likely
+21,42,IRF9 Felis catus,ORF4b Middle East respiratory syndrome-related coronavirus,0.7672582356369682,strong,interacts,likely
+22,170,IRF9 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8767598797063814,strong,interacts,likely
+25,42,IRF9 Rhinolophus ferrumequinum,ORF4b Middle East respiratory syndrome-related coronavirus,0.9960802656714474,strong,interacts,likely
+25,209,IRF9 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.8283578411842341,strong,interacts,likely
+26,42,IRF9 Ovis aries,ORF4b Middle East respiratory syndrome-related coronavirus,0.9826745685661886,strong,interacts,likely
+26,100,IRF9 Ovis aries,ORF4a Middle East respiratory syndrome-related coronavirus,0.9354642059025314,strong,interacts,likely
+26,154,IRF9 Ovis aries,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9888270597042672,strong,interacts,likely
+26,170,IRF9 Ovis aries,ORF6 Severe acute respiratory syndrome-related coronavirus,0.6799502991674726,strong,interacts,likely
+29,154,IRF9 Ictidomys tridecemlineatus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8940216038667792,strong,interacts,likely
+30,71,IRF9 Mus musculus,N protein Severe acute respiratory syndrome-related coronavirus,0.9231287109654878,strong,interacts,likely
+30,187,IRF9 Mus musculus,PLpro Middle East respiratory syndrome-related coronavirus,0.8830367841768101,strong,interacts,likely
+31,42,IRF9 Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9785481839423842,strong,interacts,likely
+31,71,IRF9 Mesocricetus auratus,N protein Severe acute respiratory syndrome-related coronavirus,0.9858312804128402,strong,interacts,likely
+31,154,IRF9 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9600735887024521,strong,interacts,likely
+32,71,IRF9 Rattus norvegicus,N protein Severe acute respiratory syndrome-related coronavirus,0.9883820294277353,strong,interacts,likely
+34,45,RIG-I Homo sapiens,nsp1 Severe acute respiratory syndrome-related coronavirus,0.8182417816750571,strong,interacts,likely
+34,100,RIG-I Homo sapiens,ORF4a Middle East respiratory syndrome-related coronavirus,0.9973470084685061,strong,interacts,likely
+34,170,RIG-I Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9943397529368929,strong,interacts,likely
+34,188,RIG-I Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.6583788102796175,strong,interacts,likely
+36,42,RIG-I Macaca mulatta,ORF4b Middle East respiratory syndrome-related coronavirus,0.8996799878892373,strong,interacts,likely
+36,154,RIG-I Macaca mulatta,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7299046809590056,strong,interacts,likely
+37,42,RIG-I Rhinolophus ferrumequinum,ORF4b Middle East respiratory syndrome-related coronavirus,0.8306244138193338,strong,interacts,likely
+37,100,RIG-I Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.9530382793852064,strong,interacts,likely
+37,188,RIG-I Rhinolophus ferrumequinum,PLpro Severe acute respiratory syndrome-related coronavirus,0.6920411665298586,strong,interacts,likely
+38,42,RIG-I Canis lupus familiaris,ORF4b Middle East respiratory syndrome-related coronavirus,0.9904815770831102,strong,interacts,likely
+38,71,RIG-I Canis lupus familiaris,N protein Severe acute respiratory syndrome-related coronavirus,0.8773458699839741,strong,interacts,likely
+38,100,RIG-I Canis lupus familiaris,ORF4a Middle East respiratory syndrome-related coronavirus,0.996181883642816,strong,interacts,likely
+38,154,RIG-I Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9990098551718285,strong,interacts,likely
+38,170,RIG-I Canis lupus familiaris,ORF6 Severe acute respiratory syndrome-related coronavirus,0.972811563730598,strong,interacts,likely
+39,42,RIG-I Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9041109065331165,strong,interacts,likely
+39,71,RIG-I Mesocricetus auratus,N protein Severe acute respiratory syndrome-related coronavirus,0.6254126943194369,strong,interacts,likely
+39,188,RIG-I Mesocricetus auratus,PLpro Severe acute respiratory syndrome-related coronavirus,0.8220981967830153,strong,interacts,likely
+40,42,RIG-I Mus musculus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9009562831549802,strong,interacts,likely
+40,170,RIG-I Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7053360214093628,strong,interacts,likely
+42,59,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.9995583613282338,strong,interacts,likely
+42,65,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Mesocricetus auratus,0.9537824640471109,strong,interacts,likely
+42,67,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Canis lupus familiaris,0.7650613340168725,strong,interacts,likely
+42,83,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Homo sapiens,0.9854544681870285,strong,interacts,likely
+42,86,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Ictidomys tridecemlineatus,0.8830041587108031,strong,interacts,likely
+42,91,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Mesocricetus auratus,0.9048712648903955,strong,interacts,likely
+42,95,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Bos taurus,0.9436806467366181,strong,interacts,likely
+42,104,ORF4b Middle East respiratory syndrome-related coronavirus,NF-kB Macaca mulatta,0.7958062841625263,strong,interacts,likely
+42,105,ORF4b Middle East respiratory syndrome-related coronavirus,NF-kB Bos taurus,0.9491497169688963,strong,interacts,likely
+42,112,ORF4b Middle East respiratory syndrome-related coronavirus,NF-kB Equus caballus,0.7592872280563402,strong,interacts,likely
+42,129,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.8764503756935675,strong,interacts,likely
+42,134,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Felis catus,0.904636347723152,strong,interacts,likely
+42,136,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Mus musculus,0.9099932082540618,strong,interacts,likely
+42,137,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Rattus norvegicus,0.8979975600419821,strong,interacts,likely
+42,139,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Canis lupus familiaris,0.7829008571741947,strong,interacts,likely
+42,147,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Mus musculus,0.8408633620559172,strong,interacts,likely
+42,156,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.8137337818520782,strong,interacts,likely
+42,161,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9954345623985454,strong,interacts,likely
+42,169,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Gallus gallus,0.7472032387521759,strong,interacts,likely
+42,173,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Pan troglodytes,0.8752006075436498,strong,interacts,likely
+42,174,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.9986053995768076,strong,interacts,likely
+42,178,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.9998890187378378,strong,interacts,likely
+42,180,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Ovis aries,0.983143434859754,strong,interacts,likely
+42,181,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Bos taurus,0.9353596427649085,strong,interacts,likely
+42,182,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Mesocricetus auratus,0.5588775485067564,strong,interacts,likely
+42,186,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Gallus gallus,0.9821359233245612,strong,interacts,likely
+42,222,ORF4b Middle East respiratory syndrome-related coronavirus,TBK1 Rhinolophus ferrumequinum,0.9697099929000877,strong,interacts,likely
+42,236,ORF4b Middle East respiratory syndrome-related coronavirus,MAVS Bos taurus,0.7580318574919536,strong,interacts,likely
+42,238,ORF4b Middle East respiratory syndrome-related coronavirus,MAVS Felis catus,0.9608296966686127,strong,interacts,likely
+45,55,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Homo sapiens,0.7172624973820645,strong,interacts,likely
+45,59,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.9690162429775993,strong,interacts,likely
+45,64,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Rattus norvegicus,0.9392723855613283,strong,interacts,likely
+45,66,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Mus musculus,0.8629169029963157,strong,interacts,likely
+45,115,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF7 Homo sapiens,0.9149164733515996,strong,interacts,likely
+45,174,nsp1 Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.5714062723434565,strong,interacts,likely
+45,181,nsp1 Severe acute respiratory syndrome-related coronavirus,STAT2 Bos taurus,0.9449786643042422,strong,interacts,likely
+45,186,nsp1 Severe acute respiratory syndrome-related coronavirus,STAT2 Gallus gallus,0.781203210916807,strong,interacts,likely
+45,227,nsp1 Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.7836134046981494,strong,interacts,likely
+45,229,nsp1 Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.8681027909428385,strong,interacts,likely
+45,231,nsp1 Severe acute respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.9414525853347322,strong,interacts,likely
+51,59,Spike Severe acute respiratory syndrome coronavirus 2,IRF3 Rhinolophus ferrumequinum,0.8174711721740076,strong,interacts,unlikely
+52,91,Spike Severe acute respiratory syndrome-related coronavirus,ACE2 Mesocricetus auratus,0.6855078939633843,strong,interacts,likely
+53,89,Spike Human coronavirus NL63,ACE2 Felis catus,0.7878405152033996,strong,interacts,likely
+56,100,IRF3 Pan troglodytes,ORF4a Middle East respiratory syndrome-related coronavirus,0.8311286827965791,strong,interacts,likely
+57,154,IRF3 Macaca mulatta,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7586559244545897,strong,interacts,likely
+57,188,IRF3 Macaca mulatta,PLpro Severe acute respiratory syndrome-related coronavirus,0.8253889633784979,strong,interacts,likely
+59,100,IRF3 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.9993245356651522,strong,interacts,likely
+59,187,IRF3 Rhinolophus ferrumequinum,PLpro Middle East respiratory syndrome-related coronavirus,0.9337483415944751,strong,interacts,likely
+59,209,IRF3 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.9801451655761938,strong,interacts,likely
+60,71,IRF3 Camelus dromedarius,N protein Severe acute respiratory syndrome-related coronavirus,0.986470401630862,strong,interacts,likely
+60,154,IRF3 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9991574286623757,strong,interacts,likely
+60,170,IRF3 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.994151847502944,strong,interacts,likely
+60,171,IRF3 Camelus dromedarius,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9063859134904986,strong,interacts,likely
+60,188,IRF3 Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.9954093005122829,strong,interacts,likely
+64,171,IRF3 Rattus norvegicus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9971209399796881,strong,interacts,likely
+65,100,IRF3 Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.7793059262839619,strong,interacts,likely
+65,154,IRF3 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7627472053039606,strong,interacts,likely
+65,170,IRF3 Mesocricetus auratus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8189615171692137,strong,interacts,likely
+65,187,IRF3 Mesocricetus auratus,PLpro Middle East respiratory syndrome-related coronavirus,0.9441205394969754,strong,interacts,likely
+65,188,IRF3 Mesocricetus auratus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9769348977089165,strong,interacts,likely
+65,209,IRF3 Mesocricetus auratus,M protein Middle East respiratory syndrome-related coronavirus,0.8285148365937222,strong,interacts,likely
+66,171,IRF3 Mus musculus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9522806567798272,strong,interacts,likely
+67,71,IRF3 Canis lupus familiaris,N protein Severe acute respiratory syndrome-related coronavirus,0.9373500199560612,strong,interacts,likely
+67,100,IRF3 Canis lupus familiaris,ORF4a Middle East respiratory syndrome-related coronavirus,0.8994046023810085,strong,interacts,likely
+67,154,IRF3 Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9596538598068773,strong,interacts,likely
+67,209,IRF3 Canis lupus familiaris,M protein Middle East respiratory syndrome-related coronavirus,0.7720237868268693,strong,interacts,likely
+71,83,N protein Severe acute respiratory syndrome-related coronavirus,ACE2 Homo sapiens,0.7814057520871939,strong,interacts,likely
+71,102,N protein Severe acute respiratory syndrome-related coronavirus,NF-kB Homo sapiens,0.850018995768236,strong,interacts,likely
+71,104,N protein Severe acute respiratory syndrome-related coronavirus,NF-kB Macaca mulatta,0.5739922730073337,strong,interacts,likely
+71,105,N protein Severe acute respiratory syndrome-related coronavirus,NF-kB Bos taurus,0.8426338223555174,strong,interacts,likely
+71,115,N protein Severe acute respiratory syndrome-related coronavirus,IRF7 Homo sapiens,0.7809551107846777,strong,interacts,likely
+71,130,N protein Severe acute respiratory syndrome-related coronavirus,MDA5 Pan troglodytes,0.7736480085440008,strong,interacts,likely
+71,140,N protein Severe acute respiratory syndrome-related coronavirus,MDA5 Gallus gallus,0.9253286321928056,strong,interacts,likely
+71,141,N protein Severe acute respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.9706493307168278,strong,interacts,likely
+71,156,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.9948362020286738,strong,interacts,likely
+71,161,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9996716571737423,strong,interacts,likely
+71,164,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.6975449112425364,strong,interacts,likely
+71,168,N protein Severe acute respiratory syndrome-related coronavirus,DPP4 Camelus dromedarius,0.9882263538754185,strong,interacts,likely
+71,174,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.9698344885778099,strong,interacts,likely
+71,178,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.9253076290620672,strong,interacts,likely
+71,183,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.9393191167031232,strong,interacts,likely
+71,227,N protein Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9993076362286557,strong,interacts,likely
+71,229,N protein Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9901813784099296,strong,interacts,likely
+71,239,N protein Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9435099027168394,strong,interacts,likely
+83,100,ACE2 Homo sapiens,ORF4a Middle East respiratory syndrome-related coronavirus,0.9458330093497886,strong,interacts,likely
+83,187,ACE2 Homo sapiens,PLpro Middle East respiratory syndrome-related coronavirus,0.9280262170262779,strong,interacts,likely
+86,100,ACE2 Ictidomys tridecemlineatus,ORF4a Middle East respiratory syndrome-related coronavirus,0.7760451927144996,strong,interacts,likely
+87,188,ACE2 Oryctolagus cuniculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.6141644927538544,strong,interacts,likely
+89,100,ACE2 Felis catus,ORF4a Middle East respiratory syndrome-related coronavirus,0.7973005521543927,strong,interacts,likely
+89,187,ACE2 Felis catus,PLpro Middle East respiratory syndrome-related coronavirus,0.824143329495429,strong,interacts,likely
+89,188,ACE2 Felis catus,PLpro Severe acute respiratory syndrome-related coronavirus,0.753666632235322,strong,interacts,likely
+91,100,ACE2 Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9568749580872156,strong,interacts,likely
+97,100,ACE2 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.9434572760794797,strong,interacts,likely
+97,187,ACE2 Rhinolophus ferrumequinum,PLpro Middle East respiratory syndrome-related coronavirus,0.8473938642849863,strong,interacts,likely
+97,188,ACE2 Rhinolophus ferrumequinum,PLpro Severe acute respiratory syndrome-related coronavirus,0.9352062152041549,strong,interacts,likely
+100,104,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Macaca mulatta,0.9839622408469944,strong,interacts,likely
+100,105,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Bos taurus,0.9961232386642731,strong,interacts,likely
+100,106,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Rhinolophus ferrumequinum,0.9833591693491377,strong,interacts,likely
+100,115,ORF4a Middle East respiratory syndrome-related coronavirus,IRF7 Homo sapiens,0.991144253272652,strong,interacts,likely
+100,122,ORF4a Middle East respiratory syndrome-related coronavirus,IRF7 Camelus dromedarius,0.9945091521169778,strong,interacts,likely
+100,123,ORF4a Middle East respiratory syndrome-related coronavirus,IRF7 Rattus norvegicus,0.8104831600624253,strong,interacts,likely
+100,130,ORF4a Middle East respiratory syndrome-related coronavirus,MDA5 Pan troglodytes,0.9741174789801512,strong,interacts,likely
+100,134,ORF4a Middle East respiratory syndrome-related coronavirus,MDA5 Felis catus,0.9808382276955474,strong,interacts,likely
+100,142,ORF4a Middle East respiratory syndrome-related coronavirus,PRKRA Macaca mulatta,0.9775563697706173,strong,interacts,likely
+100,156,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.992169669479984,strong,interacts,likely
+100,161,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.991529881637609,strong,interacts,likely
+100,162,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Felis catus,0.676506803655043,strong,interacts,likely
+100,164,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.7477163473025016,strong,interacts,likely
+100,168,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Camelus dromedarius,0.9963712552577599,strong,interacts,likely
+100,169,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Gallus gallus,0.6758709601687471,strong,interacts,likely
+100,174,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.8435492604474228,strong,interacts,likely
+100,175,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Felis catus,0.9820812648802547,strong,interacts,likely
+100,178,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.9994084259262661,strong,interacts,likely
+100,181,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Bos taurus,0.839744284451045,strong,interacts,likely
+100,186,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Gallus gallus,0.811320802713902,strong,interacts,likely
+100,216,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.8320069196610227,strong,interacts,likely
+100,226,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Mesocricetus auratus,0.790373242560337,strong,interacts,likely
+100,227,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9996373944356743,strong,interacts,likely
+100,229,ORF4a Middle East respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9998929148610162,strong,interacts,likely
+100,231,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.9895241696856545,strong,interacts,likely
+100,236,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Bos taurus,0.9679873044545968,strong,interacts,likely
+100,238,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Felis catus,0.7771950687468508,strong,interacts,likely
+100,243,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Mus musculus,0.9484466850777762,strong,interacts,likely
+100,244,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.9192017749342344,strong,interacts,likely
+102,154,NF-kB Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9979102010590085,strong,interacts,likely
+102,170,NF-kB Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8974598932369211,strong,interacts,likely
+105,154,NF-kB Bos taurus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8368231528788956,strong,interacts,likely
+105,170,NF-kB Bos taurus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.6753575959131668,strong,interacts,likely
+105,187,NF-kB Bos taurus,PLpro Middle East respiratory syndrome-related coronavirus,0.9434399332135266,strong,interacts,likely
+105,188,NF-kB Bos taurus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9907969079953296,strong,interacts,likely
+106,187,NF-kB Rhinolophus ferrumequinum,PLpro Middle East respiratory syndrome-related coronavirus,0.9426848881691852,strong,interacts,likely
+111,154,NF-kB Rattus norvegicus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9826774116788559,strong,interacts,likely
+111,170,NF-kB Rattus norvegicus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9989441088917383,strong,interacts,likely
+111,209,NF-kB Rattus norvegicus,M protein Middle East respiratory syndrome-related coronavirus,0.9365305249822791,strong,interacts,likely
+114,154,NF-kB Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7888880154640426,strong,interacts,likely
+114,188,NF-kB Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.8244601388462678,strong,interacts,likely
+115,154,IRF7 Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9150292050609714,strong,interacts,likely
+115,170,IRF7 Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.990089227130484,strong,interacts,likely
+115,209,IRF7 Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.8880479740447547,strong,interacts,likely
+121,154,IRF7 Felis catus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9163818823309401,strong,interacts,likely
+122,154,IRF7 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.857150407090132,strong,interacts,likely
+122,170,IRF7 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7521429756549195,strong,interacts,likely
+129,170,MDA5 Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9462632371514162,strong,interacts,likely
+130,188,MDA5 Pan troglodytes,PLpro Severe acute respiratory syndrome-related coronavirus,0.7287587706383286,strong,interacts,likely
+133,154,MDA5 Ictidomys tridecemlineatus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.6840363041109948,strong,interacts,likely
+134,170,MDA5 Felis catus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8869629201613949,strong,interacts,likely
+137,170,MDA5 Rattus norvegicus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8986138227374555,strong,interacts,likely
+139,154,MDA5 Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7942305413321236,strong,interacts,likely
+141,154,PRKRA Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9847386297291265,strong,interacts,likely
+141,170,PRKRA Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9262981885589391,strong,interacts,likely
+141,188,PRKRA Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.7065067978567924,strong,interacts,likely
+147,154,PRKRA Mus musculus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9931894557828305,strong,interacts,likely
+147,170,PRKRA Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9953597507816923,strong,interacts,likely
+151,170,PRKRA Rattus norvegicus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8255962619817865,strong,interacts,likely
+154,156,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.9975076123706659,strong,interacts,likely
+154,161,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9998815853223606,strong,interacts,likely
+154,163,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Equus caballus,0.6360577712199417,strong,interacts,likely
+154,164,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Rhinolophus ferrumequinum,0.7669126648221742,strong,interacts,likely
+154,168,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Camelus dromedarius,0.9878175990423421,strong,interacts,likely
+154,169,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Gallus gallus,0.955865386675151,strong,interacts,likely
+154,173,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Pan troglodytes,0.6958252107197871,strong,interacts,likely
+154,174,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.9754469414399022,strong,interacts,likely
+154,186,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Gallus gallus,0.7967696519059395,strong,interacts,likely
+154,227,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9997364239009677,strong,interacts,likely
+154,229,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.9973734776133664,strong,interacts,likely
+154,233,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Macaca mulatta,0.7702837406139454,strong,interacts,likely
+154,239,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9385034732564628,strong,interacts,likely
+156,170,DPP4 Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8918043827569886,strong,interacts,likely
+161,170,DPP4 Bos taurus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9575449308909614,strong,interacts,likely
+161,209,DPP4 Bos taurus,M protein Middle East respiratory syndrome-related coronavirus,0.8559858814285249,strong,interacts,likely
+170,174,ORF6 Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.9617725161750437,strong,interacts,likely
+170,177,ORF6 Severe acute respiratory syndrome-related coronavirus,STAT2 Camelus dromedarius,0.9672718137772427,strong,interacts,likely
+170,180,ORF6 Severe acute respiratory syndrome-related coronavirus,STAT2 Ovis aries,0.9756569590911772,strong,interacts,likely
+170,186,ORF6 Severe acute respiratory syndrome-related coronavirus,STAT2 Gallus gallus,0.621477597919203,strong,interacts,likely
+170,216,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Homo sapiens,0.8415116196025045,strong,interacts,likely
+170,227,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9979436981590621,strong,interacts,likely
+170,228,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.7820591968347788,strong,interacts,likely
+170,229,ORF6 Severe acute respiratory syndrome-related coronavirus,TBK1 Rattus norvegicus,0.998882018679181,strong,interacts,likely
+170,231,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.9983144736010467,strong,interacts,likely
+170,238,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Felis catus,0.9700483807941316,strong,interacts,likely
+170,243,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Mus musculus,0.9744326311795564,strong,interacts,likely
+170,244,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.969826714275869,strong,interacts,likely
+171,238,ORF6 Severe acute respiratory syndrome coronavirus 2,MAVS Felis catus,0.9638979921590094,strong,interacts,likely
+174,187,STAT2 Macaca mulatta,PLpro Middle East respiratory syndrome-related coronavirus,0.7175000634181757,strong,interacts,likely
+174,188,STAT2 Macaca mulatta,PLpro Severe acute respiratory syndrome-related coronavirus,0.9916691926305745,strong,interacts,likely
+174,209,STAT2 Macaca mulatta,M protein Middle East respiratory syndrome-related coronavirus,0.9856367314315344,strong,interacts,likely
+175,187,STAT2 Felis catus,PLpro Middle East respiratory syndrome-related coronavirus,0.7356339033128328,strong,interacts,likely
+175,209,STAT2 Felis catus,M protein Middle East respiratory syndrome-related coronavirus,0.7045922377034876,strong,interacts,likely
+177,188,STAT2 Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.7780649097557758,strong,interacts,likely
+178,187,STAT2 Rhinolophus ferrumequinum,PLpro Middle East respiratory syndrome-related coronavirus,0.9133604223579637,strong,interacts,likely
+178,209,STAT2 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.9797095909038362,strong,interacts,likely
+180,209,STAT2 Ovis aries,M protein Middle East respiratory syndrome-related coronavirus,0.6055130351205646,strong,interacts,likely
+183,187,STAT2 Rattus norvegicus,PLpro Middle East respiratory syndrome-related coronavirus,0.9869224692241194,strong,interacts,likely
+183,188,STAT2 Rattus norvegicus,PLpro Severe acute respiratory syndrome-related coronavirus,0.6692753493267585,strong,interacts,likely
+188,228,PLpro Severe acute respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.9963027803992963,strong,interacts,likely
+188,238,PLpro Severe acute respiratory syndrome-related coronavirus,MAVS Felis catus,0.9359680445336316,strong,interacts,likely
+209,231,M protein Middle East respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.9488417556690361,strong,interacts,likely
+0,64,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF3 Rattus norvegicus,0.9475978096906692,strong,interacts,likely
+0,66,nsp15 Severe acute respiratory syndrome coronavirus 2,IRF3 Mus musculus,0.8765073766068829,strong,interacts,likely
+1,14,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT1 Rattus norvegicus,0.8779403503638339,strong,interacts,likely
+1,37,nsp15 Severe acute respiratory syndrome-related coronavirus,RIG-I Rhinolophus ferrumequinum,0.7689948645219327,strong,interacts,likely
+1,65,nsp15 Severe acute respiratory syndrome-related coronavirus,IRF3 Mesocricetus auratus,0.681492505940166,strong,interacts,likely
+1,114,nsp15 Severe acute respiratory syndrome-related coronavirus,NF-kB Camelus dromedarius,0.5984082465428422,strong,interacts,likely
+1,141,nsp15 Severe acute respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.6979825276941762,strong,interacts,likely
+1,167,nsp15 Severe acute respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.5630074626080164,strong,interacts,likely
+1,183,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.7476877368294683,strong,interacts,likely
+1,185,nsp15 Severe acute respiratory syndrome-related coronavirus,STAT2 Mus musculus,0.7597280932379964,strong,interacts,likely
+1,239,nsp15 Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.7532048031917549,strong,interacts,likely
+3,71,STAT1 Homo sapiens,N protein Severe acute respiratory syndrome-related coronavirus,0.6623959874479972,strong,interacts,likely
+3,171,STAT1 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.71891679507017,strong,interacts,likely
+3,211,STAT1 Homo sapiens,M protein Severe acute respiratory syndrome-related coronavirus,0.736908067784112,strong,interacts,likely
+4,42,STAT1 Pan troglodytes,ORF4b Middle East respiratory syndrome-related coronavirus,0.9926164156230246,strong,interacts,likely
+4,100,STAT1 Pan troglodytes,ORF4a Middle East respiratory syndrome-related coronavirus,0.8221397311540314,strong,interacts,likely
+6,42,STAT1 Felis catus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9995897285845967,strong,interacts,likely
+6,100,STAT1 Felis catus,ORF4a Middle East respiratory syndrome-related coronavirus,0.988274462940713,strong,interacts,likely
+6,171,STAT1 Felis catus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.5961018526501725,strong,interacts,likely
+7,45,STAT1 Camelus dromedarius,nsp1 Severe acute respiratory syndrome-related coronavirus,0.7724815450581776,strong,interacts,likely
+7,71,STAT1 Camelus dromedarius,N protein Severe acute respiratory syndrome-related coronavirus,0.6766799711594428,strong,interacts,likely
+7,154,STAT1 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9979376956985965,strong,interacts,likely
+10,42,STAT1 Rhinolophus ferrumequinum,ORF4b Middle East respiratory syndrome-related coronavirus,0.998990155003936,strong,interacts,likely
+10,71,STAT1 Rhinolophus ferrumequinum,N protein Severe acute respiratory syndrome-related coronavirus,0.7174371965048529,strong,interacts,likely
+10,100,STAT1 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.9984628945395658,strong,interacts,likely
+10,171,STAT1 Rhinolophus ferrumequinum,ORF6 Severe acute respiratory syndrome coronavirus 2,0.5797121286252008,strong,interacts,likely
+14,71,STAT1 Rattus norvegicus,N protein Severe acute respiratory syndrome-related coronavirus,0.9816510035050652,strong,interacts,likely
+14,171,STAT1 Rattus norvegicus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.974643777263894,strong,interacts,likely
+14,188,STAT1 Rattus norvegicus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9801794890566929,strong,interacts,likely
+14,211,STAT1 Rattus norvegicus,M protein Severe acute respiratory syndrome-related coronavirus,0.8336890425757639,strong,interacts,likely
+15,71,STAT1 Mus musculus,N protein Severe acute respiratory syndrome-related coronavirus,0.8854783036815219,strong,interacts,likely
+15,171,STAT1 Mus musculus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.8164165159891613,strong,interacts,likely
+15,188,STAT1 Mus musculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.8991146738305414,strong,interacts,likely
+16,42,STAT1 Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9998903802214958,strong,interacts,likely
+16,71,STAT1 Mesocricetus auratus,N protein Severe acute respiratory syndrome-related coronavirus,0.7790853826237725,strong,interacts,likely
+16,100,STAT1 Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.8695372248519557,strong,interacts,likely
+16,154,STAT1 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9847625335546326,strong,interacts,likely
+16,209,STAT1 Mesocricetus auratus,M protein Middle East respiratory syndrome-related coronavirus,0.9890303573700183,strong,interacts,likely
+17,42,STAT1 Gallus gallus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9444034663247375,strong,interacts,likely
+17,100,STAT1 Gallus gallus,ORF4a Middle East respiratory syndrome-related coronavirus,0.7315105529096257,strong,interacts,likely
+17,154,STAT1 Gallus gallus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.752896395391139,strong,interacts,likely
+18,45,IRF9 Homo sapiens,nsp1 Severe acute respiratory syndrome-related coronavirus,0.8921731858689668,strong,interacts,likely
+18,71,IRF9 Homo sapiens,N protein Severe acute respiratory syndrome-related coronavirus,0.7960105762908728,strong,interacts,likely
+18,171,IRF9 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.7887473188382546,strong,interacts,likely
+18,187,IRF9 Homo sapiens,PLpro Middle East respiratory syndrome-related coronavirus,0.7217564112153145,strong,interacts,likely
+18,188,IRF9 Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.9819433830005557,strong,interacts,likely
+18,211,IRF9 Homo sapiens,M protein Severe acute respiratory syndrome-related coronavirus,0.7616185938853031,strong,interacts,likely
+21,100,IRF9 Felis catus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9164705155546867,strong,interacts,likely
+22,154,IRF9 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8949091621051339,strong,interacts,likely
+23,42,IRF9 Sus scrofa domesticus,ORF4b Middle East respiratory syndrome-related coronavirus,0.8818497034743766,strong,interacts,likely
+25,42,IRF9 Rhinolophus ferrumequinum,ORF4b Middle East respiratory syndrome-related coronavirus,0.938896969780576,strong,interacts,likely
+25,100,IRF9 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.8884375981027786,strong,interacts,likely
+26,42,IRF9 Ovis aries,ORF4b Middle East respiratory syndrome-related coronavirus,0.7985951616770708,strong,interacts,likely
+26,154,IRF9 Ovis aries,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9876652901541565,strong,interacts,likely
+26,188,IRF9 Ovis aries,PLpro Severe acute respiratory syndrome-related coronavirus,0.8534670541841106,strong,interacts,likely
+26,209,IRF9 Ovis aries,M protein Middle East respiratory syndrome-related coronavirus,0.7714700365576393,strong,interacts,likely
+28,100,IRF9 Bos taurus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9759124737043243,strong,interacts,likely
+28,154,IRF9 Bos taurus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9443590825041754,strong,interacts,likely
+28,188,IRF9 Bos taurus,PLpro Severe acute respiratory syndrome-related coronavirus,0.8828902123981466,strong,interacts,likely
+28,209,IRF9 Bos taurus,M protein Middle East respiratory syndrome-related coronavirus,0.9497330490035962,strong,interacts,likely
+29,42,IRF9 Ictidomys tridecemlineatus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9273130406613577,strong,interacts,likely
+29,100,IRF9 Ictidomys tridecemlineatus,ORF4a Middle East respiratory syndrome-related coronavirus,0.6781547610662806,strong,interacts,likely
+29,154,IRF9 Ictidomys tridecemlineatus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8193476941081137,strong,interacts,likely
+30,187,IRF9 Mus musculus,PLpro Middle East respiratory syndrome-related coronavirus,0.957870064832862,strong,interacts,likely
+30,188,IRF9 Mus musculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.6863590184572392,strong,interacts,likely
+31,42,IRF9 Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9045399487632417,strong,interacts,likely
+31,100,IRF9 Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.8637426262534305,strong,interacts,likely
+31,154,IRF9 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7610846793578006,strong,interacts,likely
+31,209,IRF9 Mesocricetus auratus,M protein Middle East respiratory syndrome-related coronavirus,0.602684429848006,strong,interacts,likely
+32,71,IRF9 Rattus norvegicus,N protein Severe acute respiratory syndrome-related coronavirus,0.9710467119639776,strong,interacts,likely
+32,188,IRF9 Rattus norvegicus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9862638866795965,strong,interacts,likely
+34,42,RIG-I Homo sapiens,ORF4b Middle East respiratory syndrome-related coronavirus,0.8368136494872207,strong,interacts,likely
+34,170,RIG-I Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8056190102743952,strong,interacts,likely
+34,209,RIG-I Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.9693895020892946,strong,interacts,likely
+36,42,RIG-I Macaca mulatta,ORF4b Middle East respiratory syndrome-related coronavirus,0.9161329884607117,strong,interacts,likely
+36,100,RIG-I Macaca mulatta,ORF4a Middle East respiratory syndrome-related coronavirus,0.769631308615019,strong,interacts,likely
+37,42,RIG-I Rhinolophus ferrumequinum,ORF4b Middle East respiratory syndrome-related coronavirus,0.9625814175707028,strong,interacts,likely
+38,42,RIG-I Canis lupus familiaris,ORF4b Middle East respiratory syndrome-related coronavirus,0.8125109452152941,strong,interacts,likely
+38,154,RIG-I Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9748648191047212,strong,interacts,likely
+39,42,RIG-I Mesocricetus auratus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9819052249267133,strong,interacts,likely
+39,100,RIG-I Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9937334007608385,strong,interacts,likely
+39,170,RIG-I Mesocricetus auratus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8981058094400083,strong,interacts,likely
+40,42,RIG-I Mus musculus,ORF4b Middle East respiratory syndrome-related coronavirus,0.9952243797112157,strong,interacts,likely
+40,100,RIG-I Mus musculus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9994312413651101,strong,interacts,likely
+40,170,RIG-I Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9111781155936028,strong,interacts,likely
+40,188,RIG-I Mus musculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9357281716126398,strong,interacts,likely
+40,209,RIG-I Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.8510463840887061,strong,interacts,likely
+42,57,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Macaca mulatta,0.8856148578435867,strong,interacts,likely
+42,59,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.9995770004693985,strong,interacts,likely
+42,65,ORF4b Middle East respiratory syndrome-related coronavirus,IRF3 Mesocricetus auratus,0.9820924797811306,strong,interacts,likely
+42,89,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Felis catus,0.9822144064772113,strong,interacts,likely
+42,92,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Sus scrofa domesticus,0.8156903646069362,strong,interacts,likely
+42,97,ORF4b Middle East respiratory syndrome-related coronavirus,ACE2 Rhinolophus ferrumequinum,0.8576362087260998,strong,interacts,likely
+42,110,ORF4b Middle East respiratory syndrome-related coronavirus,NF-kB Mesocricetus auratus,0.5032535773849622,strong,interacts,likely
+42,121,ORF4b Middle East respiratory syndrome-related coronavirus,IRF7 Felis catus,0.998531804295401,strong,interacts,likely
+42,129,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.9907910915761076,strong,interacts,likely
+42,130,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Pan troglodytes,0.9704312460587701,strong,interacts,likely
+42,136,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Mus musculus,0.9034187173684098,strong,interacts,likely
+42,137,ORF4b Middle East respiratory syndrome-related coronavirus,MDA5 Rattus norvegicus,0.9892383455117444,strong,interacts,likely
+42,141,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Homo sapiens,0.8733701536933519,strong,interacts,likely
+42,147,ORF4b Middle East respiratory syndrome-related coronavirus,PRKRA Mus musculus,0.9530114157468768,strong,interacts,likely
+42,161,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.977514973978648,strong,interacts,likely
+42,168,ORF4b Middle East respiratory syndrome-related coronavirus,DPP4 Camelus dromedarius,0.9229389165084632,strong,interacts,likely
+42,174,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.8652460970529129,strong,interacts,likely
+42,175,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Felis catus,0.9998187483307555,strong,interacts,likely
+42,178,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.9975410626540148,strong,interacts,likely
+42,186,ORF4b Middle East respiratory syndrome-related coronavirus,STAT2 Gallus gallus,0.756970058713266,strong,interacts,likely
+42,222,ORF4b Middle East respiratory syndrome-related coronavirus,TBK1 Rhinolophus ferrumequinum,0.9804616875156229,strong,interacts,likely
+42,224,ORF4b Middle East respiratory syndrome-related coronavirus,TBK1 Canis lupus familiaris,0.6621679321139842,strong,interacts,likely
+42,237,ORF4b Middle East respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.8385351436910471,strong,interacts,likely
+42,238,ORF4b Middle East respiratory syndrome-related coronavirus,MAVS Felis catus,0.9984098397726906,strong,interacts,likely
+45,59,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Rhinolophus ferrumequinum,0.9947256999219458,strong,interacts,likely
+45,64,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF3 Rattus norvegicus,0.971161287411344,strong,interacts,likely
+45,121,nsp1 Severe acute respiratory syndrome-related coronavirus,IRF7 Felis catus,0.9152392079451996,strong,interacts,likely
+45,129,nsp1 Severe acute respiratory syndrome-related coronavirus,MDA5 Homo sapiens,0.8788147979239287,strong,interacts,likely
+45,231,nsp1 Severe acute respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.8369059569014062,strong,interacts,likely
+45,237,nsp1 Severe acute respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.8056992605849282,strong,interacts,likely
+45,238,nsp1 Severe acute respiratory syndrome-related coronavirus,MAVS Felis catus,0.7612137401780521,strong,interacts,likely
+45,244,nsp1 Severe acute respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.855889355175026,strong,interacts,likely
+51,104,Spike Severe acute respiratory syndrome coronavirus 2,NF-kB Macaca mulatta,0.6346233651423554,strong,interacts,unlikely
+53,89,Spike Human coronavirus NL63,ACE2 Felis catus,0.6218442771164616,strong,interacts,likely
+57,71,IRF3 Macaca mulatta,N protein Severe acute respiratory syndrome-related coronavirus,0.7823823034947964,strong,interacts,likely
+57,100,IRF3 Macaca mulatta,ORF4a Middle East respiratory syndrome-related coronavirus,0.7487399919220612,strong,interacts,likely
+57,154,IRF3 Macaca mulatta,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9029124424410293,strong,interacts,likely
+57,170,IRF3 Macaca mulatta,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7415336662287579,strong,interacts,likely
+57,188,IRF3 Macaca mulatta,PLpro Severe acute respiratory syndrome-related coronavirus,0.5560218065536019,strong,interacts,likely
+57,209,IRF3 Macaca mulatta,M protein Middle East respiratory syndrome-related coronavirus,0.6726187811089706,strong,interacts,likely
+59,100,IRF3 Rhinolophus ferrumequinum,ORF4a Middle East respiratory syndrome-related coronavirus,0.9976599032518965,strong,interacts,likely
+59,209,IRF3 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.9993810966708243,strong,interacts,likely
+60,71,IRF3 Camelus dromedarius,N protein Severe acute respiratory syndrome-related coronavirus,0.8580066723750741,strong,interacts,likely
+60,154,IRF3 Camelus dromedarius,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9720389704464332,strong,interacts,likely
+60,170,IRF3 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9003093297242857,strong,interacts,likely
+60,188,IRF3 Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.9731859947784139,strong,interacts,likely
+64,171,IRF3 Rattus norvegicus,ORF6 Severe acute respiratory syndrome coronavirus 2,0.8826814866752599,strong,interacts,likely
+65,100,IRF3 Mesocricetus auratus,ORF4a Middle East respiratory syndrome-related coronavirus,0.9802088743611066,strong,interacts,likely
+65,154,IRF3 Mesocricetus auratus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9466925534723778,strong,interacts,likely
+65,188,IRF3 Mesocricetus auratus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9890871533981256,strong,interacts,likely
+65,209,IRF3 Mesocricetus auratus,M protein Middle East respiratory syndrome-related coronavirus,0.9568928590532583,strong,interacts,likely
+71,121,N protein Severe acute respiratory syndrome-related coronavirus,IRF7 Felis catus,0.7605453227178129,strong,interacts,likely
+71,172,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Homo sapiens,0.9748631726574857,strong,interacts,likely
+71,175,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Felis catus,0.9073163539646658,strong,interacts,likely
+71,178,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.8310505081249007,strong,interacts,likely
+71,183,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Rattus norvegicus,0.9749846434000251,strong,interacts,likely
+71,185,N protein Severe acute respiratory syndrome-related coronavirus,STAT2 Mus musculus,0.9349380223148969,strong,interacts,likely
+71,239,N protein Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9708612443369501,strong,interacts,likely
+83,100,ACE2 Homo sapiens,ORF4a Middle East respiratory syndrome-related coronavirus,0.9488932225415327,strong,interacts,likely
+89,187,ACE2 Felis catus,PLpro Middle East respiratory syndrome-related coronavirus,0.9187326290019249,strong,interacts,likely
+91,209,ACE2 Mesocricetus auratus,M protein Middle East respiratory syndrome-related coronavirus,0.8180638445189379,strong,interacts,likely
+96,154,ACE2 Rattus norvegicus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8957173602538866,strong,interacts,likely
+97,187,ACE2 Rhinolophus ferrumequinum,PLpro Middle East respiratory syndrome-related coronavirus,0.9214030699156514,strong,interacts,likely
+97,209,ACE2 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.7781763757288822,strong,interacts,likely
+98,100,ACE2 Canis lupus familiaris,ORF4a Middle East respiratory syndrome-related coronavirus,0.9651654511877334,strong,interacts,likely
+98,154,ACE2 Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8891611061759337,strong,interacts,likely
+100,103,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Pan troglodytes,0.5340116799541854,strong,interacts,likely
+100,104,ORF4a Middle East respiratory syndrome-related coronavirus,NF-kB Macaca mulatta,0.9629524008231423,strong,interacts,likely
+100,142,ORF4a Middle East respiratory syndrome-related coronavirus,PRKRA Macaca mulatta,0.8711382476238481,strong,interacts,likely
+100,156,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.8728251287861376,strong,interacts,likely
+100,166,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.808500532023852,strong,interacts,likely
+100,167,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.8522307287943643,strong,interacts,likely
+100,168,ORF4a Middle East respiratory syndrome-related coronavirus,DPP4 Camelus dromedarius,0.9960703278000316,strong,interacts,likely
+100,174,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.8388177699606942,strong,interacts,likely
+100,175,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Felis catus,0.9992252803401245,strong,interacts,likely
+100,178,ORF4a Middle East respiratory syndrome-related coronavirus,STAT2 Rhinolophus ferrumequinum,0.9954602944394063,strong,interacts,likely
+100,231,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.9824147551905227,strong,interacts,likely
+100,237,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.9944965633928533,strong,interacts,likely
+100,238,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Felis catus,0.7489094018367773,strong,interacts,likely
+100,239,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9579721354815096,strong,interacts,likely
+100,243,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Mus musculus,0.978807855557335,strong,interacts,likely
+100,244,ORF4a Middle East respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.9994619654281409,strong,interacts,likely
+102,170,NF-kB Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.7406441274743585,strong,interacts,likely
+102,209,NF-kB Homo sapiens,M protein Middle East respiratory syndrome-related coronavirus,0.8917172098632244,strong,interacts,likely
+106,187,NF-kB Rhinolophus ferrumequinum,PLpro Middle East respiratory syndrome-related coronavirus,0.665198802594966,strong,interacts,likely
+109,154,NF-kB Mus musculus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9263959129066561,strong,interacts,likely
+109,170,NF-kB Mus musculus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9253771629223462,strong,interacts,likely
+111,209,NF-kB Rattus norvegicus,M protein Middle East respiratory syndrome-related coronavirus,0.8582864574288778,strong,interacts,likely
+114,188,NF-kB Camelus dromedarius,PLpro Severe acute respiratory syndrome-related coronavirus,0.9793462646967293,strong,interacts,likely
+114,211,NF-kB Camelus dromedarius,M protein Severe acute respiratory syndrome-related coronavirus,0.8028512328805513,strong,interacts,likely
+121,154,IRF7 Felis catus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9286691752252079,strong,interacts,likely
+129,170,MDA5 Homo sapiens,ORF6 Severe acute respiratory syndrome-related coronavirus,0.9068006247107742,strong,interacts,likely
+130,209,MDA5 Pan troglodytes,M protein Middle East respiratory syndrome-related coronavirus,0.8926402987250698,strong,interacts,likely
+136,188,MDA5 Mus musculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.7739579575903767,strong,interacts,likely
+136,209,MDA5 Mus musculus,M protein Middle East respiratory syndrome-related coronavirus,0.7164228542556341,strong,interacts,likely
+139,154,MDA5 Canis lupus familiaris,ORF3b Severe acute respiratory syndrome-related coronavirus,0.9977135156947318,strong,interacts,likely
+139,188,MDA5 Canis lupus familiaris,PLpro Severe acute respiratory syndrome-related coronavirus,0.9834127602061025,strong,interacts,likely
+141,154,PRKRA Homo sapiens,ORF3b Severe acute respiratory syndrome-related coronavirus,0.8936887004167605,strong,interacts,likely
+141,188,PRKRA Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.7459109161822765,strong,interacts,likely
+143,209,PRKRA Equus caballus,M protein Middle East respiratory syndrome-related coronavirus,0.6576696005790084,strong,interacts,likely
+147,154,PRKRA Mus musculus,ORF3b Severe acute respiratory syndrome-related coronavirus,0.7807647024816645,strong,interacts,likely
+147,188,PRKRA Mus musculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.747356299524538,strong,interacts,likely
+154,156,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Homo sapiens,0.9937016394929057,strong,interacts,likely
+154,161,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Bos taurus,0.9974859387485704,strong,interacts,likely
+154,166,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Rattus norvegicus,0.9986119304597589,strong,interacts,likely
+154,167,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Mus musculus,0.9928044685671886,strong,interacts,likely
+154,168,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Camelus dromedarius,0.9996658588429843,strong,interacts,likely
+154,169,ORF3b Severe acute respiratory syndrome-related coronavirus,DPP4 Gallus gallus,0.9249269336876905,strong,interacts,likely
+154,174,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Macaca mulatta,0.9715639246722555,strong,interacts,likely
+154,180,ORF3b Severe acute respiratory syndrome-related coronavirus,STAT2 Ovis aries,0.9018266395167267,strong,interacts,likely
+154,227,ORF3b Severe acute respiratory syndrome-related coronavirus,TBK1 Mus musculus,0.9128487352649157,strong,interacts,likely
+154,239,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.9930933398783237,strong,interacts,likely
+154,245,ORF3b Severe acute respiratory syndrome-related coronavirus,MAVS Gallus gallus,0.7966911974716436,strong,interacts,likely
+156,171,DPP4 Homo sapiens,ORF6 Severe acute respiratory syndrome coronavirus 2,0.9403920511505726,strong,interacts,likely
+161,170,DPP4 Bos taurus,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8420239644473658,strong,interacts,likely
+161,209,DPP4 Bos taurus,M protein Middle East respiratory syndrome-related coronavirus,0.8258279207981092,strong,interacts,likely
+168,170,DPP4 Camelus dromedarius,ORF6 Severe acute respiratory syndrome-related coronavirus,0.8213094614292141,strong,interacts,likely
+168,171,DPP4 Camelus dromedarius,ORF6 Severe acute respiratory syndrome coronavirus 2,0.915337119145088,strong,interacts,likely
+168,209,DPP4 Camelus dromedarius,M protein Middle East respiratory syndrome-related coronavirus,0.9678713003247938,strong,interacts,likely
+168,211,DPP4 Camelus dromedarius,M protein Severe acute respiratory syndrome-related coronavirus,0.7121304514338264,strong,interacts,likely
+170,239,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Camelus dromedarius,0.7880699530933464,strong,interacts,likely
+170,244,ORF6 Severe acute respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.9367077091537597,strong,interacts,likely
+171,238,ORF6 Severe acute respiratory syndrome coronavirus 2,MAVS Felis catus,0.8195679226723291,strong,interacts,likely
+172,188,STAT2 Homo sapiens,PLpro Severe acute respiratory syndrome-related coronavirus,0.7900171649104375,strong,interacts,likely
+175,187,STAT2 Felis catus,PLpro Middle East respiratory syndrome-related coronavirus,0.7294005541202064,strong,interacts,likely
+175,209,STAT2 Felis catus,M protein Middle East respiratory syndrome-related coronavirus,0.9575997958284099,strong,interacts,likely
+178,209,STAT2 Rhinolophus ferrumequinum,M protein Middle East respiratory syndrome-related coronavirus,0.9876277258706727,strong,interacts,likely
+183,188,STAT2 Rattus norvegicus,PLpro Severe acute respiratory syndrome-related coronavirus,0.8647726573385373,strong,interacts,likely
+183,211,STAT2 Rattus norvegicus,M protein Severe acute respiratory syndrome-related coronavirus,0.7443146441956143,strong,interacts,likely
+185,188,STAT2 Mus musculus,PLpro Severe acute respiratory syndrome-related coronavirus,0.9758042616213991,strong,interacts,likely
+185,211,STAT2 Mus musculus,M protein Severe acute respiratory syndrome-related coronavirus,0.9117778948994182,strong,interacts,likely
+187,238,PLpro Middle East respiratory syndrome-related coronavirus,MAVS Felis catus,0.8475539106594548,strong,interacts,likely
+188,228,PLpro Severe acute respiratory syndrome-related coronavirus,TBK1 Camelus dromedarius,0.9949795785814597,strong,interacts,likely
+188,231,PLpro Severe acute respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.8547595515811339,strong,interacts,likely
+188,238,PLpro Severe acute respiratory syndrome-related coronavirus,MAVS Felis catus,0.9877596495682082,strong,interacts,likely
+188,244,PLpro Severe acute respiratory syndrome-related coronavirus,MAVS Rattus norvegicus,0.9124663980459153,strong,interacts,likely
+209,231,M protein Middle East respiratory syndrome-related coronavirus,MAVS Homo sapiens,0.9512182960527162,strong,interacts,likely
+209,237,M protein Middle East respiratory syndrome-related coronavirus,MAVS Rhinolophus ferrumequinum,0.9500418500759453,strong,interacts,likely
+209,238,M protein Middle East respiratory syndrome-related coronavirus,MAVS Felis catus,0.9498467065754348,strong,interacts,likely

@@ -29,6 +29,96 @@ def model_pred(original_G_path, content_emb_path, model_iter):
             content_emb_path=content_emb_path, classifier='MLP', pred=True, model_iter=model_iter, re_build_g=False)
 
 
+def model_pred_alt(original_G_path, model_iter):
+    # build network, ensure network exist before embedding
+    build_graph(bg=False)
+    if not (os.path.exists(os.path.abspath('data/embedding/prediction/Deepwalk.csv')) and
+            os.path.exists(os.path.abspath('data/embedding/prediction/GF.csv')) and
+            os.path.exists(os.path.abspath('data/embedding/prediction/LINE.csv')) and
+            os.path.exists(os.path.abspath('data/embedding/prediction/Node2vec.csv')) and
+            os.path.exists(os.path.abspath('data/embedding/prediction/SDNE.csv'))):
+        node2vec_emb.node_structure_emb('pred', os.path.abspath('data/classifier/original_G.txt'), 'unweighted',
+                                        dim=128, walk_len=6, num_walks=100)
+        os.chdir('support')
+        os.system(
+            "python -m openne --method deepWalk --input ../data/embedding/prediction/adjlist.txt --network-format adjlist --walk-length 6 --number-walks 100 --output ../data/embedding/prediction/Deepwalk.csv")
+        os.system(
+            "python -m openne --method line --input ../data/embedding/prediction/adjlist.txt --network-format adjlist --output ../data/embedding/prediction/LINE.csv")
+        os.system(
+            "python -m openne --method sdne --input ../data/embedding/prediction/adjlist.txt --network-format adjlist --output ../data/embedding/prediction/SDNE.csv")
+        os.system(
+            "python -m openne --method gf --input ../data/embedding/prediction/adjlist.txt --network-format adjlist --output ../data/embedding/prediction/GF.csv")
+        os.chdir('../')
+        print("network embedding for prediction using others finished")
+
+    pred_helper(original_G_path=original_G_path, model_iter=model_iter)
+
+
+def pred_helper(original_G_path, model_iter):
+    print("In performing predictions on comparative models")
+    temp_G = nx.read_gml(original_G_path)
+    establish_training_G(temp_G, re_build_g=True)
+    print('training graph built')
+    structural_emb_path = glob.glob(os.path.abspath('data/embedding/prediction/*.csv'))
+    for emb in range(len(structural_emb_path)):
+        emb_name = str(structural_emb_path[emb]).rsplit('/', 1)[1].split('.')[0]
+        if emb_name == 'CrossNELP':
+            continue
+        process_alt(original_G_path=original_G_path,
+                    structural_emb_path=structural_emb_path[emb],
+                    classifier='MLP',
+                    model_iter=model_iter,
+                    re_build_g=False,
+                    emb_name=emb_name)
+
+
+def process_alt(original_G_path, structural_emb_path, classifier, model_iter, re_build_g, emb_name):
+    binding = []
+    for i in range(model_iter):
+        # --------------------------------------------------------
+        # ------------------NETWORK CONSTRUCTION------------------
+        # --------------------------------------------------------
+
+        # read from file and re-establish a copy of the original network
+        full_G = nx.read_gml(original_G_path)
+
+        print("In establishing training network")
+        training_G_path, num_of_test_edges = establish_training_G(full_G, re_build_g)
+
+        # read the training_G from file and obtain a dict of {node: node_emb}
+        training_G, structural_emb_dict = load_graph(training_G_path, structural_emb_path=structural_emb_path)
+
+        # get the training_X and labels y
+        print('In loading training data')
+
+        full_G = nx.read_gml(original_G_path)
+
+        X_train, y_train, X_test_negatives, y_test_negatives, all_selected_indices, index2pair_dict \
+            = load_training_data(full_G, training_G, structural_emb_dict, None,
+                                 num_of_test_edges)
+
+        print('In loading test data')
+        # test set is the set difference between edges in the original network and the new network
+        full_G = nx.read_gml(original_G_path)
+        # fill in the test set
+        X_test, y_test = load_test_data(full_G,
+                                        list(set(full_G.edges()) - set(training_G.edges())),
+                                        structural_emb_dict, None,
+                                        X_test_negatives, y_test_negatives)
+
+        print('Predicting')
+        full_X_train = np.vstack([X_train, X_test])
+        full_y_train = np.concatenate([y_train.flatten(), y_test])
+        clf = Classifier(full_X_train, full_y_train, None, None, classifier)
+        clf.train()
+        if i == model_iter - 1:
+            clf.predict(full_G=full_G, all_selected_indices=all_selected_indices,
+                        index2pair_dict=index2pair_dict, binding=binding, last_iter=True, emb_name=emb_name)
+        else:
+            clf.predict(full_G=full_G, all_selected_indices=all_selected_indices,
+                        index2pair_dict=index2pair_dict, binding=binding, last_iter=False, emb_name=emb_name)
+
+
 def preprocess(bg):
     # build network, ensure network exist before embedding
     build_graph(bg)
