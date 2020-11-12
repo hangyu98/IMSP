@@ -28,8 +28,13 @@ pip install -r requirements.txt
     ```
 
      ```python
-    '''Perform a 50-run model performance measurement'''
+    '''Perform a 50-run model performance measurement task'''
     python main.py --evaluate True --eval_iter 50
+    ```
+    
+    ```python
+    '''Only constructs the network only w/o performing any downstream tasks, i.e. link prediction/performance measurement'''
+    python main.py --bg True
     ```
 
 - ### Input:
@@ -60,21 +65,8 @@ pip install -r requirements.txt
         ...
     }
     ```
-  - In addition to these, please also provide two lists of the full name for viruses and hosts
-    ```python
-    # list of hosts
-    list_of_hosts = ['Homo sapiens', 'Felis catus', 'Mus musculus',
-                 'Rattus norvegicus', 'Canis lupus familiaris',
-                 'Ictidomys tridecemlineatus', 'Camelus dromedarius', 'Bos taurus', 'Pan troglodytes',
-                 'Gallus gallus', 'Oryctolagus cuniculus', 'Equus caballus', 'Macaca mulatta', 'Ovis aries',
-                 'Sus scrofa domesticus', 'Rhinolophus ferrumequinum', 'Mesocricetus auratus']
-    # list of viruses
-    list_of_viruses = ['Human coronavirus OC43', 'Human coronavirus HKU1',
-                   'Middle East respiratory syndrome-related coronavirus',
-                   'Severe acute respiratory syndrome coronavirus 2',
-                   'Severe acute respiratory syndrome-related coronavirus', 'Human coronavirus 229E',
-                   'Human coronavirus NL63']
-    ```
+  - In addition to these, please also provide lists of the full name for viruses and hosts
+
 - ### Output:
   - The link prediction results are available at ```/data/prediction```
     - ```/data/prediction/prediction_infects.csv``` contains infection predictions
@@ -84,13 +76,23 @@ pip install -r requirements.txt
     - ```/data/prediction/comparison_details.csv``` logs the performance for all the models in each run
   
 - ### Customizable filter:
-  - We understand that the prediction results might need customized filters in different scenarios. We have provided some sample code available at ```/customize/customized_filter.py```
+  - We understand that the prediction results might need customized filters to validate in different scenarios. We have provided some sample code at ```/customize/customized_filter.py```
 
 ## Citing
 If you find IMSP is useful for your research, please consider citing the following papers:
 
 ```bash
-Coming soon
+@article {Du2020.11.09.375394,
+	author = {Du, Hangyu and Chen, Feng and Liu, Hongfu and Hong, Pengyu},
+	title = {Network-based Virus-Host Interaction Prediction with Application to SARS-CoV-2},
+	elocation-id = {2020.11.09.375394},
+	year = {2020},
+	doi = {10.1101/2020.11.09.375394},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2020/11/11/2020.11.09.375394},
+	eprint = {https://www.biorxiv.org/content/early/2020/11/11/2020.11.09.375394.full.pdf},
+	journal = {bioRxiv}
+}
 ```
 
 ## License
