@@ -1,6 +1,6 @@
-# CrossNELP: Cross-species Network Embedding and Link Prediction
+# Infection Mechanism and Spectrum Prediction (IMSP) Model
 
-This repository is for the paper: Virus-Host Interaction Network Prediction Model and Its Application to COVID-19. This model is a machine learning-based virus-host interaction network prediction model which capture underlying network features comprehensively and suggest undiscovered links for further in-depth biological investigation.
+This repository is for the paper: Network-based Virus-Host Interaction Prediction with Application to SARS-CoV-2. This model predicts virus-host interactions at both protein and organism levels.
 
 ## Installation
 - Clone the repository
@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ## Usage
 
 - ### Arguments:
-    --bg: bool, if set to True, then the model will only build the network in NetorkX's gml formatting. Default: False
+    --bg: bool, if set to True, then the model will only build the network in NetorkX's GML formatting. Default: False
 
     --evaluate: bool, if set to True, then the model will only run the evaluation part without making predictions. Default: False
 
@@ -23,16 +23,17 @@ pip install -r requirements.txt
 
 - ### Example
      ```python
-    '''Perform a 50-run model performance measurement'''
-    python main.py --evaluate True --eval_iter 50
-    ```
-     ```python
     '''Perform link prediction task'''
     python main.py
     ```
 
-- ### Input (Please refer to ```/model/data/hetero_data.py``` for formatting details):
-  - Pair-wise similarity matrices. You can obtain pair-wise similarity matrices for homogeneous proteins by [Data Parser](https://github.com/SupremeEthan/COVID-19-Research-Data-Parser).
+     ```python
+    '''Perform a 50-run model performance measurement'''
+    python main.py --evaluate True --eval_iter 50
+    ```
+
+- ### Input:
+  - Pair-wise similarity matrices. You can obtain pair-wise similarity matrices for protein homologs by using our [Data Parser](https://github.com/SupremeEthan/IMSP-Parser).
   - Protein-Protein Interactions (PPI) and infection relationships should be collected and feed into /model/data/hetero_data.py following this formatting: 
     ```python
     {
@@ -46,11 +47,8 @@ pip install -r requirements.txt
         'relation': 'interacts'
     }
     ```
-    The above representation will connect nsp15 of SARS-CoV-2 to IRF3 and RIG-I in the following 
-    hosts: Homo sapiens, Felis catus, Macaca mulatta, Canis lupus familiaris, Rhinolophus 
-    ferrumequinum and Mesocricetus auratus. The link type will be set as "interacts"
-  - Protein functions should be collected and feed into /model/data/hetero_data.py following this 
-    formatting: 
+    Specifically, the input above will connect nsp15 of SARS-CoV-2 to IRF3 and RIG-I in the following hosts: Homo sapiens, Felis catus, Macaca mulatta, Canis lupus familiaris, Rhinolophus ferrumequinum, and Mesocricetus auratus. The link type will be set as "interacts" (PPI).
+  - Protein functions should be collected and feed into /model/data/hetero_data.py following this formatting: 
     ```python
     protein_function_data = {
         'ACE2': 'virus receptor activity',
@@ -82,17 +80,17 @@ pip install -r requirements.txt
     - ```/data/prediction/prediction_infects.csv``` contains infection predictions
     - ```/data/prediction/prediction_interacts.csv``` contains PPI predictions
   - The performance evaluation results are available at ```/data/evaluation```
-    - ```/data/prediction/comparison_summary.csv``` contains the calculated means and stds for all evaluation metrics
-    - ```/data/prediction/comparison_details.csv``` logs the performance for all the models in each run, which is useful when performing t-test
+    - ```/data/prediction/comparison_summary.csv``` contains the means and STDs for all evaluation metrics
+    - ```/data/prediction/comparison_details.csv``` logs the performance for all the models in each run
   
 - ### Customizable filter:
-  - We understand that in different scenarios, the prediction results might need customized filters in addition to those we have defined in the model. We have provided such sample code available at ```/customize/customized_filter.py```
+  - We understand that the prediction results might need customized filters in different scenarios. We have provided some sample code available at ```/customize/customized_filter.py```
 
 ## Citing
-If you find CrossNELP is useful for your research, please consider citing the following papers:
+If you find IMSP is useful for your research, please consider citing the following papers:
 
 ```bash
-TBD
+Coming soon
 ```
 
 ## License
