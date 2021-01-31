@@ -14,9 +14,11 @@ from support.Node2vec import node2vec_emb
 def model_eval(original_G_path, content_emb_path, model_iter):
     build_graph(bg=False)
     if not os.path.exists(os.path.abspath('data/embedding/sentence_embedding/sentence_embedding.pkl')):
-        print("In getting content embeddings")
         # content embedding
+        print("In getting content embeddings")
+        print("Edge content embedding...")
         sentence_emb.edge_content_emb()
+        print("Node content embedding...")
         sentence_emb.node_content_emb()
     comp_helper(original_G_path=original_G_path,
                 content_emb_path=content_emb_path, classifier='MLP', model_iter=model_iter)
@@ -25,7 +27,7 @@ def model_eval(original_G_path, content_emb_path, model_iter):
 def model_pred(original_G_path, content_emb_path, model_iter):
     preprocess(bg=False)
     process(original_G_path=original_G_path,
-            structural_emb_path=os.path.abspath('data/embedding/prediction/CrossNELP.csv'),
+            structural_emb_path=os.path.abspath('data/embedding/prediction/IMSP.csv'),
             content_emb_path=content_emb_path, classifier='MLP', pred=True, model_iter=model_iter, re_build_g=False)
 
 
@@ -37,8 +39,10 @@ def model_pred_alt(original_G_path, model_iter):
             os.path.exists(os.path.abspath('data/embedding/prediction/LINE.csv')) and
             os.path.exists(os.path.abspath('data/embedding/prediction/Node2vec.csv')) and
             os.path.exists(os.path.abspath('data/embedding/prediction/SDNE.csv'))):
-        node2vec_emb.node_structure_emb('pred', os.path.abspath('data/classifier/original_G.txt'), 'unweighted',
-                                        dim=128, walk_len=6, num_walks=100)
+        node2vec_emb.node_structure_emb('pred',
+                                        os.path.abspath('data/classifier/original_G.txt'),
+                                        'unweighted',
+                                        dim=128, walk_len=5, num_walks=100)
         os.chdir('support')
         os.system(
             "python -m openne --method deepWalk --input ../data/embedding/prediction/adjlist.txt --network-format adjlist --walk-length 6 --number-walks 100 --output ../data/embedding/prediction/Deepwalk.csv")
@@ -62,7 +66,7 @@ def pred_helper(original_G_path, model_iter):
     structural_emb_path = glob.glob(os.path.abspath('data/embedding/prediction/*.csv'))
     for emb in range(len(structural_emb_path)):
         emb_name = str(structural_emb_path[emb]).rsplit('/', 1)[1].split('.')[0]
-        if emb_name == 'CrossNELP':
+        if emb_name == 'IMSP':
             continue
         process_alt(original_G_path=original_G_path,
                     structural_emb_path=structural_emb_path[emb],
@@ -106,7 +110,7 @@ def process_alt(original_G_path, structural_emb_path, classifier, model_iter, re
                                         structural_emb_dict, None,
                                         X_test_negatives, y_test_negatives)
 
-        print('Predicting')
+        print('Predicting...')
         full_X_train = np.vstack([X_train, X_test])
         full_y_train = np.concatenate([y_train.flatten(), y_test])
         clf = Classifier(full_X_train, full_y_train, None, None, classifier)
@@ -127,9 +131,11 @@ def preprocess(bg):
         # content embedding
         sentence_emb.edge_content_emb()
         sentence_emb.node_content_emb()
-    if not os.path.exists(os.path.abspath('data/embedding/prediction/CrossNELP.csv')):
+        print("Content embedding finished")
+    if not os.path.exists(os.path.abspath('data/embedding/prediction/IMSP.csv')):
+        print("In getting structure embeddings")
         node2vec_emb.node_structure_emb('pred', os.path.abspath('data/classifier/original_G.txt'),
-                                        'weighted', dim=128, walk_len=6, num_walks=100, p=1, q=0.5)
+                                        'weighted', dim=128, walk_len=10, num_walks=100, p=1, q=0.5)
 
 
 def process(original_G_path, structural_emb_path, content_emb_path, classifier, pred, model_iter, re_build_g):
@@ -157,8 +163,7 @@ def process(original_G_path, structural_emb_path, content_emb_path, classifier, 
         full_G = nx.read_gml(original_G_path)
 
         X_train, y_train, X_test_negatives, y_test_negatives, all_selected_indices, index2pair_dict \
-            = load_training_data(full_G, training_G, structural_emb_dict, content_emb_dict,
-                                 num_of_test_edges)
+            = load_training_data(full_G, training_G, structural_emb_dict, content_emb_dict, num_of_test_edges)
 
         print('In loading test data')
         # test set is the set difference between edges in the original network and the new network
@@ -170,7 +175,7 @@ def process(original_G_path, structural_emb_path, content_emb_path, classifier, 
                                         X_test_negatives, y_test_negatives)
 
         if not pred:
-            print('Training')
+            print('Training...')
             # get the prediction accuracy on evaluation set
             # for model in classification_models:
             clf = Classifier(X_train, y_train, X_test, y_test, classifier)
@@ -178,17 +183,19 @@ def process(original_G_path, structural_emb_path, content_emb_path, classifier, 
             accuracy, report, macro_roc_auc_ovo, weighted_roc_auc_ovo = clf.test_model()
             return accuracy, report, macro_roc_auc_ovo, weighted_roc_auc_ovo
         else:
-            print('Predicting')
+            print('Predicting...')
             full_X_train = np.vstack([X_train, X_test])
             full_y_train = np.concatenate([y_train.flatten(), y_test])
             clf = Classifier(full_X_train, full_y_train, None, None, classifier)
             clf.train()
             if i == model_iter - 1:
                 clf.predict(full_G=full_G, all_selected_indices=all_selected_indices,
-                            index2pair_dict=index2pair_dict, binding=binding, last_iter=True)
+                            index2pair_dict=index2pair_dict, binding=binding, last_iter=True,
+                            emb_name=str(structural_emb_path).rsplit('/', 1)[1].split('.')[0])
             else:
                 clf.predict(full_G=full_G, all_selected_indices=all_selected_indices,
-                            index2pair_dict=index2pair_dict, binding=binding, last_iter=False)
+                            index2pair_dict=index2pair_dict, binding=binding, last_iter=False,
+                            emb_name=str(structural_emb_path).rsplit('/', 1)[1].split('.')[0])
 
 
 def process_comparison(original_G_path, structural_emb_path, classifier, re_build_g):
@@ -244,8 +251,8 @@ def comp_helper(original_G_path, content_emb_path, classifier, model_iter):
         print('Existing evaluation embeddings: ', structural_emb_path)
         for emb in range(len(structural_emb_path)):
             emb_name = str(structural_emb_path[emb]).rsplit('/', 1)[1].split('.')[0]
-            if 'CrossNELP' in str(structural_emb_path[emb]):
-                print('\nTesting our model CrossNELP')
+            if 'IMSP' in str(structural_emb_path[emb]):
+                print('\nTesting our model IMSP')
                 acc, report, macro_roc_auc_ovo, weighted_roc_auc_ovo = \
                     process(original_G_path=original_G_path,
                             structural_emb_path=structural_emb_path[emb],
@@ -311,8 +318,8 @@ def comp_helper(original_G_path, content_emb_path, classifier, model_iter):
             file.write(to_write)
 
         # write performance details
-        with open(os.path.abspath('data/evaluation/comparison_details.csv'), 'w') as file:
-            file.write(
+        with open(os.path.abspath('data/evaluation/comparison_details.csv'), 'w') as detail_file:
+            detail_file.write(
                 'embedding model,infection precision,infection recall,infection f1-score,PPI precision,PPI recall,'
                 'PPI f1-score,accuracy,weighted precision,weighted f1-score,ROC macro,ROC weighted\n'
             )
@@ -331,15 +338,15 @@ def comp_helper(original_G_path, content_emb_path, classifier, model_iter):
                                          perf[emb_name]['infection_recall'],
                                          perf[emb_name]['weighted_f1'],
                                          perf[emb_name]['weighted_precision'])
-            file.write(to_write)
+            detail_file.write(to_write)
 
 
 def generate_emb():
     print("network embedding for performance evaluation")
     node2vec_emb.node_structure_emb('eval', os.path.abspath('data/classifier/training_G.txt'), 'weighted',
-                                    dim=128, walk_len=6, num_walks=100, p=1, q=0.5)
+                                    dim=128, walk_len=5, num_walks=100, p=1, q=0.5)
     node2vec_emb.node_structure_emb('eval', os.path.abspath('data/classifier/training_G.txt'), 'unweighted',
-                                    dim=128, walk_len=6, num_walks=100)
+                                    dim=128, walk_len=5, num_walks=100)
     os.chdir('support')
     os.system(
         "python -m openne --method deepWalk --input ../data/embedding/evaluation/adjlist.txt --network-format adjlist --walk-length 6 --number-walks 100 --output ../data/embedding/evaluation/Deepwalk.csv")

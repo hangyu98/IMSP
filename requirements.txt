@@ -67,3 +67,6 @@ wasabi==0.8.0
 Werkzeug==1.0.1
 wrapt==1.12.1
 zipp==3.2.0
+
+
+60,201,IRF3 Rhinolophus ferrumequinum,PLpro Severe acute respiratory syndrome coronavirus 2,0.8534396664266802,strong,interacts,likely

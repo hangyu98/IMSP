@@ -1,3 +1,4 @@
+import random
 import os
 from collections import defaultdict
 
@@ -5,10 +6,9 @@ import numpy as np
 import networkx as nx
 import gensim
 from joblib import Parallel, delayed
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
-# from parallel import parallel_generate_walks
-from support.Node2vec.parallel import parallel_generate_walks
+from .parallel import parallel_generate_walks
 
 
 class Node2Vec:
@@ -23,11 +23,10 @@ class Node2Vec:
 
     def __init__(self, graph: nx.Graph, dimensions: int = 128, walk_length: int = 80, num_walks: int = 10, p: float = 1,
                  q: float = 1, weight_key: str = 'weight', workers: int = 1, sampling_strategy: dict = None,
-                 quiet: bool = False, temp_folder: str = None):
+                 quiet: bool = False, temp_folder: str = None, seed: int = None):
         """
         Initiates the Node2Vec object, precomputes walking probabilities and generates the walks.
-
-        :param graph: Input network
+        :param graph: Input graph
         :param dimensions: Embedding dimensions (default: 128)
         :param walk_length: Number of nodes in each walk (default: 80)
         :param num_walks: Number of walks per node (default: 10)
@@ -36,6 +35,7 @@ class Node2Vec:
         :param weight_key: On weighted graphs, this is the key for the weight attribute (default: 'weight')
         :param workers: Number of workers for parallel execution (default: 1)
         :param sampling_strategy: Node specific sampling strategies, supports setting node specific 'q', 'p', 'num_walks' and 'walk_length'.
+        :param seed: Seed for the random number generator.
         Use these keys exactly. If not set, will use the global ones which were passed on the object initialization
         :param temp_folder: Path to folder with enough space to hold the memory map of self.d_graph (for big graphs); to be passed joblib.Parallel.temp_folder
         """
@@ -63,6 +63,10 @@ class Node2Vec:
 
             self.temp_folder = temp_folder
             self.require = "sharedmem"
+
+        if seed is not None:
+            random.seed(seed)
+            np.random.seed(seed)
 
         self._precompute_probabilities()
         self.walks = self._generate_walks()
@@ -116,9 +120,6 @@ class Node2Vec:
                 d_graph[current_node][self.PROBABILITIES_KEY][
                     source] = unnormalized_weights / unnormalized_weights.sum()
 
-                # Save neighbors
-                d_graph[current_node][self.NEIGHBORS_KEY] = d_neighbors
-
             # Calculate first_travel weights for source
             first_travel_weights = []
 
@@ -127,6 +128,9 @@ class Node2Vec:
 
             first_travel_weights = np.array(first_travel_weights)
             d_graph[source][self.FIRST_TRAVEL_KEY] = first_travel_weights / first_travel_weights.sum()
+
+            # Save neighbors
+            d_graph[source][self.NEIGHBORS_KEY] = list(self.graph.neighbors(source))
 
     def _generate_walks(self) -> list:
         """
@@ -158,13 +162,12 @@ class Node2Vec:
 
         return walks
 
-    def fit(self, window_size, **skip_gram_params) -> gensim.models.Word2Vec:
+    def fit(self, **skip_gram_params) -> gensim.models.Word2Vec:
         """
-        Creates the embedding using gensim's Word2Vec.
+        Creates the embeddings using gensim's Word2Vec.
         :param skip_gram_params: Parameteres for gensim.models.Word2Vec - do not supply 'size' it is taken from the Node2Vec 'dimensions' parameter
-        :param window_size: window_size for skip_gram model
         :type skip_gram_params: dict
-        :return: A gensim Text2vec model
+        :return: A gensim word2vec model
         """
 
         if 'workers' not in skip_gram_params:
@@ -173,4 +176,10 @@ class Node2Vec:
         if 'size' not in skip_gram_params:
             skip_gram_params['size'] = self.dimensions
 
-        return gensim.models.Word2Vec(self.walks, window=window_size, **skip_gram_params)
+        if 'sg' not in skip_gram_params:
+            skip_gram_params['sg'] = 1
+
+        # if 'window' not in skip_gram_params:
+        #     skip_gram_params['window'] = 5
+
+        return gensim.models.Word2Vec(self.walks, **skip_gram_params)

@@ -4,6 +4,8 @@ import numpy as np
 from sklearn.metrics import classification_report, roc_auc_score
 from sklearn.neural_network import MLPClassifier
 from utils import filter_PPI_pred, filter_infection_pred, filter_unlikely_inf
+import networkx as nx
+import json
 
 
 class Classifier:
@@ -14,7 +16,7 @@ class Classifier:
         self.y_test = y_test
         self.prediction_model = prediction_model
         # error checking
-        self.classifier = MLPClassifier(verbose=False)
+        self.classifier = MLPClassifier(early_stopping=True, verbose=False)
 
     def train(self):
 
@@ -85,19 +87,24 @@ class Classifier:
                                             probability_estimate=prediction_prob[i][2], connection='weak')
                     elif prediction[i] == 4.0:
                         if full_G.has_edge(str(pair[0]), str(pair[1])):
-                            pred_prob = full_G.get_edge_data(*(str(pair[0]), str(pair[1])))[
-                                'probability_estimate']
+                            pred_prob = full_G.get_edge_data(*(str(pair[0]), str(pair[1])))['probability_estimate']
                             new_pred_prob = (pred_prob + prediction_prob[i][4]) / 2.0
                             full_G.add_edge(str(pair[0]), str(pair[1]), etype='predicted',
                                             relation='interacts',
                                             probability_estimate=new_pred_prob, connection='strong')
                         else:
                             full_G.add_edge(str(pair[0]), str(pair[1]), etype='predicted',
-                                            relation='infects',
+                                            relation='interacts',
                                             probability_estimate=prediction_prob[i][4], connection='weak')
         print("Saving prediction data")
         filter_PPI_pred(full_G, edge_type='interacts', binding=binding, emb_name=emb_name)
         filter_infection_pred(full_G, edge_type='infects', emb_name=emb_name)
         if last_iter:
+            json_cyto = nx.cytoscape_data(full_G)
+            print(len(full_G.nodes))
+            print(len(full_G.edges))
             filter_unlikely_inf(binding=binding, emb_name=emb_name)
+            with open(os.path.abspath('./data/cytoscape/cytoscape_with_prediction.json'), 'w') as json_file:
+                json.dump(json_cyto, json_file)
+
         print('Prediction data saved!')

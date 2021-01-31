@@ -12,74 +12,6 @@ import support.Node2vec.utils
 from support.Node2vec.node2vec import Node2Vec
 from support.Node2vec.utils import sigmoid
 
-
-def node2vec_embedding(pred_or_eval, G, weighted, dim, walk_len, num_walks, p, q):
-    # --------------------------------------------------------
-    # --------------------Configurations----------------------
-    # --------------------------------------------------------
-
-    dimension = dim
-
-    walk_length = walk_len
-
-    workers = 8
-
-    num_walks = num_walks
-
-    preprocess(pred_or_eval, G, weighted)
-
-    print("# of nodes: ", len(G.nodes))
-    print("# of edges: ", len(G.edges))
-
-    if pred_or_eval == 'eval':
-        if weighted == 'unweighted':
-            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
-                                         workers=workers, quiet=True)
-            # save the embedding vector and link score
-            with open(os.path.abspath(
-                    'data/embedding/evaluation/Node2vec.csv'), 'w') as file:
-                save_res(G, dimension, file, node2vec_instance, walk_len)
-        else:
-            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
-                                         workers=workers, p=p, q=q, quiet=True)
-            # save the embedding vector and link score
-            with open(os.path.abspath(
-                    'data/embedding/evaluation/CrossNELP.csv'), 'w') as file:
-                save_res(G, dimension, file, node2vec_instance, walk_len)
-    else:
-        if weighted == 'unweighted':
-            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
-                                         workers=workers, quiet=True)
-            # save the embedding vector and link score
-            with open(os.path.abspath(
-                    'data/embedding/prediction/Node2vec.csv'), 'w') as file:
-                save_res(G, dimension, file, node2vec_instance, walk_len)
-        else:
-            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
-                                         workers=workers, p=p, q=q, quiet=True)
-            # save the embedding vector and link score
-            with open(os.path.abspath(
-                    'data/embedding/prediction/CrossNELP.csv'), 'w') as file:
-                save_res(G, dimension, file, node2vec_instance, walk_len)
-
-
-def save_res(G, dimension, file, node2vec_instance, walk_len):
-    weight_model = node2vec_instance.fit(window_size=walk_len)
-    list_vec = []
-    file.write(str(len(G.nodes)) + ' ' + str(dimension) + '\n')
-    for n in G.nodes():
-        vec = weight_model.wv.get_vector(n)
-        vec2lst = list(vec)
-        to_append = ''
-        for ele in vec2lst:
-            to_append = to_append + ' ' + str(ele)
-        if len(list_vec) == 0:
-            list_vec = np.array(vec)
-        else:
-            list_vec = np.vstack([list_vec, vec])
-        file.write(str(n) + to_append + '\n')
-
-
 def preprocess(pred_or_eval, G, weighted):
     # initiate matrix
     list_nodes = []
@@ -88,8 +20,7 @@ def preprocess(pred_or_eval, G, weighted):
     if weighted == 'weighted':
         print('assigning edge weights')
         # Node2vec
-        file = open(os.path.abspath(
-            'data/embedding/sentence_embedding/sentence_embedding_node.pkl'), 'rb')
+        file = open(os.path.abspath('data/embedding/sentence_embedding/sentence_embedding_node.pkl'), 'rb')
         node_emb_dict = pickle.load(file)
 
         value_lst = []
@@ -100,14 +31,13 @@ def preprocess(pred_or_eval, G, weighted):
                 value_lst.append(support.Node2vec.utils.sim_calc(src_node_vec, dst_node_vec).TS_SS())
 
         mean = np.mean(value_lst)
-        # use TS-SS distance to represent node similarity
+        # use sigmoid(TS-SS) to represent node similarity
         score_M = np.empty([len(G.nodes()), len(G.nodes())])
         for src in range(len(G.nodes())):
             for dst in range(len(G.nodes())):
                 src_node_vec = node_emb_dict[str(src)]
                 dst_node_vec = node_emb_dict[str(dst)]
-                score_M[src][dst] = sigmoid(
-                    support.Node2vec.utils.sim_calc(src_node_vec, dst_node_vec).TS_SS() / mean)
+                score_M[src][dst] = sigmoid(support.Node2vec.utils.sim_calc(src_node_vec, dst_node_vec).TS_SS() / mean)
 
         # add weight to network
         for e in G.edges():
@@ -123,6 +53,72 @@ def preprocess(pred_or_eval, G, weighted):
         nx.write_adjlist(G, os.path.abspath('data/embedding/prediction/adjlist.txt'))
     else:
         nx.write_adjlist(G, os.path.abspath('data/embedding/evaluation/adjlist.txt'))
+
+
+def node2vec_embedding(pred_or_eval, G, weighted, dim, walk_len, num_walks, p, q):
+    # --------------------------------------------------------
+    # --------------------Configurations----------------------
+    # --------------------------------------------------------
+
+    dimension = dim
+
+    walk_length = walk_len
+
+    workers = 1
+
+    num_walks = num_walks
+
+    preprocess(pred_or_eval, G, weighted)
+
+    print("# of nodes: ", len(G.nodes))
+    print("# of edges: ", len(G.edges))
+
+    if pred_or_eval == 'eval':
+        if weighted == 'unweighted':
+            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
+                                         workers=workers, quiet=True)
+            # save the embedding vector and link score
+            with open(os.path.abspath(
+                    'data/embedding/evaluation/Node2vec.csv'), 'w') as file:
+                save_res(G, dimension, file, node2vec_instance)
+        else:
+            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
+                                         workers=workers, p=p, q=q, quiet=True)
+            # save the embedding vector and link score
+            with open(os.path.abspath(
+                    'data/embedding/evaluation/IMSP.csv'), 'w') as file:
+                save_res(G, dimension, file, node2vec_instance)
+    else:
+        if weighted == 'unweighted':
+            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
+                                         workers=workers, quiet=True)
+            # save the embedding vector and link score
+            with open(os.path.abspath(
+                    'data/embedding/prediction/Node2vec.csv'), 'w') as file:
+                save_res(G, dimension, file, node2vec_instance)
+        else:
+            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
+                                         workers=workers, p=p, q=q, quiet=True, seed=1)
+            # save the embedding vector and link score
+            with open(os.path.abspath('data/embedding/prediction/IMSP.csv'), 'w') as file:
+                save_res(G, dimension, file, node2vec_instance)
+
+
+def save_res(G, dimension, file, node2vec_instance):
+    weight_model = node2vec_instance.fit()
+    list_vec = []
+    file.write(str(len(G.nodes)) + ' ' + str(dimension) + '\n')
+    for n in G.nodes():
+        vec = weight_model.wv.get_vector(n)
+        vec2lst = list(vec)
+        to_append = ''
+        for ele in vec2lst:
+            to_append = to_append + ' ' + str(ele)
+        if len(list_vec) == 0:
+            list_vec = np.array(vec)
+        else:
+            list_vec = np.vstack([list_vec, vec])
+        file.write(str(n) + to_append + '\n')
 
 
 def load_node_embeddings(emb_file_path):
@@ -146,7 +142,7 @@ def load_node_embeddings(emb_file_path):
     return node_dict
 
 
-def node_structure_emb(pred_or_eval, network_path, weighted, dim=128, walk_len=6, num_walks=50, p=1, q=1):
+def node_structure_emb(pred_or_eval, network_path, weighted, dim=128, walk_len=5, num_walks=50, p=1, q=1):
     print('In node structural embedding')
     print('weighted? ', weighted, 'dim: ', dim, '\twalk_len: ', walk_len, '\tp: ', p, '\tq: ', q, '\tnum_walks',
           num_walks)

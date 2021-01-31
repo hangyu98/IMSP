@@ -9,7 +9,6 @@ def parallel_generate_walks(d_graph: dict, global_walk_length: int, num_walks: i
                             quiet: bool = False) -> list:
     """
     Generates the random walks which will be used as the skip-gram input.
-
     :return: List of walks. Each walk is a list of nodes.
     """
 
