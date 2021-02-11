@@ -19,103 +19,30 @@ def build_graph(bg):
     original_G_path = os.path.abspath('data/classifier/original_G.txt')
     # if network is not built, build the network
     if not os.path.exists(original_G_path) or bg:
-        print('building graph...')
+        print('Building graph...')
         build_g(original_G_path=original_G_path, list_of_hosts=list_of_hosts,
                 list_of_viruses=list_of_viruses)
     else:
         print('Graph already built')
 
 
-def establish_training_G(G, re_build_g):
+def establish_training_G(G, run, fold, build_G):
     training_G_path = os.path.abspath('data/classifier/training_G.txt')
-    removed_edges_path = os.path.abspath('data/classifier/removed_edges.csv')
-
-    total_similarity = 0
-    total_belongs = 0
-    total_infects = 0
-    total_PPI = 0
-
-    # count number of edges of different types
-    for e in G.edges():
-        edge_relation = G.get_edge_data(*e)['relation']
-        if edge_relation.__contains__('similar'):
-            total_similarity = total_similarity + 1
-        elif edge_relation.__contains__('belongs'):
-            total_belongs = total_belongs + 1
-        elif edge_relation.__contains__('infects'):
-            total_infects = total_infects + 1
-        else:
-            total_PPI = total_PPI + 1
-
-    # target edges to be removed
-    target_similarity = round(total_similarity / 5)
-    target_belongs = round(total_belongs / 5)
-    target_infects = round(total_infects / 5)
-    target_PPI = round(total_PPI / 5)
-    total_target = target_belongs + target_PPI + target_infects + target_similarity
-    num_of_test_edges = total_target
-
-    # if file is already there, do not split again. Instead, read network network from the file
-    if os.path.exists(removed_edges_path) and not re_build_g:
-        print('Removed edges found, now establishing training graph')
-        removed_edges = []
-        with open(removed_edges_path, 'r') as csv_file:
-            csv_reader = csv.reader(csv_file, delimiter=',')
-            for row in csv_reader:
-                removed_edges.append(row)
-        # remove edges
-        for edge in removed_edges:
+    ith_fold_path = os.path.abspath(
+        'data/evaluation/cross_validation/run-' + str(run) + '-fold-' + str(fold) + '-X.csv')
+    ith_fold = []
+    with open(ith_fold_path, 'r') as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        for row in csv_reader:
+            ith_fold.append(row)
+    if build_G:
+        # remove edges in the ith_fold --> use the remaining folds for training
+        for edge in ith_fold:
             G.remove_edge(edge[0], edge[1])
         # save training graph
         nx.write_gml(G, training_G_path)
-        # return training_G_path
-        return training_G_path, num_of_test_edges
-
-    # else, split into training set and test set by a ratio of 8:2
-    else:
-        removed_edges = []
-        print("Dividing train/test sets...")
-        while total_target > 0:
-            edge = choice(list(G.edges(data=True)))
-            # ensure connectivity
-            H = copy.deepcopy(G)
-            H.remove_edge(edge[0], edge[1])
-            if not nx.is_connected(H):
-                print('not connected, need to choose again')
-                continue
-
-            if edge[2]['relation'].__contains__('similar'):
-                if target_similarity > 0:
-                    target_similarity = target_similarity - 1
-                else:
-                    continue
-            elif edge[2]['relation'].__contains__('belongs'):
-                if target_belongs > 0:
-                    target_belongs = target_belongs - 1
-                else:
-                    continue
-            elif edge[2]['relation'].__contains__('infects'):
-                if target_infects > 0:
-                    target_infects = target_infects - 1
-                else:
-                    continue
-            else:
-                if target_PPI > 0:
-                    target_PPI = target_PPI - 1
-                else:
-                    continue
-            G.remove_edge(edge[0], edge[1])
-            removed_edges.append((edge[0], edge[1]))
-            total_target = total_target - 1
-        print("Training graph connectivity: ", nx.is_connected(G))
-        # Save network
-        print("Saving training graph to file")
-        nx.write_gml(G, training_G_path)
-        print("Saving removed edges (test set) to file")
-        with open(removed_edges_path, 'w') as csv_file:
-            for e in removed_edges:
-                csv_file.write(str(e[0]) + ',' + str(e[1]) + '\n')
-
+    # return training_G_path
+    num_of_test_edges = len(ith_fold)
     return training_G_path, num_of_test_edges
 
 
@@ -147,12 +74,8 @@ def load_node_embeddings(emb_file_path):
 
 
 def load_training_data(full_G, training_G, structural_emb_dict, content_emb_dict, num_of_test_edges):
-    if content_emb_dict is not None:
-        X = np.empty([len(structural_emb_dict) * (len(structural_emb_dict) - 1),
-                      2 * (len(structural_emb_dict[1])) + len(content_emb_dict[(0, 1)])])
-    else:
-        X = np.empty([len(structural_emb_dict) * (len(structural_emb_dict) - 1),
-                      2 * (len(structural_emb_dict[1]))])
+    X = np.empty([len(structural_emb_dict) * (len(structural_emb_dict) - 1),
+                  2 * (len(structural_emb_dict[1])) + len(content_emb_dict[(0, 1)])])
 
     y = np.empty([len(structural_emb_dict) * (len(structural_emb_dict) - 1), 1])
     y_copy = np.empty([len(structural_emb_dict) * (len(structural_emb_dict) - 1), 1])
@@ -168,11 +91,8 @@ def load_training_data(full_G, training_G, structural_emb_dict, content_emb_dict
 
                 # add embedding of the two nodes to represent edge
                 structural_vec = np.concatenate((arr_i, arr_j))
-                if content_emb_dict is not None:
-                    arr_i_j = np.array(content_emb_dict[(i, j)])
-                    edge_to_add = np.concatenate((structural_vec, arr_i_j))
-                else:
-                    edge_to_add = structural_vec
+                arr_i_j = np.array(content_emb_dict[(i, j)])
+                edge_to_add = np.concatenate((structural_vec, arr_i_j))
                 X[count] = edge_to_add
                 y[count] = y_to_add
                 y_copy[count] = y_to_add_copy
@@ -187,6 +107,9 @@ def load_training_data(full_G, training_G, structural_emb_dict, content_emb_dict
         = sampling.random_sampling(training_G, X, y, y_copy,
                                    num_of_training_edges=len(training_G.edges()),
                                    num_of_test_edges=num_of_test_edges, index2pair_dict=index2pair_dict)
+
+    savetxt(os.path.abspath('data/classifier/X_train.txt'), X_train)
+    savetxt(os.path.abspath('data/classifier/y_train.txt'), y_train)
 
     return X_train, y_train, X_test_negatives, y_test_negatives, all_selected_indices, index2pair_dict
 
@@ -231,12 +154,8 @@ def get_index2pair_dict(length, G):
 def load_test_data(full_G, test_set_positives, structural_emb_dict, content_emb_dict, X_negatives, y_negatives):
     size_of_positive_test_set = len(test_set_positives)
 
-    if content_emb_dict is not None:
-        X_positives = np.empty(
-            [2 * size_of_positive_test_set, 2 * len(structural_emb_dict[1]) + len(content_emb_dict[(0, 1)])])
-    else:
-        X_positives = np.empty(
-            [2 * size_of_positive_test_set, 2 * len(structural_emb_dict[1])])
+    X_positives = np.empty(
+        [2 * size_of_positive_test_set, 2 * len(structural_emb_dict[1]) + len(content_emb_dict[(0, 1)])])
 
     y_positives = np.empty([2 * size_of_positive_test_set, 1])
 
@@ -247,14 +166,9 @@ def load_test_data(full_G, test_set_positives, structural_emb_dict, content_emb_
         # construct y_test
         arr_i = np.array(structural_emb_dict[i])
         arr_j = np.array(structural_emb_dict[j])
-        link_emb_i_j = np.multiply(arr_i, arr_j)
-        if content_emb_dict is not None:
-            arr_i_j = np.array(content_emb_dict[(i, j)])
-            edge_to_add_1 = np.concatenate((arr_i, arr_j, arr_i_j))
-            edge_to_add_2 = np.concatenate((arr_j, arr_i, arr_i_j))
-        else:
-            edge_to_add_1 = np.concatenate((arr_i, arr_j))
-            edge_to_add_2 = np.concatenate((arr_j, arr_i))
+        arr_i_j = np.array(content_emb_dict[(i, j)])
+        edge_to_add_1 = np.concatenate((arr_i, arr_j, arr_i_j))
+        edge_to_add_2 = np.concatenate((arr_j, arr_i, arr_i_j))
         X_positives[count] = edge_to_add_1
         X_positives[count + 1] = edge_to_add_2
 
@@ -291,7 +205,6 @@ def load_test_data(full_G, test_set_positives, structural_emb_dict, content_emb_
 # -------------------------------------------------------------------------------
 def filter_PPI_pred(G, edge_type, binding, emb_name):
     existed = remove_duplicates(emb_name + '_' + edge_type)
-    print("existed size: ", len(existed))
     with open(os.path.abspath(
             'data/prediction/prediction_' + emb_name + '_' + edge_type + '.csv'), 'a') as file:
         for e in G.edges():
@@ -386,15 +299,13 @@ def remove_duplicates(edge_type):
             csv_reader = csv.reader(csv_file, delimiter=',')
             for row in csv_reader:
                 existed.append((str(row[0]), str(row[1])))
-    else:
-        print(os.path.abspath('data/prediction/prediction_' + edge_type + '.csv'))
     return existed
 
 
 def build_graph_alt(graph_path):
-    names = ['no_hom', 'no_fel', 'no_mac', 'no_can', 'no_rhi', 'no_mes']
-    virus_node = 79
-    host_nodes = [192, 197, 204, 195, 207, 208]
+    names = ['Hom_sap', 'Fel_cat', 'Mac_mul', 'Can_lup', 'Rhi_fer', 'Mes_aur']
+    virus_node = 82
+    host_nodes = [204, 209, 216, 207, 219, 220]
     for i in range(len(names)):
         graph = nx.read_gml(graph_path)
         graph.remove_edge(str(virus_node), str(host_nodes[i]))

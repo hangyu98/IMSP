@@ -7,8 +7,6 @@ import utils as utils
 
 def random_sampling_helper(training_G, X, y, positives, negatives, num_of_training_edges,
                            num_of_test_edges, index2pair_dict, all_selected_indices):
-
-    print('Sampling negatives')
     X_train = np.empty([4 * num_of_training_edges, X.shape[1]])
     y_train = np.empty([4 * num_of_training_edges, 1])
 
@@ -25,16 +23,17 @@ def random_sampling_helper(training_G, X, y, positives, negatives, num_of_traini
     X_test_negatives = np.empty([2 * num_of_test_edges, X.shape[1]])
     y_test_negatives = np.empty([2 * num_of_test_edges, 1])
 
-    print("size of all negatives: ", len(negatives))
     known_negatives = get_known_negatives(training_G, X)
-    print("size of known negatives: ", len(known_negatives))
     unknown_negatives = np.setdiff1d(negatives, known_negatives)
-    print("size of unknown negatives: ", len(unknown_negatives))
 
-    known_negatives_testing = np.random.choice(known_negatives,
-                                               size=int(len(known_negatives) * 0.2),
-                                               replace=False)
-
+    if num_of_test_edges == 0:
+        known_negatives_testing = np.random.choice(known_negatives,
+                                                   size=0,
+                                                   replace=False)
+    else:
+        known_negatives_testing = np.random.choice(known_negatives,
+                                                   size=int(len(known_negatives) * 0.2),
+                                                   replace=False)
     known_negatives_training = np.setdiff1d(known_negatives, known_negatives_testing)
 
     selected_unknown_negatives = np.random.choice(unknown_negatives,
@@ -42,11 +41,16 @@ def random_sampling_helper(training_G, X, y, positives, negatives, num_of_traini
                                                       known_negatives),
                                                   replace=False)
 
-    unknown_negatives_training = np.random.choice(selected_unknown_negatives,
-                                                  size=2 * num_of_training_edges - (
-                                                          len(known_negatives) - int(len(known_negatives) * 0.2)),
-                                                  replace=False)
+    if num_of_test_edges == 0:
+        unknown_negatives_training = np.random.choice(selected_unknown_negatives,
+                                                      size=len(selected_unknown_negatives),
+                                                      replace=False)
 
+    else:
+        unknown_negatives_training = np.random.choice(selected_unknown_negatives,
+                                                      size=2 * num_of_training_edges - (len(known_negatives) - int(
+                                                          len(known_negatives) * 0.2)),
+                                                      replace=False)
     unknown_negatives_testing = np.setdiff1d(selected_unknown_negatives, unknown_negatives_training)
 
     selected_indices_for_training = np.concatenate((known_negatives_training, unknown_negatives_training))
@@ -60,15 +64,13 @@ def random_sampling_helper(training_G, X, y, positives, negatives, num_of_traini
         count = count + 1
 
     count = 0
-    for idx in selected_indices_for_testing:
-        X_test_negatives[count] = X[idx]
-        y_test_negatives[count] = y[idx]
-        all_selected_indices.append(idx)
-        count = count + 1
+    if len(selected_indices_for_testing) > 0:
+        for idx in selected_indices_for_testing:
+            X_test_negatives[count] = X[idx]
+            y_test_negatives[count] = y[idx]
+            all_selected_indices.append(idx)
+            count = count + 1
 
-    # save the files
-    savetxt(os.path.abspath('data/classifier/X_train.txt'), X_train)
-    savetxt(os.path.abspath('data/classifier/y_train.txt'), y_train)
     return X_train, y_train, X_test_negatives, y_test_negatives
 
 
@@ -99,7 +101,6 @@ def get_known_negatives(training_G, X):
                  and training_G.nodes[dst_node]['host'] in ACE2s
                  and training_G.nodes[src_node]['type'] == 'DPP4'):
             known_negatives.append(key)
-    # print(len(known_negatives))
     return known_negatives
 
 

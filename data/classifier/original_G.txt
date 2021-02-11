@@ -5618,28 +5618,28 @@ graph [
   edge [
     source 51
     target 166
-    relation "binds"
+    relation "interacts"
     category "heterogeneous"
     etype "original"
   ]
   edge [
     source 51
     target 178
-    relation "binds"
+    relation "interacts"
     category "heterogeneous"
     etype "original"
   ]
   edge [
     source 51
     target 179
-    relation "binds"
+    relation "interacts"
     category "heterogeneous"
     etype "original"
   ]
   edge [
     source 51
     target 180
-    relation "binds"
+    relation "interacts"
     category "heterogeneous"
     etype "original"
   ]

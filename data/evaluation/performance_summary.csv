@@ -1,0 +1,2 @@
+Embedding Model,Infection Precision,SD,Infection Recall,SD,Infection F1-score,SD,PPI Precision,SD,PPI Recall,SD,PPI F1-score,SD,Accuracy,SD,Weighted Precision,SD,Weighted Recall,SD,Weighted F1-score,SD,AUC macro,SD,AUC weighted,SD
+IMSP,0.897,0.082,0.879,0.125,0.882,0.086,0.879,0.044,0.88,0.068,0.877,0.04,0.973,0.006,0.973,0.006,0.973,0.006,0.973,0.006,0.997,0.001,0.997,0.001

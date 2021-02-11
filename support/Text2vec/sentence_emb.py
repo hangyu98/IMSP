@@ -46,7 +46,6 @@ def edge_content_emb():
                 edge_list_attr.append(to_add)
 
     # extract index -> node pair dict
-    print('length: ', len(edge_list_attr))
     index2pair_dict = get_index2pair_dict(len(edge_list_attr), G=full_G)
 
     # preprocess text2vec model, convert list to list to tokens

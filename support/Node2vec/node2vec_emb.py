@@ -12,17 +12,16 @@ import support.Node2vec.utils
 from support.Node2vec.node2vec import Node2Vec
 from support.Node2vec.utils import sigmoid
 
+
 def preprocess(pred_or_eval, G, weighted):
     # initiate matrix
     list_nodes = []
     for n in G.nodes():
         list_nodes.append(n)
     if weighted == 'weighted':
-        print('assigning edge weights')
         # Node2vec
         file = open(os.path.abspath('data/embedding/sentence_embedding/sentence_embedding_node.pkl'), 'rb')
         node_emb_dict = pickle.load(file)
-
         value_lst = []
         for src in range(len(G.nodes())):
             for dst in range(len(G.nodes())):
@@ -70,9 +69,6 @@ def node2vec_embedding(pred_or_eval, G, weighted, dim, walk_len, num_walks, p, q
 
     preprocess(pred_or_eval, G, weighted)
 
-    print("# of nodes: ", len(G.nodes))
-    print("# of edges: ", len(G.edges))
-
     if pred_or_eval == 'eval':
         if weighted == 'unweighted':
             node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
@@ -81,9 +77,17 @@ def node2vec_embedding(pred_or_eval, G, weighted, dim, walk_len, num_walks, p, q
             with open(os.path.abspath(
                     'data/embedding/evaluation/Node2vec.csv'), 'w') as file:
                 save_res(G, dimension, file, node2vec_instance)
-        else:
+
             node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
                                          workers=workers, p=p, q=q, quiet=True)
+            # save the embedding vector and link score
+            with open(os.path.abspath(
+                    'data/embedding/evaluation/IMSP_unweighted.csv'), 'w') as file:
+                save_res(G, dimension, file, node2vec_instance)
+
+        else:
+            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
+                                         workers=workers, weight_key='weight', p=p, q=q, quiet=True)
             # save the embedding vector and link score
             with open(os.path.abspath(
                     'data/embedding/evaluation/IMSP.csv'), 'w') as file:
@@ -143,9 +147,5 @@ def load_node_embeddings(emb_file_path):
 
 
 def node_structure_emb(pred_or_eval, network_path, weighted, dim=128, walk_len=5, num_walks=50, p=1, q=1):
-    print('In node structural embedding')
-    print('weighted? ', weighted, 'dim: ', dim, '\twalk_len: ', walk_len, '\tp: ', p, '\tq: ', q, '\tnum_walks',
-          num_walks)
     G = nx.read_gml(network_path)
     node2vec_embedding(pred_or_eval, G, weighted, dim, walk_len, num_walks, p, q)
-    print('Node2vec ' + weighted + ' embedding finished')

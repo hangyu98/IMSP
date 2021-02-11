@@ -29,5 +29,5 @@ with open(os.path.abspath('./data/prediction/prediction_IMSP_infects.csv'), 'r')
     inf_pred.close()
 
 json_cyto = nx.cytoscape_data(full_G)
-with open('./data/cytoscape/cytoscape_prediction.json', 'w') as json_file:
+with open('data/cytoscape/cytoscape_with_prediction.json', 'w') as json_file:
     json.dump(json_cyto, json_file)

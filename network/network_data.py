@@ -158,7 +158,7 @@ hetero_edge_data = [
         'group_2': 'host protein',
         'type_2': ['DPP4'],
         'host_list_2': ['Homo sapiens', 'Camelus dromedarius', 'Mus musculus', 'Rattus norvegicus'],
-        'relation': 'binds'
+        'relation': 'interacts'
     },
 
     {

@@ -7328,7 +7328,7 @@
       },
       {
         "data": {
-          "relation": "binds",
+          "relation": "interacts",
           "category": "heterogeneous",
           "etype": "original",
           "source": "51",
@@ -7337,7 +7337,7 @@
       },
       {
         "data": {
-          "relation": "binds",
+          "relation": "interacts",
           "category": "heterogeneous",
           "etype": "original",
           "source": "51",
@@ -7346,7 +7346,7 @@
       },
       {
         "data": {
-          "relation": "binds",
+          "relation": "interacts",
           "category": "heterogeneous",
           "etype": "original",
           "source": "51",
@@ -7355,7 +7355,7 @@
       },
       {
         "data": {
-          "relation": "binds",
+          "relation": "interacts",
           "category": "heterogeneous",
           "etype": "original",
           "source": "51",

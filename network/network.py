@@ -46,9 +46,3 @@ def build_g(original_G_path, list_of_hosts, list_of_viruses):
 
     print('original network saved!')
     print("network building finished!")
-
-
-def make_labels(G):
-    for node in G:
-        to_print = ''
-        print(node, to_print)
