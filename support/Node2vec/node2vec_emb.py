@@ -70,42 +70,18 @@ def node2vec_embedding(pred_or_eval, G, weighted, dim, walk_len, num_walks, p, q
     preprocess(pred_or_eval, G, weighted)
 
     if pred_or_eval == 'eval':
-        if weighted == 'unweighted':
-            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
-                                         workers=workers, quiet=True)
-            # save the embedding vector and link score
-            with open(os.path.abspath(
-                    'data/embedding/evaluation/Node2vec.csv'), 'w') as file:
-                save_res(G, dimension, file, node2vec_instance)
-
-            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
-                                         workers=workers, p=p, q=q, quiet=True)
-            # save the embedding vector and link score
-            with open(os.path.abspath(
-                    'data/embedding/evaluation/IMSP_unweighted.csv'), 'w') as file:
-                save_res(G, dimension, file, node2vec_instance)
-
-        else:
-            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
-                                         workers=workers, weight_key='weight', p=p, q=q, quiet=True)
-            # save the embedding vector and link score
-            with open(os.path.abspath(
-                    'data/embedding/evaluation/IMSP.csv'), 'w') as file:
-                save_res(G, dimension, file, node2vec_instance)
+        node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
+                                     workers=workers, weight_key='weight', p=p, q=q, quiet=True)
+        # save the embedding vector and link score
+        with open(os.path.abspath(
+                'data/embedding/evaluation/IMSP.csv'), 'w') as file:
+            save_res(G, dimension, file, node2vec_instance)
     else:
-        if weighted == 'unweighted':
-            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
-                                         workers=workers, quiet=True)
-            # save the embedding vector and link score
-            with open(os.path.abspath(
-                    'data/embedding/prediction/Node2vec.csv'), 'w') as file:
-                save_res(G, dimension, file, node2vec_instance)
-        else:
-            node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
-                                         workers=workers, p=p, q=q, quiet=True, seed=1)
-            # save the embedding vector and link score
-            with open(os.path.abspath('data/embedding/prediction/IMSP.csv'), 'w') as file:
-                save_res(G, dimension, file, node2vec_instance)
+        node2vec_instance = Node2Vec(G, dimensions=dimension, num_walks=num_walks, walk_length=walk_length,
+                                     workers=workers, p=p, q=q, quiet=True, seed=1)
+        # save the embedding vector and link score
+        with open(os.path.abspath('data/embedding/prediction/IMSP.csv'), 'w') as file:
+            save_res(G, dimension, file, node2vec_instance)
 
 
 def save_res(G, dimension, file, node2vec_instance):
