@@ -5704,6 +5704,13 @@ graph [
   ]
   edge [
     source 52
+    target 95
+    relation "interacts"
+    category "heterogeneous"
+    etype "original"
+  ]
+  edge [
+    source 52
     target 100
     relation "interacts"
     category "heterogeneous"

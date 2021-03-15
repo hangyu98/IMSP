@@ -168,7 +168,7 @@ hetero_edge_data = [
         'group_2': 'host protein',
         'type_2': ['ACE2'],
         'host_list_2': ['Homo sapiens', 'Felis catus', 'Macaca mulatta', 'Canis lupus familiaris',
-                        'Rhinolophus ferrumequinum', 'Mesocricetus auratus'],
+                        'Rhinolophus ferrumequinum', 'Mesocricetus auratus', 'Sus scrofa domesticus'],
         'relation': 'interacts'
     },
 
@@ -265,30 +265,37 @@ hetero_edge_data = [
     },
 ]
 
+known_negatives = [
+    ('Mus musculus', 'Severe acute respiratory syndrome coronavirus 2'),
+    ('Severe acute respiratory syndrome coronavirus 2', 'Mus musculus'),
+    ('ACE2, Mus musculus', 'Spike, Severe acute respiratory syndrome coronavirus 2'),
+    ('Spike, Severe acute respiratory syndrome coronavirus 2', 'ACE2, Mus musculus')
+]
+
 protein_function_data = {
     'ACE2': 'virus receptor activity',
     'DPP4': 'virus receptor activity',
-    'IRF3': 'interferon regulatory factor',
-    'IRF7': 'interferon regulatory factor',
-    'IRF9': 'interferon regulatory factor',
-    'MAVS': 'interferon regulatory factor',
-    'MDA5': 'interferon regulatory factor',
-    'NF-kB': 'interferon regulatory factor',
-    'PRKRA': 'interferon regulatory factor',
-    'RIG-I': 'interferon regulatory factor',
-    'STAT1': 'interferon regulatory factor',
-    'STAT2': 'interferon regulatory factor',
-    'TBK1': 'interferon regulatory factor',
+    'IRF3': 'innate immune response',
+    'IRF7': 'innate immune response',
+    'IRF9': 'innate immune response',
+    'MAVS': 'innate immune response',
+    'MDA5': 'innate immune response',
+    'NF-kB': 'innate immune response',
+    'PRKRA': 'innate immune response',
+    'RIG-I': 'innate immune response',
+    'STAT1': 'innate immune response',
+    'STAT2': 'innate immune response',
+    'TBK1': 'innate immune response',
     'Spike': 'virus receptor activity',
-    'M protein': 'interferon regulatory factor',
-    'N protein': 'interferon regulatory factor',
-    'nsp1': 'interferon regulatory factor',
-    'nsp15': 'interferon regulatory factor',
-    'ORF3b': 'interferon regulatory factor',
-    'ORF4a': 'interferon regulatory factor',
-    'ORF4b': 'interferon regulatory factor',
-    'ORF6': 'interferon regulatory factor',
-    'PLpro': 'interferon regulatory factor',
+    'M protein': 'innate immune response',
+    'N protein': 'innate immune response',
+    'nsp1': 'innate immune response',
+    'nsp15': 'innate immune response',
+    'ORF3b': 'innate immune response',
+    'ORF4a': 'innate immune response',
+    'ORF4b': 'innate immune response',
+    'ORF6': 'innate immune response',
+    'PLpro': 'innate immune response',
     'host': '',
     'virus': ''
 }

@@ -1,7 +1,5 @@
 import numpy as np
-import os
-from numpy import savetxt
-
+from network.network_data import known_negatives as known_neg
 import utils as utils
 
 
@@ -85,9 +83,9 @@ def get_known_negatives(training_G, X):
 
     index2pair_dict = utils.get_index2pair_dict(len(X), training_G)
     for key in index2pair_dict:
-        ele = index2pair_dict[key]
-        src_node = str(ele[0])
-        dst_node = str(ele[1])
+        val = index2pair_dict[key]
+        src_node = str(val[0])
+        dst_node = str(val[1])
         if (training_G.nodes[src_node]['type'] == 'Spike'
             and training_G.nodes[src_node]['host'] == mers
             and training_G.nodes[dst_node]['type'] == 'ACE2') or \
@@ -100,6 +98,8 @@ def get_known_negatives(training_G, X):
                 (training_G.nodes[dst_node]['type'] == 'Spike'
                  and training_G.nodes[dst_node]['host'] in ACE2s
                  and training_G.nodes[src_node]['type'] == 'DPP4'):
+            known_negatives.append(key)
+        elif (training_G.nodes[src_node]['disp'], training_G.nodes[dst_node]['disp']) in known_neg:
             known_negatives.append(key)
     return known_negatives
 

@@ -21,8 +21,6 @@ def model_eval(original_G_path, content_emb_path, model_iter):
 
 def process_pred(original_G_path, structural_emb_path, content_emb_path, classifier, model_iter):
     binding = []
-    print('-------------------- START --------------------')
-
     for i in range(model_iter):
         # read from file and re-establish a copy of the original network
         full_G = nx.read_gml(original_G_path)

@@ -46,13 +46,14 @@ def main():
         # full graph prediction
         if not leave_one_out:
             model_pred(original_G_path=original_G_path, content_emb_path=content_emb_path, model_iter=1)
-        # leave-out-out infection prediction for evaluation purposes
+        # leave-out-out infection prediction for evaluation purpose
         else:
             ext_names = build_graph_alt(graph_path=original_G_path)
-            for i in range(len(ext_names)):
-                print("left-out host: ", ext_names[i])
-                model_pred_alt(left_G_path=os.path.abspath('data/classifier/original_G_' + ext_names[i] + '.txt'),
-                               content_emb_path=content_emb_path, model_iter=1)
+            print('hosts that can be left out are: ', ext_names)
+            # specify which to leave-out
+            print("left-out host: ", ext_names[1])
+            model_pred_alt(left_G_path=os.path.abspath('data/classifier/original_G_' + ext_names[1] + '.txt'),
+                           content_emb_path=content_emb_path, model_iter=1)
 
     print("\n-----------------END--------------------")
 

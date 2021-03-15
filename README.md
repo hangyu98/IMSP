@@ -7,13 +7,14 @@ model predicts virus-host interactions (i.e., PPI and infection) at both protein
 
 - Clone the repository
 - Run the following command
-
-```bash
-pip install -r requirements.txt
-```
-
+    ```bash
+    pip install -r requirements.txt
+    ```
+- If the installation of spaCy gives an error, try this
+    ```bash
+    python -m spacy download en_core_web_sm
+    ```
 ## Usage
-
 - ### Arguments:
   --bg: bool, if set to True, the model will only build the network in NetworkX's GML format. Default: False
 
@@ -100,8 +101,11 @@ pip install -r requirements.txt
     - We understand that the prediction results might need customized filters to validate in different scenarios. We
       have provided some sample code at ```/customize/customized_filter.py```
 
-## Citing
+## Jupyter Notebook
+- Usage: put all three files (main.ipynb, cytoStyle.json, predictStyle.json) into the home directory of the project. 
+- Link: https://drive.google.com/drive/folders/18ZUb5NGaUJHZuCj7uo-DA_CzCEkpeh9p?usp=sharing
 
+## Citing
 If you find IMSP is useful for your research, please consider citing the following papers:
 
 ```bash

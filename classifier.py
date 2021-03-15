@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.metrics import classification_report, roc_auc_score
 from sklearn.neural_network import MLPClassifier
 from utils import filter_PPI_pred, filter_infection_pred, filter_unlikely_inf
+from visualize import visualize_in_cytoscape
 import networkx as nx
 import json
 
@@ -33,7 +34,8 @@ class Classifier:
 
         # test set performance
         report = classification_report(self.y_test, y_pred,
-                                       target_names=['No interaction', 'Similarity', 'Infection', 'Belonging', 'PPI'])
+                                       target_names=['No interaction', 'Similarity', 'Infection', 'Belonging', 'PPI']
+                                       )
 
         print('Test set performance\n', report)
 
@@ -43,7 +45,8 @@ class Classifier:
                                              average="weighted")
 
         report = classification_report(self.y_test, y_pred,
-                                       target_names=['No interaction', 'Similarity', 'Infection', 'Belonging', 'PPI'], output_dict=True)
+                                       target_names=['No interaction', 'Similarity', 'Infection', 'Belonging', 'PPI'],
+                                       output_dict=True)
 
         accuracy = report['accuracy']
 
@@ -66,34 +69,40 @@ class Classifier:
             if i not in all_selected_indices:
                 if full_G.nodes[str(pair[0])]['type'] != full_G.nodes[str(pair[1])]['type']:
                     if prediction[i] == 2.0:
-                        if full_G.has_edge(str(pair[0]), str(pair[1])):
-                            pred_prob = full_G.get_edge_data(*(str(pair[0]), str(pair[1])))[
-                                'probability_estimate']
-                            new_pred_prob = (pred_prob + prediction_prob[i][1]) / 2.0
-                            full_G.add_edge(str(pair[0]), str(pair[1]), etype='predicted',
-                                            relation='infects',
-                                            probability_estimate=new_pred_prob, connection='strong')
-                        else:
-                            full_G.add_edge(str(pair[0]), str(pair[1]), etype='predicted',
-                                            relation='infects',
-                                            probability_estimate=prediction_prob[i][1], connection='weak')
-                    elif prediction[i] == 4.0:
-                        if full_G.has_edge(str(pair[0]), str(pair[1])):
+                        if full_G.has_edge(str(pair[0]), str(pair[1])) and \
+                                full_G.get_edge_data(*(str(pair[0]), str(pair[1])))['connection'] == 'weak':
                             pred_prob = full_G.get_edge_data(*(str(pair[0]), str(pair[1])))['probability_estimate']
                             new_pred_prob = (pred_prob + prediction_prob[i][2]) / 2.0
                             full_G.add_edge(str(pair[0]), str(pair[1]), etype='predicted',
-                                            relation='interacts',
+                                            relation='infects',
                                             probability_estimate=new_pred_prob, connection='strong')
+                        elif not full_G.has_edge(str(pair[0]), str(pair[1])):
+                            full_G.add_edge(str(pair[0]), str(pair[1]), etype='predicted',
+                                            relation='infects',
+                                            probability_estimate=prediction_prob[i][2], connection='weak')
                         else:
+                            print("should be strong: ",
+                                  full_G.get_edge_data(*(str(pair[0]), str(pair[1])))['connection'])
+                    elif prediction[i] == 4.0:
+                        if full_G.has_edge(str(pair[0]), str(pair[1])) and \
+                                full_G.get_edge_data(*(str(pair[0]), str(pair[1])))['connection'] == 'weak':
+                            pred_prob = full_G.get_edge_data(*(str(pair[0]), str(pair[1])))['probability_estimate']
+                            new_pred_prob = (pred_prob + prediction_prob[i][4]) / 2.0
                             full_G.add_edge(str(pair[0]), str(pair[1]), etype='predicted',
                                             relation='interacts',
-                                            probability_estimate=prediction_prob[i][2], connection='weak')
+                                            probability_estimate=new_pred_prob, connection='strong')
+                        elif not full_G.has_edge(str(pair[0]), str(pair[1])):
+                            full_G.add_edge(str(pair[0]), str(pair[1]), etype='predicted',
+                                            relation='interacts',
+                                            probability_estimate=prediction_prob[i][4], connection='weak')
+                        else:
+                            print("should be strong: ",
+                                  full_G.get_edge_data(*(str(pair[0]), str(pair[1])))['connection'])
+
         filter_PPI_pred(full_G, edge_type='interacts', binding=binding, emb_name=emb_name)
         filter_infection_pred(full_G, edge_type='infects', emb_name=emb_name)
         if last_iter:
-            json_cyto = nx.cytoscape_data(full_G)
             filter_unlikely_inf(binding=binding, emb_name=emb_name)
-            with open(os.path.abspath('./data/cytoscape/cytoscape_with_prediction.json'), 'w') as json_file:
-                json.dump(json_cyto, json_file)
-
-        print('Prediction data saved!')
+            # save cytoscape file
+            visualize_in_cytoscape()
+            print('Prediction data saved!')

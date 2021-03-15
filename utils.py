@@ -22,8 +22,6 @@ def build_graph(bg):
         print('Building graph...')
         build_g(original_G_path=original_G_path, list_of_hosts=list_of_hosts,
                 list_of_viruses=list_of_viruses)
-    else:
-        print('Graph already built')
 
 
 def establish_training_G(G, run, fold, build_G):
@@ -209,9 +207,9 @@ def filter_PPI_pred(G, edge_type, binding, emb_name):
             'data/prediction/prediction_' + emb_name + '_' + edge_type + '.csv'), 'a') as file:
         for e in G.edges():
             edge_data = G.get_edge_data(*e)
+            src = str(e[0])
+            dst = str(e[1])
             if edge_data['relation'].__contains__('interacts') and edge_data['etype'] == 'predicted':
-                src = str(e[0])
-                dst = str(e[1])
                 if not ((src, dst) in existed or (dst, src) in existed) and \
                         G.nodes[src]['group'] != G.nodes[dst]['group'] and \
                         'protein' in G.nodes[src]['group'] and 'protein' in G.nodes[dst]['group']:
@@ -237,6 +235,9 @@ def filter_PPI_pred(G, edge_type, binding, emb_name):
                     else:
                         to_write = basic_info + 'interacts' + ',' + 'likely' + '\n'
                     file.write(to_write)
+            elif edge_data['relation'].__contains__('interacts') and edge_data['etype'] == 'original':
+                binding.append((G.nodes[src]['host'] + ' ' + G.nodes[dst]['host']))
+                binding.append((G.nodes[dst]['host'] + ' ' + G.nodes[src]['host']))
         file.close()
 
 
@@ -303,12 +304,15 @@ def remove_duplicates(edge_type):
 
 
 def build_graph_alt(graph_path):
-    names = ['Hom_sap', 'Fel_cat', 'Mac_mul', 'Can_lup', 'Rhi_fer', 'Mes_aur']
+    # for leave-one-out for Sus scrofa, no need to
+    names = ['Hom_sap', 'Fel_cat', 'Mac_mul', 'Can_lup', 'Rhi_fer', 'Mes_aur', 'Sus_scr']
     virus_node = 82
     host_nodes = [204, 209, 216, 207, 219, 220]
     for i in range(len(names)):
         graph = nx.read_gml(graph_path)
-        graph.remove_edge(str(virus_node), str(host_nodes[i]))
+        # for sus scrofa, no need to remove because it is not added to the original G as ground truth
+        if names[i] != 'Sus_scr':
+            graph.remove_edge(str(virus_node), str(host_nodes[i]))
         nx.write_gml(graph, os.path.abspath('data/classifier/original_G_' + names[i] + '.txt'))
     return names
 
