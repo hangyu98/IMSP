@@ -109,16 +109,19 @@ model predicts virus-host interactions (i.e., PPI and infection) at both protein
 If you find IMSP is useful for your research, please consider citing the following papers:
 
 ```bash
-@article {Du2020.11.09.375394,
-	author = {Du, Hangyu and Chen, Feng and Liu, Hongfu and Hong, Pengyu},
-	title = {Network-based Virus-Host Interaction Prediction with Application to SARS-CoV-2},
-	elocation-id = {2020.11.09.375394},
-	year = {2020},
-	doi = {10.1101/2020.11.09.375394},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2020/11/11/2020.11.09.375394},
-	eprint = {https://www.biorxiv.org/content/early/2020/11/11/2020.11.09.375394.full.pdf},
-	journal = {bioRxiv}
+
+@article{DU2021100242,
+    title = {Network-based virus-host interaction prediction with application to SARS-CoV-2},
+    journal = {Patterns},
+    volume = {2},
+    number = {5},
+    pages = {100242},
+    year = {2021},
+    issn = {2666-3899},
+    doi = {https://doi.org/10.1016/j.patter.2021.100242},
+    url = {https://www.sciencedirect.com/science/article/pii/S2666389921000623},
+    author = {Hangyu Du and Feng Chen and Hongfu Liu and Pengyu Hong},
+    keywords = {coronavirus, COVID-19, SARS-CoV-2, machine learning, interaction prediction, protein-protein interaction, virus-host interaction network},
 }
 ```
 
