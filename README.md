@@ -1,7 +1,29 @@
 # Infection Mechanism and Spectrum Prediction (IMSP) Model
 
-This repository is for the paper: Network-based Virus-Host Interaction Prediction with Application to SARS-CoV-2. This
-model predicts virus-host interactions (i.e., PPI and infection) at both protein and organism levels.
+Hangyu Du*, Feng Chen*, Hongfu Liu, and Pengyu Hong "[Network-based Virus-Host Interaction Prediction with Application to SARS-CoV-2](https://www.cell.com/patterns/fulltext/S2666-3899(21)00062-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666389921000623%3Fshowall%3Dtrue)", Cell Patterns Volumn 2, Issue 5. (* indicates equal contribution)
+
+SARS-CoV-2, a novel single-stranded RNA coronavirus causing COVID-19, is mounting an unprecedented threat against our society and the world. Although tremendous efforts have been devoted into SARS-CoV-2 research, most of them either focused on a few proteins or only provided high-level overviews. Deeper and more comprehensive analyses are needed to shed new light onto the molecular mechanisms underlying the COVID-19 pandemic. Moreover, there is a massive amount of data and knowledge about highly relevant RNA viruses which have yet to be fully utilized. In this work, we constructed a multi-layer virus-host interaction network to incorporate these data and knowledge. We developed a machine-learning-based method to predict virus-host interactions at both protein and organism levels. Our approach revealed five potential infection targets of SARS-CoV-2 and 19 highly possible interactions between SARS-CoV-2 proteins and human proteins in the innate immune pathway.
+
+
+## Reference
+If you find IMSP is useful for your research, please consider citing the following papers:
+
+```bash
+
+@article{DU2021100242,
+    title = {Network-based virus-host interaction prediction with application to SARS-CoV-2},
+    journal = {Patterns},
+    volume = {2},
+    number = {5},
+    pages = {100242},
+    year = {2021},
+    issn = {2666-3899},
+    doi = {https://doi.org/10.1016/j.patter.2021.100242},
+    url = {https://www.sciencedirect.com/science/article/pii/S2666389921000623},
+    author = {Hangyu Du and Feng Chen and Hongfu Liu and Pengyu Hong},
+    keywords = {coronavirus, COVID-19, SARS-CoV-2, machine learning, interaction prediction, protein-protein interaction, virus-host interaction network},
+}
+```
 
 ## Installation
 
@@ -104,27 +126,3 @@ model predicts virus-host interactions (i.e., PPI and infection) at both protein
 ## Jupyter Notebook
 - Usage: put all three files (main.ipynb, cytoStyle.json, predictStyle.json) into the home directory of the project. 
 - Link: https://drive.google.com/drive/folders/18ZUb5NGaUJHZuCj7uo-DA_CzCEkpeh9p?usp=sharing
-
-## Citing
-If you find IMSP is useful for your research, please consider citing the following papers:
-
-```bash
-
-@article{DU2021100242,
-    title = {Network-based virus-host interaction prediction with application to SARS-CoV-2},
-    journal = {Patterns},
-    volume = {2},
-    number = {5},
-    pages = {100242},
-    year = {2021},
-    issn = {2666-3899},
-    doi = {https://doi.org/10.1016/j.patter.2021.100242},
-    url = {https://www.sciencedirect.com/science/article/pii/S2666389921000623},
-    author = {Hangyu Du and Feng Chen and Hongfu Liu and Pengyu Hong},
-    keywords = {coronavirus, COVID-19, SARS-CoV-2, machine learning, interaction prediction, protein-protein interaction, virus-host interaction network},
-}
-```
-
-## License
-
-This project is using [MIT](https://choosealicense.com/licenses/mit/) license.
